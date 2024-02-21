@@ -3,7 +3,11 @@ import { useDispatch, useSelector } from 'react-redux'
 import Spinner from 'react-bootstrap/Spinner';
 import { getAdditionalType, getCities, getCountries, getDocumentType, getPersonType, register } from '../../services/registerService'
 import { Link, useNavigate } from 'react-router-dom';
-import logo from '../../assets/logoleo.png'
+import logo from '../../assets/logoblack.png'
+
+import mercadoPago from "../../assets/mercado_pago.png"
+import { initMercadoPago, Wallet } from '@mercadopago/sdk-react'
+
 import "./SignUp.css"
 import Select from "react-select"
 import Contacto from '../contacto/Contacto';
@@ -16,10 +20,10 @@ import { getTypePerson } from '../../stateManagement/actions/getTypePerson';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Autosuggest from 'react-autosuggest';
+import PayPalButton from '../paypal/PayPalButtom';
 
 const initialState = {
-    name: [
-    ],
+    name: [],
     documentNumber: "",
     email: "",
     phone: "",
@@ -28,13 +32,13 @@ const initialState = {
     DocumentTypeId: 0,
     RoleId: 3,
     PersonTypeId: 0,
-    CityId: 0,
+    // CityId: 0,
     CountryId: 0,
     AdditionalTypeId: 0,
     username: "",
     Partner: "",
-    discount:{},
-    Categories: [],
+    // discount:{},
+    // Categories: [],
     docs: []
 };
 
@@ -59,7 +63,7 @@ export default function SignUp() {
     const navigate = useNavigate()
 
     const notify = () => {
-        toast('Usuario creado satisfactoriamente, se ha enviado a su correo un mensaje para validar la inscripción!', {
+        toast('Usuario creado satisfactoriamente, sera redirigido para realizar su pago para validar la inscripción!', {
             position: "top-center",
             autoClose: 6000,
             hideProgressBar: false,
@@ -98,18 +102,18 @@ export default function SignUp() {
     const countries = useSelector(state=>state.countriesReducer.country)
     const loading = useSelector(state=>state.countriesReducer.loading)
     const personType = useSelector(state=>state.personTypeReducer.typePerson)
-    const categories = useSelector(state=>state.categoriesReducer.categories)
+    // const categories = useSelector(state=>state.categoriesReducer.categories)
     // const services = categories?.filter(service=> service.isService===true)
-    const category = categories?.map(info => {return {value: info.id, label:info.name}})
-    const vendedor = categories?.filter(service=> service.isService===false)
-    const categorie = vendedor?.map(info => {return {value: info.id, label:info.name}})
+    // const category = categories?.map(info => {return {value: info.id, label:info.name}})
+    // const vendedor = categories?.filter(service=> service.isService===false)
+    // const categorie = vendedor?.map(info => {return {value: info.id, label:info.name}})
 
     const [firstName, setfirstName]= useState()
+    const [firstLastName, setFirstLastName]= useState()
     const [fileName, setFileName] = useState([])
     const [filePhoto, setFilePhoto] = useState([])
-    const [firstLastName, setFirstLastName]= useState()
-    const [representName, setRepresentName]= useState()
-    const [representLastName, setRepresentLastName]= useState()
+    // const [representName, setRepresentName]= useState()
+    // const [representLastName, setRepresentLastName]= useState()
     const [permission, setPermission] = useState(false)
     const [partner, setPartner] = useState(false)
 
@@ -122,7 +126,7 @@ export default function SignUp() {
     const [value, setValue]= useState("");
     const [additionalType, setAdditionalType] = useState()
     const [document, setDocument] = useState()
-    const [secondDocument, setSecondDocument] = useState()
+    // const [secondDocument, setSecondDocument] = useState()
     const [type, setType] = useState()
     const [pass, setPassword] = useState()
     const [passValid, setPassValid] = useState(0)
@@ -142,12 +146,12 @@ export default function SignUp() {
         setFirstLastName(prev=>({...prev, [input]:e.target.value}))
     }
 
-    function userRepresentName (input, e){
-        setRepresentName(prev=>({...prev, [input]:e.target.value}))
-    }
-    function userRepresentLastName (input, e){
-        setRepresentLastName(prev=>({...prev, [input]:e.target.value}))
-    }
+    // function userRepresentName (input, e){
+    //     setRepresentName(prev=>({...prev, [input]:e.target.value}))
+    // }
+    // function userRepresentLastName (input, e){
+    //     setRepresentLastName(prev=>({...prev, [input]:e.target.value}))
+    // }
 
     function handleInputChange(input, e){
         setIsLoading(false)
@@ -185,46 +189,46 @@ export default function SignUp() {
         }
     }
 
-    const filterCities = (value) => {
-        const inputValue = value.trim().toLowerCase()
-        const inputLength = inputValue.length
+    // const filterCities = (value) => {
+    //     const inputValue = value.trim().toLowerCase()
+    //     const inputLength = inputValue.length
 
-        var filtrado= citiesComplete.filter(city=>{
-            var textoCompleto = city.name
+    //     var filtrado= citiesComplete.filter(city=>{
+    //         var textoCompleto = city.name
 
-            if(textoCompleto.toLowerCase()
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .includes(inputValue)){
-                return city
-            }
-            return false
-        })
-        return inputLength ===0 ? []: filtrado
-    }
+    //         if(textoCompleto.toLowerCase()
+    //         .normalize("NFD")
+    //         .replace(/[\u0300-\u036f]/g, "")
+    //         .includes(inputValue)){
+    //             return city
+    //         }
+    //         return false
+    //     })
+    //     return inputLength ===0 ? []: filtrado
+    // }
 
-    const onSuggestionsFetchRequested = ({value})=>{
-        setCities(filterCities(value))
-    }
+    // const onSuggestionsFetchRequested = ({value})=>{
+    //     setCities(filterCities(value))
+    // }
 
-    const onSuggestionsClearRequested = ()=>{
-        setCities([])
-    }
+    // const onSuggestionsClearRequested = ()=>{
+    //     setCities([])
+    // }
 
-    const getSuggestionValue = (suggestion) =>{
-        return `${suggestion.name}`
-    }
+    // const getSuggestionValue = (suggestion) =>{
+    //     return `${suggestion.name}`
+    // }
 
-    const renderSuggestion=(suggestion)=>(
-        <div className="form-control" onClick={()=>seleccionarCiudad(suggestion)}>
-            {`${suggestion.name}`}
-        </div>
-    );
+    // const renderSuggestion=(suggestion)=>(
+    //     <div className="form-control" onClick={()=>seleccionarCiudad(suggestion)}>
+    //         {`${suggestion.name}`}
+    //     </div>
+    // );
 
-    const seleccionarCiudad=(city)=>{
-        // setSelectCity(city);
-        setInput(prev=>({...prev, CityId:city.id}))
-    }
+    // const seleccionarCiudad=(city)=>{
+    //     // setSelectCity(city);
+    //     setInput(prev=>({...prev, CityId:city.id}))
+    // }
 
     const onChange=(e, {newValue})=>{
         setIsLoading(false)
@@ -236,18 +240,6 @@ export default function SignUp() {
         value,
         onChange
     };
-
-    // const eventEnter=(e)=>{
-    //     if(e.key == "Enter"){
-    //         var split = e.target.value;
-    //         console.log(split);
-    //         var id = split.id
-    //         setSelectCity(split);
-    //         setInput(prev=>({...prev, CityId:id}))
-    //     }
-    // }
-    // console.log(selectCity?.id);
-
 
     function date(inside, e){
         setIsLoading(false)
@@ -317,9 +309,9 @@ export default function SignUp() {
         setCitiesComplete(city)
         // setType(id.target.value)
         const documentType = await getDocumentType(id.target.value, type)
-        const secondDocument = await getDocumentType(id.target.value, 2)
+        // const secondDocument = await getDocumentType(id.target.value, 2)
         setDocument(documentType)
-        setSecondDocument(secondDocument)
+        // setSecondDocument(secondDocument)
     }
 
     async function additionalTypeInfo(input, id){
@@ -393,6 +385,44 @@ export default function SignUp() {
             myWidget.open()
     }
 
+    // //pagos
+    // const [payPalDiv, setPayPalDiv] = useState(false)
+    // const getPayPalDiv = (e) =>{
+    //     e.preventDefault()
+    //     setPayPalDiv(!payPalDiv) 
+    // }
+    
+    // const [preferenceId, setPreferenceId] = useState(null)
+    // initMercadoPago('YOUR_PUBLIC_KEY');
+
+    // const createPreference = async () => {
+    //     try {
+    //         const response = await //funcion
+    //         {
+    //             description: "Pago clubleo",
+    //             price: 50000,
+    //             quantity: 1,
+    //         }
+    //         const {id} = response.data
+    //         return id;
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // }
+
+    // const handleBuy = async () =>{
+    //     const id = await createPreference()
+    //     if(id){
+    //         setPreferenceId(id)
+    //     }
+    // }
+
+    const [mercadoPagoDiv, setMercadoPagoDiv] = useState(false)
+    const getMercadoPagoDiv = (e) =>{
+        e.preventDefault()
+        setMercadoPagoDiv(!mercadoPagoDiv) 
+    }
+
     const onUploadPhoto = (e) => {
         e.preventDefault()
         setIsLoading(false)
@@ -434,40 +464,42 @@ export default function SignUp() {
         if(input.password === "") errores.password="Ingrese Contraseña"
         if(input.birthDate === "") errores.birthDate="Ingrese fecha"
         if(input.DocumentTypeId === 0) errores.DocumentTypeId="Ingrese Tipo de documento"
-        if(input.RoleId === 0) errores.RoleId="Ingrese Rol"
+        // if(input.RoleId === 0) errores.RoleId="Ingrese Rol"
         if(input.PersonTypeId === 0) errores.PersonTypeId="Ingrese Tipo de persona"
-        if(input.CityId === 0) errores.CityId="Ingrese Ciudad"
+        // if(input.CityId === 0) errores.CityId="Ingrese Ciudad"
         if(input.CountryId === 0) errores.CountryId="Ingrese País"
-        if(input.RoleId ==="4" && input.Categories.length===0) errores.Categories="Ingrese servicios que ofrece"
-        if(permission || (input.RoleId === "4" && input.PersonTypeId==="1") || (input.RoleId === "3" && input.PersonTypeId==="1")||(input.RoleId === "4" && input.PersonTypeId==="2")){
-            if(input.docs.length<1){
-                errores.docs="Falta documento"
-            }
-        }
-        if((input.RoleId === "4" && input.PersonTypeId==="1") || (input.RoleId === "3" && input.PersonTypeId==="1")){
-            if(input.representPhone===""){
-                errores.representPhone="Falta Número telefonico"
-            }
-        }
+        // if(input.RoleId ==="4" && input.Categories.length===0) errores.Categories="Ingrese servicios que ofrece"
+        // if(permission || (input.RoleId === "4" && input.PersonTypeId==="1") || (input.RoleId === "3" && input.PersonTypeId==="1")||(input.RoleId === "4" && input.PersonTypeId==="2")){
+        //     if(input.docs.length<1){
+        //         errores.docs="Falta documento"
+        //     }
+        // }
+        // if((input.RoleId === "4" && input.PersonTypeId==="1") || (input.RoleId === "3" && input.PersonTypeId==="1")){
+        //     if(input.representPhone===""){
+        //         errores.representPhone="Falta Número telefonico"
+        //     }
+        // }
         if(input.AdditionalTypeId === 0) errores.AdditionalTypeId="Ingrese Tipo de genero"
         if(partner) errores.Partner="Usuario Socio no existe"
         if(input.username === "") errores.username="Ingrese Nombre de Usuario"
-        if(input.Categories.length!==Object.keys(input.discount)?.length) errores.discount = "Ingrese descuentos a cada servicio"
+        // if(input.Categories.length!==Object.keys(input.discount)?.length) errores.discount = "Ingrese descuentos a cada servicio"
         if(Object.keys(errores).length === 0){
             if(firstLastName){
                 input.name.push(firstLastName.lastName)
+                // input.name.push("white")
             }
             if(firstName){
                 input.name.push(firstName.name)
+                // input.name.push("Ryu")
             }
-            if(representLastName){
-                input.representName=[]
-                input.representName.push(representLastName.lastName)
-            }
-            if(representName){
-                input.representName=[]
-                input.representName.push(representName.name)
-            }
+            // if(representLastName){
+            //     input.representName=[]
+            //     input.representName.push(representLastName.lastName)
+            // }
+            // if(representName){
+            //     input.representName=[]
+            //     input.representName.push(representName.name)
+            // }
             try {
                 const user = await register(input);
                 if(user[0]?.path==="name") {
@@ -536,13 +568,13 @@ export default function SignUp() {
                             DocumentTypeId: 0,
                             RoleId: 0,
                             PersonTypeId: 0,
-                            CityId: 0,
+                            // CityId: "42143",
                             CountryId: 0,
                             AdditionalTypeId: 0,
                             username: "",
-                            discount:{},
+                            // discount:{},
                             Partner: "string",
-                            Categories: [],
+                            // Categories: [],
                             docs: []
                         })
                         // window.location.reload();
@@ -552,29 +584,34 @@ export default function SignUp() {
                     }
                     else{
                         notify()
-                        setInput({
-                            name: [
-                            ],
-                            documentNumber: "",
-                            email: "",
-                            phone: "",
-                            password: "",
-                            birthDate: "",
-                            DocumentTypeId: 0,
-                            RoleId: 0,
-                            PersonTypeId: 0,
-                            CityId: 0,
-                            CountryId: 0,
-                            AdditionalTypeId: 0,
-                            username: "",
-                            discount: 0,
-                            Partner: "string",
-                            Categories: [],
-                            docs: []
-                        })
+                        // setInput({
+                        //     name: [
+                        //     ],
+                        //     documentNumber: "",
+                        //     email: "",
+                        //     phone: "",
+                        //     password: "",
+                        //     birthDate: "",
+                        //     DocumentTypeId: 0,
+                        //     RoleId: 0,
+                        //     PersonTypeId: 0,
+                        //     // CityId: "42143",
+                        //     CountryId: 0,
+                        //     AdditionalTypeId: 0,
+                        //     username: "",
+                        //     // discount: 0,
+                        //     Partner: "string",
+                        //     // Categories: [],
+                        //     docs: []
+                        // })
                         // window.location.reload();
+                        const obj ={
+                            username:input.username,
+                            password:input.password
+                        }
                         setTimeout(() => {
-                            navigate('/')
+                            // navigate('/paid', {state:{user:input.username, pass: input.password}})
+                            navigate('/paid', {state:obj})
                         },"6000");
                     }
                 }
@@ -590,7 +627,7 @@ export default function SignUp() {
     //////el socio que te invito ya concreto sus diez socios directos, ingresa un socio diferente o dejalo en blanco
 
     return (
-        <div className="contenedor-formularios" >
+        <div className="contenedor_registro" >
             <ToastContainer />
             <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
@@ -653,7 +690,7 @@ export default function SignUp() {
                             </select>
                             <label htmlFor="floatingInput">Ciudad</label>
                         </div>:<></>} */}
-                        {citiesComplete? <div className="form-floating mb-3">
+                        {/* {citiesComplete? <div className="form-floating mb-3">
                             <Autosuggest
                                 suggestions={cities}
                                 onSuggestionsFetchRequested={onSuggestionsFetchRequested}
@@ -663,7 +700,7 @@ export default function SignUp() {
                                 inputProps={inputProps}
                             />
                         </div>:<></>}
-                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>}
+                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>} */}
                     </div>
 
 
@@ -852,7 +889,7 @@ export default function SignUp() {
                             type="email" onChange={(e)=>handleInputChange("description", e)}/>
                             <label htmlFor="floatingInput">Escribe una breve descripción de quien eres y servicios que ofreces</label>
                         </div>:<></>}
-                        {input.RoleId === "4"?<div>
+                        {/* {input.RoleId === "4"?<div>
                             {input.PersonTypeId==="2" &&
                                 <div  className="form-floating mb-3">
                                     <Select isMulti onChange={(values) => {
@@ -883,11 +920,11 @@ export default function SignUp() {
                                 <label htmlFor="floatingInput">Página Web del negocio</label>
                             </div>
                         </div>:<></>
-                        }
+                        } */}
 
                 </div>
 
-                {input.PersonTypeId==="1"?<div>
+                {/* {input.PersonTypeId==="1"?<div>
                     <label className="l-01"> <h5>Representante Legal</h5></label>
                     <div>
                         <div className="form-floating mb-3">
@@ -937,7 +974,7 @@ export default function SignUp() {
                         </div>
                         {errors.representPhone ? <span className='textError'>{errors.representPhone}</span> : <></>}
                     </div>
-                </div>:<></>}
+                </div>:<></>} */}
 
                 <div>
                 <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
@@ -997,14 +1034,31 @@ export default function SignUp() {
                         <label htmlFor="floatingInput">Confirmar contraseña</label>
                     </div>
                         {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
-                    {input.RoleId === "4" && input.Categories?.length>0? input.Categories.map((info, index)=><div key={index} className="form-floating mb-3">
+                    {/* {input.RoleId === "4" && input.Categories?.length>0? input.Categories.map((info, index)=><div key={index} className="form-floating mb-3">
                         <DebounceInput className="form-control" debounceTimeout={500}
                         type="number" onChange={(e)=>handleInputDiscount(info, e)}/>
                         <label htmlFor="floatingInput">% descuento a Minga del {index+1} servicio ofrecido</label>
                     </div>):<></>}
                     {errors.discount ? <span className='textError'>{errors.discount}</span> : <></>}
-                    <br />
+                    <br /> */}
 
+                    {/* <label className="l-01"> <h5>Formas de Pago</h5></label>
+                    <ul>
+                        <li><b>Detalle: </b>Pago anual Club Leo</li>
+                        <li><b>Precio: </b>$50.000 (12.5 USD)</li>
+                    </ul>
+                    <div className="formasPago">
+                        <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
+                        <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
+                    </div>
+
+                    {payPalDiv? 
+                        <div>
+                            <PayPalButton totalValue={'12.5'} invoice={'Pago anual clubleo'}/>
+                        </div>
+                    :<></>}
+
+                    {preferenceId && <Wallet initialization={{preferenceId}}/>} */}
 
 
                     <div className="container text-center">
@@ -1017,7 +1071,6 @@ export default function SignUp() {
                     <a href="/" className="m-0"> Términos y condiciones de uso</a> de Club Leo.
                     </div>
                     <br />
-
 
 
 

@@ -1,7 +1,8 @@
-import { INFO_USER, INFO_TOKEN, LOG_OUT } from "../actions/infoUserAction"
+import { INFO_USER, INFO_TOKEN, LOG_OUT, USER_PAID } from "../actions/infoUserAction"
 
 const initialState = {
     user:"",
+    // userPaid:"",
     token:"",
     userUpdate:{},
     loading:false
@@ -21,6 +22,12 @@ export default function infoUserReducer (state = initialState, action){
                 token:action.payload,
                 loading:false
             }
+        // case USER_PAID:
+        //     return{
+        //         ...state,
+        //         userPaid:action.payload,
+        //         loading:false
+        //     }
         case LOG_OUT:
             return {
                 ...state,

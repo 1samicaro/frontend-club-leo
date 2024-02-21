@@ -3,11 +3,11 @@ import { Link  } from 'react-router-dom'
 import { postLogin, recoverPass } from '../../services/userServices';
 import { useDispatch } from 'react-redux';
 import "./SignIn.css";
-import Contacto from '../contacto/Contacto';
-import logonegro from '../../assets/png/logoempresarialnegro.png'
 import styled from 'styled-components';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import logo from '../../assets/logoblack.png'
+
 
 import { useNavigate } from 'react-router-dom';
 import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction';
@@ -99,16 +99,16 @@ export default function SignIn() {
     }
 
     return (
-        <div>
+        <div className="contenedor_sesion">
             <ToastContainer />
-            <nav className="navbar navbar-light" id="encabezado">
+            <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
-                    src={logonegro}
+                    src={logo}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
-                    alt='logoMingga'
+                    alt='logoleo'
                     />
                 </Link>
             </nav>
@@ -117,13 +117,11 @@ export default function SignIn() {
             <div className="container-fluid" id="registroLoggin">
                         <div className="container">
                                 <div className="container text-center">
-                                    <p className="welcome"> Bienvenido a <b className="mingga">Mingga</b> </p>
+                                    <h2><b>Bienvenido a ClubLeo</b> </h2>
                                 </div>
+                                <br />
+                                <label className="l-01"> <h4>Iniciar sesión</h4></label>
                                 
-                                <label className="l-01"> <h5>Iniciar sesión</h5></label>
-                                <p className="text">Mantén segura tu identidad corporativa.
-                                El usuario y contraseña son personales e intransferibles.
-                                </p>
 
                                 <div className="form-floating mb-3">
                                     <input type="text" className="form-control" placeholder="Ingresa tu usuario o correo electrónico" onChange={(e)=>handleInputChange("username", e)} required/>
@@ -134,13 +132,20 @@ export default function SignIn() {
                                 <div className="form-floating mb-3">
                                     <input type="password" className="form-control" placeholder="Ingresa tu contraseña" onChange={(e)=>handleInputChange("password", e)} required/>
                                     <label >Ingresa tu contraseña</label>
-                                    <Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}>¿Olvidaste tu contraseña?</Link>
+                                    <Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>¿Olvidaste tu contraseña?</b></p></Link>
 
                                 </div>
+                                
+
                                 <br />
+                                <p className="text">
+                                <b>Mantén segura tu identidad corporativa.
+                                El usuario y contraseña son personales e intransferibles.
+                                </b>
+                                </p>
 
                                 <div className="d-grid gap-2 col-6 mx-auto">
-                                <button id="boton"
+                                <button id="boton_loggin"
                                 className="btn btn-primary btn-lg" onClick={onSend} type="submit">Ingresar</button>
                             </div>
                         </div>
@@ -150,7 +155,6 @@ export default function SignIn() {
         <br />
         <br />
         <br />
-        <Contacto></Contacto>
         <Modal
                 estado={modalUpdate}
                 cambiarEstado={setModalUpdate}

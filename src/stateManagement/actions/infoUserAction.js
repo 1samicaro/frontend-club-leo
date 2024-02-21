@@ -1,6 +1,7 @@
 export const INFO_USER = "INFO_USER"
 export const LOG_OUT = "LOG_OUT"
 export const INFO_TOKEN="INFO_TOKEN"
+export const USER_PAID="USER_PAID"
 
 export function infoUser(user){
     return {
@@ -19,3 +20,9 @@ export function userLogOut(){
         type: LOG_OUT,
     }
 }
+// export function userPaid(user){
+//     return{
+//         type: USER_PAID,
+//         payload:user
+//     }
+// }

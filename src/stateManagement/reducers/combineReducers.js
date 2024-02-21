@@ -8,6 +8,10 @@ import descendentsReducer from './descendentsReducer'
 import categoriesReducer from './categoriesReducer'; 
 import ofertsCategoriesReducer from './ofertsCategoriesReducer'
 import IDCityReducer from './IDCityReducer';
+import changeLanguageReducer from './changeLanguageReducer'
+import booksInfoReducer from './booksInfoReducer'
+import stateReducers from './stateReducers'
+import recommendedReducer from './recommendedReducer';
 
 export default combineReducers({
     countriesReducer,
@@ -18,4 +22,8 @@ export default combineReducers({
     categoriesReducer,
     ofertsCategoriesReducer,
     IDCityReducer,
+    changeLanguageReducer,
+    booksInfoReducer,
+    stateReducers,
+    recommendedReducer,
 })

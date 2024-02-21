@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Autosuggest from 'react-autosuggest';
 import logonegro from '../../assets/png/logoempresarialnegro.png'
+import logo from '../../assets/logoblack.png'
 // import "./SignUp.css"
 import Select from "react-select"
 import { useDispatch, useSelector } from 'react-redux';
@@ -328,7 +329,7 @@ export default function EditProfile() {
         <nav className="navbar navbar-light mb-5" id="encabezado">
             <Link to="/" className="container-fluid">
                 <img
-                src={logonegro}
+                src={logo}
                 width="290"
                 height="550"
                 className="img-fluid d-block mx-auto"

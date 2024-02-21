@@ -1,4 +1,5 @@
 import React from 'react';
+import jQuery from 'jquery';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -12,16 +13,23 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'animate.css/animate.min.css'
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+
+window.$ = jQuery;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Provider store={store}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </Provider>
-  </React.StrictMode>
+  root.render(
+    <React.StrictMode>
+      <Provider store={store}>
+        <BrowserRouter>
+          <PayPalScriptProvider
+            options={{"clientId":"AVSSNnzh9mUnAJV5LIOykb_l3sRfDLhXwrpA60WEPjsU-X9v0idqLR1-QMZ5_IFBr2ShGMp5z-480krU"}}
+          >
+            <App />
+          </PayPalScriptProvider>
+        </BrowserRouter>
+      </Provider>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

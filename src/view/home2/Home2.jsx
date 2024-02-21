@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-import './Profile.css'
-import logo from '../../assets/logoblack.png'
+import logo from "../../assets/logoleo.png";
 import { Link, useNavigate } from 'react-router-dom'
 import { getTransactions } from '../../services/ventaService'
 import { transactionsHistory } from '../../stateManagement/actions/getTrasactions'
@@ -23,7 +22,7 @@ import { getIdCity } from '../../stateManagement/actions/IDCityAction'
 import { getMaxLoan, postLoan } from '../../services/loanServices'
 // import { transactionsHistory } from '../../stateManagement/actions/getTrasactions';
 
-export default function Profile() {
+export default function Home2() {
 
     const initialStatePB = {
         username: "",
@@ -40,10 +39,9 @@ export default function Profile() {
     const navigate = useNavigate()
 
     const userInfo = useSelector(state=>state.infoUserReducer.user)
-    console.log(userInfo);
     const token = useSelector(state=>state.infoUserReducer.token.token)
     // const user = useSelector(state=>state.infoUserReducer.user.token)
-    // const categories = useSelector(state=>state.categoriesReducer.categories)
+    const categories = useSelector(state=>state.categoriesReducer.categories)
     // const [category, setCategory] = useState([])
     let category=[]
     // const discount = userInfo?.discount
@@ -60,19 +58,19 @@ export default function Profile() {
     const [maxLoan, setMaxLoan] = useState(0)
     const [loan, setLoan] = useState({amount:0, numberQuotas:3})
 
-    // for (var key in discount) {
-    //     for (let j = 0; j < categories.length; j++) {
-    //         if(Number(key)===categories[j].id){
-    //             category.push(categories[j])
-    //         }
-    //     }
-    // }
-    // var hash = {};
-    // category = category?.filter(function(current) {
-    // var exists = !hash[current.id];
-    // hash[current.id] = true;
-    // return exists;
-    // });
+    for (var key in discount) {
+        for (let j = 0; j < categories.length; j++) {
+            if(Number(key)===categories[j].id){
+                category.push(categories[j])
+            }
+        }
+    }
+    var hash = {};
+    category = category?.filter(function(current) {
+    var exists = !hash[current.id];
+    hash[current.id] = true;
+    return exists;
+    });
 
     async function infoTransfers (){
         try{
@@ -308,25 +306,11 @@ export default function Profile() {
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
-                    alt='logo'
+                    alt='logoMingga'
                     />
                 </Link>
             </nav>
             <br />
-            {userInfo.isSuscribed? <></> : <div className="container-fluid"  id="perfilForm">
-                <section className='seccion-perfil-usuario'>
-                    <div className='container-fluid'>
-                        <div className='perfil-usuario-footer'
-                            id="containerPerfil">
-                            <div className='lista-datos' >
-                                <p>Recuerda que tu cuenta esta deshabilitada para poder disfrutar de los mas de diez mil libros que se encuentran en nuestro sistema</p>
-                            </div>
-                            <Link id="boton_loggin"
-                                className="btn btn-primary btn-lg" to="/paid" type="submit">Ingresar</Link>
-                        </div>
-                    </div>
-                </section>
-            </div>}
 
             <div className="container-fluid"  id="perfilForm">
                 <section className='seccion-perfil-usuario'>
@@ -356,7 +340,7 @@ export default function Profile() {
                         <br />
 
 
-                        <label className="l-01"> <h4>Mi red personal</h4></label>
+                        <label className="l-01"> <h4>Mi red personal RPB</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
                             <br />
@@ -412,16 +396,16 @@ export default function Profile() {
                                 <li><i className='icon-imagen'></i><b>Gastados actual:</b> {userInfo?.totalSpent}</li>
                                 <li><i className='icon-imagen'></i><b>Saldo total disponible:</b> {userInfo?.totalPoints-userInfo?.totalSpent}</li>
                             </div>}
-                            {/* <div className='lista-datos'>
+                            <div className='lista-datos'>
                                 <li><i className='icon-imagen'></i>Para ver el historial de tus transacciones en Mingga,
                                 valida la informacion <Link to='/History'>aquí</Link>   </li>
-                            </div> */}
+                            </div>
                             <br />
                         </div>
                         <br />
 
 
-                        {/* <br />
+                        <br />
                         <label className="l-01"> <h4>Solicitar un prestamo</h4></label>
                         {maxLoan?<div className='perfil-usuario-footer'
                             id="containerPerfil">
@@ -444,28 +428,28 @@ export default function Profile() {
                             </div>
                             <br />
                         </div>:<div>No tienes prestamos disponibles</div>}
-                        <br /> */}
+                        <br />
 
 
 
-                        <label className="l-01"> <h4>Retirar dinero</h4></label>
+                        <label className="l-01"> <h4>Transladar PBs a otro socio</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
                             <div className="container items-center">
                                 <div className="form-floating mb-3">
                                     {/* <input className="form-control" id="InputPerfil" placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>   */}
                                     <DebounceInput className="form-control" debounceTimeout={500} value={send.username} placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>
-                                    <label >Cuanto deseas retirar</label>
+                                    <label >Usuario a enviar PBs</label>
                                 </div>
-                                {/* {error.username ? <span className='userInvalid'>{error.username}</span> : <span className='userValid'>Usuario: {search?.name?.join(" ")}</span>} */}
-                                {/* <br />
+                                {error.username ? <span className='userInvalid'>{error.username}</span> : <span className='userValid'>Usuario: {search?.name?.join(" ")}</span>}
+                                <br />
                                 <div className="form-floating mb-3">
                                     <input type='number' className="form-control" id="InputPerfil" value={send.points} placeholder="Enviar PBs" onChange={(e)=>handleInputPB("points",e)}/>
                                     <label >Monto de PBs</label>
                                 </div>
                                 {error.points ? <span className='textError'>{error.points}</span> : <></>}
-                                <br /> */}
-                                {!buttonStop?<button className="btn btn-warning btn-lg" id="buttonPerfil" onClick={onSend}>Retirar Dinero</button>: <Spinner animation="grow" variant="info" />}
+                                <br />
+                                {!buttonStop?<button className="btn btn-warning btn-lg" id="buttonPerfil" onClick={onSend}>Enviar PBs</button>: <Spinner animation="grow" variant="info" />}
                             </div>
                         </div>
                         <br />

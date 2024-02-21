@@ -19,6 +19,8 @@ import Benefits from './view/benefits/Benefits';
 import Joinus from './view/joinus/Joinus';
 import Category from './view/category/Category';
 import Credit from './view/credit/Credit';
+import Books from './view/books/Books'; 
+import Paid from './view/paid/Paid.jsx';
 
 function App() {
 
@@ -43,10 +45,8 @@ function App() {
         <Route path='/Joinus' element={<Joinus />}/>
         <Route path='/Credit' element={<Credit />}/>
         <Route path='/:name/:id' element={<Category />}/>
-        
-
-        
-
+        <Route path='/books' element={<Books />}/>
+        <Route path='/paid' element={<Paid />}/>
       </Routes>
     </div>
   );
