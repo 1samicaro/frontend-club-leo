@@ -9,6 +9,7 @@ const initialState = {
 }
 
 export default function infoUserReducer (state = initialState, action){
+    
     switch(action.type){
         case INFO_USER:
             return {

@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import logo from '../../assets/logoblack.png'
 import PayPalButton from '../paypal/PayPalButtom'
-import { initMercadoPago } from '@mercadopago/sdk-react'
+import { initMercadoPago, Payment } from '@mercadopago/sdk-react'
 import mercadoPago from "../../assets/mercado_pago.png"
 import { postLogin } from '../../services/userServices'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import Modal1 from '../../components/Modal1';
+import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction'
+import { editProfile } from '../../services/editProfileService'
 
 function Paid() {
 
@@ -15,10 +17,26 @@ function Paid() {
 
     const { state } = useLocation();
 
+    const [input, setInput] = useState({
+        
+    })
+
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+
+    const payPalAnswer = useSelector(state=>state.transactionsReducer.payPalAnswer)
+    const token = useSelector(state=>state.infoUserReducer.token.token)
+    console.log(payPalAnswer);
     // const userInfo = useSelector(state=>state.infoUserReducer.user)
     const pay = async ()=>{
         const user = await postLogin(state);
         console.log(user);
+        if (user.isAuthenticated) {
+            user.user.name=user?.user?.name?.reverse().join(" ")
+            dispatch(infoUser(user.user))
+            dispatch(infoToken(user.token))
+            // navigate('/Profile')
+        }
     }
     if(state){
         pay()
@@ -30,9 +48,46 @@ function Paid() {
         e.preventDefault()
         setPayPalDiv(!payPalDiv) 
     }
+
+    const payPalAccept = async () =>{
+        console.log("cambiar datos registro");
+        let date = ""
+        const dateToday = new Date()
+        if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
+            date = `${(dateToday.getFullYear()+2)}-01-01`
+            console.log(date);
+        }
+        else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
+            date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+            console.log(date);
+        }
+        else if((dateToday.getMonth()+1)<10){
+            date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+            console.log(date);
+        }
+        else if((dateToday.getDate()+1)<10){
+            date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+            console.log(date);
+        }
+        else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
+            date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+            console.log(date);
+        }
+        const input = {
+            isSuscribed : true,
+            suscriptionDate: date
+        }
+        const user = await editProfile(input, token)
+        console.log(user);
+    }
+    useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
+        if(payPalAnswer){
+            payPalAccept()
+        }
+        ;}, [payPalAnswer])
     
     const [preferenceId, setPreferenceId] = useState(null)
-    initMercadoPago('YOUR_PUBLIC_KEY');
+    initMercadoPago('1680049721');
 
     const createPreference = async () => {
         try {
@@ -60,6 +115,31 @@ function Paid() {
     const getMercadoPagoDiv = (e) =>{
         e.preventDefault()
         setMercadoPagoDiv(!mercadoPagoDiv) 
+    }
+
+    const customization = {
+        paymentMethods: {
+            ticket: "all",
+            bankTransfer: "all",
+            creditCard: "all",
+            debitCard: "all",
+            mercadoPago: "all",
+        },
+    };
+    const initialization = {
+        amount: 50000,
+        preferenceId: "1",
+    };
+
+    const onSubmit = () =>{
+        console.log("submit");
+    }
+
+    const onReady = () =>{
+        console.log("ready");
+    }
+    const onError = () =>{
+        console.log("error");
     }
 
     return (
@@ -93,6 +173,14 @@ function Paid() {
                         <PayPalButton totalValue={'12.5'} invoice={'Pago anual clubleo'}/>
                     </div>
                 :<></>}
+
+                <Payment
+                    initialization={initialization}
+                    customization={customization}
+                    onSubmit={onSubmit}
+                    onReady={onReady}
+                    onError={onError}
+                />
             </div>
             <div>
                 <h2>Métodos de pago</h2>

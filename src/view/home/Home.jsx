@@ -114,7 +114,7 @@ export default function Home() {
                 >
                   <svg  id="color"
                   xmlns="http://www.w3.org/2000/svg" 
-                  width="35" height="35" fill="currentColor" class="bi bi-envelope-fill" 
+                  width="35" height="35" fill="currentColor" className="bi bi-envelope-fill" 
                   viewBox="0 0 16 16">
                   <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                   </svg>
@@ -227,7 +227,7 @@ export default function Home() {
                 {userInfo?<></> : <Link to="/SignIn">
                 <svg id="color"
                 xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" 
-                class="bi bi-lock" viewBox="0 0 16 16">
+                className="bi bi-lock" viewBox="0 0 16 16">
                 <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
                 </svg>
                 </Link>}
@@ -237,7 +237,7 @@ export default function Home() {
                 <a href={excel} download>
                 <svg id="color"
                 xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" 
-                class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
+                className="bi bi-file-earmark-fill" viewBox="0 0 16 16">
                 <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3z"/>
                 </svg>
                 </a>
@@ -248,7 +248,7 @@ export default function Home() {
                 >
                 <svg id="color"
                 xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" 
-                class="bi bi-search" viewBox="0 0 16 16">
+                className="bi bi-search" viewBox="0 0 16 16">
                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
                 </Link>

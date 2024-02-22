@@ -349,7 +349,7 @@ export default function EditProfile() {
 
                     <label className="l-01"> <h5>Datos</h5></label>
 
-                    {userInfo?.Role?.name==="Vendedor"?<></>:<div className="form-floating mb-3">
+                    {/* {userInfo?.Role?.name==="Vendedor"?<></>:<div className="form-floating mb-3">
                         <select name='select'
                         className="form-control"
                         onChange={(e)=>handleInputChange("RoleId",e)}>
@@ -357,7 +357,7 @@ export default function EditProfile() {
                             <option value="4">Vendedor </option>
                         </select>
                         <label htmlFor="floatingInput">Añadir rol</label>
-                    </div>}
+                    </div>} */}
 
                     <label className="l-01"> <h5>Lugar de residencia</h5></label>
 
