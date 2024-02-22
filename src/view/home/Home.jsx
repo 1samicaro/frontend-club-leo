@@ -22,6 +22,7 @@ import { booksAuthors, booksCountries, booksGenres } from "../../stateManagement
 import { getBooks } from "../../services/bookServices";
 import { recomendedAction } from "../../stateManagement/actions/recommendedAction";
 import { booksCatalogoAction, booksCopyAction, booksInfo } from "../../stateManagement/actions/booksInfoAction";
+import { mercadoPagoBack } from '../../services/ventaService';
 
 
 export default function Home() {
@@ -43,14 +44,15 @@ export default function Home() {
 
   async function countries (){
       // const [categories, ofertas,country, authors, countryBooks, genresBooks, books] = await Promise.all([
-      const [country, authors, countryBooks, genresBooks, books] = await Promise.all([
+      const [country, authors, countryBooks, genresBooks, books, prueba] = await Promise.all([
           // getCategories(),
           // getOfertsByCity(id),
           getCountries(),
           getAuthors(1),
           getCountriesBooks(1),
           getGenresBooks(1),
-          getBooks(1)
+          getBooks(1),
+          mercadoPagoBack()
       ]
       )
       dispatch(booksGenres(genresBooks))

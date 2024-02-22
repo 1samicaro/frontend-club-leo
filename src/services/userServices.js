@@ -11,13 +11,13 @@ const api = create({
     timeout: 15000
 });
 
-export const postLogin = async (prueba) => {
+export const postLogin = async (login) => {
     // const user = {
     //     email: email,
     //     password: password,
     // }
     try {
-        const userLogin = await api.post(`/auth/authentication/login`, prueba);
+        const userLogin = await api.post(`/auth/authentication/login`, login);
         return userLogin.data;
     } catch (error) {
         console.log("Something went wrong...");

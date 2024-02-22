@@ -3,13 +3,17 @@ import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import logo from '../../assets/logoblack.png'
 import PayPalButton from '../paypal/PayPalButtom'
-import { initMercadoPago, Payment } from '@mercadopago/sdk-react'
+import { initMercadoPago, Payment, Wallet } from '@mercadopago/sdk-react'
 import mercadoPago from "../../assets/mercado_pago.png"
 import { postLogin } from '../../services/userServices'
 import { useDispatch, useSelector } from 'react-redux'
 import Modal1 from '../../components/Modal1';
 import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction'
 import { editProfile } from '../../services/editProfileService'
+import { mercadoPagoBack } from '../../services/ventaService'
+
+initMercadoPago("TEST-4c9e6322-d093-4c9f-bc7c-fa2efa2e04bf");
+
 
 function Paid() {
 
@@ -87,17 +91,13 @@ function Paid() {
         ;}, [payPalAnswer])
     
     const [preferenceId, setPreferenceId] = useState(null)
-    initMercadoPago('1680049721');
 
     const createPreference = async () => {
         try {
-            const response = await //funcion
-            {
-                description: "Pago clubleo",
-                price: 50000,
-                quantity: 1,
-            }
-            const {id} = response.data
+            const response = await mercadoPagoBack()
+            console.log(response.data);
+            const {id} = response.data.body
+            console.log(id);
             return id;
         } catch (error) {
             console.log(error);
@@ -166,6 +166,7 @@ function Paid() {
                 <div className="formasPago">
                     <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
                     <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
+                    {preferenceId && <Wallet initialization={{preferenceId}}/>}
                 </div>
 
                 {payPalDiv? 
@@ -174,13 +175,13 @@ function Paid() {
                     </div>
                 :<></>}
 
-                <Payment
+                {/* <Payment
                     initialization={initialization}
                     customization={customization}
                     onSubmit={onSubmit}
                     onReady={onReady}
                     onError={onError}
-                />
+                /> */}
             </div>
             <div>
                 <h2>Métodos de pago</h2>

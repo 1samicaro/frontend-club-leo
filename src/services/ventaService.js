@@ -44,3 +44,10 @@ export const getTransactions = async (token) =>{
         return [`${error}`];
     }
 }
+
+export const mercadoPagoBack = async () =>{
+    const sendInfo = await api.post(`/auth/users/paySuscription`);
+    console.log("send info paysus");
+    console.log(sendInfo);
+    return sendInfo
+}
