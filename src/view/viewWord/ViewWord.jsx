@@ -16,7 +16,7 @@ export default function ViewWord() {
 
     return (
         <div style={{display:'flex', position:'absolute', width:'100%', height:'100%', flexDirection:'column'}} id='paginaprincipal'>
-            <Link to="/pageFilters" className="logo-back">
+            <Link to="/" className="logo-back">
                 {/* Imagen  */}
                 <img
                     src={prolem}
