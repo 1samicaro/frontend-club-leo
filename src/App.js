@@ -1,6 +1,8 @@
 import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+
 import Home from './view/home/Home';
 import SignIn from './view/signin/SignIn';
 import SignUp from './view/signup/SignUp';
@@ -28,6 +30,44 @@ import ViewWord from './view/viewWord/ViewWord';
 // initMercadoPago("TEST-4c9e6322-d093-4c9f-bc7c-fa2efa2e04bf");
 
 function App() {
+
+  const [isReadyForInstall, setIsReadyForInstall] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("beforeinstallprompt", (event) => {
+    // Prevent the mini-infobar from appearing on mobile.
+
+    //el eventprevent es para que cargue solo
+    event.preventDefault();
+    // console.log("👍", "beforeinstallprompt", event);
+    // Stash the event so it can be triggered later.
+    window.deferredPrompt = event;
+    // Remove the 'hidden' className from the install button    ainer.
+    setIsReadyForInstall(true);
+    });
+  }, []);
+
+  async function downloadPwa(){
+    console.log("👍", "butInstall-clicked");
+    const promptEvent = window.deferredPrompt;
+    if (!promptEvent) {
+    // The deferred prompt isn't available.
+      console.log("oops, no prompt event guardado en window");
+      return;
+    }
+    // Show the install prompt.
+
+    //el prompt solo puede ser escuchado una vez por sesión para no saturar con llamadas "descargame"
+    promptEvent.prompt();
+    // Log the result
+    const result = await promptEvent.userChoice;
+    console.log("👍", "userChoice", result);
+    // Reset the deferred prompt variable, since
+    // prompt() can only be called once.
+    window.deferredPrompt = null;
+    // Hide the install button.
+    setIsReadyForInstall(false);
+  }
 
   return (
     <div className="App">
