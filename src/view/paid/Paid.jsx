@@ -9,7 +9,7 @@ import { postLogin } from '../../services/userServices'
 import { useDispatch, useSelector } from 'react-redux'
 import Modal1 from '../../components/Modal1';
 import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction'
-import { editProfile } from '../../services/editProfileService'
+import { editProfile, payProfile } from '../../services/editProfileService'
 import { mercadoPagoBack } from '../../services/ventaService'
 
 initMercadoPago("TEST-4c9e6322-d093-4c9f-bc7c-fa2efa2e04bf");
@@ -77,7 +77,7 @@ function Paid() {
             isSuscribed : true,
             suscriptionDate: date
         }
-        const user = await editProfile(input, token)
+        const user = await payProfile(input, token)
         console.log(user);
     }
     useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
@@ -103,7 +103,7 @@ function Paid() {
     const handleBuy = async () =>{
         const id = await createPreference()
         if(id){
-            localStorage.setItem('state',state)
+            localStorage.setItem('state',JSON.stringify(state))
             setPreferenceId(id)
         }
     }

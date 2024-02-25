@@ -22,3 +22,16 @@ export const editProfile = async (infoSend, token) =>{
         return [`${error}`];
     }
 }
+
+export const payProfile = async (infoSend, token) =>{
+    try {
+        api.setHeader('Authorization', `Bearer ${token}`)
+        const sendInfo = await api.patch(`/sendPay`, infoSend);
+        return sendInfo;
+    } catch (error) {
+        console.log("Something went wrong...");
+        console.log(error);
+        return [`${error}`];
+    }
+
+}
