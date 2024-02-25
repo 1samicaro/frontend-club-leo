@@ -100,7 +100,7 @@ export default function Books() {
     // , [])
     
     ///aquí en false se muestran todos los libros, en true solo los 100 primeros
-    const demo = true
+    
     ////////////
 
     const [language, setLanguage] = useState("1")
@@ -133,6 +133,11 @@ export default function Books() {
     const countries = useSelector(state=> state.stateReducers?.countries)
     const authors = useSelector(state=> state.stateReducers?.authors)
     const recommended = useSelector(state=>state.recommendedReducer?.recommended)
+
+    let demo = true
+    if(userInfo.isSuscribed){
+        demo = false
+    }
 
     const changeLanguage = async (e)=>{
         setIsLoading(true)
@@ -232,17 +237,17 @@ export default function Books() {
 
                 <div className="col">
                 {/* Imagen  */}
-                <Link to="/" className="navbar-brand">
-                    <img
-                        src={logo}
-                        width="250"
-                        height="70"
-                        alt='prolem'
-                        />
-                </Link>
+                    <Link to="/" className="navbar-brand">
+                        <img
+                            src={logo}
+                            width="250"
+                            height="70"
+                            alt='prolem'
+                            />
+                    </Link>
                 </div>
 
-                {(language===1 || languageChange===1)&&
+                {/* {(language===1 || languageChange===1)&&
                     
                     <div className="col">
                         <h3 id="titulo12">Selecciona el idioma</h3>
@@ -254,14 +259,14 @@ export default function Books() {
                                 </option>
                                 {languages?.map((language, index)=> 
                                 <option value={language.id} key={index}>{language.name}</option>)} 
-                                {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                                {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)} 
                             </select>
                             <label htmlFor="floatingInput">Idioma</label>
                         </div>
                     </div>
-                }
+                } */}
 
-                {(language===2 || languageChange===2) &&
+                {/* {(language===2 || languageChange===2) &&
                 
                 <div className="col">
                     <h3 id="titulo12">Select the language</h3> <div className="form-floating" id="selectidioma">
@@ -270,13 +275,13 @@ export default function Books() {
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)} 
                         </select>
                         <label htmlFor="floatingInput">Language</label>
                     </div>
-                </div>}
+                </div>} */}
 
-                {(language===3 || languageChange===3)&&
+                {/* {(language===3 || languageChange===3)&&
                 
                 <div className="col">
                     <h3 id="titulo12">Sélection del'idiome </h3>
@@ -286,13 +291,13 @@ export default function Books() {
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)} 
                         </select>
                         <label htmlFor="floatingInput">Idiome</label>
                     </div>
-                </div>}
+                </div>} */}
 
-                {(language===4 || languageChange===4)&&
+                {/* {(language===4 || languageChange===4)&&
                 
                 <div className="col">
                     <h3 id="titulo12">Seleciona o idioma</h3>
@@ -302,13 +307,13 @@ export default function Books() {
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)} 
                         </select>
                         <label htmlFor="floatingInput">Idioma</label>
                     </div>
-                </div>}
+                </div>} */}
 
-                {(language===5 || languageChange===5) &&
+                {/* {(language===5 || languageChange===5) &&
                 
                 <div className="col">
                     <h3 id="titulo12">Selezionare la lingua</h3>
@@ -318,11 +323,11 @@ export default function Books() {
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)} 
                         </select>
                         <label htmlFor="floatingInput">Lingua</label>
                     </div>
-                </div>}
+                </div>} */}
             </div>
             </div>
             <br />

@@ -23,12 +23,41 @@ import { getBooks } from "../../services/bookServices";
 import { recomendedAction } from "../../stateManagement/actions/recommendedAction";
 import { booksCatalogoAction, booksCopyAction, booksInfo } from "../../stateManagement/actions/booksInfoAction";
 import { mercadoPagoBack } from '../../services/ventaService';
+import { changeLanguageAction } from '../../stateManagement/actions/changeLanguageAction';
 
+
+const languages =[
+  {
+      name:"Español", 
+      id: 1
+  }, 
+  {
+      name:"English",
+      id:2
+  }, 
+  {
+      name:"Française",
+      id:3
+  },
+  {
+      name:"Português",
+      id:4
+  },
+  {
+      name:"Italiana",
+      id:5
+  }
+]
 
 export default function Home() {
 
   const [estadoModal1, cambiarEstadoModal1] = useState(false);
   const [estadoModal2, cambiarEstadoModal2] = useState(false);
+
+  const languageChange = useSelector(state=> state.changeLanguageReducer?.id)
+  const [language, setLanguage] = useState("1")
+  const [isloading, setIsLoading] = useState(false)
+
 
   const dispatch = useDispatch()
   // const id= useSelector(state=>state.IDCityReducer?.id)
@@ -41,17 +70,16 @@ export default function Home() {
     demo = false
   }
 
-
   async function countries (){
       // const [categories, ofertas,country, authors, countryBooks, genresBooks, books] = await Promise.all([
-      const [country, authors, countryBooks, genresBooks, books, prueba] = await Promise.all([
+      const [country, authors, countryBooks, genresBooks, books] = await Promise.all([
           // getCategories(),
           // getOfertsByCity(id),
           getCountries(),
-          getAuthors(1),
-          getCountriesBooks(1),
-          getGenresBooks(1),
-          getBooks(1),
+          getAuthors(languageChange),
+          getCountriesBooks(languageChange),
+          getGenresBooks(languageChange),
+          getBooks(languageChange),
           mercadoPagoBack()
       ]
       )
@@ -83,8 +111,49 @@ export default function Home() {
             dispatch(booksCopyAction(books))
         }
     }
-
   }
+
+  const changeLanguage = async (e)=>{
+    setIsLoading(true)
+    setLanguage(e.target.value)
+    dispatch(changeLanguageAction(Number(e.target.value)))
+    const books = await getBooks(Number(e.target.value))
+    if(books?.length>0){
+        if(demo){
+            books.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = books.slice(0,100)
+            const recommend = demoBooks.filter(r => r.isFree===true)
+            dispatch(recomendedAction(recommend))
+            setIsLoading(false)
+            // dispatch(booksInfo(demoBooks))
+            const demoBooks1 = demoBooks.slice(0,40)
+            dispatch(booksInfo(demoBooks1))
+            dispatch(booksCatalogoAction(demoBooks))
+            dispatch(booksCopyAction(demoBooks))
+            dispatch(recomendedAction(recommend))
+        }
+        else {
+            setIsLoading(false)
+            // dispatch(booksInfo(books))
+            const recommend = books.filter(r => r.isFree===true)
+            const demoBooks = books.slice(0,40)
+            dispatch(booksInfo(demoBooks))
+            dispatch(booksCatalogoAction(books))
+            dispatch(booksCopyAction(books))
+            dispatch(recomendedAction(recommend))
+        }
+    }
+    const [genres, countries, authors] = await Promise.all([
+        getGenresBooks(e.target.value),
+        getCountriesBooks(e.target.value),
+        getAuthors(e.target.value),
+    ]
+    )
+    dispatch(booksGenres(genres))
+    dispatch(booksCountries(countries))
+    dispatch(booksAuthors(authors))
+}
+
   useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
       countries();}, [])
     
@@ -99,15 +168,96 @@ export default function Home() {
         <div className="row">
           <div className="col-lg-6 col-md-6">
           <Link to="/" className="container-fluid">
-                    <img
-                    align="left"
-                    src={logo}
-                    width="340"
-                    height="600"
-                    className="img-fluid d-block mx-auto"
-                    alt='logo'
-                    />
-                </Link>
+              <img
+              align="left"
+              src={logo}
+              width="340"
+              height="600"
+              className="img-fluid d-block mx-auto"
+              alt='logo'
+              />
+          </Link>
+          {(language===1 || languageChange===1)&&
+                    
+                    <div className="col">
+                        <h3 id="titulo12">Selecciona el idioma</h3>
+                        <div className="form-floating">
+                            <select name='select'  
+                            className="form-control"
+                            onChange={(e)=>changeLanguage(e)}>
+                                <option value='0'> ---- 
+                                </option>
+                                {languages?.map((language, index)=> 
+                                <option value={language.id} key={index}>{language.name}</option>)} 
+                                {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            </select>
+                            <label htmlFor="floatingInput">Idioma</label>
+                        </div>
+                    </div>
+                }
+
+                {(language===2 || languageChange===2) &&
+                
+                <div className="col">
+                    <h3 id="titulo12">Select the language</h3> <div className="form-floating" id="selectidioma">
+                        <select name='select' 
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Language</label>
+                    </div>
+                </div>}
+
+                {(language===3 || languageChange===3)&&
+                
+                <div className="col">
+                    <h3 id="titulo12">Sélection del'idiome </h3>
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select' 
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Idiome</label>
+                    </div>
+                </div>}
+
+                {(language===4 || languageChange===4)&&
+                
+                <div className="col">
+                    <h3 id="titulo12">Seleciona o idioma</h3>
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select' 
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Idioma</label>
+                    </div>
+                </div>}
+
+                {(language===5 || languageChange===5) &&
+                
+                <div className="col">
+                    <h3 id="titulo12">Selezionare la lingua</h3>
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select' 
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Lingua</label>
+                    </div>
+                </div>}
           </div>
           <div className="col-lg-6 col-md-6">
             <div className="social-links mt-3" align="right">
