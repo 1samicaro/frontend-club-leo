@@ -24,6 +24,7 @@ import Credit from './view/credit/Credit';
 import Books from './view/books/Books';
 import Paid from './view/paid/Paid.jsx';
 import ViewWord from './view/viewWord/ViewWord';
+import SendPay from './view/sendPay/SendPay.jsx';
 
 // import { initMercadoPago } from "@mercadopago/sdk-react";
 
@@ -89,6 +90,7 @@ function App() {
         <Route path='/Benefits' element={<Benefits />}/>
         <Route path='/Joinus' element={<Joinus />}/>
         <Route path='/Credit' element={<Credit />}/>
+        <Route path='/sendpay' element={<SendPay />}/>
         {/* <Route path='/:name/:id' element={<Category />}/> */}
         <Route path='/books' element={<Books />}/>
         <Route path='/paid' element={<Paid />}/>

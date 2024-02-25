@@ -21,10 +21,6 @@ function Paid() {
 
     const { state } = useLocation();
 
-    const [input, setInput] = useState({
-        
-    })
-
     const navigate = useNavigate()
     const dispatch = useDispatch()
 
@@ -107,6 +103,7 @@ function Paid() {
     const handleBuy = async () =>{
         const id = await createPreference()
         if(id){
+            localStorage.setItem('state',state)
             setPreferenceId(id)
         }
     }
