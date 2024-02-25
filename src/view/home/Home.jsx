@@ -290,7 +290,7 @@ export default function Home() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand">
+          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
           <h4> <b>   Vamos a leer </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
