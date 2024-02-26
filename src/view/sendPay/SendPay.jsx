@@ -7,7 +7,9 @@ export default function SendPay() {
 
     const [state, setState] = useState('')
 
+    let useEffectStop = true
     const getData = () =>{
+        useEffectStop=false
         return localStorage.getItem('state')
     }
 
@@ -26,7 +28,9 @@ export default function SendPay() {
     // }
 
     useEffect(()=>{
-        setState(JSON.parse(getData()), [state])
+        if(useEffectStop){
+            setState(JSON.parse(getData()), [])
+        }
     })
 
     const payPalAccept = async () =>{
