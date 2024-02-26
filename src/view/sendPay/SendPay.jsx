@@ -31,9 +31,9 @@ export default function SendPay() {
     useEffect(()=>{
         if(useEffectStop){
             payPalAccept()
-            setState(JSON.parse(getData()), [])
+            setState(JSON.parse(getData()))
         }
-    })
+    }, [])
 
     const payPalAccept = async () =>{
         console.log("cambiar datos registro");
