@@ -30,6 +30,7 @@ export default function SendPay() {
     console.log(useEffectStop);
     useEffect(()=>{
         if(useEffectStop){
+            payPalAccept()
             setState(JSON.parse(getData()), [])
         }
     })
@@ -65,9 +66,6 @@ export default function SendPay() {
         // const user = await payProfile(input, token)
         // console.log(user);
     }
-    useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
-            payPalAccept()
-        ;}, [state])
 
     console.log(state);
 
