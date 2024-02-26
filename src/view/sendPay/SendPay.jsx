@@ -2,14 +2,18 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../assets/logoleo.png'
 import { payProfile } from '../../services/editProfileService'
+import { postLogin } from '../../services/userServices'
+import { useDispatch } from 'react-redux'
+import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction'
 
 export default function SendPay() {
 
+    const dispatch = useDispatch()
+
     const [state, setState] = useState('')
 
-    let useEffectStop = true
+    const [stopEffect, setStopEffect] = useState(false)
     const getData = () =>{
-        useEffectStop=false
         return localStorage.getItem('state')
     }
 
@@ -27,45 +31,84 @@ export default function SendPay() {
     //     pay()
     // }
     console.log("revisando sendpay");
-    console.log(useEffectStop);
     useEffect(()=>{
-        if(useEffectStop){
-            payPalAccept()
+            setStopEffect(true)
             setState(JSON.parse(getData()))
-        }
     }, [])
 
-    const payPalAccept = async () =>{
-        console.log("cambiar datos registro");
-        let date = ""
-        const dateToday = new Date()
-        if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
-            date = `${(dateToday.getFullYear()+2)}-01-01`
-            console.log(date);
+    const pay = async ()=>{
+        const user = await postLogin(state);
+        console.log(user);
+        if (user.isAuthenticated) {
+            user.user.name=user?.user?.name?.reverse().join(" ")
+            dispatch(infoUser(user.user))
+            dispatch(infoToken(user.token))
+            let date = ""
+            const dateToday = new Date()
+            if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
+                date = `${(dateToday.getFullYear()+2)}-01-01`
+                console.log(date);
+            }
+            else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
+                date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+                console.log(date);
+            }
+            else if((dateToday.getMonth()+1)<10){
+                date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+                console.log(date);
+            }
+            else if((dateToday.getDate()+1)<10){
+                date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+                console.log(date);
+            }
+            else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
+                date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+                console.log(date);
+            }
+            const input = {
+                isSuscribed : true,
+                suscriptionDate: date
+            }
+            const userLogin = await payProfile(input, user.token)
+            console.log(userLogin);
+            // navigate('/Profile')
         }
-        else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
-            date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-            console.log(date);
-        }
-        else if((dateToday.getMonth()+1)<10){
-            date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-            console.log(date);
-        }
-        else if((dateToday.getDate()+1)<10){
-            date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-            console.log(date);
-        }
-        else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
-            date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-            console.log(date);
-        }
-        const input = {
-            isSuscribed : true,
-            suscriptionDate: date
-        }
-        // const user = await payProfile(input, token)
-        // console.log(user);
     }
+    if(stopEffect){
+        pay()
+    }
+
+    // const payPalAccept = async () =>{
+    //     console.log("cambiar datos registro");
+    //     let date = ""
+    //     const dateToday = new Date()
+    //     if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
+    //         date = `${(dateToday.getFullYear()+2)}-01-01`
+    //         console.log(date);
+    //     }
+    //     else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
+    //         date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+    //         console.log(date);
+    //     }
+    //     else if((dateToday.getMonth()+1)<10){
+    //         date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+    //         console.log(date);
+    //     }
+    //     else if((dateToday.getDate()+1)<10){
+    //         date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
+    //         console.log(date);
+    //     }
+    //     else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
+    //         date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
+    //         console.log(date);
+    //     }
+    //     const input = {
+    //         isSuscribed : true,
+    //         suscriptionDate: date
+    //     }
+    //     const user = await payProfile(input, token)
+    //     console.log(user);
+    // }
 
     console.log(state);
 
