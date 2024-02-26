@@ -69,7 +69,7 @@ export default function SendPay() {
                 isSuscribed : true,
                 suscriptionDate: date
             }
-            const userLogin = await payProfile(input, user.token)
+            const userLogin = await payProfile(input, user.token.token)
             console.log(userLogin);
             // navigate('/Profile')
         }
