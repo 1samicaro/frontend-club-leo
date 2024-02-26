@@ -26,7 +26,7 @@ export const editProfile = async (infoSend, token) =>{
 export const payProfile = async (infoSend, token) =>{
     try {
         api.setHeader('Authorization', `Bearer ${token}`)
-        const sendInfo = await api.patch(`/sendPay`, infoSend);
+        const sendInfo = await api.patch(`/auth/users/sendPay`, infoSend);
         return sendInfo;
     } catch (error) {
         console.log("Something went wrong...");
