@@ -26,7 +26,8 @@ export default function SendPay() {
     // if(state){
     //     pay()
     // }
-
+    console.log("revisando sendpay");
+    console.log(useEffectStop);
     useEffect(()=>{
         if(useEffectStop){
             setState(JSON.parse(getData()), [])
