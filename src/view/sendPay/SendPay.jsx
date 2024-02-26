@@ -26,7 +26,7 @@ export default function SendPay() {
     // }
 
     useEffect(()=>{
-        setState(JSON.parse(getData()))
+        setState(JSON.parse(getData()), [state])
     })
 
     const payPalAccept = async () =>{
