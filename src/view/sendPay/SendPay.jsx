@@ -30,7 +30,6 @@ export default function SendPay() {
     // if(state){
     //     pay()
     // }
-    console.log("revisando sendpay");
     useEffect(()=>{
             setStopEffect(true)
             setState(JSON.parse(getData()))
@@ -38,7 +37,6 @@ export default function SendPay() {
 
     const pay = async ()=>{
         const user = await postLogin(state);
-        console.log(user);
         if (user.isAuthenticated) {
             user.user.name=user?.user?.name?.reverse().join(" ")
             dispatch(infoUser(user.user))
@@ -47,23 +45,18 @@ export default function SendPay() {
             const dateToday = new Date()
             if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
                 date = `${(dateToday.getFullYear()+2)}-01-01`
-                console.log(date);
             }
             else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
                 date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-                console.log(date);
             }
             else if((dateToday.getMonth()+1)<10){
                 date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-                console.log(date);
             }
             else if((dateToday.getDate()+1)<10){
                 date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-                console.log(date);
             }
             else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
                 date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-                console.log(date);
             }
             const input = {
                 isSuscribed : true,
@@ -109,8 +102,6 @@ export default function SendPay() {
     //     const user = await payProfile(input, token)
     //     console.log(user);
     // }
-
-    console.log(state);
 
     return (
         <div>

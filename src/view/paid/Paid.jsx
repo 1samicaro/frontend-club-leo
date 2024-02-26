@@ -26,11 +26,9 @@ function Paid() {
 
     const payPalAnswer = useSelector(state=>state.transactionsReducer.payPalAnswer)
     const token = useSelector(state=>state.infoUserReducer.token.token)
-    console.log(payPalAnswer);
     // const userInfo = useSelector(state=>state.infoUserReducer.user)
     const pay = async ()=>{
         const user = await postLogin(state);
-        console.log(user);
         if (user.isAuthenticated) {
             user.user.name=user?.user?.name?.reverse().join(" ")
             dispatch(infoUser(user.user))
@@ -50,35 +48,28 @@ function Paid() {
     }
 
     const payPalAccept = async () =>{
-        console.log("cambiar datos registro");
         let date = ""
         const dateToday = new Date()
         if((dateToday.getMonth())===11 && (dateToday.getDate())===31){
             date = `${(dateToday.getFullYear()+2)}-01-01`
-            console.log(date);
         }
         else if((dateToday.getMonth()+1)<10 && (dateToday.getDate()+1)<10){
             date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-            console.log(date);
         }
         else if((dateToday.getMonth()+1)<10){
             date = `${dateToday.getFullYear()+1}-0${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-            console.log(date);
         }
         else if((dateToday.getDate()+1)<10){
             date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-0${(dateToday.getDate()+1)}`
-            console.log(date);
         }
         else if ((dateToday.getMonth()+1)>=10 && (dateToday.getDate()+1)>=10){
             date = `${dateToday.getFullYear()+1}-${(dateToday.getMonth() + 1)}-${(dateToday.getDate()+1)}`
-            console.log(date);
         }
         const input = {
             isSuscribed : true,
             suscriptionDate: date
         }
         const user = await payProfile(input, token)
-        console.log(user);
     }
     useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
         if(payPalAnswer){
@@ -91,9 +82,7 @@ function Paid() {
     const createPreference = async () => {
         try {
             const response = await mercadoPagoBack()
-            console.log(response.data);
             const {id} = response.data.body
-            console.log(id);
             return id;
         } catch (error) {
             console.log(error);
