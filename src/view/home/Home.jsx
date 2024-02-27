@@ -88,6 +88,7 @@ export default function Home() {
       dispatch(booksAuthors(authors))
       // dispatch(categoriesAction(categories))
       // dispatch(ofertsActionByCity(ofertas))
+      country.unshift({id:46, name:'Colombia', code: 57})
       dispatch(getCountry(country))
       if(books?.length>0){
         if(demo){
@@ -439,6 +440,7 @@ export default function Home() {
 
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      {(language===1 || languageChange===1)&&
         <div className="container-fluid" >
           <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
           <h4> <b>   Vamos a leer </b></h4>
@@ -458,12 +460,116 @@ export default function Home() {
           {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
           <h4> <b>   Biblioteca </b></h4>
           </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>   Demo </b></h4>
+          <h4> <b>  Biblioteca Demo </b></h4>
           </Link>}
           <Link to="/" className="navbar-brand">
           <h4> <b>   Videos </b></h4>
           </Link>
-        </div>
+        </div>}
+      {(language===2 || languageChange===2)&&
+        <div className="container-fluid" >
+          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
+          <h4> <b>   Let's read </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Bookshop </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Allies </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Education </b></h4>
+          </Link>
+          {/* <Link to="/" className="navbar-brand">
+          <h4> <b>   Bibliotecas </b></h4>
+          </Link> */}
+          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
+          <h4> <b>   Library </b></h4>
+          </Link> :<Link to="/books" className="navbar-brand">
+          <h4> <b>   Demo library </b></h4>
+          </Link>}
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Videos </b></h4>
+          </Link>
+        </div>}
+      {(language===3 || languageChange===3)&&
+        <div className="container-fluid" >
+          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
+          <h4> <b>   Nous allons lire </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Librairie </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Alliés </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Éducation </b></h4>
+          </Link>
+          {/* <Link to="/" className="navbar-brand">
+          <h4> <b>   Bibliotecas </b></h4>
+          </Link> */}
+          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
+          <h4> <b>   Bibliothèque </b></h4>
+          </Link> :<Link to="/books" className="navbar-brand">
+          <h4> <b>   Bibliothèque de démonstration </b></h4>
+          </Link>}
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Vidéos </b></h4>
+          </Link>
+        </div>}
+      {(language===4 || languageChange===4)&&
+        <div className="container-fluid" >
+          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
+          <h4> <b>   Vamos ler</b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Livraria </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Aliados </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Educação </b></h4>
+          </Link>
+          {/* <Link to="/" className="navbar-brand">
+          <h4> <b>   Bibliotecas </b></h4>
+          </Link> */}
+          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
+          <h4> <b>   Biblioteca </b></h4>
+          </Link> :<Link to="/books" className="navbar-brand">
+          <h4> <b>   Biblioteca de demonstração </b></h4>
+          </Link>}
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Vídeos </b></h4>
+          </Link>
+        </div>}
+        {(language===5 || languageChange===5)&&
+        <div className="container-fluid" >
+          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
+          <h4> <b>   Leggiamo </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Libreria </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Alleati </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b> Formazione scolastica </b></h4>
+          </Link>
+          {/* <Link to="/" className="navbar-brand">
+          <h4> <b>   Bibliotecas </b></h4>
+          </Link> */}
+          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
+          <h4> <b>   Biblioteca </b></h4>
+          </Link> :<Link to="/books" className="navbar-brand">
+          <h4> <b>  Libreria dimostrativa </b></h4>
+          </Link>}
+          <Link to="/" className="navbar-brand">
+          <h4> <b>   Video </b></h4>
+          </Link>
+        </div>}
       </nav>
       </div>
 
@@ -522,14 +628,61 @@ export default function Home() {
     </div>
 
 </div>
-
-          <br />
-          <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-            Somos una comunidad mundial en acción <br />
-          <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-          entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
-          </b> 
-          </h4>
+          {(language===1 || languageChange===1)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos una comunidad mundial en acción <br />
+                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
+                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===5 || languageChange===5)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos una comunidad mundial en acción <br />
+                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
+                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===5 || languageChange===5)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos una comunidad mundial en acción <br />
+                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
+                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===5 || languageChange===5)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos una comunidad mundial en acción <br />
+                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
+                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===5 || languageChange===5)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos una comunidad mundial en acción <br />
+                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
+                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
 
 
       </div>

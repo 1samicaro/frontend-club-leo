@@ -366,14 +366,16 @@ export default function Profile() {
                                         <tbody>
                                             <tr className="colorFilas">
                                                 <th scope="row"></th>
-                                                <th className="colorFilaSelect" >Socios invitados</th>
-                                                <th className="colorFilaSelect" >III Grado</th>
-                                                <th className="colorFilaSelect">IV Grado</th>
+                                                <th className="colorFilaSelect" >Asociado</th>
+                                                <th className="colorFilaSelect" >Nieto</th>
+                                                <th className="colorFilaSelect">Bisnieto</th>
+                                                <th className="colorFilaSelect">Tataranieto</th>
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
                                                                     <td value={type.id} key={type.id}>{type?.child?.username}</td>
                                                                     <td value={type.id} key={type.id}>{type?.grandChilds?.length}</td>
+                                                                    <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
                                                                     <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
                                             </tr>)
                                             :<tr><td><Spinner animation="grow" variant="info" /></td></tr> }

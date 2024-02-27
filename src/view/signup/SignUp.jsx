@@ -6,6 +6,10 @@ import { Link, useNavigate } from 'react-router-dom';
 import logo from '../../assets/logoblack.png'
 
 import mercadoPago from "../../assets/mercado_pago.png"
+import payPal from '../../assets/paypal.png'
+import Nequi from '../../assets/Nequi.png'
+import Daviplata from '../../assets/Daviplata.png'
+
 import { initMercadoPago, Wallet } from '@mercadopago/sdk-react'
 
 import "./SignUp.css"
@@ -417,11 +421,26 @@ export default function SignUp() {
     //     }
     // }
 
-    const [mercadoPagoDiv, setMercadoPagoDiv] = useState(false)
-    const getMercadoPagoDiv = (e) =>{
-        e.preventDefault()
-        setMercadoPagoDiv(!mercadoPagoDiv) 
+    const selectPay = [
+        {label: 'MercadoPago', value: 'Mercado Pago'},
+        {label: 'payPal', value: 'PayPal'},
+        {label: 'Nequi', value: 'Nequi'},
+        {label: 'Daviplata', value: 'Daviplata'},
+    ]
+    const [numberPay, setNumberPay] = useState(false)
+
+    async function paySelect (input,value){
+        console.log(value.target.value);
+        setNumberPay(true)
+        setIsLoading(false)
+        setInput(prev=>({...prev, [input]:value.target.value}))
     }
+    async function payAccount (input,value){
+        console.log(value.target.value);
+        setInput(prev=>({...prev, [input]:value.target.value}))
+    }
+
+    console.log(input);
 
     const onUploadPhoto = (e) => {
         e.preventDefault()
@@ -964,17 +983,38 @@ export default function SignUp() {
                             type="email" onChange={(e)=>handleInputChange("representEmail", e)}/>
                             <label htmlFor="floatingInput">Correo electrónico</label>
                         </div>
-
+                        
                         {errors.representEmail ? <span className='textError'>{errors.representEmail}</span> : <></>}
                         <div  className="form-floating mb-3">
-                            <input
-                            className="form-control"
-                            type="text" onChange={(e)=>handleInputChange("representPhone", e)}/>
-                            <label htmlFor="floatingInput">Número teléfono celular</label>
+                        <input
+                        className="form-control"
+                        type="text" onChange={(e)=>handleInputChange("representPhone", e)}/>
+                        <label htmlFor="floatingInput">Número teléfono celular</label>
                         </div>
                         {errors.representPhone ? <span className='textError'>{errors.representPhone}</span> : <></>}
+                        </div>
+                    </div>:<></>} */}
+
+                    <div>
+                        <label className="l-01"> <h5>Por que medio desea recibir los beneficios</h5></label>
+                        <div className="form-floating mb-3">
+                            <select name='select'
+                            className="form-control"
+                            onChange={(e)=>paySelect("transferType",e)}
+                        >
+                                <option value='----'> ---- </option>
+                                {selectPay?.map((pay)=> <option value={pay.value} key={pay.value}>{pay.label}</option>)}
+                            </select>
+                            <label htmlFor="floatingInput">Sitio a pago</label>
+                        </div>
                     </div>
-                </div>:<></>} */}
+                    {numberPay? <div  className="form-floating mb-3">
+                        <input
+                        className="form-control"
+                        type="text" onChange={(e)=>payAccount("transferId", e)}/>
+                        <label htmlFor="floatingInput">Usuario o Número de cuenta</label>
+                    </div>
+                    :<></>}
 
                 <div>
                 <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
