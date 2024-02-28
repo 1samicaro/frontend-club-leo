@@ -1,20 +1,17 @@
 .contenedor_registro{
-    background-image: url('https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/422062455_7006057516109496_4833326305701376023_n.jpg?stp=dst-jpg_p960x960&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=4nhC6_vOjjIAX-4qvq8&_nc_ht=scontent.fbog4-1.fna&oh=00_AfAbMxTuMZqIDC2hN5Nv9S1yz03srCsgJOft5NAySGLeJQ&oe=65D8CBB3');
+    background-image: url('https://scontent.fbog4-1.fna.fbcdn.net/v/t39.30808-6/422062455_7006057516109496_4833326305701376023_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=72Icgihdm_QAX_LiIS5&_nc_ht=scontent.fbog4-1.fna&oh=00_AfApha-4omSgnmLAsb2OV6UaXIu2ZTnaewGI3kDWwcmvyA&oe=65E4A933');
     background-size: cover;   
     background-position: center center;
+    
+
 }
+
 
 #encabezado{
-    background-color:rgb(0, 100, 162);
+    background-color: rgb(0, 100, 162);
+    
 }
 
-.formasPago{
-    justify-content: space-between;
-}
-
-.mercadoPago{
-    width: 40%;
-}
 
 #registro{
     width: 100%;

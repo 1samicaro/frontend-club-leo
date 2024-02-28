@@ -178,7 +178,10 @@ export default function Home() {
               alt='logo'
               />
           </Link>
-          {(language===1 || languageChange===1)&&
+          <br />
+          <br />
+          <br />
+            {(language===1 || languageChange===1)&&
                     
                     <div className="col">
                         <h3 id="titulo12">Selecciona el idioma</h3>

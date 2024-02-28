@@ -1,27 +1,25 @@
 import React from "react";
-import logo from "../../assets/logoleo.png";
+import logoblanco from "../../assets/logoblack.png";
 import { Link } from "react-router-dom";
 import "./Joinus.css"
 
 import afiliados1 from "../../assets/contenido/afiliados1.jpg";
 import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados3 from "../../assets/contenido/afiliados3.jpg";
+
 import tabla from "../../assets/contenido/tabla.png";
 import tabla1 from "../../assets/contenido/tabla1.png";
 
 
 
 
-
-
-
-
 export default function Joinus() {
   return (
-    <div className="contenedor-aboutus" id="padding">
+    <div className="contenedor_joinus">
     <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
-                    src={logo}
+                    src={logoblanco}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
@@ -29,17 +27,17 @@ export default function Joinus() {
                     />
                 </Link>
             </nav>
-            <div className="container-fluid" align="left">
+            <div className="container-fluid" align="left" id="padding">
 
-            <h3 id="titulo" align="center"> <b>PROGRAMA DE INVITADOS LEO: <br />
+            <h3 id="titulo" align="center"> <b>PLAN AMIGOS LEO:<br />
 
-           Ayúdanos a crecer, y construye un ingreso de por vida
+           <h5>Ayúdanos a crecer, y construye un ingreso de por vida</h5>
 
           </b> 
           </h3>
 
           <br />
-          <div className="imagenesTam">
+          <div >
             <img
             className="d-block w-100"
             src={afiliados1}
@@ -51,117 +49,137 @@ export default function Joinus() {
             <br />
 
            <p>
-           LEO Club Mundial de Lectura es una organización social sin ánimo de lucro que no realiza actividades de producción o comercialización de bienes y servicios. Su única fuente de ingresos es la cuota de membrecía anual que pagan los asociados. 
+           <b> LEO Club Mundial de Lectura</b> tiene como misión mejorar el nivel educativo y cultural de las personas para fortalecer sus competencias comunicativas y aumentar sus posibilidades de éxito académico, laboral y social. 
            </p>
            <p>
-           Los programas de promoción de la lectura, escritura y multilingüismo y los demás servicios que ofrece LEO son de acceso libre y gratuito para sus socios, quienes aparte de la cuota anual no deben pagar ningún valor adicional.
-           </p>
+           <b>LEO</b> se financia con la cuota anual de $50.000 que pagamos los socios, que nos permite acceder todo un año a los programas y servicios de promoción de la lectura, escritura y multilingüismo, sin tener que realizar ningún pago adicional.           </p>
            <p>
-           Por ello, la estrategia de financiamiento de la asociación es masificar la vinculación de socios en  nuestro país y el mundo, de manera que se generen los ingresos para cumplir su misión social.
+           Por esta razón, <b>LEO</b> necesita crecer en todo el mundo, y para lograrlo, ha creado el <b>Plan Amigos</b>, un Programa de Referidos que convoca a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo: <b>Invitar a los amigos a vincularse como socios, con un máximo de 20 invitados.</b></p>
+           <p>
+           Con este sencillo trabajo, cada socio podrá organizar su propia <b>Red Personal de Amigos RPA</b>, y <b>LEO</b> le proporcionará un ingreso (cashback) que puede ser muy importante y permanente.
            </p>
+           
            <br />
-           <h3 id="titulo" align="center"> <b>Programa de Invitados : <br />
-
-           Estrategia LEO de Crecimiento en el país y el mundo
+           <h3 id="titulo" align="center"> <b>Principios básicos del Plan Amigos Leo
            </b> 
            </h3>
            <br />
            <p>
-           El Programa de Invitados, es una oportunidad para que los socios apoyen a LEO en su objetivo de crecimiento, con un trabajo muy sencillo: invitar a más personas a que ingresen al Club en el país y el mundo, aprovechando su círculo de conocidos (familiares, amigos, vecinos, compañeros de trabajo y estudio) y sus contactos en las redes sociales, que permiten que la invitación llegue a nuevos socios en los más de 100 países del mundo que utilizan los 5 idiomas del programa (español, inglés, francés, italiano, portugués).
+           •	La participación de los socios es libre y voluntaria. Un socio puede no participar, y seguir disfrutando los programas de promoción de la lectura, escritura y multilingüismo.
            </p>
            <p>
-           Para motivar a los socios, LEO les retribuye su trabajo, proporcionándoles un ingreso por la vinculación de cada nuevo socio, al igual que por las sucesivas renovaciones anuales de la suscripción, con lo cual el ingreso es permanente y puede llegar a ser muy significativo
+           •	Se puede invitar a cualquier institución y a cualquier persona mayor de 14 años. No existen requisitos ni condiciones previas diferentes.
            </p>
            <p>
-           LEO destina el 80% del ingreso por afiliación a financiar el Programa de Invitados, y solo el 20% para su funcionamiento y los programas para los asociados.
+           •	Los amigos pueden residir en cualquier país del mundo.
           </p>
           <p>
-          El Programa de Referidos está concebido como una alianza estratégica gana-gana: la Asociación crece en todo el mundo y cuenta con los recursos para desarrollar sus programas educativos y culturales, y los socios pueden asegurar un importante ingreso, de por vida.
+          •	Por cada invitado que ingrese como socio, y los que éstos a su vez inviten, <b>LEO</b> reconoce un % de la cuota de afiliación (hasta el 60%).
+          </p>
+          <p>
+          •	La Red Personal de Amigos que organice, es propiedad del socio de por vida, con sus ingresos y beneficios. 
+          </p>
+          <p>
+          •	La RPA es heredable. Una vez complete los 20 invitados, el socio podrá designar a la persona que lo sustituirá en caso de fallecimiento
+          </p>
+          <p>
+          •	El retiro libre y voluntario, en cualquier momento, sin ningún requisito.
           </p>
           <br />
-           <h3 id="titulo" align="center"> <b>Cómo funciona el Programa de Invitados LEO <br />
+          <div>
+            <img
+            className="d-block w-100"
+            src={afiliados2}
+            height="450"            
+            alt="..."
+            />
+            </div>
+          <br />
+           <h3 id="titulo" align="center"> <b>Cómo funciona el Plan Amigos LEO <br />
 
-          El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
+           El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
 
            </b> 
            </h3>
            <br />
            <p>
-           1. Al vincularse diligenciando el formulario por internet, cada socio crea su usuario y contraseña; el programa automáticamente le crea “Mi Cuenta” para que realice seguimiento en tiempo real a sus invitados e ingresos.
-           </p>
+           •	Al vincularse diligenciando el formulario por internet, cada socio crea su usuario y contraseña; el programa automáticamente le crea “Mi Cuenta” para que realice seguimiento en tiempo real a sus invitados e ingresos.           </p>
            <p>
-           2. El socio invita a otras personas a vincularse a LEO, y al diligenciar el formulario, registran el usuario del socio promotor; el sistema los vincula en su red personal de invitados RPI, de por vida
-           </p>
+           •	El socio invita a otras personas a vincularse a <b>LEO</b>, y al diligenciar el formulario, registran el usuario del socio promotor; el sistema los vincula en su red personal de amigos RPA, de por vida.           </p>
            <p>
-           3. El sistema automáticamente distribuye el valor de la cuota de afiliación de $50.000 entre la asociación, 20% ($10.000) y el restante 80% ($40.000) lo asigna a la red del socio promotor. Este ingreso se suma en tiempo real en su Cuenta Personal, y el acumulado mensual es girado a su cuenta financiera. Durante el mes, con sus ingresos, el socio pude comprar los libros, benes y servicios ofrecidos por los aliados de LEO.
-           </p>
+           •	El sistema automáticamente distribuye el 60% del valor de la cuota de afiliación ($30.000) entre la RPA del nuevo socio. Este ingreso se acumula en tiempo real en su Cuenta Personal, y al fin de mes es girado a su cuenta financiera. Durante el mes, con sus ingresos, el socio pude comprar los libros, bienes y servicios ofrecidos por los aliados de LEO.           </p>
            <br />
-           <h3 id="titulo" align="center"> <b>Cuánto ingreso puede obtener en el Programa de Invitados?<br />
+           <h3 id="titulo" align="center"> <b>Cuanto puedo ganar si organizo mí RPA?<br />
            </b> 
            </h3>
            <br />
            <p>
-           Según las estadísticas, en promedio todos conocemos directamente a 100 personas (familiares, vecinos, compañeros de estudio o trabajo), y actualmente este número se multiplica con los contactos en redes sociales, que pueden estar en cualquier país del mundo.
-           </p>
-           <p>
-           Para que sea un trabajo sencillo que cualquier persona pueda hacer en poco tiempo, cada socio que decida participar en el Programa, puede invitar un máximo de 20 nuevos socios, en el país y cualquier otro del mundo.  
-           </p>
-           <p>
-           Con este trabajo, cada socio estará construyendo su Red Personal de Invitados (RPI), que inicia con el respectivo socio y sus 20 invitados, y sigue creciendo con las personas que éstos inviten a vincularse a LEO.
-           </p>
-           <p>
-           De esta manera, la RPI y los ingresos que puede obtener cada socio LEO son bastante significativos, como se ilustra en el siguiente cuadro:
-           </p>
+           De los $50.000 de cuota de afiliación, <b>LEO</b> destina el 60% ($30.000) para retribuir el trabajo de invitación que realizan sus socios, ingreso que crecerá sucesivamente con los nuevos invitados, generando un ingreso anual muy importante, como se detalla en el siguiente cuadro:           </p>
+          
          
           <br />
           <div className="imagenesTam">
             <img
             className="d-block w-100"
             src={tabla}
-            height="250"
+            width="400"
             alt="..."
             />
             </div>
             <br />
             <p>
-            Es decir, un socio que logre completar su RPI con sus 20 socios directos y sucesivamente, podrá obtener un ingreso de más de $1.500 millones anuales, que será permanente por la renovación de la suscripción a LEO.
+            Este será el resultado de mi trabajo: Una vez organice mi b <b>RPA</b>, podré tener un ingreso anual de $1.500 millones, que será de por vida, porque <b>LEO</b> nos reconoce tanto el ingreso como las renovaciones anuales.
             </p>
             <p>
-            Todo el sistema opera por internet en tiempo real. Cada socio tiene una Cuenta Personal, en la cual puede hacer seguimiento permanente a los nuevos socios que ha invitado y a sus ingresos acumulados.
+            Un trabajo fácil, sencillo y rápido, para lograr un gran objetivo:<b>la independencia económica, de por vida.</b>
             </p>
             <p>
-            El ingreso acumulado cada mes se gira dentro de la semana siguiente a la cuenta financiera del socio, o al método de pagos internacional que seleccione (Paypal, Pionners, etc).
+            <b>Cómo lograrlo?</b>
             </p>
+            <p>
+            Sólo hay que hacer 2 cosas muy sencillas: <br />
+            <b> 1. Invitar a mis 20 amigos a vincularse a ClubLeo</b> (familiares, vecinos, compañeros de estudio y trabajo, contactos en redes sociales, instituciones educativas y sociales, etc.) <br />
+            <b>2. Hacer seguimiento y apoyar a mi RPA,</b> aprovechando la internet. Hay técnicas sencillas, gratuitas y efectivas: <br />
+            •	Crear grupo propio en facebook y whatsapp con mis 20 invitados. <br />
+            •	Crear y enviar mensajes motivacionales a los socios de mi RPA. <br />
+            </p>
+            <p>
+            <b> El Plan Amigos está concebido como una alianza estratégica gana-gana: LEO</b> crece en todo el mundo y cuenta con los recursos para desarrollar sus programas educativos y culturales, y los socios pueden asegurar un importante ingreso, de por vida.
+            </p>
+
             <br />
-           <h3 id="titulo" align="center"> <b>Por qué el Programa de Invitados?<br />
+           <h3 id="titulo" align="center"> <b>Por qué el Plan Amigos?<br />
            </b> 
            </h3>
            <br />
            <p>
-           El fenómeno económico más gran del mundo en el Siglo XXI son las redes sociales, que gracias a internet, en poco tiempo hacen presencia en todo el mundo con miles de millones de usuarios, convirtiéndose en las empresas más valiosas y rentables (este año twitter fue vendida en US$44.000 millones, mientras facebook está valorada en US$226.000 millones). De acuerdo a cifras de Smart Insights, en 2022 el 58.4% de la población mundial utiliza redes sociales (4,062 millones de personas). 
-           </p>
-            <p>
-            Cómo crecieron las redes sociales? Cuál es su estrategia de crecimiento? Es sencilla. Se llama la teoría de los seis grados de separación: indica que cualquier persona está conectada a cualquier otra persona del planeta a través de una cadena con sólo 6 enlaces. De esta manera, si cada uno conoce en promedio a 100 personas, con solo 6 enlaces, se puede conectar a toda la humanidad. Y esto es posible gracias a internet, en tiempo real.
-            </p>
+           <b> El fenómeno económico más importante del Siglo XXI son las redes sociales por internet,</b> que en pocos años hacen presencia en todos los países con miles de millones de usuarios, convirtiéndose en las empresas más valiosas y rentables (este año twitter fue vendida en US$44.000 millones, mientras facebook está valorada en US$226.000 millones). De acuerdo a cifras de Smart Insights, en 2022 el 58.4% de la población mundial utiliza redes sociales (4,062 millones de personas).           </p>
+           <h5 id="titulo" align="center"> <b>Cómo crecen las redes sociales? Qué estrategia utilizan para llegar a todo el mundo?<br />
+           </b> 
+           </h5>
             <br />
-          <div className="imagenesTam">
+            <p>
+            Es sencilla. Se llama la <b><a href="https://www.tiempo.com/noticias/ciencia/el-mundo-es-un-panuelo-conoce-la-teoria-de-los-6-grados-de-separacion.html#:~:text=Se%20cree%20que%20cada%20persona%20conoce%20en%20promedio%20a%20unas%20100%20personas.&text=La%20teor%C3%ADa%20de%20los%206%20grados%">teoría de los seis grados de separación</a></b>: indica que todos estamos conectados a cualquier otra persona del planeta a través de una cadena con sólo 6 enlaces. Según las estadísticas, cada uno conoce en promedio a 100 personas, por lo que con solo 6 enlaces o pasos de integración, se puede conectar a toda la humanidad. Y esto es posible gracias a internet, en tiempo real.             </p>
+            <br />
+          <div>
             <img
             className="d-block w-100"
-            src={afiliados2}
-            height="250"
+            src={afiliados3}
+            height="450"
             alt="..."
             />
             </div>
+
             <br />
             <p>
-            Aprovechando esta experiencia, el Programa de Invitados LEO está concebido como una red social mundial, en donde los socios pueden invitar a personas de todo el mundo a vincularse a través de internet, y obtener ingresos por cada nuevo socio, construyendo un ingreso permanente que garantice su independencia económica.
+            Aprovechando esta exitosa experiencia, el <b> Plan Amigos LEO</b> está concebido como una <b>red social mundial</b>, educativa, cultural y de negocios, en donde los socios pueden invitar a personas de todo el mundo a vincularse a través de internet, y obtener una participación por cada nuevo socio, construyendo un ingreso acumulado que garantice su independencia económica, de por vida.
             </p>
-            <br />
            <h3 id="titulo" align="center"> <b>Mercado Objetivo LEO. Socios potenciales<br />
            </b> 
            </h3>
            <br />
-           <p>La Biblioteca Digital Familiar de LEO ofrece a sus socios más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo, con una población de 1.900 millones de personas, y 1.500 millones de socios potenciales (mayores de 14 años con capacidad lectora).
+           <p>
+           <b>Bibliomobil</b>, la Biblioteca Digital Familiar de <b>LEO</b> ofrece a sus socios más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.500 millones mayores de 14 años con capacidad lectora y 380 millones de estudiantes primaria y secundaria.
             </p>
           <div className="imagenesTam">
             <img
@@ -173,18 +191,13 @@ export default function Joinus() {
             </div>
             <br />
             <p>
-            La prioridad de LEO son los estudiantes y sus familias en los diferentes países (aprox. 380 millones), para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.
-            </p>
-            <p>
-            Para cubrir esta gran población en todo el mundo, el Programa de Invitados LEO permite que los socios apoyen el crecimiento de la asociación, aprovechando sus conocidos, y realizando cada uno el trabajo de invitación y motivación a vincularse, lo que se facilita a través del registro por internet y una plataforma de pagos internacional (paypal, etc.).
-            </p>
+            La prioridad de <b>LEO</b> son los 380 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.            </p>
             <br />
-            <h3 id="titulo" align="center"> <b>Un ingreso creciente de por vida <br />
-
-            Sin invertir nada, sencillo y rápido
-
+            <h4 id="titulo" align="center"> <b> <h2> <b>Plan Amigos</b></h2>
+            Una valiosa oportunidad para construir la independencia económica, de por vida <br />
+            Con un trabajo sencillo, fácil y rápido, que todos podemos realizar
             </b> 
-            </h3>
+            </h4>
             <br />
 
 

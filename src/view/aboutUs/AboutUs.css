@@ -1,3 +1,19 @@
+.container_aboutus{
+  min-height: 100vh;
+    background-size: cover;   
+    background-position: center center; 
+    background-color: rgb(173, 216, 230);  
+
+}
+
+
+
+#padding{
+  padding-left:4%;
+  padding-right: 4%;
+
+}
+
 .imagenesTamAb{
   width: 50%;
   max-width: 500px;
@@ -41,7 +57,3 @@
   color:brown;
 }
 
-#padding{
-  padding-left:3%;
-  padding-right: 3%;
-}

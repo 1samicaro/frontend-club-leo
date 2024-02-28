@@ -1040,7 +1040,6 @@ export default function SignUp() {
                         />
                         <label htmlFor="floatingInput">Contraseña que incluya mínimo 8 carácteres entre 1 símbolo especial, 1 mayúscula y 1 número</label>
 
-
                         {/* aqui empieza ese ojo, el onclick es el que hace que se dispare el evento de cambio para ver o no */}
                         <div className="position-absolute pointer pwd-icon flex-end" onClick={() => setShowPass(!showPass)}>
                             {showPass ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height={"1.5rem"}>
@@ -1066,6 +1065,7 @@ export default function SignUp() {
                     1 caracter especial, 1 matuscula, minimo 8 caracteres y 1 numero
 
                     */}
+                    <br />
                     <br />
                     <div className="form-floating mb-3">
                         <input

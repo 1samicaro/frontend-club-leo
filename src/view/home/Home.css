@@ -1,8 +1,9 @@
 .container_home{
-    background-image: url('https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/428639337_7082902635091650_3375559833125525987_n.jpg?stp=dst-jpg_p960x960&_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=K1eu3aTtsAgAX-MDzjl&_nc_ht=scontent.fbog4-2.fna&oh=00_AfCKoOnkFwSxkyzzGMkzmJFrJxgjCzzRRGOOh4HqwNrLYQ&oe=65D92096');
+    background-image: url('https://scontent.fbog4-2.fna.fbcdn.net/v/t39.30808-6/428639337_7082902635091650_3375559833125525987_n.jpg?stp=dst-jpg_p960x960&_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=bCndpgmLd3QAX9qpKJK&_nc_ht=scontent.fbog4-2.fna&oh=00_AfCThGQlXna7ftHX5kl3JUBioYxcbvHpu_ER-lwvzuUloQ&oe=65E4FE16');
     min-height: 100vh;
     background-size: cover;   
     background-position: center center;    
+ 
 }
 
 
@@ -13,7 +14,7 @@
 }
 
 #color{
-    color: dodgerblue;
+    color: rgb(0, 100, 162);
 }
 
 #margin{
@@ -30,9 +31,8 @@
 
 
 #titulo{
-    color: dodgerblue;
+    color: rgb(0, 100, 162);
     
 }
-
 
 
