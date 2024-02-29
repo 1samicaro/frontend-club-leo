@@ -25,6 +25,10 @@ import Books from './view/books/Books';
 import Paid from './view/paid/Paid.jsx';
 import ViewWord from './view/viewWord/ViewWord';
 import SendPay from './view/sendPay/SendPay.jsx';
+import AcercaDe from './view/acercaDe/AcercaDe.jsx';
+import SobreNos from './view/sobreNos/SobreNos.jsx';
+import AProposDeNous from './view/aProposDeNous/AProposDeNous.jsx';
+import ChiSiamo from './view/chiSiamo/ChiSiamo.jsx';
 
 // import { initMercadoPago } from "@mercadopago/sdk-react";
 
@@ -80,7 +84,16 @@ function App() {
         <Route path='/Descendants' element={<Descendants />}/>
         <Route path='/History' element={<History />}/>
         <Route path='/EditProfile' element={<EditProfile />}/>
+
+
+        <Route path='/AcercaDe' element={<AcercaDe />}/>
         <Route path='/AboutUs' element={<AboutUs />}/>
+        <Route path='/AProposDeNous' element={<AProposDeNous />}/>
+        <Route path='/SobreNos' element={<SobreNos />}/>
+        <Route path='/ChiSiamo' element={<ChiSiamo />}/>
+
+
+
         <Route path='/Privacydata' element={<Privacydata />}/>
         <Route path='/Terms' element={<Terms />}/>
         <Route path='/Regulation' element={<Regulation />}/>

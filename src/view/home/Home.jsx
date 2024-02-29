@@ -579,16 +579,46 @@ export default function Home() {
     <div className="row" id="margin">
       
     <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin"> 
-     
-      <Link to="/AboutUs">
-      <img id="photo"
-            className="img-fluid"
-            src={banner1}
-            alt="First slide"
-          
-          />
-        </Link>
-       
+      {(language===1 || languageChange===1)&&<Link to="/AcercaDe">
+        <img id="photo"
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+      </Link>}
+      {(language===2 || languageChange===2)&&<Link to="/AboutUs">
+        <img id="photo"
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+      </Link>}
+      {(language===3 || languageChange===3)&&<Link to="/AProposDeNous">
+        <img id="photo"
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+      </Link>}
+      {(language===4 || languageChange===4)&&<Link to="/SobreNos">
+        <img id="photo"
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+      </Link>}
+      {(language===5 || languageChange===5)&&<Link to="/ChiSiamo">
+        <img id="photo"
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+      </Link>}
     </div>
 
     <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin">
@@ -642,13 +672,35 @@ export default function Home() {
                 </h4>
             </div>
           }
-          {(language===5 || languageChange===5)&&
+          {(language===2 || languageChange===2)&&
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos una comunidad mundial en acción <br />
-                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                  We are a global community in action <br />
+                  <h4>We promote reading, writing and multilingualism, to build <br />
+                  together a more educated and cultured, progressive and peaceful world</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===3 || languageChange===3)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Nous sommes une communauté mondiale en action <br />
+                  <h4>Nous promouvons la lecture, l'écriture et le multilinguisme, pour construire <br />
+                  ensemble un monde plus éduqué et cultivé, progressiste et pacifique</h4> <br />
+                </b> 
+                </h4>
+            </div>
+          }
+          {(language===4 || languageChange===4)&&
+            <div>
+              <br />
+                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
+                  Somos uma comunidade global em ação<br />
+                  <h4>Promovemos a leitura, a escrita e o multilinguismo, para construir<br />
+                  juntos um mundo mais educado e culto, progressista e pacífico</h4> <br />
                 </b> 
                 </h4>
             </div>
@@ -657,31 +709,9 @@ export default function Home() {
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos una comunidad mundial en acción <br />
-                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
-                </b> 
-                </h4>
-            </div>
-          }
-          {(language===5 || languageChange===5)&&
-            <div>
-              <br />
-                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos una comunidad mundial en acción <br />
-                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
-                </b> 
-                </h4>
-            </div>
-          }
-          {(language===5 || languageChange===5)&&
-            <div>
-              <br />
-                <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos una comunidad mundial en acción <br />
-                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                  Siamo una comunità globale in azione <br />
+                  <h4>Promuoviamo la lettura, la scrittura e il multilinguismo, per costruire <br />
+                  insieme un mondo più istruito e colto, progressista e pacifico</h4> <br />
                 </b> 
                 </h4>
             </div>

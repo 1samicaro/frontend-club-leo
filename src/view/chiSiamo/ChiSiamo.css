@@ -1,0 +1,60 @@
+.container_aboutus{
+    min-height: 100vh;
+    background-size: cover;   
+    background-position: center center; 
+    background-color: rgb(173, 216, 230);  
+
+}
+
+
+
+#padding{
+padding-left:4%;
+padding-right: 4%;
+
+}
+
+.imagenesTamAb{
+width: 50%;
+max-width: 500px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.imagenesTamAb2{
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.imagenesTamAb3{
+width: 100%;
+max-width: 400px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#azul{
+color: rgb(0, 179, 255);
+}
+
+#rojo{
+color: rgb(224, 11, 11);
+}
+
+#colorred{
+color:brown;
+}
+  
+  

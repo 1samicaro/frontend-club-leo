@@ -26,60 +26,59 @@ export default function AboutUs() {
 
             <div className="container-fluid" align="left" id="padding">
 
-            <h3 id="titulo" align="center"> <b>Leer y escribir bien, las competencias fundamentales para ser exitosos <br />
-            en la moderna sociedad mundial  de la información y el conocimiento
-          </b> 
-          </h3>
+            <h3 id="titulo" align="center"> <b>Reading and writing well, the fundamental skills to be successful <br />
+             in the modern global information and knowledge society
+           </b>
+           </h3>
 
-          <br />
-          <div >
-            <img
-            className="d-block w-100"
-            src={aboutus}
-            width="400"
-            height="450"
-            alt="..."
-            />
-            </div>
+           <br />
+           <div>
+             <img
+             className="d-block w-100"
+             src={aboutus}
+             width="400"
+             height="450"
+             alt="..."
+             />
+             </div>
 
-            <br />
+             <br />
 
-            <h3 id="titulo" align="center"> <b>Nosotros <br />
-          </b> 
-          </h3>
-          <br />
-          <p>
-          <b> Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos, que fortalezcan los conocimientos y competitividad de sus habitantes. Así lo demuestran las pruebas PISA, que ubican a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
-          </p>
-          <p>
-          <b> LEO - Club Mundial de Lectura</b>, es un proyecto que tiene como misión <b>promover la lectura, la escritura y el multilingüismo</b>, como hábitos que contribuyen al mejoramiento educativo y cultural de las personas y familias, mejoran la calidad del sistema educativo y coadyuvan a la construcción de sociedades más democráticas, pacíficas y progresistas.
-          </p>
-          <p>
-          Para cumplir esta misión, <b>LEO</b> opera como una gran red digital,  que integra a las instituciones educativas y personas comprometidas con construir un mundo mejor, a partir de fortalecer el pilar clave del desarrollo: la educación, que depende fundamentalmente de la lectura, el camino para adquirir los conocimientos y capacidades en las diferentes áreas.         
-          </p>
+             <h3 id="titulo" align="center"> <b>About us <br />
+           </b>
+           </h3>
+           <br />
+           <p>
+           <b> There is a universal law of development: all progress and well-being of a society depends on the quality of the education its population receives.</b> Therefore, the most developed countries have as a priority having modern educational systems. , that strengthen the knowledge and competitiveness of its inhabitants. This is demonstrated by the PISA tests, which place high-income countries with the best educational systems in the world: Singapore, Canada, China, Finland, Hong Kong, Estonia, Japan and South Korea.
+           </p>
+           <p>
+           <b>LEO - World Reading Club</b>, is a project whose mission is to <b>promote reading, writing and multilingualism</b>, as habits that contribute to the educational and cultural improvement of people and families, improve the quality of the educational system and contribute to the construction of more democratic, peaceful and progressive societies.
+           </p>
+           <p>
+           To fulfill this mission, <b>LEO</b> operates as a large digital network, which integrates educational institutions and people committed to building a better world, by strengthening the key pillar of development: education, which depends fundamentally reading, the way to acquire knowledge and skills in different areas.
+           </p>
           
   
-          <br />
+           <br />
 
           
 
-          <h3 id="titulo" align="center"> <b>Objetivos <br />
-          </b> 
-          </h3> 
-          <br />      
-          <p>
-          • Aumentar el número de personas que leen y escriben como actividades cotidianas en los diferentes escenario académicos, laborales y sociales.<br />
+           <h3 id="titulo" align="center"> <b>Objectives <br />
+           </b>
+           </h3>
+           <br />
+           <p>
+           • Increase the number of people who read and write as daily activities in different academic, work and social settings.<br />
 
-          •	Incrementar los índices de lectura, para lograr que las personas lean al menos un libro al mes, doce libros al año, con énfasis en los estudiantes de primaria y bachillerato. <br />
+           • Increase reading rates, to ensure that people read at least one book a month, twelve books a year, with emphasis on primary and high school students. <br />
  
-          •	Ofrecer escenarios para que las personas escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo, con énfasis en la comunidad académica.<br />
+           • Offer scenarios for people to write and publish their works in different genres, making them known in the country and the world, with emphasis on the academic community.<br />
 
-          •	Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet.<br />
+           • Promote multilingualism and people's communicative skills, to improve their chances of participation and success in the modern technological society, through the Internet.<br />
 
-          •	Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
+           • Strengthen families and educational institutions as basic settings to instill the habit of reading and writing in students.
 
-          </p>
-
+           </p>
         
           <br /> 
           <div>
@@ -94,75 +93,75 @@ export default function AboutUs() {
           
          
 
-          <br />
-          <h3 id="titulo" align="center"> <b>Asociados<br />
-          </b> 
-          </h3>
-          <br />
-          <p>
-          Pueden ser socios del <b>Club Mundial de Lectura</b> en los diferentes países y ciudades: <br />
-          •	Las personas (mayores de 14 años) <br />
-          •	Las instituciones educativas y organizaciones sociales sin ánimo de lucro
-          </p>
-          <p>
-          La membrecía anual tiene un costo de solo <b>$50.000</b>, que otorga el acceso libre y gratuito a los programas educativos y culturales del Club (biblioteca digital, publicar obras, vender obras, etc.)
-          </p>
-          <br />
-
-          <h3 id="titulo" align="center"> <b>Programas y Servicios a los Asociados<br />
-          </b> 
-          </h3> 
-          <br />  
-          <p>
-          <b>LEO</b> ha desarrollado herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet  a nivel mundial:
-          </p>
-         
-          <h5 id="titulo" align="center"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
-          </b> 
-          </h5>
+            <br />
+           <h3 id="titulo" align="center"> <b>Associates<br />
+           </b>
+           </h3>
+           <br />
+           <p>
+           They can be members of the <b>World Reading Club</b> in different countries and cities: <br />
+           • People (over 14 years old) <br />
+           • Educational institutions and non-profit social organizations
+           </p>
+           <p>
+           Annual membership costs only <b>$50,000</b>, which grants free access to the Club's educational and cultural programs (digital library, publishing works, selling works, etc.)
+           </p>
            <br />
 
+           <h3 id="titulo" align="center"> <b>Programs and Services for Associates<br />
+           </b>
+           </h3>
+           <br />
            <p>
-           Para facilitar la lectura, los socios disponen de 3 instrumentos tecnológicos:
+           <b>LEO</b> has developed pedagogical tools with web technologies, which allow efficiently and economically to promote and spread reading, writing and multilingualism as key competencies to ensure that people take advantage of opportunities for contacts, education and businesses offered by the internet worldwide:
            </p>
-           <p>
-           <b> a. <a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> portal web con noticias educativas y culturales de actualidad, y artículos sobre los géneros, autores y obras más importantes, para informar, motivar y orientar la lectura. 
-           </p>
-           <p>
-           <b>b. <a href=" https://www.bibliomobil.com/"> https://www.bibliomobil.com/</a></b>: una APP que los usuarios pueden descargar a su celular, PC o tableta, y acceder a más de 15.000 obras en 5 idiomas (español, inglés, francés, portugués e italiano), para leer on line o descargar a su dispositivo, y tenerlas disponibles en todo momento y lugar sin conexión a internet. Mensualmente, se adicionan 50 nuevas obras a la colección, 600 nuevos libros al año. La descarga de la APP es gratuita para los socios logeados
-           </p>
-          <p>
-          <b>c. BiblioTablet</b>, aplicación a través de la cual la biblioteca digital y sus 15.000 obras se graban en la memoria del celular o tableta del usuario, para su consulta sin conexión a internet. Herramienta diseñada para servir a las zonas rurales y municipios apartados con limitaciones de conectividad web. La descarga de la aplicación es gratuita para los socios logeados
-          </p>
-          
-          <p>
-          <h5 id="titulo" align="center"> <b>2. Promoción de la escritura<br />
-          </b> 
-          </h5>
-          Escribir es uno de los retos más importantes para las personas. Es un acto creativo y propositivo, que permite dar a conocer las ideas y creaciones, y contribuir a la expansión del conocimiento y el patrimonio literario universal. Para ello, el portal web institucional <b><a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> permite a los socios crear su perfil de escritor y publicar sus obras para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. Este es un servicio gratuito para los socios logeados.
-          </p>
-          <p>
-          <h5 id="titulo" align="center">  <b>3. Promoción comercial de los autores LEO<br />
-          </b> 
-          </h5>
-          LEO está desarrollando la tienda  <b><a href="www.libreria.clubleo.co/">www.libreria.clubleo.co/</a></b>, que permitirá que los socios puedan exponer y comercializar las obras de su autoría entre la comunidad <b>LEO</b> del país y el mundo. Cada socio es el responsable de toda la gestión comercial, conforme a las normas legales sobre la materia.
-          </p>
-          <br />
-          <br />
-          <h3 id="titulo" align="center"> <b>LEO <br />
-          Una gran comunidad mundial comprometida con la construcción <br />
-          de una sociedad más educada y culta
+         
+           <h5 id="titulo" align="center"> <b>1. Promotion of Reading and Multilingualism<br />
+           </b>
+           </h5>
+            <br />
 
-          </b> 
-          </h3>
-          <br />
-          <h3 id="titulo" align="center"> <b>LEO <br />
-          Vincúlate!! <br />
-          Queremos que seas socio del proyecto educativo y cultural <br />
-          más grande del mundo
-          </b> 
-          </h3>
-          <br />
+            <p>
+            To facilitate reading, members have 3 technological instruments:
+            </p>
+            <p>
+            <b> a. <a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> web portal with current educational and cultural news, and articles on the most important genres, authors and works, to inform, motivate and guide reading.
+            </p>
+            <p>
+            <b>b. <a href=" https://www.bibliomobil.com/"> https://www.bibliomobil.com/</a></b>: an APP that users can download to their cell phone, PC or tablet , and access more than 15,000 works in 5 languages (Spanish, English, French, Portuguese and Italian), to read online or download to your device, and have them available at any time and place without an internet connection. Monthly, 50 new works are added to the collection, 600 new books a year. Downloading the APP is free for logged in members
+            </p>
+           <p>
+           <b>c. BiblioTablet</b>, an application through which the digital library and its 15,000 works are recorded in the memory of the user's cell phone or tablet, for consultation without an internet connection. Tool designed to serve rural areas and remote municipalities with web connectivity limitations. Downloading the application is free for logged in members
+           </p>
+          
+           <p>
+           <h5 id="titulo" align="center"> <b>2. Promotion of writing
+           </b>
+           </h5>
+           Writing is one of the most important challenges for people. It is a creative and purposeful act, which allows ideas and creations to be made known, and contribute to the expansion of knowledge and universal literary heritage. To this end, the institutional web portal <b><a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> allows members create their writer profile and publish their works to be visible to other members and people around the world. They can be free or commercial works. This is a free service for logged in members.
+           </p>
+           <p>
+           <h5 id="titulo" align="center"> <b>3. Commercial promotion of LEO authors
+           </b>
+           </h5>
+           LEO is developing the store <b><a href="www.libreria.clubleo.co/">www.libreria.clubleo.co/</a></b>, which will allow members to display and market the works of his authorship among the <b>LEO</b> community of the country and the world. Each partner is responsible for all commercial management, in accordance with the legal regulations on the matter.
+           </p>
+           <br />
+           <br />
+           <h3 id="titulo" align="center"> <b>LEO <br />
+           A large global community committed to construction <br />
+           of a more educated and cultured society
+
+           </b>
+           </h3>
+           <br />
+           <h3 id="titulo" align="center"> <b>LEO <br />
+           Link up!! <br />
+           We want you to be a partner of the educational and cultural project <br />
+           biggest in the world
+           </b>
+           </h3>
+           <br />
 
               </div>
               
