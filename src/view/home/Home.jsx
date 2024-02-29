@@ -623,7 +623,7 @@ export default function Home() {
 
     <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin">
       <div className="card" id="photo">
-      <Link to="/JoinUs">
+      {(language===1 || languageChange===1)&&<Link to="/Unetenos">
       <img id="photo"
                     src={banner2}
                     width="290"
@@ -631,7 +631,43 @@ export default function Home() {
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-          </Link>
+          </Link>}
+      {(language===2 || languageChange===2)&&<Link to="/Joinus">
+      <img id="photo"
+                    src={banner2}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+          </Link>}
+      {(language===3 || languageChange===3)&&<Link to="/RejoignezNous">
+      <img id="photo"
+                    src={banner2}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+          </Link>}
+      {(language===4 || languageChange===4)&&<Link to="/JunteSeANos">
+      <img id="photo"
+                    src={banner2}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+          </Link>}
+      {(language===5 || languageChange===5)&&<Link to="/UniscitiANoi">
+      <img id="photo"
+                    src={banner2}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+          </Link>}
 
           
       

@@ -29,6 +29,10 @@ import AcercaDe from './view/acercaDe/AcercaDe.jsx';
 import SobreNos from './view/sobreNos/SobreNos.jsx';
 import AProposDeNous from './view/aProposDeNous/AProposDeNous.jsx';
 import ChiSiamo from './view/chiSiamo/ChiSiamo.jsx';
+import Unetenos from './view/unetenos/Unetenos.jsx';
+import UniscitiANoi from './view/uniscitiANoi/UniscitiANoi.jsx';
+import RejoignezNous from './view/rejoignezNous/RejoignezNous.jsx';
+import JunteSeANos from './view/junteSeANos/JunteSeANos.jsx';
 
 // import { initMercadoPago } from "@mercadopago/sdk-react";
 
@@ -92,7 +96,11 @@ function App() {
         <Route path='/SobreNos' element={<SobreNos />}/>
         <Route path='/ChiSiamo' element={<ChiSiamo />}/>
 
-
+        <Route path='/Unetenos' element={<Unetenos />}/>
+        <Route path='/Joinus' element={<Joinus />}/>
+        <Route path='/RejoignezNous' element={<RejoignezNous />}/>
+        <Route path='/JunteSeANos' element={<JunteSeANos />}/>
+        <Route path='/UniscitiANoi' element={<UniscitiANoi />}/>
 
         <Route path='/Privacydata' element={<Privacydata />}/>
         <Route path='/Terms' element={<Terms />}/>

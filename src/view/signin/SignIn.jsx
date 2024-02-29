@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link  } from 'react-router-dom'
 import { postLogin, recoverPass } from '../../services/userServices';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import "./SignIn.css";
 import styled from 'styled-components';
 import { ToastContainer, toast } from 'react-toastify';
@@ -23,6 +23,9 @@ export default function SignIn() {
 
     const navigate = useNavigate()
     const dispatch = useDispatch()
+
+    const languageChange = useSelector(state=> state.changeLanguageReducer?.id)
+    const [language, setLanguage] = useState("1")
 
     const [input, setInput] = useState(initialState)
     const [errors, setErrors] = useState(initialState);
@@ -117,31 +120,64 @@ export default function SignIn() {
             <div className="container-fluid" id="registroLoggin">
                         <div className="container">
                                 <div className="container text-center">
-                                    <h2><b>Bienvenido a ClubLeo</b> </h2>
+                                {(language===1 || languageChange===1)&&<h2><b>Bienvenido a ClubLeo</b> </h2>}
+                                {(language===2 || languageChange===2)&&<h2><b>welcome to ClubLeo</b> </h2>}
+                                {(language===3 || languageChange===3)&&<h2><b>Bienvenue à ClubLeo</b> </h2>}
+                                {(language===4 || languageChange===4)&&<h2><b>bem-vindo a ClubLeo</b> </h2>}
+                                {(language===5 || languageChange===5)&&<h2><b>benvenuto aClubLeo</b> </h2>}
                                 </div>
                                 <br />
-                                <label className="l-01"> <h4>Iniciar sesión</h4></label>
+                                {(language===1 || languageChange===1)&&<label className="l-01"> <h4>Iniciar sesión</h4></label>}
+                                {(language===2 || languageChange===2)&&<label className="l-01"> <h4>Log in</h4></label>}
+                                {(language===3 || languageChange===3)&&<label className="l-01"> <h4>Commencer la session</h4></label>}
+                                {(language===4 || languageChange===4)&&<label className="l-01"> <h4>Iniciar sessão</h4></label>}
+                                {(language===5 || languageChange===5)&&<label className="l-01"> <h4>Login</h4></label>}
                                 
 
                                 <div className="form-floating mb-3">
-                                    <input type="text" className="form-control" placeholder="Ingresa tu usuario o correo electrónico" onChange={(e)=>handleInputChange("username", e)} required/>
-                                    <label >Ingresa con tu Usuario</label>
+                                    <input type="text" className="form-control" placeholder="Ingresa tu usuario" onChange={(e)=>handleInputChange("username", e)} required/>
+                                    {(language===1 || languageChange===1)&&<label >Ingresa con tu Usuario</label>}
+                                    {(language===2 || languageChange===2)&&<label >Login with your User</label>}
+                                    {(language===3 || languageChange===3)&&<label >Connectez-vous avec votre utilisateur</label>}
+                                    {(language===4 || languageChange===4)&&<label >Faça login com seu usuário</label>}
+                                    {(language===5 || languageChange===5)&&<label >Accedi con il tuo Utente</label>}
                                 </div>
                                 {errors.username ? <span className='textError'>{errors.username}</span> : <></>}
 
                                 <div className="form-floating mb-3">
                                     <input type="password" className="form-control" placeholder="Ingresa tu contraseña" onChange={(e)=>handleInputChange("password", e)} required/>
-                                    <label >Ingresa tu contraseña</label>
-                                    <Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>¿Olvidaste tu contraseña?</b></p></Link>
+                                    {(language===1 || languageChange===1)&&<label >Ingresa tu contraseña</label>}
+                                    {(language===2 || languageChange===2)&&<label >Enter your password</label>}
+                                    {(language===3 || languageChange===3)&&<label >Tapez votre mot de passe</label>}
+                                    {(language===4 || languageChange===4)&&<label >Coloque sua senha</label>}
+                                    {(language===5 || languageChange===5)&&<label >Inserisci la tua password</label>}
+
+                                    {(language===1 || languageChange===1)&&<Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>¿Olvidaste tu contraseña?</b></p></Link>}
+                                    {(language===2 || languageChange===2)&&<Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>Did you forget your password?</b></p></Link>}
+                                    {(language===3 || languageChange===3)&&<Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>Vous avez oublié votre mot de passe?</b></p></Link>}
+                                    {(language===4 || languageChange===4)&&<Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>Você esqueceu sua senha?</b></p></Link>}
+                                    {(language===5 || languageChange===5)&&<Link href="/" className="password" onClick={()=>setModalUpdate(!modalUpdate)}> <p><b>Hai dimenticato la tua password?</b></p></Link>}
 
                                 </div>
                                 
 
                                 <br />
                                 <p className="text">
-                                <b>Mantén segura tu identidad corporativa.
+                                {(language===1 || languageChange===1)&&<b>Mantén segura tu identidad corporativa.
                                 El usuario y contraseña son personales e intransferibles.
-                                </b>
+                                </b>}
+                                {(language===2 || languageChange===2)&&<b>Keep your corporate identity secure.
+                                 The username and password are personal and non-transferable.
+                                 </b>}
+                                {(language===3 || languageChange===3)&&<b>Protégez votre identité d’entreprise.
+                                 L'identifiant et le mot de passe sont personnels et incessibles.
+                                 </b>}
+                                {(language===4 || languageChange===4)&&<b>Mantenha sua identidade corporativa segura.
+                                 O nome de usuário e a senha são pessoais e intransferíveis.
+                                 </b>}
+                                {(language===5 || languageChange===5)&&<b>Mantieni sicura la tua identità aziendale.
+                                 Il nome utente e la password sono personali e non trasferibili.
+                                 </b>}
                                 </p>
 
                                 <div className="d-grid gap-2 col-6 mx-auto">
