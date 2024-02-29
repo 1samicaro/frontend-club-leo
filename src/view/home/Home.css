@@ -35,4 +35,14 @@
     
 }
 
+.columnnas{
+    display: flex;
+    justify-content: right;
+}
+
+#inputidioma{
+    width: 300px;
+    
+}
+
 
