@@ -36,7 +36,7 @@ const initialState = {
     DocumentTypeId: 0,
     RoleId: 3,
     PersonTypeId: 0,
-    // CityId: 0,
+    CityId: 0,
     CountryId: 0,
     AdditionalTypeId: 0,
     username: "",
@@ -193,46 +193,46 @@ export default function SignUp() {
         }
     }
 
-    // const filterCities = (value) => {
-    //     const inputValue = value.trim().toLowerCase()
-    //     const inputLength = inputValue.length
+    const filterCities = (value) => {
+        const inputValue = value.trim().toLowerCase()
+        const inputLength = inputValue.length
 
-    //     var filtrado= citiesComplete.filter(city=>{
-    //         var textoCompleto = city.name
+        var filtrado= citiesComplete.filter(city=>{
+            var textoCompleto = city.name
 
-    //         if(textoCompleto.toLowerCase()
-    //         .normalize("NFD")
-    //         .replace(/[\u0300-\u036f]/g, "")
-    //         .includes(inputValue)){
-    //             return city
-    //         }
-    //         return false
-    //     })
-    //     return inputLength ===0 ? []: filtrado
-    // }
+            if(textoCompleto.toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .includes(inputValue)){
+                return city
+            }
+            return false
+        })
+        return inputLength ===0 ? []: filtrado
+    }
 
-    // const onSuggestionsFetchRequested = ({value})=>{
-    //     setCities(filterCities(value))
-    // }
+    const onSuggestionsFetchRequested = ({value})=>{
+        setCities(filterCities(value))
+    }
 
-    // const onSuggestionsClearRequested = ()=>{
-    //     setCities([])
-    // }
+    const onSuggestionsClearRequested = ()=>{
+        setCities([])
+    }
 
-    // const getSuggestionValue = (suggestion) =>{
-    //     return `${suggestion.name}`
-    // }
+    const getSuggestionValue = (suggestion) =>{
+        return `${suggestion.name}`
+    }
 
-    // const renderSuggestion=(suggestion)=>(
-    //     <div className="form-control" onClick={()=>seleccionarCiudad(suggestion)}>
-    //         {`${suggestion.name}`}
-    //     </div>
-    // );
+    const renderSuggestion=(suggestion)=>(
+        <div className="form-control" onClick={()=>seleccionarCiudad(suggestion)}>
+            {`${suggestion.name}`}
+        </div>
+    );
 
-    // const seleccionarCiudad=(city)=>{
-    //     // setSelectCity(city);
-    //     setInput(prev=>({...prev, CityId:city.id}))
-    // }
+    const seleccionarCiudad=(city)=>{
+        // setSelectCity(city);
+        setInput(prev=>({...prev, CityId:city.id}))
+    }
 
     const onChange=(e, {newValue})=>{
         setIsLoading(false)
@@ -422,7 +422,7 @@ export default function SignUp() {
     // }
 
     const selectPay = [
-        {label: 'MercadoPago', value: 'Mercado Pago'},
+        {label: 'MercadoPago', value: 'MercadoPago'},
         {label: 'payPal', value: 'PayPal'},
         {label: 'Nequi', value: 'Nequi'},
         {label: 'Daviplata', value: 'Daviplata'},
@@ -485,7 +485,7 @@ export default function SignUp() {
         if(input.DocumentTypeId === 0) errores.DocumentTypeId="Ingrese Tipo de documento"
         // if(input.RoleId === 0) errores.RoleId="Ingrese Rol"
         if(input.PersonTypeId === 0) errores.PersonTypeId="Ingrese Tipo de persona"
-        // if(input.CityId === 0) errores.CityId="Ingrese Ciudad"
+        if(input.CityId === 0) errores.CityId="Ingrese Ciudad"
         if(input.CountryId === 0) errores.CountryId="Ingrese País"
         // if(input.RoleId ==="4" && input.Categories.length===0) errores.Categories="Ingrese servicios que ofrece"
         // if(permission || (input.RoleId === "4" && input.PersonTypeId==="1") || (input.RoleId === "3" && input.PersonTypeId==="1")||(input.RoleId === "4" && input.PersonTypeId==="2")){
@@ -587,7 +587,7 @@ export default function SignUp() {
                             DocumentTypeId: 0,
                             RoleId: 0,
                             PersonTypeId: 0,
-                            // CityId: "42143",
+                            CityId: "42143",
                             CountryId: 0,
                             AdditionalTypeId: 0,
                             username: "",
@@ -709,7 +709,7 @@ export default function SignUp() {
                             </select>
                             <label htmlFor="floatingInput">Ciudad</label>
                         </div>:<></>} */}
-                        {/* {citiesComplete? <div className="form-floating mb-3">
+                        {citiesComplete? <div className="form-floating mb-3">
                             <Autosuggest
                                 suggestions={cities}
                                 onSuggestionsFetchRequested={onSuggestionsFetchRequested}
@@ -719,7 +719,7 @@ export default function SignUp() {
                                 inputProps={inputProps}
                             />
                         </div>:<></>}
-                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>} */}
+                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>}
                     </div>
 
 
