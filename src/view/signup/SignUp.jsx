@@ -430,17 +430,13 @@ export default function SignUp() {
     const [numberPay, setNumberPay] = useState(false)
 
     async function paySelect (input,value){
-        console.log(value.target.value);
         setNumberPay(true)
         setIsLoading(false)
         setInput(prev=>({...prev, [input]:value.target.value}))
     }
     async function payAccount (input,value){
-        console.log(value.target.value);
         setInput(prev=>({...prev, [input]:value.target.value}))
     }
-
-    console.log(input);
 
     const onUploadPhoto = (e) => {
         e.preventDefault()
