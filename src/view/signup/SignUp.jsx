@@ -351,7 +351,7 @@ export default function SignUp() {
         setIsLoading(false)
         const userSearch = await getSearchPerson(e.target.value)
         if(!userSearch.message){
-            setErrors(prev=>({...prev, username:"Este usuario ya existe"}))
+            setErrors(prev=>({...prev, username:"Error creando el usuario,  revise los datos"}))
         }
         if(userSearch.message==="Error getting user"){
             setInput(prev=>({...prev, username:e.target.value}))
