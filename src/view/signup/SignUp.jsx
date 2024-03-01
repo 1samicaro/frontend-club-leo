@@ -91,7 +91,7 @@ export default function SignUp() {
             });
     };
     const notifyError = () => {
-        toast('existe el usuario!', {
+        toast('Error creando el usuario,  revise los datos!', {
             position: "top-center",
             autoClose: 3000,
             hideProgressBar: false,
