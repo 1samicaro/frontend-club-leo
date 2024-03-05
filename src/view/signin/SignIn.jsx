@@ -79,7 +79,6 @@ export default function SignIn() {
         else {
             const user = await postLogin(input);
             if (user.isAuthenticated) {
-                console.log(user);
                 user.user.name=user?.user?.name?.reverse().join(" ")
                 dispatch(infoUser(user.user))
                 dispatch(infoToken(user.token))
