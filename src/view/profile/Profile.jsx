@@ -40,7 +40,6 @@ export default function Profile() {
     const navigate = useNavigate()
 
     const userInfo = useSelector(state=>state.infoUserReducer.user)
-    console.log(userInfo);
     const token = useSelector(state=>state.infoUserReducer.token.token)
     // const user = useSelector(state=>state.infoUserReducer.user.token)
     // const categories = useSelector(state=>state.categoriesReducer.categories)
@@ -373,7 +372,10 @@ export default function Profile() {
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
-                                                                    <td value={type.id} key={type.id}>{type?.child?.username}</td>
+                                                                    <td value={type.id} key={type.id}>{type?.child?.name[1] +" "+ type?.child?.name[0]}
+                                                                        <br />
+                                                                        {type?.child?.email}
+                                                                    </td>
                                                                     <td value={type.id} key={type.id}>{type?.grandChilds?.length}</td>
                                                                     <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
                                                                     <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
