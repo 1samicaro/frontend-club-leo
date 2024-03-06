@@ -1,3 +1,8 @@
+.container_profile{
+    background-color: rgb(173, 216, 230);  
+}
+
+
 #miCuenta{
     color: red;
 }
@@ -10,8 +15,15 @@
     text-align: start;
     padding: 0%, 0%;
 
+}
+
+#encabezadoperfil{
+    background-color: rgb(0, 100, 162);
+    min-width: 700px;
+    width: 100%;
 
 }
+
 
 .seleccion{
     margin: auto;
@@ -21,7 +33,9 @@
 
 #perfilForm{ 
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
+    min-width: 700px;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;

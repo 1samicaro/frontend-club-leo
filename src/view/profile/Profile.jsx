@@ -298,9 +298,9 @@ export default function Profile() {
 
     return (
 
-        <div>
+        <div className="container_profile">
             <ToastContainer />
-            <nav className="navbar navbar-light mb-5" id="encabezado">
+            <nav className="navbar navbar-light mb-5" id="encabezadoperfil">
                 <Link to="/" className="container-fluid">
                     <img
                     src={logo}
@@ -317,11 +317,11 @@ export default function Profile() {
                     <div className='container-fluid'>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
-                            <div className='lista-datos' >
-                                <p>Recuerda que tu cuenta esta deshabilitada para poder disfrutar de los mas de diez mil libros que se encuentran en nuestro sistema</p>
+                            <div >
+                                <p>Recuerda que tu cuenta está deshabilitada para poder disfrutar de los más de 15.000 libros que se encuentran en ClubLeo.  <Link 
+                             to="/paid" > <b>Suscríbete aquí.</b> </Link></p>
                             </div>
-                            <Link id="boton_loggin"
-                                className="btn btn-primary btn-lg" to="/paid" type="submit">Ingresar</Link>
+                           
                         </div>
                     </div>
                 </section>
@@ -331,7 +331,6 @@ export default function Profile() {
                 <section className='seccion-perfil-usuario'>
                     <div className='container-fluid'>
                         <label className="l-01"> <h2 id="miCuenta">MI CUENTA</h2></label>
-                        <br />
                         <br />
                         {userInfo.profilePic?<img src={userInfo.profilePic} alt="imagen"/>:<></>}
                         <label className="l-01"> <h4>Mis datos personales</h4></label>
@@ -355,7 +354,7 @@ export default function Profile() {
                         <br />
 
 
-                        <label className="l-01"> <h4>Mi red personal</h4></label>
+                        <label className="l-01"> <h4>Mi red de amigos</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
                             <br />
@@ -365,10 +364,10 @@ export default function Profile() {
                                         <tbody>
                                             <tr className="colorFilas">
                                                 <th scope="row"></th>
-                                                <th className="colorFilaSelect" >Asociado</th>
-                                                <th className="colorFilaSelect" >Nieto</th>
-                                                <th className="colorFilaSelect">Bisnieto</th>
-                                                <th className="colorFilaSelect">Tataranieto</th>
+                                                <th className="colorFilaSelect" >Nivel II</th>
+                                                <th className="colorFilaSelect" >nivel III</th>
+                                                <th className="colorFilaSelect">Nivel IV</th>
+                                                <th className="colorFilaSelect">Nivel V</th>
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
@@ -389,7 +388,7 @@ export default function Profile() {
                                             </tr>
                                             <tr>
                                                 <th></th>
-                                                <th>Total socios en mi RPB</th>
+                                                <th>Total socios en mi plan amigos</th>
                                                 <td>{totalSocios}</td>
                                                 <td>{Number.parseFloat(porcent).toFixed(2)}%</td>
                                             </tr>
@@ -405,7 +404,7 @@ export default function Profile() {
 
 
                         <br />
-                        <label className="l-01"> <h4>Mis PBs</h4></label>
+                        <label className="l-01"> <h4>Mis ingresos</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
                             {userInfo?.Role?.name ==="Vendedor" ?<div className='lista-datos'>
@@ -459,7 +458,7 @@ export default function Profile() {
                                 <div className="form-floating mb-3">
                                     {/* <input className="form-control" id="InputPerfil" placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>   */}
                                     <DebounceInput className="form-control" debounceTimeout={500} value={send.username} placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>
-                                    <label >Cuanto deseas retirar</label>
+                                    <label >Cuánto deseas retirar</label>
                                 </div>
                                 {/* {error.username ? <span className='userInvalid'>{error.username}</span> : <span className='userValid'>Usuario: {search?.name?.join(" ")}</span>} */}
                                 {/* <br />
