@@ -371,7 +371,10 @@ export default function Profile() {
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
-                                                                    <td value={type.id} key={type.id}>{type?.child?.name[1] +" "+ type?.child?.name[0]}
+                                                                    <td value={type.id} key={type.id}>
+                                                                        {type?.child?.username}
+                                                                        <br />
+                                                                        {type?.child?.name[1] +" "+ type?.child?.name[0]}
                                                                         <br />
                                                                         {type?.child?.email}
                                                                     </td>

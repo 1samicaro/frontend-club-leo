@@ -1,5 +1,7 @@
 .container_profile{
     background-color: rgb(173, 216, 230);  
+    min-width: 700px;
+    width: 100%;
 }
 
 
