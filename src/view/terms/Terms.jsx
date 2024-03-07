@@ -120,6 +120,7 @@ export default function Terms() {
                 <p>
                 Dado en Bogotá, D.C., a 19 de febrero de 2024.
                 </p>
+                <br />
 
 
 
