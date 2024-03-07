@@ -2,16 +2,18 @@ import React from "react";
 import logonegro from '../../assets/png/logoempresarialnegro.png'
 import Contacto from '../contacto/Contacto';
 import { Link } from "react-router-dom";
+import logo from '../../assets/logoblack.png'
+
 
 
 
 export default function Regulation() {
   return (
-    <div className="contenedor-aboutus">
+    <div className="contenedor_joinus">
        <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
-                    src={logonegro}
+                    src={logo}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
@@ -22,100 +24,163 @@ export default function Regulation() {
 
             <div className="container-fluid">
             <div className="privacy" align="left" id="padding">
-            <h3 align="center"><b>Grupo Empresarial Mingga –GEM </b></h3>
-              <br />
-              <h4 align="center">CONSEJO DIRECTIVO <br />
-                ACUERDO  001 <br /></h4>
-                <h5 align="center">Reglamento del Programa de Referidos Mingga
-
-                </h5>
+              <h4 align="center">POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES<br /></h4>
+                <h5 align="left"> <b>USO Y APLICACIÓN</b></h5>
                 <br />
-                <p>Reglamento del Programa de Referidos Mingga</p>
-                
-                <h6 align="center"><b>Considerando;</b></h6>
                 <p>
-                Que el Grupo Empresarial Mingga –GEM- es una empresa legalmente constituida, con personería jurídica y patrimonio propios, que tiene como objeto social la producción y comercialización de bienes y servicios al consumidor final.
+                La presente Política de Tratamiento de Datos Personales es expedida por  la Editorial Educativa Bibliocol SAS, con sigla BIBLIOCOL, empresa con Matrícula Mercantil No.03124536 de la Cámara de Comercio de Bogotá  del 10 de junio de 2019 y NIT 901.292.437-5. Se aplica en especial a las empresas y organizaciones sociales debidamente constituidas, y a las personas naturales mayores de 14 años que se registren y sean aceptadas como socias de LEO Club Mundial de Lectura, a través del portal web www.clubleo.net.
+                </p>
+                <h5 align="left"><b>1. Principios generales y postulados</b></h5>
+                <p>
+                BIBLIOCOL, garantiza la protección de derechos como el Habeas Data, la privacidad, la intimidad, el buen nombre, la imagen y la autonomía de las personas naturales y jurídicas; con tal propósito todas las actuaciones se regirán por principios de buena fe, legalidad, autodeterminación informática, libertad y transparencia. 
                 </p>
                 <p>
-                Que para su crecimiento nacional e internacional a largo plazo, GEM se propone ofrecer a sus clientes el Programa de Referidos, concebido como un pacto de beneficio mutuo, mediante el cual los clientes se convierten en socios, aliados estratégicos, que contribuyen al fortalecimiento de la empresa invitando a nuevos clientes a que se vinculen y compren los bienes y servicios que requieren a través de GEM.
+                Quien en ejercicio de cualquier actividad, incluyendo las societarias, comerciales y laborales, sean estas permanentes u ocasionales pueda suministrar cualquier tipo de información o dato personal a BIBLIOCOL y en la cual esta actúe como encargada del tratamiento o responsable del tratamiento podrá conocerla, actualizarla y rectificarla. 
+                </p>
+                <h5 align="left"><b>2. Marco legal </b></h5>
+                <p>
+                •	Decreto 886 de 2014  <br />
+                •	Ley 1266 de 2008 <br />
+                •	Ley 1581 de 2012 <br />
+                •	Decreto 1377 de 2013 
+              
+                </p>
+                <h5 align="left"><b>3. Definiciones </b></h5>
+                <p>
+                De conformidad con la legislación vigente sobre la materia, se establecen las siguientes definiciones, las cuales serán aplicadas e implementadas acogiendo los criterios de interpretación que garanticen una aplicación sistemática e integral, y en consonancia con los avances tecnológicos, la neutralidad tecnológica; y los demás principios y postulados que rigen los derechos fundamentales que circundan, orbitan y rodean el derecho de habeas data y protección de datos personales. 
                 </p>
                 <p>
-                Que el Programa de Referidos tiene carácter permanente, permitiendo la membrecía de por vida, al igual que los beneficios que ofrece a los socios.
+                Autorización: Consentimiento previo, expreso e informado del titular para llevar a cabo el Tratamiento de datos personales. 
                 </p>
                 <p>
-                Que es necesario establecer las condiciones y requisitos de acceso, y el plan de beneficios para los socios del Programa de Referidos.
+                Base de datos: Conjunto organizado de datos personales que sea objeto de Tratamiento. 
+                </p>
+                <p>
+                Dato personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables. 
+                </p>
+                <p>
+                Encargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento. 
+                </p>
+                <p>
+                Responsable del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos. 
+                </p>
+                <p>
+                Titular: Persona natural cuyos datos personales sean objeto de tratamiento. 
+                </p>
+                <p>
+                Tratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión. 
+                </p>
+
+                <h5 align="left"><b>4. Principios específicos </b></h5>
+                <p>
+                BIBLIOCOL aplicará los principios específicos que se establecen a continuación, los cuales constituyen las reglas a seguir en la recolección, manejo, uso, tratamiento, almacenamiento e intercambio, de datos personales: 
+                </p>
+                <p>
+                a. Principio de legalidad: En el uso, captura, recolección y tratamiento de datos personales, se dará aplicación a las disposiciones vigentes y aplicables que rigen el tratamiento de datos personales y demás derechos fundamentales conexos.
+                </p>
+                <p>
+                b. Principio de libertad: El uso, captura, recolección y tratamiento de datos personales sólo puede llevarse a cabo con el consentimiento, previo, expreso e informado del Titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal, estatutario, o judicial que releve el consentimiento. 
+                </p>
+                <p>
+                c. Principio de finalidad: El uso, captura, recolección y tratamiento de datos personales a los que tenga acceso y sean acopiados y recogidos por BIBLIOCOL, estarán subordinados y atenderán una finalidad legítima, la cual debe serle informada al respectivo titular de los datos personales.
+                </p>
+                <p>
+                d. Principio de veracidad o calidad: La información sujeta a uso, captura, recolección y tratamiento de datos personales debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el Tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error
+                </p>
+                <p>
+                e. Principio de transparencia: En el uso, captura, recolección y tratamiento de datos personales debe garantizarse el derecho del Titular a obtener de BIBLIOCOL, en cualquier momento y sin restricciones, información acerca de la existencia de cualquier tipo de información o dato personal que sea de su interés o titularidad. 
+                </p>
+                <p> 
+                f. Principio de acceso y circulación restringida: Los datos personales, salvo la información pública, no podrán estar disponibles en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los Titulares. 
+                </p>
+                <p>
+                g. Principio de seguridad: Los datos personales e información usada, capturada, recolectada y sujeta a tratamiento por BIBLIOCOL, será objeto de protección en la medida en que los recursos técnicos y estándares mínimos así lo permitan, a través de la adopción de medidas tecnológicas de protección, protocolos, y todo tipo de medidas administrativas que sean necesarias para otorgar seguridad a los registros y repositorios electrónicos evitando su adulteración, modificación, pérdida, consulta, y en general en contra de cualquier uso o acceso no autorizado. 
+                </p>
+                <p>
+                h. Principio de confidencialidad: Todas y cada una de las personas que administran, manejen, actualicen o tengan acceso a informaciones de cualquier tipo que se encuentre en Bases o Bancos de Datos, se comprometen a conservar y mantener de manera estrictamente confidencial y no revelarla a terceros, todas las informaciones personales, comerciales, contables, técnicas, comerciales o de cualquier otro tipo suministradas en la ejecución y ejercicio de sus funciones. Todas las personas que trabajen actualmente o sean vinculadas a futuro para tal efecto, en la administración y manejo de bases de datos, deberán suscribir un documento adicional u otrosí a su contrato laboral o de prestación de servicios para efectos de asegurar tal compromiso. 
+                </p>
+                <p>
+                Esta obligación persiste y se mantiene inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento. 
+                </p>
+                <h5 align="left"><b>5. Dato sensible </b></h5>
+                <p>
+                Se entiende por datos sensibles aquellos que afectan la intimidad del titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos, entre otros, la captura de imagen fija o en movimiento, huellas digitales, fotografías, iris, reconocimiento de voz, facial o de palma de mano, etc. 
+                </p>
+                <h5 align="left"><b>5. Dato sensible </b></h5>
+                <p>
+                Se podrá hacer uso y tratamiento de los datos catalogados como sensibles cuando: 
+                </p>
+                <p>
+                a. El Titular haya dado su autorización explícita a dicho tratamiento, salvo en los casos que por ley no sea requerido el otorgamiento de dicha autorización. 
+                </p>
+                <p>
+                b. El Tratamiento sea necesario para salvaguardar el interés vital del titular y este se encuentre física o jurídicamente incapacitado. En estos eventos, los representantes legales deberán otorgar su autorización. 
+                </p>
+                <p>
+                c. El Tratamiento sea efectuado en el curso de las actividades legítimas y con las debidas garantías por parte de una fundación, ONG, asociación o cualquier otro organismo sin ánimo de lucro, cuya finalidad sea política, filosófica, religiosa o sindical, siempre que se refieran exclusivamente a sus miembros o a las personas que mantengan contactos regulares por razón de su finalidad. En estos eventos, los datos no se podrán suministrar a terceros sin la autorización del titular. 
+                </p>
+                <p>
+                d. El Tratamiento se refiera a datos que sean necesarios para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial.  
+                </p>
+                <p>
+                e. El Tratamiento tenga una finalidad histórica, estadística o científica. En este evento deberán adoptarse las medidas conducentes a la supresión de identidad de los Titulares.   
+                </p>
+                <h5 align="left"><b>5.2.  Autorización del titular  </b></h5>
+                <p>
+                Sin perjuicio de las excepciones previstas en la ley, en el tratamiento se requiere la autorización previa, expresa e informada del titular, la cual deberá ser obtenida por cualquier medio que pueda ser objeto de consulta y verificación posterior. 
+                </p>
+                <h5 align="left"><b>5.3.  Casos en que no se requiere la autorización </b></h5>
+                <p>
+                La autorización del Titular no será necesaria cuando se trate de: 
+                </p>
+                <p>
+                a. Información requerida por una entidad pública o administrativa en ejercicio de sus funciones legales o por orden judicial. <br />
+                b. Datos de naturaleza pública. <br />
+                c. Casos de urgencia médica o sanitaria. <br />
+                d. Tratamiento de información autorizado por la ley para fines históricos, estadísticos o científicos. <br />
+                e. Datos relacionados con el Registro Civil de las Personas. 
+                </p>
+                <h5 align="left"><b>6. Derechos de los niños, niñas y adolescentes. </b></h5>
+                <p>
+                En el Tratamiento se asegurará el respeto a los derechos prevalentes de los menores.
+                </p>
+                <p>
+                Queda proscrito el Tratamiento de datos personales de menores, salvo aquellos datos que sean de naturaleza pública. Igualmente, cuando en ejercicio del derecho de asociación consagrado en la Constitución y las Leyes, los menores de edad con edades entre 14 y 18 años, se asocien a LEO Club Mundial de Lectura con autorización y tutoría de su representante legal o tutores, quien velará por el respecto y prevalencia de los derechos del menor.
+                </p>
+                <p>
+                Es tarea del Estado y las entidades educativas de todo tipo proveer información y capacitar a los representantes legales y tutores sobre los eventuales riesgos a los que se enfrentan los menores respecto del tratamiento indebido de sus datos personales, y proveer de conocimiento acerca del uso responsable y seguro por parte de niños, niñas y adolescentes de sus datos personales, su derecho a la privacidad y protección de su información personal y la de los demás. 
+                </p>
+                <h5 align="left"><b>7. Autorizaciones y consentimiento.  </b></h5>
+                <p>
+                La recolección, almacenamiento, uso, circulación o supresión de datos personales por parte de BIBLIOCOL, requiere del consentimiento libre, previo, expreso e informado del titular de los mismos. 
+                </p>
+                <h5 align="left"><b>7.1. Medio y manifestaciones para otorgar la autorización. </b></h5>
+                <p>
+                La autorización puede constar en un documento físico, electrónico, mensaje de datos, Internet, Sitios Web, en cualquier otro formato que permita garantizar su posterior consulta, o mediante un mecanismo técnico o tecnológico idóneo, que permita manifestar u obtener el consentimiento vía clic o doble clic, mediante el cual se pueda concluir de manera inequívoca, que de no haberse surtido una conducta del titular, los datos nunca hubieren sido capturados y almacenados en la base de datos. La autorización será generada por BIBLIOCOL y será puesto a disposición del titular con antelación y de manera previa al tratamiento de sus datos personales. 
+                </p>
+                <h5 align="left"><b>7.2. Prueba de la autorización.  </b></h5>
+                <p>
+                BIBLIOCOL utilizará los mecanismos con que cuenta actualmente, e implementará y adoptará las acciones tendientes y necesarias para mantener registros o mecanismos técnicos o tecnológicos idóneos de cuándo y cómo obtuvo autorización por parte de los titulares de datos personales para el tratamiento de los mismos. Para dar cumplimiento a lo anterior, se podrán establecer archivos físicos o repositorios electrónicos realizados de manera directa o a través de terceros contratados para tal fin.
+                </p>
+                <p>
+                Bogotá, D.C. Febrero 19 de 2024
                 </p>
 
 
-                <br />
-                <h6 align="center"><b>ACUERDA;</b></h6>
-                <p>
-                <b>Artículo 1. Objeto.</b> Adoptar el Reglamento del <b>Programa de Referidos</b>, en cumplimiento del objeto y fines misionales del <b>Grupo Empresarial Mingga -GEM-</b>.
-                </p>
-                <p>
-                <b>Artículo 2. Definición.</b> El <b>Programa de Referidos</b> es la estrategia comercial que desarrollará GEM para construir una relación perdurable de beneficio mutuo con los compradores, invitándolos a vincularse libre y gratuitamente y contribuir con el crecimiento de la empresa mediante sus compras personales y la invitación a otras personas a vincularse al Programa y comprar los bienes y servicios que requieran en GEM.
-                </p>
-                <p>
-                <b>Artículo 3. Principios.</b> El <b>Programa de Referidos</b> se estructura y operará bajo los siguientes principios: <br />
-                • <b>Libertad</b> de vinculación, permanencia y retiro.  <br />
-                • <b>Gratuidad</b> en el ingreso y permanencia. Pertenecer al Programa de Referidos nunca implicará inversión alguna por parte de los socios.  <br />
-                • <b>Universalidad</b>: se garantiza la vinculación y participación de todas las personas, empresas y organizaciones en el país y el mundo, sin restricciones de ningún tipo.  <br />
-                • <b>Igualdad</b>: Garantizamos los derechos, libertades y la igualdad plena de todas las personas. No realizamos, promovemos ni aceptamos acciones de exclusión o discriminación en ninguno de nuestros programas, servicios y actividades.  <br />
-                • <b>Equidad</b>: cada socio del Programa tiene derecho a recibir ingresos y beneficios en proporción a su contribución a los objetivos de crecimiento en clientes y ventas de GEM.  <br />
-                • <b>Permanencia</b>: el Programa de Referidos tiene carácter permanente, y garantiza la continuidad de la membrecía y los beneficios a que tienen derecho los socios.
-                </p>
-                <p><b>Artículo 4. Objetivos.</b> El Programa de Referidos Mingga tiene los siguientes objetivos: <br />
-                1. Hacer de la compra de bienes y servicios un gana-gana de largo plazo que beneficie a GEM y a los socios compradores.  <br />
-                2. Generar oportunidades para que los compradores puedan obtener ingresos y beneficios  permanentes que aumenten su capacidad de compra y mejoren su calidad de vida.  <br />
-                3. Ofrecer a los socios la oportunidad de vincularse al GEM y ofrecer sus bienes y servicios a la comunidad de compradores del programa de referidos.  <br />
-                4. Ofrecer alternativas de crédito en condiciones favorables, de acuerdo al aporte de los socios al crecimiento de GEM.  <br />
-                5. Diseñar y operar programas de bienestar al servicio de los socios del Programa de Referidos. 
-                </p>
-                <p><b>Artículo 5. Socios.</b> Libre y gratuitamente pueden vincularse como socios de El Programa de Referidos Mingga: <br />
-                a. Las personas naturales mayores de 14 años. <br />
-                b. Las empresas. <br />
-                c. Las organizaciones sociales legalmente constituidas.
-                </p>
-                <p>
-                <b>Artículo 6. Membrecía.</b> La vinculación se realiza por internet a través del portal institucional de la empresa. Los interesados deberán diligenciar el formulario de registro proporcionando su información en forma veraz y aportando los soportes requeridos en cada caso. Cualquier falsedad de la información o los soportes aportados en la vinculación dará lugar a la anulación de la vinculación. Una persona, empresa u organización social solo podrá vincularse una (1) vez al Programa de Referidos. La No está permitida la multiplicidad de membrecía de un socio.
-                </p>
-                <p>
-                <b>Artículo 7. Invitados.</b> Cada socio tiene derecho a invitar a vincularse al Programa de Referidos a las personas, empresas y organizaciones sociales que desee libre y autónomamente, sin mínimos ni límites de ningún tipo. El Programa vincula automáticamente al socio que realiza la invitación con los nuevos socios, creando un vínculo de por vida.
-                </p>
-                <p>
-                <b>Artículo 8. Ingresos.</b> Cada compra que realicen los socios del Programa de Referidos a través de GEM, dará lugar a un descuento, que dependerá de la empresa vendedora y el tipo de producto. Cada socio tendrá derecho a recibir un ingreso del 20% de este descuento por sus compras y las que realicen los socios que invite a vincularse al Programa de Referidos. Esta participación se llama Puntos de Bienestar PBs, que se calcularán en tiempo real y se acumularán en la cuenta personal de cada socio. Los PBs acumulados le permitirán realizar compras de bienes y servicios en las empresas vinculadas a GEM. <br />
-                Parágrafo. Sobre el promedio de ingresos de los últimos 90 días, el respectivo socio tendrá derecho a un crédito en condiciones favorables que será cancelado con los ingresos por descuento, conforme al respectivo reglamento. Este crédito estará destinado a financiar las compras de bienes y servicios en GEM.
-                </p>
-                <p>
-                <b>Artículo 9. Retiro.</b> En forma libre y voluntaria, los socios pueden desvincularse del programa, utilizando la opción de retiro disponible en la página institucional del Programa. En este caso, cesarán los ingresos y beneficios obtenidos como miembros del Programa. <br />
-                <b>Parágrafo.</b> Un socio que se desvincule del Programa de Referidos, podrá solicitar nuevamente su ingreso, transcurridos cinco (5) años a partir de la fecha de retiro.
-                </p>
-                <p>
-                <b> Artículo 10. Vigencia.</b> El presente Acuerdo rige a partir de la fecha.
-                </p>
-                <p>
-                <b>Artículo 11. Aprobación.</b> Acuerdo aprobado por el Consejo Directivo en la reunión ordinaria realizada el día 23 de Octubre de dos mil veintitrés (2023).
-                </p>
+
+
+
+        
+
+
+
+
+
 
             </div>
             </div>
-
-                
-                
-
-              
-
-
-
-
-            
-      
-           
-              
-
               
      <br />
-     <Contacto></Contacto>
 
 
               

@@ -400,7 +400,7 @@ export default function Profile() {
                                 </div>
                                 <br />
                                 <div>
-                                    <p>Te faltan {userInfo?.remainingReferrals} invitados para completar tu primer grado</p>
+                                    <p>Te faltan {userInfo?.remainingReferrals} amigos para completar tu primer grado</p>
                                 </div>
                             </div>
                         </div>

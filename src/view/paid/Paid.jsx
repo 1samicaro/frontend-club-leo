@@ -142,13 +142,15 @@ function Paid() {
                 </Link>
             </nav>
             <div className="container-fluid"  id="registro">
-                <h1>Realiza tu pago de alguna de las siguientes formas</h1>
+            <h4>Realiza tu pago a través de alguno de los siguientes métodos</h4>
+            <br />
 
-                <label className="l-01"> <h5>Formas de Pago</h5></label>
                 <ul>
-                    <li><b>Detalle: </b>Pago anual Club Leo</li>
-                    <li><b>Precio: </b>$50.000 (12.5 USD)</li>
+                    <li> <h5> <b>Detalle: </b>Pago anual Club Leo</h5></li>
+                    <li><h5><b>Precio: </b>$50.000 (12.5 USD)</h5></li>
                 </ul>
+                <br />
+
                 <div className="formasPago">
                     <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
                     <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
@@ -169,42 +171,44 @@ function Paid() {
                     onError={onError}
                 /> */}
             </div>
-            <div>
-                <h2>Métodos de pago</h2>
+            <br />
 
-                <Link 
+            <div>
+                <br />
+
+                <Link class="btn btn-primary"
                     onClick={()=> cambiarEstadoModal1(!estadoModal1)}
-                > ¿Pago inmediato, efectivo?
+                > <h3>Pago Directo</h3>
                 </Link>
                 <Modal1 
                     estado={estadoModal1}
                     cambiarEstado={cambiarEstadoModal1}>
-                    <h4 align="right">Pagos directos</h4>
+                    <h4 align="right">Depósito electrónico</h4>
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    NEQUI <br />
+                    ☑ NEQUI <br />
                     N° 3002673887
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    DAVIPLATA  <br />
+                    ☑ DAVIPLATA  <br />
                     N° 3002673887
                     </p>
                     </li>
                     </ul>
-                    <h4 align="right">Transferencia bancaria directa</h4>
+                    <h4 align="right">Transferencia bancaria</h4>
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    DAVIVIENDA <br />
+                    ☑ DAVIVIENDA <br />
                     Cuenta de Ahorros N° 0550488425412597
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    BANCOLOMBIA  <br />
+                    ☑ BANCOLOMBIA  <br />
                     Cuenta de Ahorros N° 602-666846-68
                     </p>
                     </li>
@@ -213,14 +217,19 @@ function Paid() {
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    Efecty <br />
+                    ☑ Oficina Club Leo<br />
+                    </p>
+                    </li>
+                    <li align="right">
+                    <p>
+                    ☑ Efecty <br />
                     N° 3002673887 <br />    
                     Cédula N° 1032437031
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    Baloto  <br />
+                    ☑ Baloto  <br />
                     N° 3002673887 <br />
                     Cédula N° 1032437031
                     </p>
@@ -229,6 +238,23 @@ function Paid() {
                     <br /> 
                 </Modal1>
             </div>
+  
+            <br />
+            <br />
+            <div className="aviso">
+                <h5>
+                    Al elegir el método de pago directo, tu pago será verificado <br />
+                    en un plazo máximo de 24 horas y recibirás un correo de <br />
+                    bienvenida como nuevo socio de CLUB LEO.<br />
+            
+                </h5>
+
+
+
+            </div>
+
+
+            
         </div>
     )
 }

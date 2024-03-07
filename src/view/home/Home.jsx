@@ -206,16 +206,16 @@ export default function Home() {
                   estado={estadoModal1}
                   cambiarEstado={cambiarEstadoModal1}
                   >
-                  <h4>Contacto</h4>
-                  <p>Avenida Jiménez 9-43 Oficina 206 <br/>
+                  <h4 align="right">Contacto</h4>
+                  <p align="right">Avenida Jiménez 9-43 Oficina 206 <br/>
                   Edificio Federación <br/>
                   Bogotá, Colombia <br/>
 
                   Télefono: 6014327879  +57 300 4727644 <br />
                   Email: contacto@clubleo.net</p>
-                  <h4>Redes sociales</h4>
+                  <h4 align="right">Redes sociales</h4>
 
-                  <p>
+                  <p align="right">
                   Conoce a CLUBLEO, mantente actualizado <br />
                   de las oportunidades en todo el mundo.
                   </p>
@@ -356,27 +356,39 @@ export default function Home() {
                 </Link>
                 </div>
 
-
                 <Modal1 
                   estado={estadoModal2}
                   cambiarEstado={cambiarEstadoModal2}
                 >
-                <h4>Politica y Seguridad de Usuarios</h4>
+                <h4 align="right">Politica y Seguridad de Usuarios</h4>
                 <ul align="right"> 
                   <li align="right">
-                  •  <Link to="/Privacydata"><u id="titteblue">Privacidad de Datos</u></Link>
+                  •  <Link to="/Privacydata"><u id="titteblue">Tratamiento de datos</u></Link>
                   </li>
                   <li align="right">
                   •  <Link to="/Terms" ><u id="titteblue">Términos y Condiciones</u></Link>
                   </li>
                   <li align="right">
-                  •  <Link to="/Regulation" ><u id="titteblue">Reglamento Plan Amigos</u></Link>
+                  •  <Link to="/Regulation" ><u id="titteblue">Reglamento general</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Reglamento plan amigos</u></Link>
                   </li>
 
                 </ul>
                 <br /> 
               </Modal1>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+                
+
+
+
+
+
+
             </div>
             </div>
             </div>
