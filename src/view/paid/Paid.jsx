@@ -187,14 +187,14 @@ function Paid() {
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    ☑ NEQUI <br />
-                    N° 3002673887
+                    - NEQUI <br />
+                    N° 3195297287
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    ☑ DAVIPLATA  <br />
-                    N° 3002673887
+                    - DAVIPLATA  <br />
+                    N° 3195297287
                     </p>
                     </li>
                     </ul>
@@ -202,13 +202,13 @@ function Paid() {
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    ☑ DAVIVIENDA <br />
+                    - DAVIVIENDA <br />
                     Cuenta de Ahorros N° 0550488425412597
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    ☑ BANCOLOMBIA  <br />
+                    - BANCOLOMBIA  <br />
                     Cuenta de Ahorros N° 602-666846-68
                     </p>
                     </li>
@@ -217,19 +217,19 @@ function Paid() {
                     <ul align="right"> 
                     <li align="right">
                     <p>
-                    ☑ Oficina Club Leo<br />
+                    - Oficina Club Leo<br />
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    ☑ Efecty <br />
+                    - Efecty <br />
                     N° 3002673887 <br />    
                     Cédula N° 1032437031
                     </p>
                     </li>
                     <li align="right">
                     <p>
-                    ☑ Baloto  <br />
+                    - Baloto  <br />
                     N° 3002673887 <br />
                     Cédula N° 1032437031
                     </p>
