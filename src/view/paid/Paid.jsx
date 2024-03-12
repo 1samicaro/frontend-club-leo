@@ -12,7 +12,7 @@ import { infoToken, infoUser } from '../../stateManagement/actions/infoUserActio
 import { editProfile, payProfile } from '../../services/editProfileService'
 import { mercadoPagoBack } from '../../services/ventaService'
 
-initMercadoPago("TEST-4c9e6322-d093-4c9f-bc7c-fa2efa2e04bf");
+initMercadoPago("APP_USR-7aee5ee2-142b-49d9-9f7e-729f49344057");
 
 
 function Paid() {
