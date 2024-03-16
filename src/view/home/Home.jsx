@@ -28,23 +28,23 @@ import { changeLanguageAction } from '../../stateManagement/actions/changeLangua
 
 const languages =[
   {
-      name:"Español", 
+      name:"ES", 
       id: 1
   }, 
   {
-      name:"English",
+      name:"EN",
       id:2
   }, 
   {
-      name:"Française",
+      name:"FR",
       id:3
   },
   {
-      name:"Português",
+      name:"PT",
       id:4
   },
   {
-      name:"Italiana",
+      name:"IT",
       id:5
   }
 ]
@@ -186,9 +186,89 @@ export default function Home() {
 
 
           <div className="col-lg-6 col-md-6">
-          <div className="social-links mt-4" align="left">
+          <div className="social-links mt-4" >
 
           <div className="row">
+                <div className="col">
+                {(language===1 || languageChange===1)&&
+                    
+                    <div className="col">
+                        <div className="form-floating">
+                            <select name='select'
+                            className="form-control" id="inputidioma"
+                            onChange={(e)=>changeLanguage(e)}>
+                                <option value='0'> ---- 
+                                </option>
+                                {languages?.map((language, index)=> 
+                                <option value={language.id} key={index}>{language.name}</option>)} 
+                                {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                            </select>
+                            <label htmlFor="floatingInput">Idioma</label>
+                        </div>
+                    </div>
+                }
+
+                {(language===2 || languageChange===2) &&
+                
+                <div className="col">
+                    <div className="form-floating">
+                        <select name='select'  
+                        className="form-control" id="inputidioma"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Idiom</label>
+                    </div>
+                </div>}
+
+                {(language===3 || languageChange===3)&&
+                
+                <div className="col">
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select'  id="inputidioma"
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Idiome</label>
+                    </div>
+                </div>}
+
+                {(language===4 || languageChange===4)&&
+                
+                <div className="col">
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select' id="inputidioma"
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Idioma</label>
+                    </div>
+                </div>}
+
+                {(language===5 || languageChange===5) &&
+                
+                <div className="col">
+                    <div className="form-floating" id="selectidioma">
+                        <select name='select'  id="inputidioma"
+                        className="form-control"
+                        onChange={(e)=>changeLanguage(e)}>
+                            <option value='0'> ---- </option>
+                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
+                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
+                        </select>
+                        <label htmlFor="floatingInput">Lingua</label>
+                    </div>
+                </div>}
+                </div>
+
                 <div className="col">
                 <Link 
                   onClick={()=> cambiarEstadoModal1(!estadoModal1)}
@@ -220,6 +300,7 @@ export default function Home() {
                   de las oportunidades en todo el mundo.
                   </p>
                   <br />
+
                   <div className="columnnas">
                     <div>
                   <Link to="https://twitter.com/mingga_rmb">
@@ -402,90 +483,8 @@ export default function Home() {
 
 
 
-    <div>
-    {(language===1 || languageChange===1)&&
-                    
-                    <div className="col">
-                        <h2 id="titulo12"><b>Selecciona el idioma</b> </h2>
-                        <div className="form-floating">
-                            <select name='select'  
-                            className="form-control" id="inputidioma"
-                            onChange={(e)=>changeLanguage(e)}>
-                                <option value='0'> ---- 
-                                </option>
-                                {languages?.map((language, index)=> 
-                                <option value={language.id} key={index}>{language.name}</option>)} 
-                                {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
-                            </select>
-                            <label htmlFor="floatingInput">Idioma</label>
-                        </div>
-                    </div>
-                }
-
-                {(language===2 || languageChange===2) &&
-                
-                <div className="col">
-                    <h2 id="titulo12"> <b>Select the language</b> </h2> 
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select'  
-                        className="form-control" id="inputidioma"
-                        onChange={(e)=>changeLanguage(e)}>
-                            <option value='0'> ---- </option>
-                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
-                        </select>
-                        <label htmlFor="floatingInput">Language</label>
-                    </div>
-                </div>}
-
-                {(language===3 || languageChange===3)&&
-                
-                <div className="col">
-                    <h2 id="titulo12"> <b>Sélection del'idiome</b> </h2>
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select'  id="inputidioma"
-                        className="form-control"
-                        onChange={(e)=>changeLanguage(e)}>
-                            <option value='0'> ---- </option>
-                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
-                        </select>
-                        <label htmlFor="floatingInput">Idiome</label>
-                    </div>
-                </div>}
-
-                {(language===4 || languageChange===4)&&
-                
-                <div className="col">
-                    <h2 id="titulo12"> <b>Seleciona o idioma</b></h2>
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select' id="inputidioma"
-                        className="form-control"
-                        onChange={(e)=>changeLanguage(e)}>
-                            <option value='0'> ---- </option>
-                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
-                        </select>
-                        <label htmlFor="floatingInput">Idioma</label>
-                    </div>
-                </div>}
-
-                {(language===5 || languageChange===5) &&
-                
-                <div className="col">
-                    <h2 id="titulo12"><b>Selezionare la lingua</b></h2>
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select'  id="inputidioma"
-                        className="form-control"
-                        onChange={(e)=>changeLanguage(e)}>
-                            <option value='0'> ---- </option>
-                            {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
-                            {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
-                        </select>
-                        <label htmlFor="floatingInput">Lingua</label>
-                    </div>
-                </div>}
-    </div>
+    
+    
     <br />
     <br />
     
