@@ -130,7 +130,7 @@ export default function Profile() {
     for (let i = 0; i < table?.length; i++) {
         let countGreatGrandChilds = 0
         for (let j = 0; j < table[i]?.grandChilds?.length; j++) {
-            countGreatGrandChilds=countGreatGrandChilds+(10-table[i].grandChilds[j].remainingReferrals)
+            countGreatGrandChilds=countGreatGrandChilds+(20-table[i].grandChilds[j].remainingReferrals)
         }
         grandChilds=grandChilds+table[i]?.grandChilds?.length
         greatGrandChilds.push(countGreatGrandChilds)
@@ -380,7 +380,7 @@ export default function Profile() {
                                                                     </td>
                                                                     <td value={type.id} key={type.id}>{type?.grandChilds?.length}</td>
                                                                     <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
-                                                                    <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
+                                                                    <td value={type.id} key={type.id}>0</td>
                                             </tr>)
                                             :<tr><td><Spinner animation="grow" variant="info" /></td></tr> }
                                             <tr>
