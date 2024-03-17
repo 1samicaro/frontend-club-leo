@@ -198,6 +198,14 @@ export default function Home() {
                             className="form-control" id="inputidioma"
                             onChange={(e)=>changeLanguage(e)}>
                                 <option value='0'> ---- 
+                                <img
+              align="left"
+              src={logo}
+              width="340"
+              height="600"
+              className="img-fluid d-block mx-auto"
+              alt='logo'
+              />
                                 </option>
                                 {languages?.map((language, index)=> 
                                 <option value={language.id} key={index}>{language.name}</option>)} 
@@ -286,6 +294,10 @@ export default function Home() {
                   estado={estadoModal1}
                   cambiarEstado={cambiarEstadoModal1}
                   >
+
+                  <div>
+                  {(language===1 || languageChange===1)&&
+                  <div className="container-fluid" >
                   <h4 align="right">Contacto</h4>
                   <p align="right">Avenida Jiménez 9-43 Oficina 206 <br/>
                   Edificio Federación <br/>
@@ -299,6 +311,88 @@ export default function Home() {
                   Conoce a CLUBLEO, mantente actualizado <br />
                   de las oportunidades en todo el mundo.
                   </p>
+        
+                  </div>}
+
+
+                  {(language===2 || languageChange===2)&&
+                  <div className="container-fluid" >
+                  <h4 align="right">Contact</h4>
+                  <p align="right">Avenue Jiménez 9-43 Office 206 <br/>
+                  Federation <br/> Building
+                  Bogota, Colombia <br/>
+
+P                 hone: 6014327879 +57 300 4727644 <br />
+                  Email: contacto@clubleo.net</p>
+                  <h4 align="right">Social Media</h4>
+
+                  <p align="right">
+                  Meet CLUBLEO, stay updated <br />
+                  of the opportunities
+                  </p>
+                  </div>}
+
+
+                  {(language===3 || languageChange===3)&&
+                  <div className="container-fluid" >
+                  <h4 align="right">Contact</h4>
+                  <p align="right"> Avenue Jiménez 9-43 Bureau 206 <br/>
+                  Édifice de la Fédération <br/>
+                  Bogota, Colombie <br/>
+
+                  Téléphone : 6014327879 +57 300 4727644 <br />
+                  Courriel : contacto@clubleo.net</p>
+                  <h4 align="right">Médias sociaux</h4>
+
+                  <p align="right">
+                  Rencontrez CLUBLEO, restez à jour <br />
+                  des opportunités
+                  </p>
+                  </div>}
+
+
+                  {(language===4 || languageChange===4)&&
+                  <div className="container-fluid" >
+                <h4 align="right">Contato</h4>
+                  <p align="direita">Avenida Jiménez 9-43 Escritório 206 <br/>
+                  Edifício da Federação <br/>
+                  Bogotá, Colômbia <br/>
+
+                  Fone: 6014327879 +57 300 4727644 <br />
+                  E-mail: contacto@clubleo.net</p>
+                  <h4 align="direita">Mídias Sociais</h4>
+
+                  <p align="direita">
+                  Conheça o CLUBLEO, fique atualizado <br/>
+                  das oportunidades
+                  </p>
+                  </div>}
+
+                  {(language===5 || languageChange===5)&&
+                  <div className="container-fluid" >
+                  <h4 align="right">Contatto</h4>
+                  <p align="right">Avenida Jiménez 9-43 Ufficio 206 <br/>
+                  Edificio della Federazione <br/>
+                  Bogotà, Colombia <br/>
+
+                  Telefono: 6014327879 +57 300 4727644 <br />
+                  Indirizzo e-mail: contacto@clubleo.net</p>
+                  <h4 align="right">Social Media</h4>
+
+                  <p align="right">
+                  Incontra CLUBLEO, rimani aggiornato <br />
+                  delle opportunità
+                  </p>
+                  </div>}
+
+
+
+
+                  </div>
+
+                 
+
+
                   <br />
 
                   <div className="columnnas">
