@@ -117,15 +117,66 @@ export default function Unetenos() {
             De los $50.000 de cuota de afiliación, <b>LEO</b> destina el 60% ($30.000) para retribuir el trabajo de invitación que realizan sus socios, ingreso que crecerá sucesivamente con los nuevos invitados, generando un ingreso anual muy importante, como se detalla en el siguiente cuadro:           </p>
             
             
-            <br />
-            <div className="imagenesTam">
-                <img
-                className="d-block w-100"
-                src={tabla}
-                width="400"
-                alt="..."
-                />
-                </div>
+            <table className="table_1" align="center"> 
+                <tr className="table_2" align="center" >
+                    <th className="table_3" align="center">Nivel de mi RPA</th>
+                    <th className="table_3" align="center">% Ingreso vinculación</th>
+                    <th className="table_3" align="center">Ingreso por invitado nivel</th>
+                    <th className="table_3" align="center">Número de socios nivel</th>
+                    <th className="table_3" align="center">Ingreso por invitación RPA</th>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Yo</td>
+                    <td className="table_4" align="center">6%</td>
+                    <td className="table_4" align="center">$ 3.000</td>
+                    <td className="table_4" align="center">1</td>
+                    <td className="table_4" align="center">$ 3.000</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">I (Mis 20 invitados) </td>
+                    <td className="table_4" align="center">9%</td>
+                    <td className="table_4" align="center">$ 4.500</td>
+                    <td className="table_4" align="center">20</td>
+                    <td className="table_4" align="center">$ 90.000</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">II</td>
+                    <td className="table_4" align="center">12%</td>
+                    <td className="table_4" align="center">$ 6.000</td>
+                    <td className="table_4" align="center">400</td>
+                    <td className="table_4" align="center">$2´400.000</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">III</td>
+                    <td className="table_4" align="center">15%</td>
+                    <td className="table_4" align="center">$ 7.500</td>
+                    <td className="table_4" align="center">8.000</td>
+                    <td className="table_4" align="center">$60´400.000</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">IV</td>
+                    <td className="table_4" align="center">18%</td>
+                    <td className="table_4" align="center">$ 9.000</td>
+                    <td className="table_4" align="center">160.000</td>
+                    <td className="table_4" align="center">$1.440´000.000</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Totales</td>
+                    <td className="table_4" align="center">60%</td>
+                    <td className="table_4" align="center">$30.000</td>
+                    <td className="table_4" align="center">168.421</td>
+                    <td className="table_4" align="center">$1.502.493.000</td>
+                </tr>
+
+
+                </table>
+
+
+
+
+
+
+                
                 <br />
                 <p>
                 Este será el resultado de mi trabajo: Una vez organice mi b <b>RPA</b>, podré tener un ingreso anual de $1.500 millones, que será de por vida, porque <b>LEO</b> nos reconoce tanto el ingreso como las renovaciones anuales.
@@ -181,14 +232,77 @@ export default function Unetenos() {
             <p>
             <b>Bibliomobil</b>, la Biblioteca Digital Familiar de <b>LEO</b> ofrece a sus socios más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.500 millones mayores de 14 años con capacidad lectora y 380 millones de estudiantes primaria y secundaria.
                 </p>
-            <div className="imagenesTam">
-                <img
-                className="d-block w-100"
-                src={tabla1}
-                height="250"
-                alt="..."
-                />
-                </div>
+
+
+
+           
+
+
+            
+                <table className="table_1" align="center"> 
+                <tr className="table_2" align="center" >
+                    <th className="table_3" align="center">Idioma</th>
+                    <th className="table_3" align="center">No. de obras</th>
+                    <th className="table_3" align="center">Hablantes nativos</th>
+                    <th className="table_3" align="center">Mayores de 14 años</th>
+                    <th className="table_3" align="center">Estudiantes</th>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Español</td>
+                    <td className="table_4" align="center">8.169</td>
+                    <td className="table_4" align="center">580</td>
+                    <td className="table_4" align="center">464</td>
+                    <td className="table_4" align="center">116</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Inglés</td>
+                    <td className="table_4" align="center">5.013</td>
+                    <td className="table_4" align="center">678</td>
+                    <td className="table_4" align="center">542</td>
+                    <td className="table_4" align="center">136</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Francés</td>
+                    <td className="table_4" align="center">711</td>
+                    <td className="table_4" align="center">300</td>
+                    <td className="table_4" align="center">240</td>
+                    <td className="table_4" align="center">60</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Italiano</td>
+                    <td className="table_4" align="center">607</td>
+                    <td className="table_4" align="center">85</td>
+                    <td className="table_4" align="center">68</td>
+                    <td className="table_4" align="center">17</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Porutgués</td>
+                    <td className="table_4" align="center">614</td>
+                    <td className="table_4" align="center">260</td>
+                    <td className="table_4" align="center">208</td>
+                    <td className="table_4" align="center">52</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Totales</td>
+                    <td className="table_4" align="center">15.114</td>
+                    <td className="table_4" align="center">1.903</td>
+                    <td className="table_4" align="center">1.522</td>
+                    <td className="table_4" align="center">381</td>
+                </tr>
+
+
+                </table>
+
+
+
+
+
+
+
+
+
+
+                
                 <br />
                 <p>
                 La prioridad de <b>LEO</b> son los 380 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.            </p>
