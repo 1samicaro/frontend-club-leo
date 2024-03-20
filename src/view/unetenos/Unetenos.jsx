@@ -144,28 +144,28 @@ export default function Unetenos() {
                     <td className="table_4" align="center">12%</td>
                     <td className="table_4" align="center">$ 6.000</td>
                     <td className="table_4" align="center">400</td>
-                    <td className="table_4" align="center">$2´400.000</td>
+                    <td className="table_4" align="center">$2'400.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">III</td>
                     <td className="table_4" align="center">15%</td>
                     <td className="table_4" align="center">$ 7.500</td>
                     <td className="table_4" align="center">8.000</td>
-                    <td className="table_4" align="center">$60´400.000</td>
+                    <td className="table_4" align="center">$60'400.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">IV</td>
                     <td className="table_4" align="center">18%</td>
                     <td className="table_4" align="center">$ 9.000</td>
                     <td className="table_4" align="center">160.000</td>
-                    <td className="table_4" align="center">$1.440´000.000</td>
+                    <td className="table_4" align="center">$1.440'000.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Totales</td>
                     <td className="table_4" align="center">60%</td>
                     <td className="table_4" align="center">$30.000</td>
                     <td className="table_4" align="center">168.421</td>
-                    <td className="table_4" align="center">$1.502.493.000</td>
+                    <td className="table_4" align="center">$1.502'493.000</td>
                 </tr>
 
 
