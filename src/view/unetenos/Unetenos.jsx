@@ -276,7 +276,7 @@ export default function Unetenos() {
                     <td className="table_4" align="center">17</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Porutgués</td>
+                    <td className="table_4" align="center">Portugués</td>
                     <td className="table_4" align="center">614</td>
                     <td className="table_4" align="center">260</td>
                     <td className="table_4" align="center">208</td>
