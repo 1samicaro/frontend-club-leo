@@ -722,118 +722,158 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
     <div className="row" id="margin">
       
-    <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin"> 
-      {(language===1 || languageChange===1)&&<Link to="/AcercaDe">
-        <img id="photo"
+    <div className="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xxl-4" id="margin"> 
+    <div className="container_banner">
+      {(language===1 || languageChange===1)&&
+      
+      <Link to="/AcercaDe">
+        <img
           className="img-fluid"
           src={banner1}
           alt="First slide"
         
         />
-      </Link>}
-      {(language===2 || languageChange===2)&&<Link to="/AboutUs">
-        <img id="photo"
-          className="img-fluid"
-          src={banner1}
-          alt="First slide"
-        
-        />
-      </Link>}
-      {(language===3 || languageChange===3)&&<Link to="/AProposDeNous">
-        <img id="photo"
-          className="img-fluid"
-          src={banner1}
-          alt="First slide"
-        
-        />
-      </Link>}
-      {(language===4 || languageChange===4)&&<Link to="/SobreNos">
-        <img id="photo"
-          className="img-fluid"
-          src={banner1}
-          alt="First slide"
-        
-        />
-      </Link>}
-      {(language===5 || languageChange===5)&&<Link to="/ChiSiamo">
-        <img id="photo"
-          className="img-fluid"
-          src={banner1}
-          alt="First slide"
-        
-        />
-      </Link>}
-    </div>
+        <p> <b>Nosotros</b></p>
+      </Link>
+      }
+     
 
-    <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin">
-      <div className="card" id="photo">
+      
+      {(language===2 || languageChange===2)&&<Link to="/AboutUs">
+        <img
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+        <p> <b>About us</b></p>
+      </Link>}
+      
+
+      
+      {(language===3 || languageChange===3)&&<Link to="/AProposDeNous">
+        <img
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+        <p> <b>Nous</b></p>
+      </Link>}
+      
+
+      
+      {(language===4 || languageChange===4)&&<Link to="/SobreNos">
+        <img
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+        <p>
+          <b>Nós</b>
+        </p>
+      </Link>}
+      
+
+      
+      {(language===5 || languageChange===5)&&<Link to="/ChiSiamo">
+        <img
+          className="img-fluid"
+          src={banner1}
+          alt="First slide"
+        
+        />
+        <p><b>Noi</b></p>
+      </Link>}
+    
+
+    </div>
+  </div>  
+
+    <div className="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xxl-4" id="margin">
+      
+       <div className="container_banner">
       {(language===1 || languageChange===1)&&<Link to="/Unetenos">
-      <img id="photo"
+      <img
                     src={banner2}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
+                    <p><b>Invitados</b></p>
+
           </Link>}
+
       {(language===2 || languageChange===2)&&<Link to="/Joinus">
-      <img id="photo"
+      <img
                     src={banner2}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
+                    <p><b>Guests</b></p>
           </Link>}
+
       {(language===3 || languageChange===3)&&<Link to="/RejoignezNous">
-      <img id="photo"
+      <img 
                     src={banner2}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
+                    <p><b>Invités</b></p>
           </Link>}
+
       {(language===4 || languageChange===4)&&<Link to="/JunteSeANos">
-      <img id="photo"
+      <img 
                     src={banner2}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
+                    <p><b>Convidados</b></p>
           </Link>}
-      {(language===5 || languageChange===5)&&<Link to="/UniscitiANoi">
-      <img id="photo"
+
+      {(language===5 || languageChange===5)
+      &&<Link to="/UniscitiANoi">
+      <img 
                     src={banner2}
                     width="290"
                     height="550"
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
+                    <p><b>Ospiti</b></p>
           </Link>}
 
           
       
-      </div>
+          </div>
     </div>
 
-    <div className="col-sm-12 col-md-4 col-lg-4 col-sm-4 col-xl-4 col-xxl-4" id="margin">
-      <div className="card" id="photo">
-      {userInfo? <Link to="/Profile">
+    <div className="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xxl-4" id="margin">
+
+      <div className="container_banner">
+      {userInfo? (language===5 || languageChange===5)&&<Link to="/Profile">
         <img
           className="img-fluid"
           src={banner3}
           alt="First slide"
-          id="photo"
         />
+        <p><b>Ospiti</b></p>
       </Link>:
+
       <Link to="/SignUp">
         <img
           className="img-fluid"
           src={banner3}
           alt="First slide"
-          id="photo"
+          
         />
       </Link>}
         
