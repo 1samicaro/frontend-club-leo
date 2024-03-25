@@ -330,7 +330,6 @@ export default function Books() {
                 </div>} */}
             </div>
             </div>
-            <br />
 
             {userInfo.isSuscribed? <></> : <div className="container-fluid"  id="perfilForm">
                         <div className='perfil-usuario-footer'
