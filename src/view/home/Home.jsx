@@ -839,8 +839,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     <p><b>Convidados</b></p>
           </Link>}
 
-      {(language===5 || languageChange===5)
-      &&<Link to="/UniscitiANoi">
+      {(language===5 || languageChange===5)&&<Link to="/UniscitiANoi">
       <img 
                     src={banner2}
                     width="290"
@@ -859,22 +858,25 @@ P                 hone: 6014327879 +57 300 4727644 <br />
     <div className="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xxl-4" id="margin">
 
       <div className="container_banner">
-      {userInfo? (language===1 || languageChange===1)&&<Link to="/Profile">
+      {userInfo?  (language===1 || languageChange===1) &&<Link to="/Profile">
         <img
           className="img-fluid"
           src={banner3}
           alt="First slide"
+          
         />
-        <p><b>Mi perfil</b></p>
+        <p><b>Vincúlate</b></p>
+        
       </Link>:
-
       <Link to="/SignUp">
         <img
           className="img-fluid"
           src={banner3}
           alt="First slide"
+          
         />
         <p><b>Vincúlate</b></p>
+
       </Link>}
         
       </div>
