@@ -3,6 +3,8 @@ import Modal1 from '../../components/Modal1';
 import banner1 from "../../assets/banner1.jpg";
 import banner2 from "../../assets/banner2.jpg";
 import banner3 from "../../assets/banner3.jpg";
+import banner4 from "../../assets/banner4.jpg";
+
 import logo from '../../assets/logoleo.png'
 import { Link } from "react-router-dom";
 import "./Home.css"
@@ -535,7 +537,11 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   estado={estadoModal2}
                   cambiarEstado={cambiarEstadoModal2}
                 >
-                <h4 align="right">Politica y Seguridad de Usuarios</h4>
+
+
+                  {(language===1 || languageChange===1)&&
+                  <div className="container-fluid" >
+                   <h4 align="right">Politica y Seguridad de Usuarios</h4>
                 <ul align="right"> 
                   <li align="right">
                   •  <Link to="/Privacydata"><u id="titteblue">Tratamiento de datos</u></Link>
@@ -552,18 +558,104 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
                 </ul>
                 <br /> 
+                  </div>}
+
+                  {(language===2 || languageChange===2)&&
+                  <div className="container-fluid" >
+                   <h4 align="right">User and security policy</h4>
+                <ul align="right"> 
+                  <li align="right">
+                  •  <Link to="/Privacydata"><u id="titteblue">Data processing</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Terms" ><u id="titteblue">General terms and conditions</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Regulation" ><u id="titteblue">General Terms and Conditions</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Plan Amigos Rules and Regulations</u></Link>
+                  </li>
+
+                  </ul>
+                  <br /> 
+                  </div>}
+
+
+
+
+
+                  {(language===3 || languageChange===3)&&
+                  <div className="container-fluid" >
+                   <h4 align="right">Politique de l'utilisateur et sécurité</h4>
+                <ul align="right"> 
+                  <li align="right">
+                  •  <Link to="/Privacydata"><u id="titteblue">Traitement des données</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Terms" ><u id="titteblue">Conditions générales</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Regulation" ><u id="titteblue">Règles générales</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Règlement du plan d'amis</u></Link>
+                  </li>
+
+                </ul>
+                <br /> 
+                  </div>}
+
+
+                  
+
+                  {(language===4 || languageChange===4)&&
+                  <div className="container-fluid" >
+                   <h4 align="right">Política de utilizador e segurança</h4>
+                <ul align="right"> 
+                  <li align="right">
+                  •  <Link to="/Privacydata"><u id="titteblue">Processamento de dados</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Terms" ><u id="titteblue">Termos e condições</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Regulation" ><u id="titteblue">Regras gerais</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Regulamento do Plano de Amigos</u></Link>
+                  </li>
+
+                </ul>
+                <br /> 
+                  </div>}
+
+
+                  
+                  {(language===5 || languageChange===5)&&
+                  <div className="container-fluid" >
+                   <h4 align="right">Politica degli utenti e sicurezza</h4>
+                  <ul align="right"> 
+                  <li align="right">
+                  •  <Link to="/Privacydata"><u id="titteblue">Trattamento dei dati</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Terms" ><u id="titteblue">Termini e condizioni</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/Regulation" ><u id="titteblue">Regolamento generale</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Regolamento del Piano Amici
+                  </u></Link>
+                  </li>
+
+                </ul>
+                <br /> 
+                  </div>}
+               
               </Modal1>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-
-                
-
-
-
-
-
-
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
             </div>
             </div>
@@ -857,18 +949,18 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
     <div className="col-md-4 col-lg-4 col-sm-12 col-xl-4 col-xxl-4" id="margin">
 
-      <div className="container_banner">
-      {userInfo?  (language===1 || languageChange===1) &&<Link to="/Profile">
+    {(language===1 || languageChange===1)&&
+        <div className="container_banner" >
+        {userInfo? <Link to="/Profile">
         <img
           className="img-fluid"
-          src={banner3}
+          src={banner4}
           alt="First slide"
-          
         />
-        <p><b>Vincúlate</b></p>
+        <p><b>Mi cuenta</b></p>
         
-      </Link>:
-      <Link to="/SignUp">
+        </Link>:
+         <Link to="/SignUp">
         <img
           className="img-fluid"
           src={banner3}
@@ -878,8 +970,121 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         <p><b>Vincúlate</b></p>
 
       </Link>}
+       </div>}
+
+
+       {(language===2 || languageChange===2)&&
+        <div className="container_banner" >
+        {userInfo? <Link to="/Profile">
+        <img
+          className="img-fluid"
+          src={banner4}
+          alt="First slide"
+        />
+        <p><b>My account</b></p>
         
-      </div>
+        </Link>:
+         <Link to="/SignUp">
+        <img
+          className="img-fluid"
+          src={banner3}
+          alt="First slide"
+          
+        />
+        <p><b>Join us</b></p>
+
+      </Link>}
+       </div>}
+
+
+       {(language===3 || languageChange===3)&&
+        <div className="container_banner" >
+        {userInfo? <Link to="/Profile">
+        <img
+          className="img-fluid"
+          src={banner4}
+          alt="First slide"
+        />
+        <p><b>Mon compte</b></p>
+        
+        </Link>:
+         <Link to="/SignUp">
+        <img
+          className="img-fluid"
+          src={banner3}
+          alt="First slide"
+          
+        />
+        <p><b>Rejoignez-nous</b></p>
+
+      </Link>}
+       </div>}
+
+
+       {(language===4 || languageChange===4)&&
+        <div className="container_banner" >
+        {userInfo? <Link to="/Profile">
+        <img
+          className="img-fluid"
+          src={banner4}
+          alt="First slide"
+        />
+        <p><b>Minha conta</b></p>
+        
+        </Link>:
+         <Link to="/SignUp">
+        <img
+          className="img-fluid"
+          src={banner3}
+          alt="First slide"
+          
+        />
+        <p><b>Una-se a nós</b></p>
+
+      </Link>}
+       </div>}
+
+
+
+       {(language===5 || languageChange===5)&&
+        <div className="container_banner" >
+        {userInfo? <Link to="/Profile">
+        <img
+          className="img-fluid"
+          src={banner4}
+          alt="First slide"
+        />
+        <p><b>Il mio profilo</b></p>
+        
+        </Link>:
+         <Link to="/SignUp">
+        <img
+          className="img-fluid"
+          src={banner3}
+          alt="First slide"
+          
+        />
+        <p><b>Unitevi a noi</b></p>
+
+      </Link>}
+       </div>}
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+        
     </div>
 
 </div>
