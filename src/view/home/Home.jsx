@@ -687,8 +687,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <Link to="/" className="navbar-brand">
           <h4><b> Librería </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4> <b>   Aliados </b></h4>
+          <Link to="https://escritoresleo.com/" className="navbar-brand">
+          <h4> <b>   Escritores LEO </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
           <h4><b> Educación </b></h4>
@@ -713,8 +713,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <Link to="/" className="navbar-brand">
           <h4><b> Bookshop </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4> <b>   Allies </b></h4>
+          <Link to="https://escritoresleo.com/" className="navbar-brand">
+          <h4> <b>   Writers LEO </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
           <h4><b> Education </b></h4>
@@ -739,8 +739,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <Link to="/" className="navbar-brand">
           <h4><b> Librairie </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4> <b>   Alliés </b></h4>
+          <Link to="https://escritoresleo.com/" className="navbar-brand">
+          <h4> <b>   Écrivains LEO </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
           <h4><b> Éducation </b></h4>
@@ -763,10 +763,10 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Vamos ler</b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Livraria </b></h4>
+          <h4><b> Tienda LEO </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4> <b>   Aliados </b></h4>
+          <Link to="https://escritoresleo.com/" className="navbar-brand">
+          <h4> <b>   Escritores LEO </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
           <h4><b> Educação </b></h4>
@@ -791,8 +791,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <Link to="/" className="navbar-brand">
           <h4><b> Libreria </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4> <b>   Alleati </b></h4>
+          <Link to="https://escritoresleo.com/" className="navbar-brand">
+          <h4> <b>   Scrittori LEO </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
           <h4><b> Formazione scolastica </b></h4>
