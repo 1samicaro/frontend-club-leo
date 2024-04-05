@@ -691,7 +691,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Vamos a leer </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Librería </b></h4>
+          <h4><b> Tienda Leo </b></h4>
           </Link>
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Escritores LEO </b></h4>
@@ -717,7 +717,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Let's read </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Bookshop </b></h4>
+          <h4><b> Store Leo </b></h4>
           </Link>
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Writers LEO </b></h4>
@@ -743,7 +743,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Nous allons lire </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Librairie </b></h4>
+          <h4><b> Boutique Leo </b></h4>
           </Link>
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Écrivains LEO </b></h4>
@@ -769,7 +769,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Vamos ler</b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Tienda LEO </b></h4>
+          <h4><b> Loja LEO </b></h4>
           </Link>
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Escritores LEO </b></h4>
@@ -795,7 +795,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <h4> <b>   Leggiamo </b></h4>
           </Link>
           <Link to="/" className="navbar-brand">
-          <h4><b> Libreria </b></h4>
+          <h4><b> Negozio Leo </b></h4>
           </Link>
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Scrittori LEO </b></h4>
