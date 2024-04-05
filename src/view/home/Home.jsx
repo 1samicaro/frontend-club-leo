@@ -707,7 +707,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link> :<Link to="/books" className="navbar-brand">
           <h4> <b>  Biblioteca Demo </b></h4>
           </Link>}
-          <Link to="/" className="navbar-brand">
+          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Videos </b></h4>
           </Link>
         </div>}
@@ -733,7 +733,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link> :<Link to="/books" className="navbar-brand">
           <h4> <b>   Demo library </b></h4>
           </Link>}
-          <Link to="/" className="navbar-brand">
+          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Videos </b></h4>
           </Link>
         </div>}
@@ -759,7 +759,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link> :<Link to="/books" className="navbar-brand">
           <h4> <b>   Bibliothèque de démonstration </b></h4>
           </Link>}
-          <Link to="/" className="navbar-brand">
+          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Vidéos </b></h4>
           </Link>
         </div>}
@@ -785,7 +785,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link> :<Link to="/books" className="navbar-brand">
           <h4> <b>   Biblioteca de demonstração </b></h4>
           </Link>}
-          <Link to="/" className="navbar-brand">
+          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Vídeos </b></h4>
           </Link>
         </div>}
@@ -811,7 +811,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link> :<Link to="/books" className="navbar-brand">
           <h4> <b>  Libreria dimostrativa </b></h4>
           </Link>}
-          <Link to="/" className="navbar-brand">
+          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Video </b></h4>
           </Link>
         </div>}
