@@ -900,7 +900,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-                    <p><b>Invitados</b></p>
+                    <p><b>Plan amigos</b></p>
 
           </Link>}
 
@@ -912,7 +912,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-                    <p><b>Guests</b></p>
+                    <p><b>Friends plan</b></p>
           </Link>}
 
       {(language===3 || languageChange===3)&&<Link to="/RejoignezNous">
@@ -923,7 +923,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-                    <p><b>Invités</b></p>
+                    <p><b>Plan des amis</b></p>
           </Link>}
 
       {(language===4 || languageChange===4)&&<Link to="/JunteSeANos">
@@ -934,7 +934,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-                    <p><b>Convidados</b></p>
+                    <p><b>Plano de amigos</b></p>
           </Link>}
 
       {(language===5 || languageChange===5)&&<Link to="/UniscitiANoi">
@@ -945,7 +945,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                     className="img-fluid d-block mx-auto"
                     alt='logoMingga'
                     />
-                    <p><b>Ospiti</b></p>
+                    <p><b>Piano Amici</b></p>
           </Link>}
 
           
