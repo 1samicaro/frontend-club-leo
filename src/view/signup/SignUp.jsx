@@ -1008,7 +1008,7 @@ export default function SignUp() {
                         <input
                         className="form-control"
                         type="text" onChange={(e)=>payAccount("transferId", e)}/>
-                        <label htmlFor="floatingInput">Usuario o Número de cuenta</label>
+                        <label htmlFor="floatingInput">Número de cuenta o usuario </label>
                     </div>
                     :<></>}
 
@@ -1034,7 +1034,7 @@ export default function SignUp() {
                         className="form-control"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordComparation(e)}
                         />
-                        <label htmlFor="floatingInput">Contraseña que incluya mínimo 8 carácteres entre 1 símbolo especial, 1 mayúscula y 1 número</label>
+                        <label htmlFor="floatingInput">Contraseña. Mínimo 8 carácteres entre 1 símbolo especial, 1 mayúscula y 1 número</label>
 
                         {/* aqui empieza ese ojo, el onclick es el que hace que se dispare el evento de cambio para ver o no */}
                         <div className="position-absolute pointer pwd-icon flex-end" onClick={() => setShowPass(!showPass)}>

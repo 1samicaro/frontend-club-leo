@@ -188,13 +188,7 @@ function Paid() {
                     <li align="right">
                     <p>
                     - NEQUI <br />
-                    N° 3195297287
-                    </p>
-                    </li>
-                    <li align="right">
-                    <p>
-                    - DAVIPLATA  <br />
-                    N° 3195297287
+                    N° 3002673887
                     </p>
                     </li>
                     </ul>
@@ -245,7 +239,8 @@ function Paid() {
                 <h5>
                     Al elegir el método de pago directo, tu pago será verificado <br />
                     en un plazo máximo de 24 horas y recibirás un correo de <br />
-                    bienvenida como nuevo socio de CLUB LEO.<br />
+                    bienvenida como nuevo socio de CLUB LEO.
+                    <br />
             
                 </h5>
 

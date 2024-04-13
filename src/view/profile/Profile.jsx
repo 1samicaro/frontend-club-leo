@@ -364,10 +364,10 @@ export default function Profile() {
                                         <tbody>
                                             <tr className="colorFilas">
                                                 <th scope="row"></th>
-                                                <th className="colorFilaSelect" >Nivel II</th>
-                                                <th className="colorFilaSelect" >nivel III</th>
+                                                <th className="colorFilaSelect" >Nivel I</th>
+                                                <th className="colorFilaSelect" >nivel II</th>
+                                                <th className="colorFilaSelect">Nivel III</th>
                                                 <th className="colorFilaSelect">Nivel IV</th>
-                                                <th className="colorFilaSelect">Nivel V</th>
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
