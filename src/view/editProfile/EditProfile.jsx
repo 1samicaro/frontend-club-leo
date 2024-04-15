@@ -129,7 +129,7 @@ export default function EditProfile() {
 
     function passwordComparation(e){
         // const patron =  /(((?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]))|((?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]))|((?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])))(?=.{8,})/
-        const patron =  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}$/
+        const patron =  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$"@ñÑç|~€,;:¬`+´[º·_{}!%*?&.¿'¡()=/#-])[A-Za-z\d$@Ññç|"~€,;:¬`+´[º·_{}!%*?&.¿'¡()=/#-]{8,15}/
         // const patron =  /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/
         if(patron.test(e.target.value)){
             setPassValid(1)
@@ -158,7 +158,7 @@ export default function EditProfile() {
 
     const filterCities = (value) => {
         const inputValue = value.trim().toLowerCase()
-        const inputLength = inputValue.length
+        const inputLength = inputValue?.length
 
         var filtrado= citiesComplete.filter(city=>{
             var textoCompleto = city.name
@@ -265,22 +265,23 @@ export default function EditProfile() {
         e.preventDefault()
         setButtonStop(true)
         let errores = {}
-        if((input.RoleId === "4" && !input.docs)) errores.docs="Falta documento"
-        if(input.RoleId ==="4" && !input.Categories) errores.Categories="Ingrese servicios que ofrece"
-        if(input.Categories.length!==Object.keys(input.discount)?.length) errores.discount = "Ingrese descuentos a cada servicio"
+        // if((input.RoleId === "4" && !input.docs)) errores.docs="Falta documento"
+        // if(input.RoleId ==="4" && !input.Categories) errores.Categories="Ingrese servicios que ofrece"
+        // if(input.Categories?.length!==Object.keys(input.discount)?.length) errores.discount = "Ingrese descuentos a cada servicio"
         if(Object.keys(errores).length === 0){
-            if(input.RoleId==='4'){
-                const user = await editProfile(input, token)
-                if(user.data.message==='User updated'){
-                    notifyVendedor()
-                    setButtonStop(false)
-                    dispatch(userLogOut())
-                    setTimeout(() => {
-                        navigate('/')
-                    }, "3000");
-                }
-            }
+            // if(input.RoleId==='4'){
+            //     const user = await editProfile(input, token)
+            //     if(user.data.message==='User updated'){
+            //         notifyVendedor()
+            //         setButtonStop(false)
+            //         dispatch(userLogOut())
+            //         setTimeout(() => {
+            //             navigate('/')
+            //         }, "3000");
+            //     }
+            // }
             if(userInfo?.RoleId===3){
+                console.log(input);
                 const user = await editProfile(input, token)
                 if(user.data.message==='User updated'){
                     notify()
@@ -290,24 +291,24 @@ export default function EditProfile() {
                     }, "3000");
                 }
             }
-            if(userInfo?.RoleId===4){
-                if(representLastName){
-                    input.representName=[]
-                    input.representName.push(representLastName.lastName)
-                }
-                if(representName){
-                    input.representName=[]
-                    input.representName.push(representName.name)
-                }
-                const user = await editProfile(input, token)
-                if(user.data.message==='User updated'){
-                    notify()
-                    setButtonStop(false)
-                    setTimeout(() => {
-                        navigate('/Profile')
-                    }, "3000");
-                }
-            }
+            // if(userInfo?.RoleId===4){
+            //     if(representLastName){
+            //         input.representName=[]
+            //         input.representName.push(representLastName.lastName)
+            //     }
+            //     if(representName){
+            //         input.representName=[]
+            //         input.representName.push(representName.name)
+            //     }
+            //     const user = await editProfile(input, token)
+            //     if(user.data.message==='User updated'){
+            //         notify()
+            //         setButtonStop(false)
+            //         setTimeout(() => {
+            //             navigate('/Profile')
+            //         }, "3000");
+            //     }
+            // }
         }
         else{
             setErrors(errores)
