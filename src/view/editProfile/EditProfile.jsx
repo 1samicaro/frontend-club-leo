@@ -281,7 +281,6 @@ export default function EditProfile() {
             //     }
             // }
             if(userInfo?.RoleId===3){
-                console.log(input);
                 const user = await editProfile(input, token)
                 if(user.data.message==='User updated'){
                     notify()

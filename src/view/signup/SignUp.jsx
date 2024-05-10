@@ -58,7 +58,6 @@ export default function SignUp() {
 
     const [params] = useSearchParams()
     const inviteName = params.get("name") ?? ""
-    console.log(inviteName);
 
     async function country (){
         const [country, personType] = await Promise.all([
@@ -429,7 +428,6 @@ export default function SignUp() {
     //         setPreferenceId(id)
     //     }
     // }
-    console.log(input);
     const selectPay = [
         {label: 'MercadoPago', value: 'MercadoPago'},
         {label: 'payPal', value: 'PayPal'},
