@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Spinner from 'react-bootstrap/Spinner';
 import { getAdditionalType, getCities, getCountries, getDocumentType, getPersonType, register } from '../../services/registerService'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import logo from '../../assets/logoblack.png'
 
 import mercadoPago from "../../assets/mercado_pago.png"
@@ -51,6 +51,14 @@ export default function SignUp() {
     const [showPass, setShowPass] = useState(false)
 
     const dispatch = useDispatch()
+    // const user = useParams()
+    // console.log(user);
+    // const {search} = useLocation()
+    // console.log(search);
+
+    const [params] = useSearchParams()
+    const inviteName = params.get("name") ?? ""
+    console.log(inviteName);
 
     async function country (){
         const [country, personType] = await Promise.all([
@@ -337,7 +345,7 @@ export default function SignUp() {
                 setInput(prev=>({...prev, Partner:e.target.value}))
             }
             else{
-                setErrors(prev=>({...prev, Partner:"El socio que te invito ya concreto sus diez socios directos, ingresa un socio diferente o dejalo en blanco y continua "}))
+                setErrors(prev=>({...prev, Partner:"El socio que te invito ya concreto sus veinte socios directos, ingresa un socio diferente o dejalo en blanco y continua "}))
                 setPartner(true)
             }
         }
@@ -347,6 +355,7 @@ export default function SignUp() {
         }
     }
     async function handleInputUserName(e){
+        if(inviteName) setInput(prev=>({...prev, Partner:inviteName}))
         setErrors({})
         setIsLoading(false)
         const userSearch = await getSearchPerson(e.target.value)
@@ -420,7 +429,7 @@ export default function SignUp() {
     //         setPreferenceId(id)
     //     }
     // }
-
+    console.log(input);
     const selectPay = [
         {label: 'MercadoPago', value: 'MercadoPago'},
         {label: 'payPal', value: 'PayPal'},
@@ -658,7 +667,8 @@ export default function SignUp() {
             {loading? <Spinner animation="grow" variant="info" />:
             <div className="container-fluid"  id="registro">
                 <h1>Vinculate como socio del club mundial de lectura</h1>
-
+                <br />
+                <h2>Fuiste invitado por {inviteName}</h2>
                 <br/>
                 <br/>
                 <form id='login' className='formRegister'>
@@ -703,7 +713,7 @@ export default function SignUp() {
                             </select>
                             <label htmlFor="floatingInput">Ciudad</label>
                         </div>:<></>} */}
-                        {citiesComplete? <div className="form-floating mb-3">
+                        {/* {citiesComplete? <div className="form-floating mb-3">
                             <Autosuggest
                                 suggestions={cities}
                                 onSuggestionsFetchRequested={onSuggestionsFetchRequested}
@@ -713,7 +723,17 @@ export default function SignUp() {
                                 inputProps={inputProps}
                             />
                         </div>:<></>}
-                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>}
+                        {errors.CityId ? <span className='textError'>{errors.CityId}</span> : <></>} */}
+                        <br />
+                        {citiesComplete? <div>
+                            <select 
+                            class="form-select" aria-label="Default select example"
+                            onChange={(e)=>handleInputChange("CityId", e)}>
+                                <option value='----'> Selecciona ciudad </option>
+                                {cities?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}
+                            </select>
+                            {errors.CountryId ? <span className='textError'>{errors.CountryId}</span> : <></>}
+                        </div>:<></>}
                     </div>
 
 
@@ -1018,9 +1038,10 @@ export default function SignUp() {
                     :<></>}
 
                 <div>
+                <br />
                 <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
-                <div   class="input-group mb-3">
-                          <span class="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
+                    {inviteName? <></> :<div   class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
 
                         {/* <input
                         className="form-control"
@@ -1028,7 +1049,7 @@ export default function SignUp() {
                         <DebounceInput
                         type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         debounceTimeout={500} onChange={(e)=>handleInputSend(e)}/>
-                    </div>
+                    </div>}
 
                     {errors.Partner ? <span className='textError'>{errors.Partner}</span> : <></>}
 

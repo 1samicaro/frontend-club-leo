@@ -73,6 +73,14 @@ export default function Profile() {
     // return exists;
     // });
 
+    const copyInvited = async () =>{
+        try {
+            await navigator.clipboard.writeText(`https://www.clubleo.net/SignUp?name=${userInfo?.username}`)
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
     async function infoTransfers (){
         try{
             const historyTransactions = await getTransactions(token)
@@ -343,7 +351,13 @@ export default function Profile() {
                                 </div>
                                 <div className='lista-datos'>
                                 {userInfo.RoleId===3 &&
-                                    <li id="left"><i className='icon-imagen'></i><b></b> Socio</li>
+                                <div>
+                                    <li id="left"><i className='icon-imagen'></i>Vincula alguien mas, copia el siguiente enlace </li>
+                                    {/* <li id="left"><i className='icon-imagen'></i><b>www.clubleo.net/SignUp:{userInfo?.username}</b></li> */}
+                                    <li id="left"><i className='icon-imagen'></i><b>https://www.clubleo.net/SignUp?name={userInfo?.username}</b></li>
+                                    {/* <li>y compartelo <button className='contenedor-icono' onClick={copyInvited}><i className="bi bi-copy"></i></button></li> */}
+                                    <li>y compartelo <button className='btn btn-secondary sm' onClick={copyInvited}><i className="bi bi-copy">copiar</i></button></li>
+                                </div>
                                 }
                                 {userInfo.RoleId===4 &&
                                     <li id="left"><i className='icon-imagen'></i><b></b>Socio</li>

@@ -65,7 +65,10 @@
 }
 
 
-
+.contenedor-icono i{
+    font-size: 100%;
+    color: gray;
+}
 
 
 .seccion-perfil-usuario .perfil-usuario-body,
