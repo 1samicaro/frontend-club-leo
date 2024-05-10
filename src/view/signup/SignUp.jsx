@@ -668,14 +668,13 @@ export default function SignUp() {
                     <div >
                     <label className="l-01"> <h5>Tipo de socio</h5></label>
 
-                    <div className="form-floating mb-3">
-                        <select name='select'
-                        className="form-control"
+                    <div>
+                        <select
+                        class="form-select" aria-label="Default select example"
                         onChange={(e)=>additionalTypeInfo("PersonTypeId",e)}>
-                            <option value='----'> ---- </option>
+                            <option value='----'> Selecciona tipo de persona </option>
                             {input.RoleId === "4"? personType?.map((type)=> { return type.name==="Juridica"?<option value={type.id} key={type.id}>{type.name}</option>  :<option value={type.id} key={type.id}>{type.name}</option>}):personType?.map((type)=><option value={type.id} key={type.id}>{type.name}</option>)}
                         </select>
-                        <label htmlFor="floatingInput">Persona</label>
                     </div>
                         {errors.PersonTypeId ? <span className='textError'>{errors.PersonTypeId}</span> : <></>}
 
@@ -685,14 +684,13 @@ export default function SignUp() {
                     <div >
                         <label className="l-01"> <h5>Lugar de residencia</h5></label>
 
-                        <div className="form-floating mb-3">
-                            <select name='select'
-                            className="form-control"
+                        <div>
+                            <select 
+                            class="form-select" aria-label="Default select example"
                             onChange={(e)=>countrySelect("CountryId",e)}>
-                                <option value='----'> ---- </option>
+                                <option value='----'> Selecciona país </option>
                                 {countries?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}
                             </select>
-                            <label htmlFor="floatingInput">País</label>
                             {errors.CountryId ? <span className='textError'>{errors.CountryId}</span> : <></>}
                         </div>
 
@@ -728,51 +726,58 @@ export default function SignUp() {
                      {/* {input.PersonTypeId === 1 && nombreEmpresa()} */}
                     {input.PersonTypeId === "1" &&
                     <div>
-                        <div className="form-floating mb-3">
+                        <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Nombre de la empresa</span>
+
                             <input
-                            className="form-control"
-                            type="text" onChange={(e)=>userName("name", e)}/>
-                            <label htmlFor="floatingInput">Nombre de la empresa</label>
+                            type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            onChange={(e)=>userName("name", e)}/>
                         </div>
                             {errors.name ? <span className='textError'>{errors.name}</span> : <></>}
                     </div>
                     }
                     {input.PersonTypeId === "2" &&
                         <div>
-                            <div className="form-floating mb-3">
+                            <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Nombres</span>
+
                                 <input
-                                className="form-control"
+                                class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 type="text" onChange={(e)=>userName("name", e)}/>
-                                <label htmlFor="floatingInput">Nombres</label>
                             </div>
                                 {errors.name ? <span className='textError'>{errors.name}</span> : <></>}
-                            <div className="form-floating mb-3">
+                           
+                            <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
+
                                 <input
-                                className="form-control"
+                                class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 type="text" onChange={(e)=>userLastName("lastName", e)}/>
-                                <label htmlFor="floatingInput">Apellidos</label>
                             </div>
                                 {errors.lastName ? <span className='textError'>{errors.lastName}</span> : <></>}
                                 {errors.lastName2 ? <span className='textError'>{errors.lastName2}</span> : <></>}
                         </div>
                     }
 
-                    <div className="form-floating mb-3">
-                        <select name='select'
-                        className="form-control"
+                    <div>
+                        <select 
+                        class="form-select" aria-label="Default select example"
                         onChange={(e)=>handleInputChange("DocumentTypeId", e)}>
-                            <option> ---- </option>
+                            <option value='----'> Tipo de documento </option>
                             {document?.map((document)=> <option value={document.id} key={document.id}>{document.name}</option>)}
                         </select>
-                        <label htmlFor="floatingInput">Tipo de documento</label>
                     </div>
                         {errors.DocumentTypeId ? <span className='textError'>{errors.DocumentTypeId}</span> : <></>}
+                        <br />
 
-                    <div className="form-floating mb-3">
+
+
+                    <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Número de documento</span>
+
                         <input
-                        className="form-control"
-                        type="text" onChange={(e)=>handleInputChange("documentNumber", e)}/>
-                        <label htmlFor="floatingInput">Número de documento</label>
+                        input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        onChange={(e)=>handleInputChange("documentNumber", e)}/>
                     </div>
                     {errors.documentNumber ? <span className='textError'>{errors.documentNumber}</span> : <></>}
 
@@ -826,12 +831,13 @@ export default function SignUp() {
                         {fileName.length? fileName.map(file=> <span className='textValid'>Archivo: {file}, </span> ): <></>}
                     </div>:<></>}
 
-                        <div className="form-floating mb-3">
+                        <div class="input-group mb-3">
+                        {input.PersonTypeId === "2"?  <span class="input-group-text" id="inputGroup-sizing-default">Fecha de nacimiento</span>:  <span class="input-group-text" id="inputGroup-sizing-default">Fecha de constitución</span>}
                         <input
-                        className="form-control"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="date" onChange={(e)=>date("birthDate", e)}/>
-                        {input.PersonTypeId === "2"?<label htmlFor="floatingInput">Fecha de nacimiento</label>:<label htmlFor="floatingInput">Fecha de constitución</label>}
-                    </div>
+                        </div>
+
                         {errors.birthDate ? <span className='textError'>{errors.birthDate}</span> : <></>}
                         {permission?
                         <div className="form-floating mb-3">
@@ -854,33 +860,33 @@ export default function SignUp() {
                         </div>:<></>}
 
 
-                        <div className="form-floating mb-3">
-                        <select name='select'
-                        className="form-control"
+                        <div>
+                        <select 
+                        class="form-select" aria-label="Default select example"
                         onChange={(e)=>handleInputChange("AdditionalTypeId", e)}>
-                            <option> ---- </option>
+                            {input.PersonTypeId === "2"?<option value='----'> Género </option>:<option value='----'> Tipo de empresa </option>}
                             {additionalType?.map((type)=> <option value={type.id} key={type.id}>{type.name}</option>)}
                         </select>
-                        {input.PersonTypeId === "2"?<label htmlFor="floatingInput">Genero</label>:<label htmlFor="floatingInput">Tipo de empresa</label>}
                     </div>
                         {errors.AdditionalTypeId ? <span className='textError'>{errors.AdditionalTypeId}</span> : <></>}
 
+                        <br />
 
-                        <div  className="form-floating mb-3">
+                        <div  class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Correo electrónico</span>
                             <input
-                            className="form-control"
-                            type="email" onChange={(e)=>handleInputChange("email", e)}/>
-                            <label htmlFor="floatingInput">Correo electrónico</label>
+                            input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            onChange={(e)=>handleInputChange("email", e)}/>
                         </div>
                         {errors.email ? <span className='textError'>{errors.email}</span> : <></>}
 
 
 
-                        <div className="form-floating mb-3">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Número de contacto</span>
                             <input
-                            className="form-control"
-                            type="number" onChange={(e)=>handleInputChange("phone", e)}/>
-                            <label htmlFor="floatingInput">Número teléfono celular</label>
+                            input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            onChange={(e)=>handleInputChange("phone", e)}/>
                         </div>
                         {errors.phone ? <span className='textError'>{errors.phone}</span> : <></>}
 
@@ -993,15 +999,14 @@ export default function SignUp() {
 
                     <div>
                         <label className="l-01"> <h5>Por que medio desea recibir los beneficios</h5></label>
-                        <div className="form-floating mb-3">
-                            <select name='select'
-                            className="form-control"
+                        <div>
+                            <select 
+                            class="form-select" aria-label="Default select example"
                             onChange={(e)=>paySelect("transferType",e)}
                         >
-                                <option value='----'> ---- </option>
+                                <option value='----'> Sitio para pagarte </option>
                                 {selectPay?.map((pay)=> <option value={pay.value} key={pay.value}>{pay.label}</option>)}
                             </select>
-                            <label htmlFor="floatingInput">Sitio a pago</label>
                         </div>
                     </div>
                     {numberPay? <div  className="form-floating mb-3">
@@ -1014,28 +1019,61 @@ export default function SignUp() {
 
                 <div>
                 <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
-                <div  className="form-floating mb-3">
+                <div   class="input-group mb-3">
+                          <span class="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
+
                         {/* <input
                         className="form-control"
                         type="text" onChange={(e)=>handleInputChange("Partner", e)}/> */}
-                        <DebounceInput className="form-control" debounceTimeout={500} onChange={(e)=>handleInputSend(e)}/>
-                        <label htmlFor="floatingInput">Usuario que te invita</label>
+                        <DebounceInput
+                        type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        debounceTimeout={500} onChange={(e)=>handleInputSend(e)}/>
                     </div>
+
                     {errors.Partner ? <span className='textError'>{errors.Partner}</span> : <></>}
-                    <div className="form-floating mb-3">
-                        <DebounceInput className="form-control" debounceTimeout={500} onChange={(e)=>handleInputUserName(e)}/>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Crea tu usuario</span>
+
+                        <DebounceInput className="form-control" 
+                        type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        debounceTimeout={500} onChange={(e)=>handleInputUserName(e)}/>
                         {/* <input className="form-control" type="text" onChange={(e)=>handleInputChange("username", e)}/> */}
-                        <label htmlFor="floatingInput">Crea tu usuario</label>
                     </div>
                         {errors.username ? <span className='textError'>{errors.username}</span> : <></>}
 
-                    <div className="form-floating mb-3">
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
                         <input
-                        className="form-control"
+                        className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordComparation(e)}
                         />
-                        <label htmlFor="floatingInput">Contraseña. Mínimo 8 carácteres entre 1 símbolo especial, 1 mayúscula y 1 número</label>
+                         </div>
 
+
+                        {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
+                        {passValid===1?<span className='textValid'>Contraseña valida</span> : <></>}
+                        {passValid===2?<span className='textError'>La contraseña no cumple con lo solicitado</span>:<></>}
+
+
+                    {/* Por favor validar la contraseña que coincida
+                    y tener en cuenta requisitos del backend
+                    1 caracter especial, 1 matuscula, minimo 8 caracteres y 1 numero
+
+                    */}
+                    
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Confirmar contraseña</span>
+                        <input
+                        className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        type={showPass ? "text" : "password"} onChange={(e)=>passwordVerificated("password", e)}/>
+                    </div>
+                        {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
+
+
+                        
+                        
                         {/* aqui empieza ese ojo, el onclick es el que hace que se dispare el evento de cambio para ver o no */}
                         <div className="position-absolute pointer pwd-icon flex-end" onClick={() => setShowPass(!showPass)}>
                             {showPass ? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height={"1.5rem"}>
@@ -1049,27 +1087,11 @@ export default function SignUp() {
                         </div>
                         {/* aqui termina */}
 
-                    </div>
+                        <br />
+                        <br />
+                        <br />
 
-                        {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
-                        {passValid===1?<span className='textValid'>Contraseña valida</span> : <></>}
-                        {passValid===2?<span className='textError'>La contraseña no cumple con lo solicitado</span>:<></>}
-
-
-                    {/* Por favor validar la contraseña que coincida
-                    y tener en cuenta requisitos del backend
-                    1 caracter especial, 1 matuscula, minimo 8 caracteres y 1 numero
-
-                    */}
-                    <br />
-                    <br />
-                    <div className="form-floating mb-3">
-                        <input
-                        className="form-control"
-                        type={showPass ? "text" : "password"} onChange={(e)=>passwordVerificated("password", e)}/>
-                        <label htmlFor="floatingInput">Confirmar contraseña</label>
-                    </div>
-                        {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
+                    
                     {/* {input.RoleId === "4" && input.Categories?.length>0? input.Categories.map((info, index)=><div key={index} className="form-floating mb-3">
                         <DebounceInput className="form-control" debounceTimeout={500}
                         type="number" onChange={(e)=>handleInputDiscount(info, e)}/>
@@ -1095,6 +1117,7 @@ export default function SignUp() {
                     :<></>}
 
                     {preferenceId && <Wallet initialization={{preferenceId}}/>} */}
+
 
 
                     <div className="container text-center">
