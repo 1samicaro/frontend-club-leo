@@ -668,12 +668,15 @@ export default function SignUp() {
                 <br />
                 <h4><em>Eres invitado por {inviteName}</em></h4>
                 <br/>
-                <br/>
                 <form id='login' className='formRegister'>
 
 
                         {errors.RoleId ? <span className='textError'>{errors.RoleId}</span> : <></>}
                     <div >
+                        
+                    <label className="l-01"> <h6> <b></b>Diligencia por favor todos los datos</h6></label>
+                    <br />
+
                     <label className="l-01"> <h6> Tipo de socio</h6></label>
 
                     <div>
@@ -733,7 +736,7 @@ export default function SignUp() {
                             {errors.CountryId ? <span className='textError'>{errors.CountryId}</span> : <></>}
                         </div>:<></>}
                     </div>
-
+                  
 
                 <div>
 
