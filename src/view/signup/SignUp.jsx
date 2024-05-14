@@ -664,9 +664,9 @@ export default function SignUp() {
             </nav>
             {loading? <Spinner animation="grow" variant="info" />:
             <div className="container-fluid"  id="registro">
-                <h1>Vinculate como socio del club mundial de lectura</h1>
+                <h3><b>Vincúlate como socio del Club Mundial de Lectura</b></h3>
                 <br />
-                <h2>Fuiste invitado por {inviteName}</h2>
+                <h4><em>Eres invitado por {inviteName}</em></h4>
                 <br/>
                 <br/>
                 <form id='login' className='formRegister'>
@@ -674,7 +674,7 @@ export default function SignUp() {
 
                         {errors.RoleId ? <span className='textError'>{errors.RoleId}</span> : <></>}
                     <div >
-                    <label className="l-01"> <h5>Tipo de socio</h5></label>
+                    <label className="l-01"> <h6> Tipo de socio</h6></label>
 
                     <div>
                         <select
@@ -690,7 +690,7 @@ export default function SignUp() {
 
 
                     <div >
-                        <label className="l-01"> <h5>Lugar de residencia</h5></label>
+                        <label className="l-01"> <h6>Lugar de residencia</h6></label>
 
                         <div>
                             <select 
@@ -738,7 +738,7 @@ export default function SignUp() {
                 <div>
 
 
-                <label className="l-01"> <h5>Datos</h5></label>
+                <label className="l-01"> <h6>Datos</h6></label>
 
 
                      {/* {input.PersonTypeId === 1 && nombreEmpresa()} */}
@@ -1016,7 +1016,7 @@ export default function SignUp() {
                     </div>:<></>} */}
 
                     <div>
-                        <label className="l-01"> <h5>Por que medio desea recibir los beneficios</h5></label>
+                        <label className="l-01"> <h6>Por cuál medio deseas recibir los beneficios</h6></label>
                         <div>
                             <select 
                             class="form-select" aria-label="Default select example"
@@ -1027,17 +1027,19 @@ export default function SignUp() {
                             </select>
                         </div>
                     </div>
-                    {numberPay? <div  className="form-floating mb-3">
+                    <br />
+                    <div>
+                    {numberPay? <div  class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Número de cuenta o usuario</span>
                         <input
-                        className="form-control"
+                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="text" onChange={(e)=>payAccount("transferId", e)}/>
-                        <label htmlFor="floatingInput">Número de cuenta o usuario </label>
                     </div>
                     :<></>}
-
+                    </div>
                 <div>
                 <br />
-                <label className="l-01"> <h5>Datos de vinculación a Club Leo</h5></label>
+                <label className="l-01"> <h6>Datos de vinculación a Club Leo</h6></label>
                     {inviteName? <></> :<div   class="input-group mb-3">
                         <span class="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
 
@@ -1060,6 +1062,10 @@ export default function SignUp() {
                         {/* <input className="form-control" type="text" onChange={(e)=>handleInputChange("username", e)}/> */}
                     </div>
                         {errors.username ? <span className='textError'>{errors.username}</span> : <></>}
+
+                    <div className="container text-center">
+                    Tu contraseña por seguridad debe contener mínimo 8 carácteres, que incluye una mayúscula, un número y un carácter especial
+                    </div>    
 
 
                     <div class="input-group mb-3">
@@ -1140,7 +1146,7 @@ export default function SignUp() {
 
 
                     <div className="container text-center">
-                    * Cualquier información falsa o incorrecta dará lugar a la anulación de la vinculación.
+                    Cualquier información falsa o incorrecta dará lugar a la anulación de la vinculación.
                     </div>
                     <br />
 

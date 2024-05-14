@@ -1,5 +1,5 @@
 .contenedor_registro{
-    background-image: url("../../assets/fondo3.jpg");
+    background-color:lightblue;
     background-size: cover;   
     background-position: center center;
    
@@ -20,7 +20,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: lightskyblue;
+    background-color: LightSteelBlue;
 }
 
 ul {
