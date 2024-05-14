@@ -1064,7 +1064,7 @@ export default function SignUp() {
                         {errors.username ? <span className='textError'>{errors.username}</span> : <></>}
 
                     <div className="container text-center">
-                    Tu contraseña por seguridad debe contener mínimo 8 carácteres, que incluye una mayúscula, un número y un carácter especial
+                    Tu contraseña por seguridad debe tener mínimo 8 carácteres, que incluye una mayúscula, un número y un carácter especial
                     </div>    
 
 
