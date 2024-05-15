@@ -141,13 +141,13 @@ function Paid() {
                     />
                 </Link>
             </nav>
-            <div className="container-fluid"  id="registro">
+            <div className="container-fluid">
             <h4>Realiza tu pago a través de alguno de los siguientes métodos</h4>
             <br />
 
                 <ul>
                     <li> <h5> <b>Detalle: </b>Pago anual Club Leo</h5></li>
-                    <li><h5><b>Precio: </b>$50.000 (12.5 USD)</h5></li>
+                    <li><h5><b>Precio: </b>$60.000 (15.71 USD)</h5></li>
                 </ul>
                 <br />
 
@@ -173,9 +173,10 @@ function Paid() {
             </div>
             <br />
 
+             {/*
             <div>
                 <br />
-
+                  
                 <Link class="btn btn-primary"
                     onClick={()=> cambiarEstadoModal1(!estadoModal1)}
                 > <h3>Pago Directo</h3>
@@ -232,7 +233,10 @@ function Paid() {
                     <br /> 
                 </Modal1>
             </div>
+            */}
   
+
+            {/*
             <br />
             <br />
             <div className="aviso">
@@ -247,6 +251,7 @@ function Paid() {
 
 
             </div>
+        */}
 
 
             
