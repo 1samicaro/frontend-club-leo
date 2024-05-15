@@ -52,7 +52,7 @@ export default function Unetenos() {
             <b> LEO Club Mundial de Lectura</b> tiene como misión mejorar el nivel educativo y cultural de las personas para fortalecer sus competencias comunicativas y aumentar sus posibilidades de éxito académico, laboral y social. 
             </p>
             <p>
-            <b>LEO</b> se financia con la cuota anual de $50.000 que pagamos los socios, que nos permite acceder todo un año a los programas y servicios de promoción de la lectura, escritura y multilingüismo, sin tener que realizar ningún pago adicional.           </p>
+            <b>LEO</b> se financia con la cuota anual de $60.000 que pagamos los socios, que nos permite acceder todo un año a los programas y servicios de promoción de la lectura, escritura y multilingüismo, sin tener que realizar ningún pago adicional.           </p>
             <p>
             Por esta razón, <b>LEO</b> necesita crecer en todo el mundo, y para lograrlo, ha creado el <b>Plan Amigos</b>, un Programa de Referidos que convoca a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo: <b>Invitar a los amigos a vincularse como socios, con un máximo de 20 invitados.</b></p>
             <p>
@@ -114,7 +114,7 @@ export default function Unetenos() {
             </h3>
             <br />
             <p>
-            De los $50.000 de cuota de afiliación, <b>LEO</b> destina el 60% ($30.000) para retribuir el trabajo de invitación que realizan sus socios, ingreso que crecerá sucesivamente con los nuevos invitados, generando un ingreso anual muy importante, como se detalla en el siguiente cuadro:           </p>
+            De los $60.000 de cuota de afiliación, <b>LEO</b> destina el 60% ($36.000) para retribuir el trabajo de invitación que realizan sus socios, ingreso que crecerá sucesivamente con los nuevos invitados, generando un ingreso anual muy importante, como se detalla en el siguiente cuadro:           </p>
             
             
             <table className="table_1" align="center"> 
@@ -305,7 +305,7 @@ export default function Unetenos() {
                 
                 <br />
                 <p>
-                La prioridad de <b>LEO</b> son los 380 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.            </p>
+                La prioridad de <b>LEO</b> son los 380 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $60.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.            </p>
                 <br />
                 <h4 id="titulo" align="center"> <b> <h2> <b>Plan Amigos</b></h2>
                 Una valiosa oportunidad para construir la independencia económica, de por vida <br />
