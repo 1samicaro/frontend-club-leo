@@ -1155,7 +1155,7 @@ export default function SignUp() {
 
                     <div className="container text-center">
                     Al hacer clic en <b>Registrarse</b>, aceptas los
-                    <a href="/" className="m-0"> Términos y condiciones de uso</a> de Club Leo.
+                    <a href="/Terms" className="m-0"> Términos y condiciones de uso</a> de Club Leo.
                     </div>
                     <br />
 
