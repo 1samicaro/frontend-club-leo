@@ -128,44 +128,44 @@ export default function Unetenos() {
                 <tr className="table_2">
                     <td className="table_4" align="center">Yo</td>
                     <td className="table_4" align="center">6%</td>
-                    <td className="table_4" align="center">$ 3.000</td>
+                    <td className="table_4" align="center">$ 3.600</td>
                     <td className="table_4" align="center">1</td>
-                    <td className="table_4" align="center">$ 3.000</td>
+                    <td className="table_4" align="center">$ 3.600</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">I (Mis 20 invitados) </td>
                     <td className="table_4" align="center">9%</td>
-                    <td className="table_4" align="center">$ 4.500</td>
+                    <td className="table_4" align="center">$ 5.400</td>
                     <td className="table_4" align="center">20</td>
-                    <td className="table_4" align="center">$ 90.000</td>
+                    <td className="table_4" align="center">$ 108.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">II</td>
                     <td className="table_4" align="center">12%</td>
-                    <td className="table_4" align="center">$ 6.000</td>
+                    <td className="table_4" align="center">$ 7.200</td>
                     <td className="table_4" align="center">400</td>
-                    <td className="table_4" align="center">$2'400.000</td>
+                    <td className="table_4" align="center">$2'880.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">III</td>
                     <td className="table_4" align="center">15%</td>
-                    <td className="table_4" align="center">$ 7.500</td>
+                    <td className="table_4" align="center">$ 9.000</td>
                     <td className="table_4" align="center">8.000</td>
-                    <td className="table_4" align="center">$60'400.000</td>
+                    <td className="table_4" align="center">$72'000.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">IV</td>
                     <td className="table_4" align="center">18%</td>
-                    <td className="table_4" align="center">$ 9.000</td>
+                    <td className="table_4" align="center">$ 10.800</td>
                     <td className="table_4" align="center">160.000</td>
-                    <td className="table_4" align="center">$1.440'000.000</td>
+                    <td className="table_4" align="center">$1.728'000.000</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Totales</td>
                     <td className="table_4" align="center">60%</td>
-                    <td className="table_4" align="center">$30.000</td>
+                    <td className="table_4" align="center">$36.000</td>
                     <td className="table_4" align="center">168.421</td>
-                    <td className="table_4" align="center">$1.502'493.000</td>
+                    <td className="table_4" align="center">$1.802'991.600</td>
                 </tr>
 
 
