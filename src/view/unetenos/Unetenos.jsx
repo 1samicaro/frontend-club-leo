@@ -107,7 +107,7 @@ export default function Unetenos() {
             <p>
             •	El socio invita a otras personas a vincularse a <b>LEO</b>, y al diligenciar el formulario, registran el usuario del socio promotor; el sistema los vincula en su red personal de amigos RPA, de por vida.           </p>
             <p>
-            •	El sistema automáticamente distribuye el 60% del valor de la cuota de afiliación ($30.000) entre la RPA del nuevo socio. Este ingreso se acumula en tiempo real en su Cuenta Personal, y al fin de mes es girado a su cuenta financiera. Durante el mes, con sus ingresos, el socio pude comprar los libros, bienes y servicios ofrecidos por los aliados de LEO.           </p>
+            •	El sistema automáticamente distribuye el 60% del valor de la cuota de afiliación ($36.000) entre la RPA del nuevo socio. Este ingreso se acumula en tiempo real en su Cuenta Personal, y al fin de mes es girado a su cuenta financiera. Durante el mes, con sus ingresos, el socio pude comprar los libros, bienes y servicios ofrecidos por los aliados de LEO.           </p>
             <br />
             <h3 id="titulo" align="center"> <b>Cuanto puedo ganar si organizo mí RPA?<br />
             </b> 
@@ -179,7 +179,7 @@ export default function Unetenos() {
                 
                 <br />
                 <p>
-                Este será el resultado de mi trabajo: Una vez organice mi b <b>RPA</b>, podré tener un ingreso anual de $1.500 millones, que será de por vida, porque <b>LEO</b> nos reconoce tanto el ingreso como las renovaciones anuales.
+                Este será el resultado de mi trabajo: Una vez organice mi <b>RPA</b>, podré tener un ingreso anual de $1.802 millones, que será de por vida, porque <b>LEO</b> nos reconoce tanto el ingreso como las renovaciones anuales.
                 </p>
                 <p>
                 Un trabajo fácil, sencillo y rápido, para lograr un gran objetivo:<b>la independencia económica, de por vida.</b>
