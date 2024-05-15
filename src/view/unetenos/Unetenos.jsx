@@ -37,8 +37,9 @@ export default function Unetenos() {
             </h3>
 
             <br />
-            <div >
-                <img
+            <div   align="center">
+                <img 
+                id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
                 height="250"
@@ -86,8 +87,9 @@ export default function Unetenos() {
             •	El retiro libre y voluntario, en cualquier momento, sin ningún requisito.
             </p>
             <br />
-            <div>
+            <div align="center">
                 <img
+                id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
                 height="450"            
@@ -212,8 +214,9 @@ export default function Unetenos() {
                 <p>
                 Es sencilla. Se llama la <b><a href="https://www.tiempo.com/noticias/ciencia/el-mundo-es-un-panuelo-conoce-la-teoria-de-los-6-grados-de-separacion.html#:~:text=Se%20cree%20que%20cada%20persona%20conoce%20en%20promedio%20a%20unas%20100%20personas.&text=La%20teor%C3%ADa%20de%20los%206%20grados%">teoría de los seis grados de separación</a></b>: indica que todos estamos conectados a cualquier otra persona del planeta a través de una cadena con sólo 6 enlaces. Según las estadísticas, cada uno conoce en promedio a 100 personas, por lo que con solo 6 enlaces o pasos de integración, se puede conectar a toda la humanidad. Y esto es posible gracias a internet, en tiempo real.             </p>
                 <br />
-            <div>
+            <div align="center">
                 <img
+                id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados3}
                 height="450"
