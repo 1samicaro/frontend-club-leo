@@ -149,24 +149,27 @@ export default function Books() {
                 books.sort((x, y) => x.name.localeCompare(y.name))
                 const demoBooks = books.slice(0,100)
                 const recommend = demoBooks.filter(r => r.isFree===true)
-                dispatch(recomendedAction(recommend))
+                const image = books.filter(r => r.image!=="")
+                // dispatch(recomendedAction(image))
+                dispatch(recomendedAction(image))
                 setIsLoading(false)
                 // dispatch(booksInfo(demoBooks))
                 const demoBooks1 = demoBooks.slice(0,40)
                 dispatch(booksInfo(demoBooks1))
                 dispatch(booksCatalogoAction(demoBooks))
                 dispatch(booksCopyAction(demoBooks))
-                dispatch(recomendedAction(recommend))
+                // dispatch(recomendedAction(recommend))
             }
             else {
                 setIsLoading(false)
                 // dispatch(booksInfo(books))
                 const recommend = books.filter(r => r.isFree===true)
                 const demoBooks = books.slice(0,40)
+                const image = books.filter(r => r.image!=="")
+                dispatch(recomendedAction(image))
                 dispatch(booksInfo(demoBooks))
                 dispatch(booksCatalogoAction(books))
                 dispatch(booksCopyAction(books))
-                dispatch(recomendedAction(recommend))
             }
         }
         const [genres, countries, authors] = await Promise.all([
