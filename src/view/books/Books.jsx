@@ -133,6 +133,7 @@ export default function Books() {
     const countries = useSelector(state=> state.stateReducers?.countries)
     const authors = useSelector(state=> state.stateReducers?.authors)
     const recommended = useSelector(state=>state.recommendedReducer?.recommended)
+    console.log(recommended);
 
     let demo = true
     if(userInfo.isSuscribed){
@@ -146,18 +147,18 @@ export default function Books() {
         const books = await getBooks(Number(e.target.value))
         if(books?.length>0){
             if(demo){
+                const image = books.filter(r => r.image!=="")
+                dispatch(recomendedAction(image))
                 books.sort((x, y) => x.name.localeCompare(y.name))
                 const demoBooks = books.slice(0,100)
                 const recommend = demoBooks.filter(r => r.isFree===true)
-                const image = books.filter(r => r.image!=="")
                 // dispatch(recomendedAction(image))
-                dispatch(recomendedAction(image))
-                setIsLoading(false)
                 // dispatch(booksInfo(demoBooks))
                 const demoBooks1 = demoBooks.slice(0,40)
                 dispatch(booksInfo(demoBooks1))
                 dispatch(booksCatalogoAction(demoBooks))
                 dispatch(booksCopyAction(demoBooks))
+                setIsLoading(false)
                 // dispatch(recomendedAction(recommend))
             }
             else {

@@ -94,21 +94,25 @@ export default function Home() {
       dispatch(getCountry(country))
       if(books?.length>0){
         if(demo){
+            const image = books.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
             books.sort((x, y) => x.name.localeCompare(y.name))
             const demoBooks = books.slice(0,100)
-            const recommend = demoBooks.filter(r => r.isFree===true)
+            // const recommend = demoBooks.filter(r => r.isFree===true)
             const filterCountry = demoBooks.filter(g => g.CountryId===17)
             const filterAuthor = filterCountry.filter(g => g.GenreId===15)
-            dispatch(recomendedAction(recommend))
+            // dispatch(recomendedAction(recommend))
             dispatch(booksInfo(filterAuthor))
             dispatch(booksCatalogoAction(demoBooks))
             dispatch(booksCopyAction(demoBooks))
         }
         else {
+            const image = books.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
             const filterCountry = books.filter(g => g.CountryId===17)
             const filterAuthor = filterCountry.filter(g => g.GenreId===29)
-            const recommend = books.filter(r => r.isFree===true)
-            dispatch(recomendedAction(recommend))
+            // const recommend = books.filter(r => r.isFree===true)
+            // dispatch(recomendedAction(recommend))
             dispatch(booksInfo(filterAuthor))
             dispatch(booksCatalogoAction(books))
             dispatch(booksCopyAction(books))
@@ -123,27 +127,31 @@ export default function Home() {
     const books = await getBooks(Number(e.target.value))
     if(books?.length>0){
         if(demo){
+            const image = books.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
             books.sort((x, y) => x.name.localeCompare(y.name))
             const demoBooks = books.slice(0,100)
-            const recommend = demoBooks.filter(r => r.isFree===true)
-            dispatch(recomendedAction(recommend))
+            // const recommend = demoBooks.filter(r => r.isFree===true)
+            // dispatch(recomendedAction(recommend))
             setIsLoading(false)
             // dispatch(booksInfo(demoBooks))
             const demoBooks1 = demoBooks.slice(0,40)
             dispatch(booksInfo(demoBooks1))
             dispatch(booksCatalogoAction(demoBooks))
             dispatch(booksCopyAction(demoBooks))
-            dispatch(recomendedAction(recommend))
+            // dispatch(recomendedAction(recommend))
         }
         else {
+            const image = books.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
             setIsLoading(false)
             // dispatch(booksInfo(books))
-            const recommend = books.filter(r => r.isFree===true)
+            // const recommend = books.filter(r => r.isFree===true)
             const demoBooks = books.slice(0,40)
             dispatch(booksInfo(demoBooks))
             dispatch(booksCatalogoAction(books))
             dispatch(booksCopyAction(books))
-            dispatch(recomendedAction(recommend))
+            // dispatch(recomendedAction(recommend))
         }
     }
     const [genres, countries, authors] = await Promise.all([
