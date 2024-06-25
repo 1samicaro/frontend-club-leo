@@ -43,11 +43,11 @@ const languages =[
   },
   {
       name:"PT",
-      id:4
+      id:5
   },
   {
       name:"IT",
-      id:5
+      id:4
   }
 ]
 
@@ -314,7 +314,7 @@ export default function Home() {
                   Edificio Federación <br/>
                   Bogotá, Colombia <br/>
 
-                  Télefono: 6014327879  +57 300 4727644 <br />
+                  Télefono: +57 319 529 7287  +57 300 4727644 <br />
                   Email: contacto@clubleo.net</p>
                   <h4 align="right">Redes sociales</h4>
 
@@ -408,7 +408,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
                   <div className="columnnas">
                     <div>
-                  <Link to="https://twitter.com/mingga_rmb">
+                  <Link to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -424,7 +424,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   &nbsp;&nbsp;
 
                   <div>
-                  <Link to="https://www.facebook.com/profile.php?id=100093289494718">
+                  <Link to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -440,7 +440,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   &nbsp;&nbsp;
 
                   <div>
-                  <Link to="https://www.instagram.com/mingga_rmb/">
+                  <Link to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -456,7 +456,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   &nbsp;&nbsp;
 
                   <div>
-                  <Link to="https://www.linkedin.com/in/mingga-rmb/">
+                  <Link to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -472,7 +472,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   &nbsp;&nbsp;
 
                   <div>
-                  <Link to="https://www.tiktok.com/@mingga_rmb">
+                  <Link to="/">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -488,7 +488,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   &nbsp;&nbsp;
                   
                   <div>
-                  <Link to="">
+                  <Link to="/">
                   <svg 
                   xmlns="http://www.w3.org/2000/svg" 
                   width="30" 
