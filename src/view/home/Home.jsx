@@ -42,11 +42,11 @@ const languages =[
       id:3
   },
   {
-      name:"IT",
+      name:"PT",
       id:4
   },
   {
-      name:"PT",
+      name:"IT",
       id:5
   }
 ]
