@@ -36,12 +36,12 @@ const languages =[
         id:3
     },
     {
-        name:"Português",
-        id:5
-    },
-    {
         name:"Italiana",
         id:4
+    },
+    {
+        name:"Português",
+        id:5
     }
 ]
 
