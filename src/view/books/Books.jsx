@@ -37,11 +37,11 @@ const languages =[
     },
     {
         name:"Português",
-        id:4
+        id:5
     },
     {
         name:"Italaiana",
-        id:5
+        id:4
     }
 ]
 
@@ -357,7 +357,7 @@ export default function Books() {
                 {recommended.length>0? <div className="AppC">
                     <Carousel breakPoints={breakPoints} >
                     {recommended.map(link =>
-                        <div className='recommend tamano-2' key={link.id} >
+                        <div className='recommend tamano-2'>
                             <Link to={`/viewWord/${link.name}`}>
                                 <figure>
 

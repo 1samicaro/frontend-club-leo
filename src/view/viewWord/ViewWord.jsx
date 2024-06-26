@@ -7,13 +7,11 @@ import prolem from "../../assets/logoleo.png";
 export default function ViewWord() {
 
     const { id } = useParams();
-    console.log(id)
     // const onlyNumbers = Number(id?.replace(/[^0-9]+/g, ""))
     // console.log(onlyNumbers);
 
-    const books = useSelector(state=> state.booksInfoReducer?.booksCopy)
+    const books = useSelector(state=> state.booksInfoReducer?.allBooks)
     const word = books?.find(el => el.name===id)
-
     return (
         <div style={{display:'flex', position:'absolute', width:'100%', height:'100%', flexDirection:'column'}} id='paginaprincipal'>
             <Link to="/" className="logo-back">

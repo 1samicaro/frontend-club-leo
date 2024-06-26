@@ -1,9 +1,10 @@
-import { BOOKS_COPY, BOOKS_INFO, BOOKS_CATALOGO } from "../actions/booksInfoAction"
+import { BOOKS_COPY, BOOKS_INFO, BOOKS_CATALOGO, All_BOOKS } from "../actions/booksInfoAction"
 
 const initialState = {
     books:[],
     booksCatalogo : [],
-    booksCopy:[]
+    booksCopy:[],
+    allBooks:[]
 }
 
 export default function booksInfoReducer (state = initialState, action){
@@ -22,6 +23,11 @@ export default function booksInfoReducer (state = initialState, action){
             return {
                 ...state,
                 booksCatalogo:action.payload,
+            }
+        case All_BOOKS:
+            return {
+                ...state,
+                allBooks:action.payload,
             }
         default:
             return state

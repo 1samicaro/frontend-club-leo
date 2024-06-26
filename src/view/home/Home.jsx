@@ -23,7 +23,7 @@ import { getAuthors, getCountriesBooks, getGenresBooks } from "../../services/da
 import { booksAuthors, booksCountries, booksGenres } from "../../stateManagement/actions/stateActions";
 import { getBooks } from "../../services/bookServices";
 import { recomendedAction } from "../../stateManagement/actions/recommendedAction";
-import { booksCatalogoAction, booksCopyAction, booksInfo } from "../../stateManagement/actions/booksInfoAction";
+import { allBooks, booksCatalogoAction, booksCopyAction, booksInfo } from "../../stateManagement/actions/booksInfoAction";
 import { mercadoPagoBack } from '../../services/ventaService';
 import { changeLanguageAction } from '../../stateManagement/actions/changeLanguageAction';
 
@@ -103,6 +103,7 @@ export default function Home() {
             const filterAuthor = filterCountry.filter(g => g.GenreId===15)
             // dispatch(recomendedAction(recommend))
             dispatch(booksInfo(filterAuthor))
+            dispatch(allBooks(books))
             dispatch(booksCatalogoAction(demoBooks))
             dispatch(booksCopyAction(demoBooks))
         }
@@ -115,6 +116,7 @@ export default function Home() {
             // dispatch(recomendedAction(recommend))
             dispatch(booksInfo(filterAuthor))
             dispatch(booksCatalogoAction(books))
+            dispatch(allBooks(books))
             dispatch(booksCopyAction(books))
         }
     }
