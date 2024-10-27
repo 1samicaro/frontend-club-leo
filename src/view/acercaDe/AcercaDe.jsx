@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 
 import aboutus from "../../assets/contenido/aboutus.jpg";
 import aboutus1 from "../../assets/contenido/aboutus1.jpg";
+import aboutus2 from "../../assets/contenido/aboutus2.jpg";
+import aboutus3 from "../../assets/contenido/aboutus3.jpg";
+
+
 
 
 
@@ -33,8 +37,9 @@ export default function AcercaDe() {
             </h3>
 
             <br />
-            <div >
+            <div align="center">
                 <img
+                id="imagenajustada"
                 className="d-block w-100"
                 src={aboutus}
                 width="400"
@@ -81,8 +86,9 @@ export default function AcercaDe() {
 
             
             <br /> 
-            <div>
+            <div align="center">
                 <img
+                id="imagenajustada"
                 className="d-block w-100"
                 src={aboutus1}
                 width="400"
@@ -109,42 +115,53 @@ export default function AcercaDe() {
             <br />  
             <p>
             Al vincularse a <b>LEO</b>, los socios inmediatamente acceden gratuitamente a <b>bibliomobil.com</b>,  nuestra biblioteca digital con más de 15.000 obras  de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano), que  pueden leer on line o grabar en su dispositivo, y tenerlas disponibles en todo momento y lugar sin conexión a internet. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar la APP de <b>bibliomobil.com</b> a su celular, tablet o PC, para facilitar el acceso a las obras. El costo de <b>bibliomobil.com</b> está calculado en $150 mlls, pero es gratis para los socios <b>LEO.</b></p>
-            
-            <h5 id="titulo" align="center"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
-            </b> 
-            </h5>
-            <br />
+            <p>
+            Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar <b>BiblioTablet</b>, y grabar las 15.000 obras en su celular o tablet para su lectura y trabajo sin necesidad de internet (peso en disco de 4 G.). 
+            </p>
+            <p>
+            Adicionalmente, <b>LEO</b> ha desarrollado el portal web <b>vamosaleer.com</b>, nuestro periódico virtual que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de  lectura y  escritura que realizan nuestros socios.
+            </p>
 
-            <p>
-            Para facilitar la lectura, los socios disponen de 3 instrumentos tecnológicos:
-            </p>
-            <p>
-            <b> a. <a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> portal web con noticias educativas y culturales de actualidad, y artículos sobre los géneros, autores y obras más importantes, para informar, motivar y orientar la lectura. 
-            </p>
-            <p>
-            <b>b. <a href=" https://www.bibliomobil.com/"> https://www.bibliomobil.com/</a></b>: una APP que los usuarios pueden descargar a su celular, PC o tableta, y acceder a más de 15.000 obras en 5 idiomas (español, inglés, francés, portugués e italiano), para leer on line o descargar a su dispositivo, y tenerlas disponibles en todo momento y lugar sin conexión a internet. Mensualmente, se adicionan 50 nuevas obras a la colección, 600 nuevos libros al año. La descarga de la APP es gratuita para los socios logeados
-            </p>
-            <p>
-            <b>c. BiblioTablet</b>, aplicación a través de la cual la biblioteca digital y sus 15.000 obras se graban en la memoria del celular o tableta del usuario, para su consulta sin conexión a internet. Herramienta diseñada para servir a las zonas rurales y municipios apartados con limitaciones de conectividad web. La descarga de la aplicación es gratuita para los socios logeados
-            </p>
-            
-            <p>
-            <h5 id="titulo" align="center"> <b>2. Promoción de la escritura<br />
+            <div align="center">
+                <img
+                id="imagenajustada"
+                className="d-block w-100"
+                src={aboutus2}
+                width="400"
+                height="450"
+                alt="..."
+                />
+                </div>
+
+            <h4 id="titulo" align="left"> <b>2. Promoción de la escritura<br />
             </b> 
-            </h5>
-            Escribir es uno de los retos más importantes para las personas. Es un acto creativo y propositivo, que permite dar a conocer las ideas y creaciones, y contribuir a la expansión del conocimiento y el patrimonio literario universal. Para ello, el portal web institucional <b><a href="http://www.vamosaleer.co/">http://www.vamosaleer.co/</a>&nbsp;</b> permite a los socios crear su perfil de escritor y publicar sus obras para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. Este es un servicio gratuito para los socios logeados.
+            </h4>
+            <br />
+            <p>
+            <b>Escribir es uno de los retos intelectuales más importante para todas las personas en el mundo.</b> Es un acto creativo y propositivo, que permite dar a conocer las ideas, creaciones y propuestas, y contribuir a la expansión del conocimiento y el patrimonio literario universal. 
             </p>
             <p>
-            <h5 id="titulo" align="center">  <b>3. Promoción comercial de los autores LEO<br />
-            </b> 
-            </h5>
-            LEO está desarrollando la tienda  <b><a href="www.libreria.clubleo.co/">www.libreria.clubleo.co/</a></b>, que permitirá que los socios puedan exponer y comercializar las obras de su autoría entre la comunidad <b>LEO</b> del país y el mundo. Cada socio es el responsable de toda la gestión comercial, conforme a las normas legales sobre la materia.
+            Para los estudiantes,  escribir bien, con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más  importantes que deben desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar sus propuestas por internet, ser leídos e impactar a los millones de usuarios en la aldea global. La experiencia lo demuestra: el éxito en la moderna sociedad  tecnológica depende de tener una buena capacidad escritora, de elaborar y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que permanentemente están recibiendo la información en todos los países del mundo.
             </p>
-            <br />
-            <br />
-            <h3 id="titulo" align="center"> <b>LEO <br />
-            Una gran comunidad mundial comprometida con la construcción <br />
+            <p>
+            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, <b>LEO</b> ha creado el portal web <b>escritoresleo.com</b>, nuestra red social especializada  que les permite crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. 
+            </p>
+
+            <h3 id="titulo" align="center"> <b>CLUBLEO <br />
+            La comunidad mundial de estudiantes, comprometida con la construcción <br />
             de una sociedad más educada y culta
+
+            <div align="center">
+                <img
+                id="imagenajustada"
+                className="d-block w-100"
+                src={aboutus3}
+                width="400"
+                height="500"
+                alt="..."
+                />
+                </div> 
+
 
             </b> 
             </h3>

@@ -57,4 +57,10 @@
     color:brown;
   }
   
-  
+  #imagenajustada{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 400px;
+
+
+}
