@@ -101,18 +101,14 @@ export default function AcercaDe() {
             <p>
             <b>LEO</b> ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que los estudiantes aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
             </p>
-            <p>
-            La membrecía anual tiene un costo de solo <b>$50.000</b>, que otorga el acceso libre y gratuito a los programas educativos y culturales del Club (biblioteca digital, publicar obras, vender obras, etc.)
-            </p>
-            <br />
+           
 
-            <h3 id="titulo" align="center"> <b>Programas y Servicios a los Asociados<br />
+            <h4 id="titulo" align="left"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
             </b> 
-            </h3> 
+            </h4> 
             <br />  
             <p>
-            <b>LEO</b> ha desarrollado herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet  a nivel mundial:
-            </p>
+            Al vincularse a <b>LEO</b>, los socios inmediatamente acceden gratuitamente a <b>bibliomobil.com</b>,  nuestra biblioteca digital con más de 15.000 obras  de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano), que  pueden leer on line o grabar en su dispositivo, y tenerlas disponibles en todo momento y lugar sin conexión a internet. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar la APP de <b>bibliomobil.com</b> a su celular, tablet o PC, para facilitar el acceso a las obras. El costo de <b>bibliomobil.com</b> está calculado en $150 mlls, pero es gratis para los socios <b>LEO.</b></p>
             
             <h5 id="titulo" align="center"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
             </b> 
