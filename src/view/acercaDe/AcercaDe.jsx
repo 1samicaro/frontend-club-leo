@@ -26,8 +26,9 @@ export default function AcercaDe() {
 
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>Leer y escribir bien, las competencias fundamentales para ser exitosos <br />
-                en la moderna sociedad mundial  de la información y el conocimiento
+                <h3 id="titulo" align="center"> <b>Leer y escribir bien, las competencias fundamentales para tener éxito <br />
+                en la moderna sociedad mundial de la información y el conocimiento
+
             </b> 
             </h3>
 
@@ -49,16 +50,14 @@ export default function AcercaDe() {
             </h3>
             <br />
             <p>
-            <b> Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos, que fortalezcan los conocimientos y competitividad de sus habitantes. Así lo demuestran las pruebas PISA, que ubican a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
+            <b>Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población. </b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y  eficientes, que fortalezcan los conocimientos y competitividad de sus habitantes. Así lo demuestran las pruebas PISA, que ubican en los primeros lugar a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
             </p>
             <p>
-            <b> LEO - Club Mundial de Lectura</b>, es un proyecto que tiene como misión <b>promover la lectura, la escritura y el multilingüismo</b>, como hábitos que contribuyen al mejoramiento educativo y cultural de las personas y familias, mejoran la calidad del sistema educativo y coadyuvan a la construcción de sociedades más democráticas, pacíficas y progresistas.
+            <b>LEO - Club Mundial de Lectura,</b> es un proyecto académico que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de los estudiantes, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad de la información y el conocimiento, que exige leer y analizar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
             </p>
             <p>
-            Para cumplir esta misión, <b>LEO</b> opera como una gran red digital,  que integra a las instituciones educativas y personas comprometidas con construir un mundo mejor, a partir de fortalecer el pilar clave del desarrollo: la educación, que depende fundamentalmente de la lectura, el camino para adquirir los conocimientos y capacidades en las diferentes áreas.         
+            Para cumplir esta misión, <b>LEO</b> opera como una red digital, que integra a los estudiantes en una gran comunidad mundial que genere oportunidades de éxito académico, profesional y social. 
             </p>
-            
-    
             <br />
 
             
@@ -68,16 +67,16 @@ export default function AcercaDe() {
             </h3> 
             <br />      
             <p>
-            • Aumentar el número de personas que leen y escriben como actividades cotidianas en los diferentes escenario académicos, laborales y sociales.<br />
-
-            •	Incrementar los índices de lectura, para lograr que las personas lean al menos un libro al mes, doce libros al año, con énfasis en los estudiantes de primaria y bachillerato. <br />
-    
-            •	Ofrecer escenarios para que las personas escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo, con énfasis en la comunidad académica.<br />
-
-            •	Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet.<br />
-
-            •	Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
-
+            •	Facilitar el acceso a los libros e incrementar los índices de lectura, para lograr que los estudiantes lean al menos un libro al mes, doce libros al año. <br />   
+            •	Ofrecer escenarios para que los estudiantes escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br /> 
+            •	Promover el multilingüismo y las competencias comunicativas de los estudiantes, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br /> 
+            •	Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes. <br /> 
+            </p>
+            <p>
+            <b>Pueden ser socios</b> del <b>Club Mundial de Lectura</b> todos <b>los estudiantes en nuestro país y cualquier parte del mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación.
+            </p>
+            <p>
+            La membrecía anual tiene un costo de solo $50.000. Los socios tienen acceso libre y gratuito a <b>bibliomobil.com</b>, nuestra biblioteca digital con más de 15.000 obras en cinco idiomas, y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
 
             
@@ -95,14 +94,12 @@ export default function AcercaDe() {
             
 
             <br />
-            <h3 id="titulo" align="center"> <b>Asociados<br />
+            <h3 id="titulo" align="center"> <b>Programas y Servicios a los Asociados<br />
             </b> 
             </h3>
             <br />
             <p>
-            Pueden ser socios del <b>Club Mundial de Lectura</b> en los diferentes países y ciudades: <br />
-            •	Las personas (mayores de 14 años) <br />
-            •	Las instituciones educativas y organizaciones sociales sin ánimo de lucro
+            <b>LEO</b> ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que los estudiantes aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
             </p>
             <p>
             La membrecía anual tiene un costo de solo <b>$50.000</b>, que otorga el acceso libre y gratuito a los programas educativos y culturales del Club (biblioteca digital, publicar obras, vender obras, etc.)

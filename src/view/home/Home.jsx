@@ -1108,9 +1108,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos una comunidad mundial en acción <br />
-                <h4>Promovemos la lectura, la escritura y el multilingüismo, para construir <br />
-                entre todos un mundo más educado y culto, progresista y pacífico</h4> <br />
+                Comunidad Mundial de Estudiantes <br />
+                <h4>Promovemos la lectura para mejorar el desempeño académico<br />
+                y las posibilidades de éxito profesional de nuestros socios</h4> <br />
                 </b> 
                 </h4>
             </div>
