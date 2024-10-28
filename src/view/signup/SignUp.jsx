@@ -15,7 +15,7 @@ import { initMercadoPago, Wallet } from '@mercadopago/sdk-react'
 import "./SignUp.css"
 import Select from "react-select"
 import Contacto from '../contacto/Contacto';
-import permiso from './AUTORIZACION A MENOR PARA INGRESAR COMO MIEMBRO DE MINGARMB.docx'
+import permiso from './AUTORIZACION A MENOR PARA INGRESAR COMO MIEMBRO DE CLUBLEO.docx'
 import { DebounceInput } from 'react-debounce-input';
 import { getSearchPerson } from '../../services/searchPersonService';
 import { getCountry } from '../../stateManagement/actions/getCities';
