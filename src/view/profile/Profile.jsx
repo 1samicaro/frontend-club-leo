@@ -381,7 +381,6 @@ export default function Profile() {
                                                 <th className="colorFilaSelect" >Nivel I</th>
                                                 <th className="colorFilaSelect" >nivel II</th>
                                                 <th className="colorFilaSelect">Nivel III</th>
-                                                <th className="colorFilaSelect">Nivel IV</th>
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
@@ -394,7 +393,6 @@ export default function Profile() {
                                                                     </td>
                                                                     <td value={type.id} key={type.id}>{type?.grandChilds?.length}</td>
                                                                     <td value={type.id} key={type.id}>{greatGrandChilds[index]}</td>
-                                                                    <td value={type.id} key={type.id}>0</td>
                                             </tr>)
                                             :<tr><td><Spinner animation="grow" variant="info" /></td></tr> }
                                             <tr>
@@ -420,7 +418,7 @@ export default function Profile() {
                         </div>
 
 
-                        <br />
+                         {/* <br />
                         <label className="l-01"> <h4>Mis ingresos</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
@@ -432,10 +430,6 @@ export default function Profile() {
                                 <li><i className='icon-imagen'></i><b>Gastados actual:</b> {userInfo?.totalSpent}</li>
                                 <li><i className='icon-imagen'></i><b>Saldo total disponible:</b> {userInfo?.totalPoints-userInfo?.totalSpent}</li>
                             </div>}
-                            {/* <div className='lista-datos'>
-                                <li><i className='icon-imagen'></i>Para ver el historial de tus transacciones en Mingga,
-                                valida la informacion <Link to='/History'>aquí</Link>   </li>
-                            </div> */}
                             <br />
                         </div>
                         <br />
@@ -464,7 +458,7 @@ export default function Profile() {
                             </div>
                             <br />
                         </div>:<div>No tienes prestamos disponibles</div>}
-                        <br /> */}
+                        <br /> 
 
 
 
@@ -473,22 +467,13 @@ export default function Profile() {
                             id="containerPerfil">
                             <div className="container items-center">
                                 <div className="form-floating mb-3">
-                                    {/* <input className="form-control" id="InputPerfil" placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>   */}
                                     <DebounceInput className="form-control" debounceTimeout={500} value={send.username} placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("username",e)}/>
                                     <label >Cuánto deseas retirar</label>
                                 </div>
-                                {/* {error.username ? <span className='userInvalid'>{error.username}</span> : <span className='userValid'>Usuario: {search?.name?.join(" ")}</span>} */}
-                                {/* <br />
-                                <div className="form-floating mb-3">
-                                    <input type='number' className="form-control" id="InputPerfil" value={send.points} placeholder="Enviar PBs" onChange={(e)=>handleInputPB("points",e)}/>
-                                    <label >Monto de PBs</label>
-                                </div>
-                                {error.points ? <span className='textError'>{error.points}</span> : <></>}
-                                <br /> */}
                                 {!buttonStop?<button className="btn btn-warning btn-lg" id="buttonPerfil" onClick={onSend}>Retirar Dinero</button>: <Spinner animation="grow" variant="info" />}
                             </div>
                         </div>
-                        <br />
+                        <br />*/}
 
                         {userInfo?.Role?.name ==="Vendedor" ?<div>
                             <label className="l-01"> <h4>Reportar compras de Mingga</h4></label>

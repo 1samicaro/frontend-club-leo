@@ -45,6 +45,7 @@ export const getPersonType = async () =>{
 export const getAdditionalType = async(id) =>{
     try {
         const additionalType = await api.get(`/resources/additionalTypes?PersonTypeId=${id}`)
+        console.log(additionalType);
         return additionalType.data
     } catch (error) {
         console.log("Algo malo ocurrio");

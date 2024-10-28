@@ -35,10 +35,10 @@ const initialState = {
     birthDate: "",
     DocumentTypeId: 0,
     RoleId: 3,
-    PersonTypeId: 0,
+    PersonTypeId: 2,
     CityId: 0,
     CountryId: 0,
-    AdditionalTypeId: 0,
+    AdditionalTypeId: 3,
     username: "",
     Partner: "",
     // discount:{},
@@ -280,7 +280,8 @@ export default function SignUp() {
                 setInput(prev=>({...prev, [inside]:date}))
             }
         }
-        if(input.PersonTypeId==="2"){
+        // if(input.PersonTypeId==="2"){
+        if(true){
             if((fechaActual.getFullYear()-birth.getFullYear())>=14){
                 if((fechaActual.getFullYear()-birth.getFullYear())<18){
                     setPermission(true)
@@ -314,22 +315,24 @@ export default function SignUp() {
 
     async function countrySelect (input,id){
         setIsLoading(false)
+        // additionalTypeInfo()
         const city = await getCities(id.target.value)
         setInput(prev=>({...prev, [input]:id.target.value}))
         setCities(city)
         setCitiesComplete(city)
         // setType(id.target.value)
-        const documentType = await getDocumentType(id.target.value, type)
+        const documentType = await getDocumentType(id.target.value, 3)
         // const secondDocument = await getDocumentType(id.target.value, 2)
         setDocument(documentType)
         // setSecondDocument(secondDocument)
     }
 
-    async function additionalTypeInfo(input, id){
+    async function additionalTypeInfo(){
         setIsLoading(false)
-        const typeInfo = await getAdditionalType(id.target.value)
-        setInput(prev=>({...prev, [input]:id.target.value}))
-        setType(id.target.value)
+        // const typeInfo = await getAdditionalType(id.target.value)
+        const typeInfo = await getAdditionalType(3)
+        // setInput(prev=>({...prev, [input]:id.target.value}))
+        setType(3)
         setAdditionalType(typeInfo)
     }
 
@@ -487,7 +490,7 @@ export default function SignUp() {
         if(input.birthDate === "") errores.birthDate="Ingrese fecha"
         if(input.DocumentTypeId === 0) errores.DocumentTypeId="Ingrese Tipo de documento"
         // if(input.RoleId === 0) errores.RoleId="Ingrese Rol"
-        if(input.PersonTypeId === 0) errores.PersonTypeId="Ingrese Tipo de persona"
+        // if(input.PersonTypeId === 0) errores.PersonTypeId="Ingrese Tipo de persona"
         if(input.CityId === 0) errores.CityId="Ingrese Ciudad"
         if(input.CountryId === 0) errores.CountryId="Ingrese País"
         // if(input.RoleId ==="4" && input.Categories.length===0) errores.Categories="Ingrese servicios que ofrece"
@@ -501,7 +504,7 @@ export default function SignUp() {
         //         errores.representPhone="Falta Número telefonico"
         //     }
         // }
-        if(input.AdditionalTypeId === 0) errores.AdditionalTypeId="Ingrese Tipo de genero"
+        // if(input.AdditionalTypeId === 0) errores.AdditionalTypeId="Ingrese Tipo de genero"
         if(partner) errores.Partner="Usuario Socio no existe"
         if(input.username === "") errores.username="Ingrese Nombre de Usuario"
         // if(input.Categories.length!==Object.keys(input.discount)?.length) errores.discount = "Ingrese descuentos a cada servicio"
@@ -666,7 +669,7 @@ export default function SignUp() {
             <div className="container-fluid"  id="registro">
                 <h3><b>Vincúlate como socio del Club Mundial de Lectura</b></h3>
                 <br />
-                <h4><em>Eres invitado por {inviteName}</em></h4>
+                {inviteName ? <h4><em>Eres invitado por {inviteName}</em></h4>: <></>}
                 <br/>
                 <form id='login' className='formRegister'>
 
@@ -677,17 +680,17 @@ export default function SignUp() {
                     <label className="l-01"> <h6> <b></b>Diligencia por favor todos los datos</h6></label>
                     <br />
 
-                    <label className="l-01"> <h6> Tipo de socio</h6></label>
+                    {/* <label className="l-01"> <h6> Tipo de socio</h6></label>
 
                     <div>
                         <select
-                        class="form-select" aria-label="Default select example"
+                        className="form-select" aria-label="Default select example"
                         onChange={(e)=>additionalTypeInfo("PersonTypeId",e)}>
                             <option value='----'> Selecciona tipo de persona </option>
                             {input.RoleId === "4"? personType?.map((type)=> { return type.name==="Juridica"?<option value={type.id} key={type.id}>{type.name}</option>  :<option value={type.id} key={type.id}>{type.name}</option>}):personType?.map((type)=><option value={type.id} key={type.id}>{type.name}</option>)}
                         </select>
                     </div>
-                        {errors.PersonTypeId ? <span className='textError'>{errors.PersonTypeId}</span> : <></>}
+                        {errors.PersonTypeId ? <span className='textError'>{errors.PersonTypeId}</span> : <></>} */}
 
                     </div>
 
@@ -697,7 +700,7 @@ export default function SignUp() {
 
                         <div>
                             <select 
-                            class="form-select" aria-label="Default select example"
+                            className="form-select" aria-label="Default select example"
                             onChange={(e)=>countrySelect("CountryId",e)}>
                                 <option value='----'> Selecciona país </option>
                                 {countries?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}
@@ -728,7 +731,7 @@ export default function SignUp() {
                         <br />
                         {citiesComplete? <div>
                             <select 
-                            class="form-select" aria-label="Default select example"
+                            className="form-select" aria-label="Default select example"
                             onChange={(e)=>handleInputChange("CityId", e)}>
                                 <option value='----'> Selecciona ciudad </option>
                                 {cities?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}
@@ -747,32 +750,33 @@ export default function SignUp() {
                      {/* {input.PersonTypeId === 1 && nombreEmpresa()} */}
                     {input.PersonTypeId === "1" &&
                     <div>
-                        <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Nombre de la empresa</span>
+                        <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Nombre de la empresa</span>
 
                             <input
-                            type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             onChange={(e)=>userName("name", e)}/>
                         </div>
                             {errors.name ? <span className='textError'>{errors.name}</span> : <></>}
                     </div>
                     }
-                    {input.PersonTypeId === "2" &&
+                     {/*{input.PersonTypeId === "2" &&*/}
+                    {true &&
                         <div>
-                            <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Nombres</span>
+                            <div className="input-group mb-3">
+                            <span className="input-group-text" id="inputGroup-sizing-default">Nombres</span>
 
                                 <input
-                                class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                                className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 type="text" onChange={(e)=>userName("name", e)}/>
                             </div>
                                 {errors.name ? <span className='textError'>{errors.name}</span> : <></>}
                            
-                            <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
+                            <div className="input-group mb-3">
+                            <span className="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
 
                                 <input
-                                class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                                className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 type="text" onChange={(e)=>userLastName("lastName", e)}/>
                             </div>
                                 {errors.lastName ? <span className='textError'>{errors.lastName}</span> : <></>}
@@ -782,7 +786,7 @@ export default function SignUp() {
 
                     <div>
                         <select 
-                        class="form-select" aria-label="Default select example"
+                        className="form-select" aria-label="Default select example"
                         onChange={(e)=>handleInputChange("DocumentTypeId", e)}>
                             <option value='----'> Tipo de documento </option>
                             {document?.map((document)=> <option value={document.id} key={document.id}>{document.name}</option>)}
@@ -793,11 +797,11 @@ export default function SignUp() {
 
 
 
-                    <div class="input-group mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Número de documento</span>
+                    <div className="input-group mb-3">
+                    <span className="input-group-text" id="inputGroup-sizing-default">Número de documento</span>
 
                         <input
-                        input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         onChange={(e)=>handleInputChange("documentNumber", e)}/>
                     </div>
                     {errors.documentNumber ? <span className='textError'>{errors.documentNumber}</span> : <></>}
@@ -852,10 +856,11 @@ export default function SignUp() {
                         {fileName.length? fileName.map(file=> <span className='textValid'>Archivo: {file}, </span> ): <></>}
                     </div>:<></>}
 
-                        <div class="input-group mb-3">
-                        {input.PersonTypeId === "2"?  <span class="input-group-text" id="inputGroup-sizing-default">Fecha de nacimiento</span>:  <span class="input-group-text" id="inputGroup-sizing-default">Fecha de constitución</span>}
+                        <div className="input-group mb-3">
+                        {/* {input.PersonTypeId === "2"?  <span className="input-group-text" id="inputGroup-sizing-default">Fecha de nacimiento</span>:  <span className="input-group-text" id="inputGroup-sizing-default">Fecha de constitución</span>} */}
+                        <span className="input-group-text" id="inputGroup-sizing-default">Fecha de nacimiento</span>
                         <input
-                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="date" onChange={(e)=>date("birthDate", e)}/>
                         </div>
 
@@ -881,9 +886,9 @@ export default function SignUp() {
                         </div>:<></>}
 
 
-                        <div>
+                        {/* <div>
                         <select 
-                        class="form-select" aria-label="Default select example"
+                        className="form-select" aria-label="Default select example"
                         onChange={(e)=>handleInputChange("AdditionalTypeId", e)}>
                             {input.PersonTypeId === "2"?<option value='----'> Género </option>:<option value='----'> Tipo de empresa </option>}
                             {additionalType?.map((type)=> <option value={type.id} key={type.id}>{type.name}</option>)}
@@ -891,22 +896,22 @@ export default function SignUp() {
                     </div>
                         {errors.AdditionalTypeId ? <span className='textError'>{errors.AdditionalTypeId}</span> : <></>}
 
-                        <br />
+                        <br /> */}
 
-                        <div  class="input-group mb-3">
-                          <span class="input-group-text" id="inputGroup-sizing-default">Correo electrónico</span>
+                        <div  className="input-group mb-3">
+                          <span className="input-group-text" id="inputGroup-sizing-default">Correo electrónico</span>
                             <input
-                            input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             onChange={(e)=>handleInputChange("email", e)}/>
                         </div>
                         {errors.email ? <span className='textError'>{errors.email}</span> : <></>}
 
 
 
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" id="inputGroup-sizing-default">Número de contacto</span>
+                        <div className="input-group mb-3">
+                            <span className="input-group-text" id="inputGroup-sizing-default">Número de contacto</span>
                             <input
-                            input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                            input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             onChange={(e)=>handleInputChange("phone", e)}/>
                         </div>
                         {errors.phone ? <span className='textError'>{errors.phone}</span> : <></>}
@@ -1022,7 +1027,7 @@ export default function SignUp() {
                         <label className="l-01"> <h6>Por cuál medio deseas recibir los beneficios</h6></label>
                         <div>
                             <select 
-                            class="form-select" aria-label="Default select example"
+                            className="form-select" aria-label="Default select example"
                             onChange={(e)=>paySelect("transferType",e)}
                         >
                                 <option value='----'> Sitio para pagarte </option>
@@ -1032,10 +1037,10 @@ export default function SignUp() {
                     </div>
                     <br />
                     <div>
-                    {numberPay? <div  class="input-group mb-3">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Número de cuenta o usuario</span>
+                    {numberPay? <div  className="input-group mb-3">
+                    <span className="input-group-text" id="inputGroup-sizing-default">Número de cuenta o usuario</span>
                         <input
-                        class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="text" onChange={(e)=>payAccount("transferId", e)}/>
                     </div>
                     :<></>}
@@ -1043,21 +1048,21 @@ export default function SignUp() {
                 <div>
                 <br />
                 <label className="l-01"> <h6>Datos de vinculación a Club Leo</h6></label>
-                    {inviteName? <></> :<div   class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
+                    {inviteName? <></> :<div   className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
 
                         {/* <input
                         className="form-control"
                         type="text" onChange={(e)=>handleInputChange("Partner", e)}/> */}
                         <DebounceInput
-                        type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         debounceTimeout={500} onChange={(e)=>handleInputSend(e)}/>
                     </div>}
 
                     {errors.Partner ? <span className='textError'>{errors.Partner}</span> : <></>}
 
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Crea tu usuario</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Crea tu usuario</span>
 
                         <DebounceInput className="form-control" 
                         type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
@@ -1071,8 +1076,8 @@ export default function SignUp() {
                     </div>    
 
 
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordComparation(e)}
@@ -1091,8 +1096,8 @@ export default function SignUp() {
 
                     */}
                     
-                    <div class="input-group mb-3">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Confirmar contraseña</span>
+                    <div className="input-group mb-3">
+                        <span className="input-group-text" id="inputGroup-sizing-default">Confirmar contraseña</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordVerificated("password", e)}/>
