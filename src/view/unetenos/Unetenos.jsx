@@ -137,121 +137,6 @@ export default function Unetenos() {
                     <td className="table_4" align="center">116</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">I (Mis 20 invitados) </td>
-                    <td className="table_4" align="center">9%</td>
-                    <td className="table_4" align="center">$ 5.400</td>
-                    <td className="table_4" align="center">20</td>
-                    <td className="table_4" align="center">$ 108.000</td>
-                </tr>
-                <tr className="table_2">
-                    <td className="table_4" align="center">II</td>
-                    <td className="table_4" align="center">12%</td>
-                    <td className="table_4" align="center">$ 7.200</td>
-                    <td className="table_4" align="center">400</td>
-                    <td className="table_4" align="center">$2'880.000</td>
-                </tr>
-                <tr className="table_2">
-                    <td className="table_4" align="center">III</td>
-                    <td className="table_4" align="center">15%</td>
-                    <td className="table_4" align="center">$ 9.000</td>
-                    <td className="table_4" align="center">8.000</td>
-                    <td className="table_4" align="center">$72'000.000</td>
-                </tr>
-                <tr className="table_2">
-                    <td className="table_4" align="center">IV</td>
-                    <td className="table_4" align="center">18%</td>
-                    <td className="table_4" align="center">$ 10.800</td>
-                    <td className="table_4" align="center">160.000</td>
-                    <td className="table_4" align="center"> $1.728'000.000</td>
-                </tr>
-                <tr className="table_2">
-                    <td className="table_4" align="center"> <b>Totales </b></td>
-                    <td className="table_4" align="center"><b>60% </b></td>
-                    <td className="table_4" align="center"> <b>$36.000 </b></td>
-                    <td className="table_4" align="center"> <b>168.421 </b></td>
-                    <td className="table_4" align="center"> <b>$1.802'991.600</b> </td>
-                </tr>
-
-
-                </table>
-
-
-
-
-
-
-                
-                <br />
-                <p>
-                Este será el resultado de mi trabajo: Una vez organice mi <b>RPA</b>, podré tener un ingreso anual de $1.802 millones, que será de por vida, porque <b>LEO</b> nos reconoce tanto el ingreso como las renovaciones anuales.
-                </p>
-                <p>
-                Un trabajo fácil, sencillo y rápido, para lograr un gran objetivo:<b>la independencia económica, de por vida.</b>
-                </p>
-                <p>
-                <b>Cómo lograrlo?</b>
-                </p>
-                <p>
-                Sólo hay que hacer 2 cosas muy sencillas: <br />
-                <b> 1. Invitar a mis 20 amigos a vincularse a ClubLeo</b> (familiares, vecinos, compañeros de estudio y trabajo, contactos en redes sociales, instituciones educativas y sociales, etc.) <br />
-                <b>2. Hacer seguimiento y apoyar a mi RPA,</b> aprovechando la internet. Hay técnicas sencillas, gratuitas y efectivas: <br />
-                •	Crear grupo propio en facebook y whatsapp con mis 20 invitados. <br />
-                •	Crear y enviar mensajes motivacionales a los socios de mi RPA. <br />
-                </p>
-                <p>
-                <b> El Plan Amigos está concebido como una alianza estratégica gana-gana: LEO</b> crece en todo el mundo y cuenta con los recursos para desarrollar sus programas educativos y culturales, y los socios pueden asegurar un importante ingreso, de por vida.
-                </p>
-
-                <br />
-            <h3 id="titulo" align="center"> <b>Por qué el Plan Amigos?<br />
-            </b> 
-            </h3>
-            <br />
-            <p>
-            <b> El fenómeno económico más importante del Siglo XXI son las redes sociales por internet,</b> que en pocos años hacen presencia en todos los países con miles de millones de usuarios, convirtiéndose en las empresas más valiosas y rentables (este año twitter fue vendida en US$44.000 millones, mientras facebook está valorada en US$226.000 millones). De acuerdo a cifras de Smart Insights, en 2022 el 58.4% de la población mundial utiliza redes sociales (4,062 millones de personas).           </p>
-            <h5 id="titulo" align="center"> <b>Cómo crecen las redes sociales? Qué estrategia utilizan para llegar a todo el mundo?<br />
-            </b> 
-            </h5>
-                <br />
-                <p>
-                Es sencilla. Se llama la <b><a href="https://www.tiempo.com/noticias/ciencia/el-mundo-es-un-panuelo-conoce-la-teoria-de-los-6-grados-de-separacion.html#:~:text=Se%20cree%20que%20cada%20persona%20conoce%20en%20promedio%20a%20unas%20100%20personas.&text=La%20teor%C3%ADa%20de%20los%206%20grados%">teoría de los seis grados de separación</a></b>: indica que todos estamos conectados a cualquier otra persona del planeta a través de una cadena con sólo 6 enlaces. Según las estadísticas, cada uno conoce en promedio a 100 personas, por lo que con solo 6 enlaces o pasos de integración, se puede conectar a toda la humanidad. Y esto es posible gracias a internet, en tiempo real.             </p>
-                <br />
-            
-
-                <br />
-                <p>
-                Aprovechando esta exitosa experiencia, el <b> Plan Amigos LEO</b> está concebido como una <b>red social mundial</b>, educativa, cultural y de negocios, en donde los socios pueden invitar a personas de todo el mundo a vincularse a través de internet, y obtener una participación por cada nuevo socio, construyendo un ingreso acumulado que garantice su independencia económica, de por vida.
-                </p>
-            <h3 id="titulo" align="center"> <b>Mercado Objetivo LEO. Socios potenciales<br />
-            </b> 
-            </h3>
-            <br />
-            <p>
-            <b>Bibliomobil</b>, la Biblioteca Digital Familiar de <b>LEO</b> ofrece a sus socios más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.500 millones mayores de 14 años con capacidad lectora y 380 millones de estudiantes primaria y secundaria.
-                </p>
-
-
-
-           
-
-
-            
-                <table className="table_1" align="center"> 
-                <tr className="table_2" align="center" >
-                    <th className="table_3" align="center">Idioma</th>
-                    <th className="table_3" align="center">No. de obras</th>
-                    <th className="table_3" align="center">Hablantes nativos</th>
-                    <th className="table_3" align="center">Mayores de 14 años</th>
-                    <th className="table_3" align="center">Estudiantes</th>
-                </tr>
-                <tr className="table_2">
-                    <td className="table_4" align="center">Español</td>
-                    <td className="table_4" align="center">8.169</td>
-                    <td className="table_4" align="center">580</td>
-                    <td className="table_4" align="center">464</td>
-                    <td className="table_4" align="center">116</td>
-                </tr>
-                <tr className="table_2">
                     <td className="table_4" align="center">Inglés</td>
                     <td className="table_4" align="center">5.013</td>
                     <td className="table_4" align="center">678</td>
@@ -280,11 +165,11 @@ export default function Unetenos() {
                     <td className="table_4" align="center">52</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Totales</td>
-                    <td className="table_4" align="center">15.114</td>
-                    <td className="table_4" align="center">1.903</td>
-                    <td className="table_4" align="center">1.522</td>
-                    <td className="table_4" align="center">381</td>
+                    <td className="table_4" align="center"> <b>Totales </b></td>
+                    <td className="table_4" align="center"><b>15.114</b></td>
+                    <td className="table_4" align="center"> <b>1.903</b></td>
+                    <td className="table_4" align="center"> <b>1.522</b></td>
+                    <td className="table_4" align="center"> <b>381</b> </td>
                 </tr>
 
 
@@ -292,24 +177,15 @@ export default function Unetenos() {
 
 
 
-
-
-
-
-
-
-
-                
                 <br />
-                <p>
-                La prioridad de <b>LEO</b> son los 380 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $60.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.            </p>
-                <br />
-                <h4 id="titulo" align="center"> <b> <h2> <b>Plan Amigos</b></h2>
-                Una valiosa oportunidad para construir la independencia económica, de por vida <br />
-                Con un trabajo sencillo, fácil y rápido, que todos podemos realizar
-                </b> 
-                </h4>
-                <br />
+            <h2 id="titulo" align="center"> <b>Plan Amigos<br />
+            </b> 
+            </h2>
+            <br />
+            <h4 id="titulo" align="center"> <b>Una valiosa oportunidad para asegurar la excelencia en nuestros estudios<br />
+            </b> 
+            </h4>
+           
         </div>
     </div>
     );
