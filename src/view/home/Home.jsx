@@ -703,9 +703,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           <Link to="https://escritoresleo.com/" className="navbar-brand">
           <h4> <b>   Escritores LEO </b></h4>
           </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b> Taller literario </b></h4>
-          </Link>
           {/* <Link to="/" className="navbar-brand">
           <h4> <b>   Bibliotecas </b></h4>
           </Link> */}
@@ -716,6 +713,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
           </Link>}
           <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
           <h4> <b>   Videos </b></h4>
+          </Link>
+          <Link to="/" className="navbar-brand">
+          <h4><b>Taller literario </b></h4>
           </Link>
         </div>}
       {(language===2 || languageChange===2)&&
