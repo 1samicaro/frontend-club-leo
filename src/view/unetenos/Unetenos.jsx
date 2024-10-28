@@ -7,8 +7,6 @@ import afiliados1 from "../../assets/contenido/afiliados1.jpg";
 import afiliados2 from "../../assets/contenido/afiliados2.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
-import tabla from "../../assets/contenido/tabla.png";
-import tabla1 from "../../assets/contenido/tabla1.png";
 
 
 
@@ -93,33 +91,50 @@ export default function Unetenos() {
             7.	<b>Finalmente, en el tercer paso,</b> cuando los nuevos socios inviten a sus 20 amigos, recibirá el <b>vbono educativo de excelencia académica por $2 millones mensuales,</b> que serán consignados en la cuenta financiera que reporte a LEO. Este bono será permanente mientras mantenga la condición de estudiante. <br />
             </p>
             
-        
-
 
 
             <br />
-            <h3 id="titulo" align="center"> <b>Cuanto puedo ganar si organizo mí RPA?<br />
+            <h3 id="titulo" align="center"> <b>El Reto LEO: beneficio adicional para socios pilosos<br />
             </b> 
             </h3>
             <br />
             <p>
-            De los $60.000 de cuota de afiliación, <b>LEO</b> destina el 60% ($36.000) para retribuir el trabajo de invitación que realizan sus socios, ingreso que crecerá sucesivamente con los nuevos invitados, generando un ingreso anual muy importante, como se detalla en el siguiente cuadro:           </p>
-            
+            Si un socio logra vincular a sus 20 invitados dentro del mes siguiente a su ingreso a <b>LEO</b>, recibirá un gran estímulo adicional: el <b>bono educativo de excelencia académica será de $4 millones mensuales,</b> suficiente para financiar hasta los estudios universitarios.
+            </p>
+
+            <h3 id="titulo" align="center"> <b>Mercado Objetivo LEO. Socios potenciales<br />
+            </b> 
+            </h3>
+
+            <div   align="center">
+                <img 
+                id="imagenajustada"
+                className="d-block w-100"
+                src={afiliados2}
+                height="250"
+                alt="..."
+                />
+                </div>
+            <br />
+            <p>
+            <b>Bibliomobil</b>, la Biblioteca Digital de LEO ofrece a sus socios más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.500 millones mayores de 14 años con capacidad lectora y 380 millones de estudiantes de primaria y secundaria.
+            </p>
+        
             
             <table className="table_1" align="center"> 
                 <tr className="table_2" align="center" >
-                    <th className="table_3" align="center">Nivel de mi RPA</th>
-                    <th className="table_3" align="center">% Ingreso vinculación</th>
-                    <th className="table_3" align="center">Ingreso por invitado nivel</th>
-                    <th className="table_3" align="center">Número de socios nivel</th>
-                    <th className="table_3" align="center">Ingreso por invitación RPA</th>
+                    <th className="table_3" align="center">Idioma</th>
+                    <th className="table_3" align="center">No. de obras</th>
+                    <th className="table_3" align="center">Hablantes nativos</th>
+                    <th className="table_3" align="center">Mayores de 14 años</th>
+                    <th className="table_3" align="center">Estudiantes</th>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Yo</td>
-                    <td className="table_4" align="center">6%</td>
-                    <td className="table_4" align="center">$ 3.600</td>
-                    <td className="table_4" align="center">1</td>
-                    <td className="table_4" align="center">$ 3.600</td>
+                    <td className="table_4" align="center">Español</td>
+                    <td className="table_4" align="center">8.169</td>
+                    <td className="table_4" align="center">580</td>
+                    <td className="table_4" align="center">464</td>
+                    <td className="table_4" align="center">116</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">I (Mis 20 invitados) </td>
@@ -201,15 +216,7 @@ export default function Unetenos() {
                 <p>
                 Es sencilla. Se llama la <b><a href="https://www.tiempo.com/noticias/ciencia/el-mundo-es-un-panuelo-conoce-la-teoria-de-los-6-grados-de-separacion.html#:~:text=Se%20cree%20que%20cada%20persona%20conoce%20en%20promedio%20a%20unas%20100%20personas.&text=La%20teor%C3%ADa%20de%20los%206%20grados%">teoría de los seis grados de separación</a></b>: indica que todos estamos conectados a cualquier otra persona del planeta a través de una cadena con sólo 6 enlaces. Según las estadísticas, cada uno conoce en promedio a 100 personas, por lo que con solo 6 enlaces o pasos de integración, se puede conectar a toda la humanidad. Y esto es posible gracias a internet, en tiempo real.             </p>
                 <br />
-            <div align="center">
-                <img
-                id="imagenajustada"
-                className="d-block w-100"
-                src={afiliados3}
-                height="450"
-                alt="..."
-                />
-                </div>
+            
 
                 <br />
                 <p>
