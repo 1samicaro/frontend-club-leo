@@ -185,7 +185,7 @@ export default function Unetenos() {
             <h4 id="titulo" align="center"> <b>Una valiosa oportunidad para asegurar la excelencia en nuestros estudios<br />
             </b> 
             </h4>
-           
+           <br />
         </div>
     </div>
     );
