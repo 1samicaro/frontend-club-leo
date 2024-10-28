@@ -31,7 +31,7 @@ export default function Unetenos() {
 
                 <h3 id="titulo" align="center"> <b>PLAN AMIGOS LEO:<br />
 
-            <h5>Ayúdanos a crecer, y construye un ingreso de por vida</h5>
+            <h5>Ayúdanos a crecer, y recibe beneficios para lograr tu excelencia académica</h5>
 
             </b> 
             </h3>
@@ -50,15 +50,13 @@ export default function Unetenos() {
                 <br />
 
             <p>
-            <b> LEO Club Mundial de Lectura</b> tiene como misión mejorar el nivel educativo y cultural de las personas para fortalecer sus competencias comunicativas y aumentar sus posibilidades de éxito académico, laboral y social. 
+            Para cumplir con la misión de promover la lectura entre los estudiantes de nuestro país y el mundo, <b>LEO</b> necesita crecer, consolidando una gran comunidad de trabajo enfocada en la excelencia académica
             </p>
             <p>
-            <b>LEO</b> se financia con la cuota anual de $60.000 que pagamos los socios, que nos permite acceder todo un año a los programas y servicios de promoción de la lectura, escritura y multilingüismo, sin tener que realizar ningún pago adicional.           </p>
+            El <b>Plan Amigos</b>, es una invitación de <b>LEO</b> a  sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo y fácil: Invitar a los amigos y compañeros de estudio a vincularse como socios, con un máximo de 20 invitados.         </p>
             <p>
-            Por esta razón, <b>LEO</b> necesita crecer en todo el mundo, y para lograrlo, ha creado el <b>Plan Amigos</b>, un Programa de Referidos que convoca a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo: <b>Invitar a los amigos a vincularse como socios, con un máximo de 20 invitados.</b></p>
-            <p>
-            Con este sencillo trabajo, cada socio podrá organizar su propia <b>Red Personal de Amigos RPA</b>, y <b>LEO</b> le proporcionará un ingreso (cashback) que puede ser muy importante y permanente.
-            </p>
+            Por este sencillo trabajo que todos podemos realizar en poco tiempo, <b>LEO</b> nos reconoce importantes beneficios que nos permitirán mejorar nuestro desempeño académico y contar con los recursos para financiar los estudios.</p>
+           
             
             <br />
             <h3 id="titulo" align="center"> <b>Principios básicos del Plan Amigos Leo
@@ -66,50 +64,39 @@ export default function Unetenos() {
             </h3>
             <br />
             <p>
-            •	La participación de los socios es libre y voluntaria. Un socio puede no participar, y seguir disfrutando los programas de promoción de la lectura, escritura y multilingüismo.
+            • La participación es libre y voluntaria. Un socio puede no participar, y seguir disfrutando los programas de promoción de la lectura, escritura y multilingüismo  que ofrece el ClubLeo. <br />
+            • Se puede invitar a cualquier estudiante de los diferentes niveles. No existen requisitos ni condiciones previas diferentes. <br />
+            • Los socios pueden residir en cualquier país del mundo. <br />
+            • El retiro es libre, en cualquier momento, sin ningún requisito. <br />
             </p>
-            <p>
-            •	Se puede invitar a cualquier institución y a cualquier persona mayor de 14 años. No existen requisitos ni condiciones previas diferentes.
-            </p>
-            <p>
-            •	Los amigos pueden residir en cualquier país del mundo.
-            </p>
-            <p>
-            •	Por cada invitado que ingrese como socio, y los que éstos a su vez inviten, <b>LEO</b> reconoce un % de la cuota de afiliación (hasta el 60%).
-            </p>
-            <p>
-            •	La Red Personal de Amigos que organice, es propiedad del socio de por vida, con sus ingresos y beneficios. 
-            </p>
-            <p>
-            •	La RPA es heredable. Una vez complete los 20 invitados, el socio podrá designar a la persona que lo sustituirá en caso de fallecimiento
-            </p>
-            <p>
-            •	El retiro libre y voluntario, en cualquier momento, sin ningún requisito.
-            </p>
-            <br />
-            <div align="center">
-                <img
-                id="imagenajustada"
-                className="d-block w-100"
-                src={afiliados2}
-                height="450"            
-                alt="..."
-                />
-                </div>
-            <br />
-            <h3 id="titulo" align="center"> <b>Cómo funciona el Plan Amigos LEO <br />
 
-            El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
+            <h3 id="titulo" align="center"> <b>Cómo funciona el Plan Amigos LEO </b> </h3>
+            <br />
+            <h4 id="titulo" align="center"> <b>El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
+            </b> </h4>
 
-            </b> 
-            </h3>
             <br />
             <p>
-            •	Al vincularse diligenciando el formulario por internet, cada socio crea su usuario y contraseña; el programa automáticamente le crea “Mi Cuenta” para que realice seguimiento en tiempo real a sus invitados e ingresos.           </p>
-            <p>
-            •	El socio invita a otras personas a vincularse a <b>LEO</b>, y al diligenciar el formulario, registran el usuario del socio promotor; el sistema los vincula en su red personal de amigos RPA, de por vida.           </p>
-            <p>
-            •	El sistema automáticamente distribuye el 60% del valor de la cuota de afiliación ($36.000) entre la RPA del nuevo socio. Este ingreso se acumula en tiempo real en su Cuenta Personal, y al fin de mes es girado a su cuenta financiera. Durante el mes, con sus ingresos, el socio pude comprar los libros, bienes y servicios ofrecidos por los aliados de LEO.           </p>
+
+            1.	Al vincularse, cada socio crea su usuario y contraseña; el programa automáticamente le crea “Mi Cuenta” para que realice seguimiento en tiempo real a sus invitados y beneficios. <br />
+
+            2.	El socio invita a sus amigos y compañeros a ingresar a <b>LEO</b>, enviándoles el link a sus redes sociales, o proporcionándoles su usuario. <br />
+
+            3.	Al vincularse, los invitados registran su usuario; y el sistema los vincula con el socio que los invita para el reconocimiento de  los beneficios de excelencia académica. <br />
+
+            4.	El sistema va acumulando en su cuenta los socios que usted invita, hasta completar los 20 solicitados. Después, la lista se cierra y no podrá seguir invitando a más personas. <br />
+
+            5.	En el primer paso de invitación, al completar los 20 invitados, recibirá una notificación de entrega de una <b>Tablet de 10”</b>, con la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras grabada. <br />
+
+            6.	En el segundo paso, cuando sus 20 invitados completen cada uno sus 20 invitados, Usted recibirá un computador portátil, que también tendrá grabada la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras. <br />
+
+            7.	<b>Finalmente, en el tercer paso,</b> cuando los nuevos socios inviten a sus 20 amigos, recibirá el <b>vbono educativo de excelencia académica por $2 millones mensuales,</b> que serán consignados en la cuenta financiera que reporte a LEO. Este bono será permanente mientras mantenga la condición de estudiante. <br />
+            </p>
+            
+        
+
+
+
             <br />
             <h3 id="titulo" align="center"> <b>Cuanto puedo ganar si organizo mí RPA?<br />
             </b> 
