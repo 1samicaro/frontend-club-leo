@@ -909,7 +909,7 @@ export default function SignUp() {
 
 
                         <div className="input-group mb-3">
-                            <span className="input-group-text" id="inputGroup-sizing-default">Número de contacto</span>
+                            <span className="input-group-text" id="inputGroup-sizing-default">Número de telefóno</span>
                             <input
                             input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             onChange={(e)=>handleInputChange("phone", e)}/>
@@ -1024,7 +1024,7 @@ export default function SignUp() {
                     </div>:<></>} */}
 
                     <div>
-                        <label className="l-01"> <h6>Por cuál medio deseas recibir los beneficios</h6></label>
+                        <label className="l-01"> <h6>Por cuál medio deseas tu bono académico</h6></label>
                         <div>
                             <select 
                             className="form-select" aria-label="Default select example"
