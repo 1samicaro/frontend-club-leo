@@ -368,7 +368,7 @@ export default function Profile() {
                         <br />
 
 
-                        <label className="l-01"> <h4>Mi red de amigos</h4></label>
+                        <label className="l-01"> <h4>Mis invitados</h4></label>
                         <div className='perfil-usuario-footer'
                             id="containerPerfil">
                             <br />
@@ -378,9 +378,9 @@ export default function Profile() {
                                         <tbody>
                                             <tr className="colorFilas">
                                                 <th scope="row"></th>
-                                                <th className="colorFilaSelect" >Nivel I</th>
-                                                <th className="colorFilaSelect" >nivel II</th>
-                                                <th className="colorFilaSelect">Nivel III</th>
+                                                <th className="colorFilaSelect" >Paso 1 I</th>
+                                                <th className="colorFilaSelect" >Paso II</th>
+                                                <th className="colorFilaSelect">Paso III</th>
                                             </tr>
                                             {table?.length>0? table?.map((type, index)=> <tr className="tablaSociosNum" key={index}>
                                                                     <th  className="tablaSociosNumSelect" scope="row">{index+1}</th>
