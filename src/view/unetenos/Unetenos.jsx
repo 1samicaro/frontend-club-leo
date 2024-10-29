@@ -178,6 +178,22 @@ export default function Unetenos() {
 
 
                 <br />
+                <p>Aunque cualquier persona puede vincularse como socio, la prioridad de LEO son los 380 millones de estudiantes y sus familias en los
+                diferentes países, para quienes la lectura y escritura son actividades rutinarias asociadas al proceso de formación académica, y el
+                fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000,
+                cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.</p>
+            <br />
+            <div   align="center">
+                <img 
+                id="imagenajustada"
+                className="d-block w-100"
+                src={afiliados3}
+                height="250"
+                alt="..."
+                />
+                </div>
+                <br />
+            
             <h2 id="titulo" align="center"> <b>Plan Amigos<br />
             </b> 
             </h2>
