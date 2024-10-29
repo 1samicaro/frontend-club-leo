@@ -321,7 +321,7 @@ export default function SignUp() {
         setCities(city)
         setCitiesComplete(city)
         // setType(id.target.value)
-        const documentType = await getDocumentType(id.target.value, 3)
+        const documentType = await getDocumentType(id.target.value, 2)
         // const secondDocument = await getDocumentType(id.target.value, 2)
         setDocument(documentType)
         // setSecondDocument(secondDocument)
