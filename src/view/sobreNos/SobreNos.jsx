@@ -77,12 +77,7 @@ export default function SobreNos() {
 
 
             </p>
-            <p>
-            Todos os estudantes do nosso país e de qualquer lugar do mundo podem ser membros do Clube Mundial de Leitura. Os menores deverão ter autorização e tutela dos pais ou responsáveis, anexando o formulário de autorização de vinculação.           
-            </p>
-            <p>
-            A associação anual custa apenas US$ 50.000. Ao aderir, os associados têm acesso gratuito ao bibliomobil.com, nossa biblioteca digital com mais de 15.000 obras em cinco idiomas, e aos demais programas educacionais e culturais do Clube (edição de obras, oficina literária, etc.)
-            </p>
+           
 
             <br /> 
             <div align="center">
@@ -95,7 +90,13 @@ export default function SobreNos() {
                 alt="..."
                 />
                 </div> 
-            
+            <br />
+             <p>
+            Todos os estudantes do nosso país e de qualquer lugar do mundo podem ser membros do Clube Mundial de Leitura. Os menores deverão ter autorização e tutela dos pais ou responsáveis, anexando o formulário de autorização de vinculação.           
+            </p>
+            <p>
+            A associação anual custa apenas US$ 50.000. Ao aderir, os associados têm acesso gratuito ao bibliomobil.com, nossa biblioteca digital com mais de 15.000 obras em cinco idiomas, e aos demais programas educacionais e culturais do Clube (edição de obras, oficina literária, etc.)
+            </p>
             
 
             <br />
