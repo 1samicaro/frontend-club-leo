@@ -73,14 +73,13 @@ export default function AProposDeNous() {
             •	Promouvoir le multilinguisme et les compétences communicatives des étudiants, pour améliorer leurs possibilités de participation et de réussite dans la société technologique moderne, grâce à Internet. <br /> 
             •	Renforcer les familles et les établissements d'enseignement en tant que cadres de base pour inculquer l'habitude de lire et d'écrire aux étudiants.
 
-            </p>
-            <p>
-            Tous les étudiants de notre pays et du monde entier peuvent être membres du Club mondial de lecture. Les mineurs doivent avoir l'autorisation et la tutelle de leurs parents ou tuteurs, en joignant le formulaire d'autorisation de liaison.</p>
-            <p>
-            L'adhésion annuelle ne coûte que 50 000 $. Dès leur adhésion, les membres accèdent gratuitement à bibliomobil.com, notre bibliothèque numérique de plus de 15 000 ouvrages en cinq langues, et aux autres programmes pédagogiques et culturels du Club (édition d'ouvrages, atelier littéraire...)          </p>
-
+           
             
             <br /> 
+            <br />
+            <h3 id="titulo" align="center"> <b>Associés<br />
+            </b> 
+            </h3>
             <div align="center">
                 <img
                 id="imagenajustada"
@@ -91,6 +90,13 @@ export default function AProposDeNous() {
                 alt="..."
                 />
                 </div> 
+                    <br />
+                    </p>
+            <p>
+            Tous les étudiants de notre pays et du monde entier peuvent être membres du Club mondial de lecture. Les mineurs doivent avoir l'autorisation et la tutelle de leurs parents ou tuteurs, en joignant le formulaire d'autorisation de liaison.</p>
+            <p>
+            L'adhésion annuelle ne coûte que 50 000 $. Dès leur adhésion, les membres accèdent gratuitement à bibliomobil.com, notre bibliothèque numérique de plus de 15 000 ouvrages en cinq langues, et aux autres programmes pédagogiques et culturels du Club (édition d'ouvrages, atelier littéraire...)          </p>
+
             
             
 
