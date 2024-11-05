@@ -73,11 +73,11 @@ export default function AcercaDe() {
             •	Rafforzare le famiglie e le istituzioni educative come ambienti di base per instillare l’abitudine di leggere e scrivere negli studenti.
 
             </p>
-            <p>
-            Tutti gli studenti nel nostro paese e in qualsiasi parte del mondo possono essere membri del Club mondiale di lettura. I minorenni dovranno avere l'autorizzazione e la tutela dei genitori o di chi ne fa le veci, allegando il modulo di autorizzazione al collegamento.            </p>
-            <p>
-            L’abbonamento annuale costa solo $ 50.000. Dopo l'adesione, i membri hanno accesso gratuito a bibliomobil.com, la nostra biblioteca digitale con più di 15.000 opere in cinque lingue, e agli altri programmi educativi e culturali del Club (pubblicazione di opere, laboratorio letterario, ecc.)            </p>
-
+            <br />
+            <h3 id="titulo" align="center"> <b>Associati<br />
+            </b> 
+            </h3>
+            
             
             <br /> 
             <div align="center">
@@ -90,6 +90,12 @@ export default function AcercaDe() {
                 alt="..."
                 />
                 </div> 
+                    <br />
+                    <p>
+            Tutti gli studenti nel nostro paese e in qualsiasi parte del mondo possono essere membri del Club mondiale di lettura. I minorenni dovranno avere l'autorizzazione e la tutela dei genitori o di chi ne fa le veci, allegando il modulo di autorizzazione al collegamento.            </p>
+            <p>
+            L’abbonamento annuale costa solo $ 50.000. Dopo l'adesione, i membri hanno accesso gratuito a bibliomobil.com, la nostra biblioteca digitale con più di 15.000 opere in cinque lingue, e agli altri programmi educativi e culturali del Club (pubblicazione di opere, laboratorio letterario, ecc.)            </p>
+
             
             
 
