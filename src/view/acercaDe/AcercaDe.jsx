@@ -77,14 +77,12 @@ export default function AcercaDe() {
             •	Promover el multilingüismo y las competencias comunicativas de los estudiantes, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br /> 
             •	Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes. <br /> 
             </p>
-            <p>
-            <b>Pueden ser socios</b> del <b>Club Mundial de Lectura</b> todos <b>los estudiantes en nuestro país y cualquier parte del mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación.
-            </p>
-            <p>
-            La membrecía anual tiene un costo de solo $50.000. Los socios tienen acceso libre y gratuito a <b>bibliomobil.com</b>, nuestra biblioteca digital con más de 15.000 obras en cinco idiomas, y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
-            </p>
+            
 
             
+            <h3 id="titulo" align="center"> <b>Asociados <br />
+            </b>
+            </h3>  
             <br /> 
             <div align="center">
                 <img
@@ -96,6 +94,13 @@ export default function AcercaDe() {
                 alt="..."
                 />
                 </div> 
+                <br />
+                <p>
+            <b>Pueden ser socios</b> del <b>Club Mundial de Lectura</b> todos <b>los estudiantes en nuestro país y cualquier parte del mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación.
+            </p>
+            <p>
+            La membrecía anual tiene un costo de solo $50.000. Los socios tienen acceso libre y gratuito a <b>bibliomobil.com</b>, nuestra biblioteca digital con más de 15.000 obras en cinco idiomas, y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
+            </p>
             
             
 
