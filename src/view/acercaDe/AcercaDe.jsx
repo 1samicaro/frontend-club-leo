@@ -95,12 +95,7 @@ export default function AcercaDe() {
                 />
                 </div> 
                 <br />
-                <p>
-            <b>Pueden ser socios</b> del <b>Club Mundial de Lectura</b> todos <b>los estudiantes en nuestro país y cualquier parte del mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación.
-            </p>
-            <p>
-            La membrecía anual tiene un costo de solo $50.000. Los socios tienen acceso libre y gratuito a <b>bibliomobil.com</b>, nuestra biblioteca digital con más de 15.000 obras en cinco idiomas, y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
-            </p>
+                
             
             
 

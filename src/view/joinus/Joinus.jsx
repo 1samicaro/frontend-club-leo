@@ -7,8 +7,7 @@ import afiliados1 from "../../assets/contenido/afiliados1.jpg";
 import afiliados2 from "../../assets/contenido/afiliados2.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
-import tabla from "../../assets/contenido/tabla.png";
-import tabla1 from "../../assets/contenido/tabla1.png";
+
 
 
 
@@ -192,6 +191,16 @@ export default function Joinus() {
             </b> 
             </h4>
            <br />
+            <div   align="center">
+                <img 
+                id="imagenajustada"
+                className="d-block w-100"
+                src={afiliados3}
+                height="250"
+                alt="..."
+                />
+                </div>
+                <br />
         </div>
     </div>
     
