@@ -137,28 +137,28 @@ export default function UniscitiANoi() {
             
             <table className="table_1" align="center"> 
                 <tr className="table_2" align="center" >
-                    <th className="table_3" align="center">Idioma</th>
-                    <th className="table_3" align="center">No. de obras</th>
-                    <th className="table_3" align="center">Hablantes nativos</th>
-                    <th className="table_3" align="center">Mayores de 14 años</th>
-                    <th className="table_3" align="center">Estudiantes</th>
+                    <th className="table_3" align="center">Lingua</th>
+                    <th className="table_3" align="center">Numero di opere</th>
+                    <th className="table_3" align="center">Madrelingua</th>
+                    <th className="table_3" align="center">Oltre 14 anni</th>
+                    <th className="table_3" align="center">Studenti</th>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Español</td>
+                    <td className="table_4" align="center">Spagnolo</td>
                     <td className="table_4" align="center">8.169</td>
                     <td className="table_4" align="center">580</td>
                     <td className="table_4" align="center">464</td>
                     <td className="table_4" align="center">116</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Inglés</td>
+                    <td className="table_4" align="center">Inglese</td>
                     <td className="table_4" align="center">5.013</td>
                     <td className="table_4" align="center">678</td>
                     <td className="table_4" align="center">542</td>
                     <td className="table_4" align="center">136</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Francés</td>
+                    <td className="table_4" align="center">Francese</td>
                     <td className="table_4" align="center">711</td>
                     <td className="table_4" align="center">300</td>
                     <td className="table_4" align="center">240</td>
@@ -172,14 +172,14 @@ export default function UniscitiANoi() {
                     <td className="table_4" align="center">17</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center">Portugués</td>
+                    <td className="table_4" align="center">Portoghese</td>
                     <td className="table_4" align="center">614</td>
                     <td className="table_4" align="center">260</td>
                     <td className="table_4" align="center">208</td>
                     <td className="table_4" align="center">52</td>
                 </tr>
                 <tr className="table_2">
-                    <td className="table_4" align="center"> <b>Totales </b></td>
+                    <td className="table_4" align="center"> <b>Totali </b></td>
                     <td className="table_4" align="center"><b>15.114</b></td>
                     <td className="table_4" align="center"> <b>1.903</b></td>
                     <td className="table_4" align="center"> <b>1.522</b></td>
