@@ -29,16 +29,17 @@ export default function JunteSeANos() {
                 </nav>
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>PLANO AMIGOS LEO:<br />
+                <h3 id="titulo" align="center"> <b>PLANO DE AMIGOS:<br />
 
-             <h5>Ajude-nos a crescer e a gerar uma renda vitalícia</h5>
+            <h5>Ajude-nos a crescer e receba benefícios para alcançar sua excelência acadêmica</h5>
 
-             </b>
-             </h3>
+            </b> 
+            </h3>
 
             <br />
-            <div >
-                <img
+            <div   align="center">
+                <img 
+                id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
                 height="250"
@@ -48,157 +49,178 @@ export default function JunteSeANos() {
 
                 <br />
 
-                <p>
-              A missão do <b>LEO World Reading Club</b> é melhorar o nível educacional e cultural das pessoas para fortalecer suas habilidades de comunicação e aumentar suas chances de sucesso acadêmico, profissional e social.
-              </p>
-              <p>
-              <b>LEO</b> é financiado pela taxa anual de US$ 50.000 que os membros pagam, o que nos permite acessar programas e serviços para promover a leitura, a escrita e o multilinguismo durante um ano inteiro, sem ter que fazer nenhum pagamento adicional. . </p>
-              <p>
-              Por isso, <b>LEO</b> precisa crescer em todo o mundo e, para isso, criou o <b>Plano de Amigos</b>, um Programa de Indicação que apela aos seus parceiros para apoiarem esse crescimento . , fazendo um trabalho muito simples: <b>Convidar amigos para se juntarem como parceiros, com no máximo 20 convidados.</b></p>
-              <p>
-              Com este trabalho simples, cada parceiro poderá organizar a sua própria <b>Rede Pessoal de Amigos RPA</b>, e a <b>LEO</b> proporcionará a eles uma renda (cashback) que pode ser muito importante e permanente.
-              </p>
+            <p>
+            Para cumprir a missão de promover a leitura entre os estudantes do nosso país e do mundo, a LEO precisa crescer,
+            consolidando uma grande comunidade de trabalho focada na excelência acadêmica
+            </p>
+            <p>
+            O Plano Amigos é um convite da LEO aos seus membros para apoiarem este crescimento, fazendo um trabalho muito
+            simples e fácil: Convidar amigos e colegas estudantes para aderirem como membros, com um máximo de 20 convidados.
+            </p>
+            <p>
+            Por este trabalho simples que todos podemos realizar em pouco tempo, a LEO reconhece importantes benefícios que nos
+            permitirão melhorar o nosso desempenho académico e ter recursos para financiar os nossos estudos.
+            </p>
+           
             
-              <br />
-              <h3 id="titulo" align="center"> <b>Princípios básicos do Plano Amigos Leo
-              </b>
-              </h3>
-              <br />
-              <p>
-              • A participação dos membros é gratuita e voluntária. Um membro não pode participar e continuar usufruindo dos programas de promoção da leitura, da escrita e do multilinguismo.
-              </p>
-              <p>
-              • Qualquer instituição e maiores de 14 anos podem ser convidados. Não existem requisitos ou pré-condições diferentes.
-              </p>
-              <p>
-              • Os amigos podem residir em qualquer país do mundo.
-              </p>
-              <p>
-              • Para cada convidado que se inscreve como membro, e aqueles que ele por sua vez convida, a <b>LEO</b> reconhece uma % da taxa de adesão (até 60%).
-              </p>
-              <p>
-              • A Rede Pessoal de Amigos que você organiza é propriedade vitalícia do membro, com seus rendimentos e benefícios.
-              </p>
-              <p>
-              • A RPA é hereditária. Completados os 20 convidados, o associado poderá designar quem o substituirá em caso de falecimento.
-              </p>
-              <p>
-              • Desistência gratuita e voluntária, a qualquer momento, sem quaisquer exigências.
-              </p>
-              <br />
-            <div>
-                <img
+            <br />
+            <h3 id="titulo" align="center"> <b>Princípios básicos do Plano Amigos Leo
+            </b> 
+            </h3>
+            <br />
+            <p>
+            • A participação é gratuita e voluntária. O associado não poderá participar e continuar aproveitando os programas de
+            promoção da leitura, escrita e multilinguismo oferecidos pelo ClubLeo. <br />
+            • Qualquer aluno de diferentes níveis poderá ser convidado. Não existem requisitos ou pré-condições diferentes. <br />
+            • Os parceiros podem residir em qualquer país do mundo. <br />
+            • A retirada é gratuita, a qualquer momento, sem quaisquer requisitos.
+            </p>
+
+            <h3 id="titulo" align="center"> <b>Como funciona o Plano Amigos LEO</b> </h3>
+            <br />
+            <h4 id="titulo" align="center"> <b>O princípio é simples: convide e obtenha benefícios para a nossa atividade acadêmica
+            </b> </h4>
+
+            <br />
+            <p>
+            1. Ao vincular, cada parceiro cria seu nome de usuário e senha; O programa cria automaticamente “Minha Conta” para
+            que você possa acompanhar seus convidados e benefícios em tempo real. <br />
+            2. O membro convida seus amigos e colegas para entrar no LEO, enviando-lhes o link de suas redes sociais, ou
+            fornecendo-lhes seu nome de usuário <br />
+            3. Ao vincular, o convidado cadastra seu nome de usuário; e o sistema os conecta ao parceiro que os convida a
+            reconhecer os benefícios da excelência acadêmica. <br />
+
+            4. O sistema acumula na sua conta os parceiros que você convida, até completar os 20 solicitados. Depois, a lista é
+           fechada e você não poderá mais convidar mais pessoas. <br />
+           5. Na primeira etapa do convite, ao completar os 20 convidados, você receberá a notificação de entrega de um Tablet de
+           10” com a biblioteca digital bibliomobil e suas 15.000 obras gravadas. <br />
+           6. Na segunda etapa, quando seus 20 convidados completarem cada um seus 20 convidados, você receberá um laptop,
+           que também terá a biblioteca digital bibliomobil e suas 15 mil obras registradas. <br />
+           7. Finalmente, na terceira etapa, quando os novos membros convidarem seus 20 amigos, eles receberão o bônus
+           educacional por excelência acadêmica no valor de US$ 2 milhões por mês, que será registrado na conta financeira
+           reportada ao LEO. Este bônus será permanente enquanto você mantiver seu status de estudante.
+
+            </p>
+            
+
+
+            <br />
+            <h3 id="titulo" align="center"> <b>O Desafio LEO: benefício adicional para membros comprometidos<br />
+            </b> 
+            </h3>
+            <br />
+            <p>
+            Se um membro conseguir vincular seus 20 convidados no mês seguinte à sua entrada no LEO, receberá um grande
+            estímulo adicional: o bônus educacional pela excelência acadêmica será de US$ 4 milhões por mês, suficiente para
+            financiar até estudos universitários.            </p>
+
+            <h3 id="titulo" align="center"> <b>Mercado-alvo LEO. Parceiros potenciais<br />
+            </b> 
+            </h3>
+
+            <div   align="center">
+                <img 
+                id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="450"            
+                height="250"
                 alt="..."
                 />
                 </div>
             <br />
-            <h3 id="titulo" align="center"> <b>Como funciona o Plano LEO Friends <br />
-
-             O princípio é simples: convide e obtenha renda crescente para o resto da vida
-
-             </b>
-             </h3>
-             <br />
-             <p>
-             • Ao aderir através do preenchimento do formulário online, cada membro cria o seu nome de utilizador e palavra-passe; O programa cria automaticamente “Minha Conta” para que você possa acompanhar seus convidados e receitas em tempo real. </p>
-             <p>
-             • O parceiro convida outras pessoas para aderirem ao <b>LEO</b>, e ao preencher o formulário cadastram o nome de usuário do parceiro promotor; O sistema os conecta à sua rede pessoal de amigos RPA para o resto da vida. </p>
-             <p>
-             • O sistema distribui automaticamente 60% do valor da taxa de adesão (US$ 30.000) entre o RPA do novo associado. Essa receita acumula em tempo real na sua Conta Pessoal, e no final do mês é transferida para a sua conta financeira. Durante o mês, com sua renda, o associado pôde adquirir os livros, bens e serviços oferecidos pelos aliados LEO. </p>
-             <br />
-             <h3 id="titulo" align="center"> <b>Quanto posso ganhar se organizar meu RPA?<br />
-             </b>
-             </h3>
-             <br />
-             <p>
-             Da taxa de adesão de $50.000, a <b>LEO</b> destina 60% ($30.000) para remunerar o trabalho de convite realizado pelos seus associados, receita que crescerá sucessivamente com os novos convidados, gerando uma renda anual muito importante. detalhado na tabela a seguir: </p>
+            <p>
+            Bibliomobil, a Biblioteca Digital LEO oferece aos seus membros mais de 15.000 obras em 5 idiomas, utilizadas em mais
+            de 100 países do mundo (Anexo), com uma população de 1,9 bilhão de pessoas, sendo 1,5 bilhão maiores de 14 anos
+            com capacidade de leitura e 380 milhões de estudantes primários e secundários.
+            </p>
+        
             
-            
-             <br />
-            <div className="imagenesTam">
-                <img
-                className="d-block w-100"
-                src={tabla}
-                width="400"
-                alt="..."
-                />
-                </div>
-                <br />
-                 <p>
-                 Este será o resultado do meu trabalho: Depois de organizar meu b <b>RPA</b>, poderei ter uma renda anual de US$ 1,5 bilhão, que será vitalícia, porque <b>LEO</b > reconhece tanto os rendimentos como renovações anuais.
-                 </p>
-                 <p>
-                 Um trabalho fácil, simples e rápido para alcançar um grande objetivo: <b>independência económica, para toda a vida.</b>
-                 </p>
-                 <p>
-                 <b>Como conseguir isso?</b>
-                 </p>
-                 <p>
-                 Você só precisa fazer duas coisas muito simples: <br />
-                 <b> 1. Convidar meus 20 amigos para ingressar no ClubLeo</b> (familiares, vizinhos, colegas de estudo e trabalho, contatos em redes sociais, instituições educacionais e sociais, etc.) <br />
-                 <b>2. Acompanhe e dê suporte ao meu RPA,</b> aproveitando a internet. Existem técnicas simples, gratuitas e eficazes:<br />
-                 • Criar meu próprio grupo no Facebook e WhatsApp com meus 20 convidados. <br />
-                 • Criar e enviar mensagens motivacionais aos meus parceiros RPA. <br />
-                 </p>
-                 <p>
-                 <b> O Plano Amigos é concebido como uma aliança estratégica ganha-ganha: a LEO</b> cresce em todo o mundo e tem recursos para desenvolver seus programas educacionais e culturais, e os parceiros podem garantir uma renda importante e, portanto, vida.
-                 </p>
+            <table className="table_1" align="center"> 
+                <tr className="table_2" align="center" >
+                    <th className="table_3" align="center">Linguagem</th>
+                    <th className="table_3" align="center">Número de obras</th>
+                    <th className="table_3" align="center">Falantes nativos</th>
+                    <th className="table_3" align="center">Mais de 14 anos</th>
+                    <th className="table_3" align="center">Alunos</th>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Espanhol</td>
+                    <td className="table_4" align="center">8.169</td>
+                    <td className="table_4" align="center">580</td>
+                    <td className="table_4" align="center">464</td>
+                    <td className="table_4" align="center">116</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Inglês</td>
+                    <td className="table_4" align="center">5.013</td>
+                    <td className="table_4" align="center">678</td>
+                    <td className="table_4" align="center">542</td>
+                    <td className="table_4" align="center">136</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Francês</td>
+                    <td className="table_4" align="center">711</td>
+                    <td className="table_4" align="center">300</td>
+                    <td className="table_4" align="center">240</td>
+                    <td className="table_4" align="center">60</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Italiano</td>
+                    <td className="table_4" align="center">607</td>
+                    <td className="table_4" align="center">85</td>
+                    <td className="table_4" align="center">68</td>
+                    <td className="table_4" align="center">17</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center">Português</td>
+                    <td className="table_4" align="center">614</td>
+                    <td className="table_4" align="center">260</td>
+                    <td className="table_4" align="center">208</td>
+                    <td className="table_4" align="center">52</td>
+                </tr>
+                <tr className="table_2">
+                    <td className="table_4" align="center"> <b>Totais </b></td>
+                    <td className="table_4" align="center"><b>15.114</b></td>
+                    <td className="table_4" align="center"> <b>1.903</b></td>
+                    <td className="table_4" align="center"> <b>1.522</b></td>
+                    <td className="table_4" align="center"> <b>381</b> </td>
+                </tr>
 
-                 <br />
-             <h3 id="titulo" align="center"> <b>Por que o Plano Amigos?<br />
-             </b>
-             </h3>
-             <br />
-             <p>
-             <b> O fenômeno econômico mais importante do século 21 são as redes sociais na Internet, </b> que em poucos anos estão presentes em todos os países com bilhões de usuários, tornando-se as empresas mais valiosas e lucrativas (este ano o Twitter foi vendido por US$ 44 bilhões, enquanto o Facebook está avaliado em US$ 226 bilhões). Segundo números da Smart Insights, em 2022 58,4% da população mundial utiliza redes sociais (4.062 milhões de pessoas). </p>
-             <h5 id="titulo" align="center"> <b>Como crescem as redes sociais? Que estratégia você usa para alcançar todos?<br />
-             </b>
-             </h5>
-                 <br />
-                 <p>
-                 É simples. Chama-se <b><a href="https://www.tiempo.com/noticias/ciencia/el-mundo-es-un-panuelo-conoce-la-teoria-de-los-6-grados-de-separacion.html#:~:text=Se%20cree%20que%20cada%20persona%20conoce%20en%20promedio%20a%20unas%20100%20personas.&text=La%20teor%C3%ADa%20de%20los%206%20grados%">teoria dos seis graus de separação</a></b>: indica que estamos todos conectados a todas as outras pessoas do planeta através de uma corrente com apenas 6 elos. Segundo as estatísticas, cada pessoa conhece em média 100 pessoas, portanto, com apenas 6 links ou etapas de integração, toda a humanidade pode estar conectada. E isso é possível graças à internet, em tempo real. </p>
-                 <br />
-             <div>
-                <img
-                className="d-block w-100"
-                src={afiliados3}
-                height="450"
-                alt="..."
-                />
-                </div>
+
+                </table>
+
+
 
                 <br />
                 <p>
-                 Aproveitando esta experiência de sucesso, o <b>Plano LEO Friends</b> é concebido como uma <b>rede social global</b>, educacional, cultural e empresarial, onde os membros podem convidar pessoas de todo o mundo para conectam-se pela Internet e obtêm uma participação para cada novo associado, construindo uma renda acumulada que garante sua independência econômica, para o resto da vida.
-                 </p>
-             <h3 id="titulo" align="center"> <b>Mercado Alvo LEO. Parceiros potenciais<br />
-             </b>
-             </h3>
-             <br />
-             <p>
-             <b>Bibliomobil</b>, a Biblioteca Digital da Família <b>LEO</b> oferece aos seus membros mais de 15.000 obras em 5 idiomas, utilizadas em mais de 100 países ao redor do mundo (Anexo), com uma população de 1,9 mil milhões de pessoas, sendo 1,5 mil milhões com mais de 14 anos de idade com capacidade de leitura e 380 milhões de estudantes do ensino primário e secundário.
-                 </p>
-            <div className="imagenesTam">
-                <img
+                Embora qualquer pessoa possa aderir como membro, a prioridade da LEO são os 380 milhões de estudantes e suas
+                famílias em diferentes países, para quem a leitura e a escrita são atividades rotineiras associadas ao processo de
+                formação académica, e o fortalecimento das suas capacidades comunicativas é fundamental para o sucesso do processo
+                educativo. processo. Com a adesão anual de US$ 50.000, cada membro acessa a biblioteca digital para download com
+                15.000 obras em 5 idiomas, avaliadas em mais de CO$ 150 milhões, US$ 40.000.
+                </p>
+            <br />
+            <h2 id="titulo" align="center"> <b>Plano de amigos<br />
+            </b> 
+            </h2>
+            <br />
+            <h4 id="titulo" align="center"> <b>Uma valiosa oportunidade para garantir a excelência em nossos estudos<br />
+            </b> 
+            </h4>
+           <br />
+            <div   align="center">
+                <img 
+                id="imagenajustada"
                 className="d-block w-100"
-                src={tabla1}
+                src={afiliados3}
                 height="250"
                 alt="..."
                 />
                 </div>
                 <br />
-                <p>
-                 A prioridade da <b>LEO</b> são os 380 milhões de estudantes e suas famílias em diferentes países, para quem a leitura e a escrita são atividades rotineiras associadas ao processo de formação acadêmica, e fortalecer suas habilidades de comunicação é fundamental para o sucesso da o processo educacional. Com a adesão anual de US$ 50.000, cada membro acessa a biblioteca digital para download com 15.000 obras em 5 idiomas, avaliadas em mais de CO$ 150 milhões, US$ 40.000. </p>
-                 <br />
-                 <h4 id="titulo" align="center"> <b> <h2> <b>Plano de amigos</b></h2>
-                 Uma oportunidade valiosa para construir independência financeira, para toda a vida<br />
-                 Com um trabalho simples, fácil e rápido, que todos podemos fazer
-                 </b>
-                </h4>
-                <br />
+            
+            
+           <br />
         </div>
     </div>
     );

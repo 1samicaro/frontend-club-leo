@@ -94,7 +94,7 @@ export default function Unetenos() {
 
 
             <br />
-            <h3 id="titulo" align="center"> <b>El Reto LEO: beneficio adicional para socios pilosos<br />
+            <h3 id="titulo" align="center"> <b>El Reto LEO: beneficio adicional para socios comprometidos<br />
             </b> 
             </h3>
             <br />
@@ -183,6 +183,14 @@ export default function Unetenos() {
                 fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de $50.000,
                 cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de CO$150 mills, US$40.000.</p>
             <br />
+            <h2 id="titulo" align="center"> <b>Plan Amigos<br />
+            </b> 
+            </h2>
+            <br />
+            <h4 id="titulo" align="center"> <b>Una valiosa oportunidad para asegurar la excelencia en nuestros estudios<br />
+            </b> 
+            </h4>
+           <br />
             <div   align="center">
                 <img 
                 id="imagenajustada"
@@ -194,13 +202,11 @@ export default function Unetenos() {
                 </div>
                 <br />
             
-            <h2 id="titulo" align="center"> <b>Plan Amigos<br />
-            </b> 
-            </h2>
-            <br />
-            <h4 id="titulo" align="center"> <b>Una valiosa oportunidad para asegurar la excelencia en nuestros estudios<br />
+            <h4 id="titulo" align="center"> <b>Una comunidad mundial de ganadores<br />
             </b> 
             </h4>
+            <br />
+            
            <br />
         </div>
     </div>

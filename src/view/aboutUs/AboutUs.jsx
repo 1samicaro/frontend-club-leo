@@ -75,12 +75,11 @@ export default function AboutUs() {
             • Strengthen families and educational institutions as basic scenarios to instill the habit of reading and writing in students.
 
             </p>
-            <p>
-            All students in our country and anywhere in the world can become members of the <b>World Reading Club.</b> Minors must have the authorization and guardianship of their parents or guardians, attaching the authorization form for membership.
-            </p>
-            <p>
-            Annual membership costs only US$15. From the moment they join, members have free access to <b>bibliomobil.com</b>, our digital library with more than 15,000 works in five languages, and to the Club's other educational and cultural programs (publishing works, literary workshop, etc.)
-            </p>
+            <br />
+            <h3 id="titulo" align="center"> <b>Associates<br />
+            </b> 
+            </h3> 
+            <br />  
 
             
             <br /> 
@@ -94,6 +93,13 @@ export default function AboutUs() {
                 alt="..."
                 />
                 </div> 
+                <br />
+            <p>
+            All students in our country and anywhere in the world can become members of the <b>World Reading Club.</b> Minors must have the authorization and guardianship of their parents or guardians, attaching the authorization form for membership.
+            </p>
+            <p>
+            Annual membership costs only US$15. From the moment they join, members have free access to <b>bibliomobil.com</b>, our digital library with more than 15,000 works in five languages, and to the Club's other educational and cultural programs (publishing works, literary workshop, etc.)
+            </p>
             
             
 
