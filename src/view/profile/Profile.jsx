@@ -99,7 +99,6 @@ export default function Profile() {
             console.log(e);
         }
     }
-
     const maxLoanGet = async () =>{
         try{
             const maxLoan = await getMaxLoan(token)

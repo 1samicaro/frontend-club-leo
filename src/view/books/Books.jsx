@@ -133,7 +133,6 @@ export default function Books() {
     const countries = useSelector(state=> state.stateReducers?.countries)
     const authors = useSelector(state=> state.stateReducers?.authors)
     const recommended = useSelector(state=>state.recommendedReducer?.recommended)
-    console.log(recommended);
 
     let demo = true
     if(userInfo.isSuscribed){
