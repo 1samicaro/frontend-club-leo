@@ -15,6 +15,7 @@ import Privacydata from './view/privacydata/Privacydata';
 import Terms from './view/terms/Terms';
 import Regulation from './view/regulation/Regulation';
 import RegulationsPlanFriends from './view/regulationsplanfriends/RegulationsPlanFriends';
+import ReglamentoEscritores from './view/reglamentoEscritores/ReglamentoEscritores';
 import Team from './view/team/Team';
 import Sell from './view/sell/Sell';
 import Buy from './view/buy/Buy';
@@ -107,6 +108,8 @@ function App() {
         <Route path='/Terms' element={<Terms />}/>
         <Route path='/Regulation' element={<Regulation />}/>
         <Route path='/RegulationsPlanFriends' element={<RegulationsPlanFriends/>}/>
+        <Route path='/ReglamentoEscritores' element={<ReglamentoEscritores/>}/>
+
 
         <Route path='/Team' element={<Team />}/>
         <Route path='/Sell' element={<Sell />}/>

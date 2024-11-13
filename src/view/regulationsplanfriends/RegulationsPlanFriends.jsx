@@ -61,11 +61,11 @@ export default function RegulationsPlanFriends() {
                 <h3 align="center">CAPITULO II<br /></h3>
                 <h5 align="center"> <b>Beneficios</b></h5> 
                 <p>
-                <b>Artículo 5. </b> – El socio que participe en el Plan Amigos con la meta de invitar a máximo 20 personas a ingresar como socios de LEO, recibirá los siguientes beneficios:
+                <b>Artículo 5. </b> – El socio que participe en el Plan Amigos con la meta de invitar a máximo 20 personas a ingresar como socios de LEO, recibirá los siguientes beneficios: <br />
 
-                1.	En el primer paso de invitación, al completar los 20 socios directos, recibirá una <b>Tableta de 10”</b>, con la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras grabada.
+                1.	En el primer paso de invitación, al completar los 20 socios directos, recibirá una <b>Tableta de 10”</b>, con la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras grabada. <br />
 
-                2.	En el segundo paso, cuando sus 20 socios directos completen cada uno sus 20 invitados, el socio recibirá un <b>computador portátil</b>, que también tendrá grabada la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras.
+                2.	En el segundo paso, cuando sus 20 socios directos completen cada uno sus 20 invitados, el socio recibirá un <b>computador portátil</b>, que también tendrá grabada la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras. <br />
 
                 3.	<b>Finalmente, en el tercer paso</b>, cuando los nuevos socios inviten a sus 20 amigos, recibirá el <b>bono educativo de excelencia académica por $2 millones mensuales</b>, que serán consignados en la cuenta financiera que reporte a LEO. Este bono será permanente mientras mantenga la condición de estudiante y socio de LEO.
                 </p>

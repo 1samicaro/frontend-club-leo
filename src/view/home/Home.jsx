@@ -560,16 +560,19 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                    <h4 align="right">Politica y Seguridad de Usuarios</h4>
                 <ul align="right"> 
                   <li align="right">
-                  •  <Link to="/Privacydata"><u id="titteblue">Tratamiento de datos</u></Link>
+                  •  <Link to="/Privacydata"><u id="titteblue">Política Tratamiento de datos</u></Link>
                   </li>
                   <li align="right">
                   •  <Link to="/Terms" ><u id="titteblue">Términos y Condiciones</u></Link>
                   </li>
                   <li align="right">
-                  •  <Link to="/Regulation" ><u id="titteblue">Reglamento general</u></Link>
+                  •  <Link to="/Regulation" ><u id="titteblue">Reglamento general Club Leo</u></Link>
                   </li>
                   <li align="right">
-                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Reglamento plan amigos</u></Link>
+                  •  <Link to="/RegulationsPlanFriends"><u id="titteblue">Reglamento plan amigos Leo</u></Link>
+                  </li>
+                  <li align="right">
+                  •  <Link to="/ReglamentoEscritores"><u id="titteblue">Reglamento Escritores Leo</u></Link>
                   </li>
 
                 </ul>
