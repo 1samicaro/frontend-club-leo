@@ -1107,9 +1107,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  We are a global community in action <br />
-                  <h4>We promote reading, writing and multilingualism, to build <br />
-                  together a more educated and cultured, progressive and peaceful world</h4> <br />
+                  Worldwide Community of Students <br />
+                  <h4>We promote reading to improve academic performance <br />
+                  and the chances of professional success of our members</h4> <br />
                 </b> 
                 </h4>
             </div>
@@ -1118,9 +1118,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Nous sommes une communauté mondiale en action <br />
-                  <h4>Nous promouvons la lecture, l'écriture et le multilinguisme, pour construire <br />
-                  ensemble un monde plus éduqué et cultivé, progressiste et pacifique</h4> <br />
+                Communauté étudiante mondiale <br />
+                  <h4>Nous promouvons la lecture pour améliorer les résultats scolaires <br />
+                  et les possibilités de réussite professionnelle de nos partenaires</h4> <br />
                 </b> 
                 </h4>
             </div>
@@ -1129,9 +1129,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Somos uma comunidade global em ação<br />
-                  <h4>Promovemos a leitura, a escrita e o multilinguismo, para construir<br />
-                  juntos um mundo mais educado e culto, progressista e pacífico</h4> <br />
+                   Comunidade Estudantil Mundial<br />
+                  <h4>Promovemos a leitura para melhorar o desempenho acadêmico<br />
+                  e as possibilidades de sucesso profissional dos nossos parceiros</h4> <br />
                 </b> 
                 </h4>
             </div>
@@ -1140,9 +1140,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Siamo una comunità globale in azione <br />
-                  <h4>Promuoviamo la lettura, la scrittura e il multilinguismo, per costruire <br />
-                  insieme un mondo più istruito e colto, progressista e pacifico</h4> <br />
+                  Comunità studentesca mondiale <br />
+                  <h4>Promuoviamo la lettura per migliorare il rendimento scolastico <br />
+                  e le possibilità di successo professionale dei nostri partner</h4> <br />
                 </b> 
                 </h4>
             </div>
