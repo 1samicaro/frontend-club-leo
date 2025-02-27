@@ -1,4 +1,10 @@
 import Modal1 from '../../components/Modal1';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import banner1 from "../../assets/banner1.jpg";
 import banner2 from "../../assets/banner2.jpg";
@@ -697,123 +703,234 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
 
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <Navbar expand="lg" className="bg-body-tertiary">
+        
       {(language===1 || languageChange===1)&&
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
-          <h4> <b>   Vamos a leer </b></h4>
-          </Link>
-          <Link to="https://escritoresleo.com/" className="navbar-brand">
-          <h4> <b>   Escritores LEO </b></h4>
-          </Link>
-          {/* <Link to="/" className="navbar-brand">
-          <h4> <b>   Bibliotecas </b></h4>
-          </Link> */}
-          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
-          <h4> <b>   Biblioteca </b></h4>
-          </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>  Biblioteca Demo </b></h4>
+
+            <NavDropdown title="Español" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           </NavDropdown>
+           <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+
+            {userInfo.isSuscribed? <Link to="/books" >
+           Biblioteca 
+          </Link> :<Link to="/books">
+          Demo Biblioteca 
           </Link>}
-          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
-          <h4> <b>   Videos </b></h4>
-          </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b>Taller literario </b></h4>
-          </Link>
-        </div>}
-      {(language===2 || languageChange===2)&&
+          <Nav.Link href="#action2">Videos</Nav.Link>
+           </div>}
+
+
+
+
+           {(language===2 || languageChange===2)&&
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
-          <h4> <b>   Let's read </b></h4>
-          </Link>
-          <Link to="https://escritoresleo.com/" className="navbar-brand">
-          <h4> <b>   Writers LEO </b></h4>
-          </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b> Education </b></h4>
-          </Link>
-          {/* <Link to="/" className="navbar-brand">
-          <h4> <b>   Bibliotecas </b></h4>
-          </Link> */}
-          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
-          <h4> <b>   Library </b></h4>
-          </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>   Demo library </b></h4>
+
+            <NavDropdown title="Español" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           </NavDropdown>
+           <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+
+            {userInfo.isSuscribed? <Link to="/books" >
+           Library 
+          </Link> :<Link to="/books">
+          Demo library 
           </Link>}
-          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
-          <h4> <b>   Videos </b></h4>
-          </Link>
-        </div>}
-      {(language===3 || languageChange===3)&&
+          <Nav.Link href="#action2">Videos</Nav.Link>
+           </div>}
+
+
+
+           {(language===3 || languageChange===3)&&
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
-          <h4> <b>   Nous allons lire </b></h4>
-          </Link>
-          <Link to="https://escritoresleo.com/" className="navbar-brand">
-          <h4> <b>   Écrivains LEO </b></h4>
-          </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b> Éducation </b></h4>
-          </Link>
-          {/* <Link to="/" className="navbar-brand">
-          <h4> <b>   Bibliotecas </b></h4>
-          </Link> */}
-          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
-          <h4> <b>   Bibliothèque </b></h4>
-          </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>   Bibliothèque de démonstration </b></h4>
+
+            <NavDropdown title="Español" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           </NavDropdown>
+           <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+
+            {userInfo.isSuscribed? <Link to="/books" >
+           Library 
+          </Link> :<Link to="/books">
+          Demo library 
           </Link>}
-          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
-          <h4> <b>   Vidéos </b></h4>
-          </Link>
-        </div>}
-      {(language===4 || languageChange===4)&&
+          <Nav.Link href="#action2">Videos</Nav.Link>
+           </div>}
+
+           {(language===4 || languageChange===4)&&
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
-          <h4> <b>   Vamos ler</b></h4>
-          </Link>
-          <Link to="https://escritoresleo.com/" className="navbar-brand">
-          <h4> <b>   Escritores LEO </b></h4>
-          </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b> Educação </b></h4>
-          </Link>
-          {/* <Link to="/" className="navbar-brand">
-          <h4> <b>   Bibliotecas </b></h4>
-          </Link> */}
-          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
-          <h4> <b>   Biblioteca </b></h4>
-          </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>   Biblioteca de demonstração </b></h4>
+
+            <NavDropdown title="Español" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           </NavDropdown>
+           <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+
+            {userInfo.isSuscribed? <Link to="/books" >
+           Library 
+          </Link> :<Link to="/books">
+          Demo library 
           </Link>}
-          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
-          <h4> <b>   Vídeos </b></h4>
-          </Link>
-        </div>}
-        {(language===5 || languageChange===5)&&
+          <Nav.Link href="#action2">Videos</Nav.Link>
+           </div>}
+
+           {(language===5 || languageChange===5)&&
         <div className="container-fluid" >
-          <Link to="https://www.vamosaleer.co/" className="navbar-brand" target='_blank'>
-          <h4> <b>   Leggiamo </b></h4>
-          </Link>
-          <Link to="https://escritoresleo.com/" className="navbar-brand">
-          <h4> <b>   Scrittori LEO </b></h4>
-          </Link>
-          <Link to="/" className="navbar-brand">
-          <h4><b> Formazione scolastica </b></h4>
-          </Link>
-          {/* <Link to="/" className="navbar-brand">
-          <h4> <b>   Bibliotecas </b></h4>
-          </Link> */}
-          {userInfo.isSuscribed? <Link to="/books" className="navbar-brand">
-          <h4> <b>   Biblioteca </b></h4>
-          </Link> :<Link to="/books" className="navbar-brand">
-          <h4> <b>  Libreria dimostrativa </b></h4>
+
+            <NavDropdown title="Español" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           </NavDropdown>
+           <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Título</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">País</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Autor/Escritor</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Género literario</NavDropdown.Item>
+           </NavDropdown>
+           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+
+            {userInfo.isSuscribed? <Link to="/books" >
+           Library 
+          </Link> :<Link to="/books">
+          Demo library 
           </Link>}
-          <Link to="https://www.youtube.com/watch?v=jX4VH3v12Pk&list=PLwUVDMUleToxetu7wxvAmsW8VJ0eHXqWK" className="navbar-brand">
-          <h4> <b>   Video </b></h4>
-          </Link>
-        </div>}
-      </nav>
+          <Nav.Link href="#action2">Videos</Nav.Link>
+           </div>}
+     
+        </Navbar>
       </div>
 
     <div className="row" id="margin">
