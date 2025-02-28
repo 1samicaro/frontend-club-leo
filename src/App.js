@@ -35,6 +35,7 @@ import Unetenos from './view/unetenos/Unetenos.jsx';
 import UniscitiANoi from './view/uniscitiANoi/UniscitiANoi.jsx';
 import RejoignezNous from './view/rejoignezNous/RejoignezNous.jsx';
 import JunteSeANos from './view/junteSeANos/JunteSeANos.jsx';
+import TablasOrganizadas from './view/tablasOrganizadas/TablasOrganizadas.jsx';
 
 // import { initMercadoPago } from "@mercadopago/sdk-react";
 
@@ -120,6 +121,8 @@ function App() {
         <Route path='/sendpay' element={<SendPay />}/>
         {/* <Route path='/:name/:id' element={<Category />}/> */}
         <Route path='/books' element={<Books />}/>
+        <Route path='/organizedBooks/:language/:select' element={<TablasOrganizadas />}/>
+
         <Route path='/paid' element={<Paid />}/>
         <Route path='/viewWord/:id' element={<ViewWord />}/>
       </Routes>
