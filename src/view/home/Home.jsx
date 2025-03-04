@@ -88,7 +88,7 @@ export default function Home() {
           getCountriesBooks(languageChange),
           getGenresBooks(languageChange),
           getBooks(languageChange),
-          getBooks(2),
+          getBooks(1),
           getBooks(3),
           getBooks(4),
           getBooks(5),
@@ -98,8 +98,8 @@ export default function Home() {
       dispatch(booksCountries(countryBooks))
       dispatch(booksAuthors(authors))
       dispatch(allBooks(books))
-      dispatch(allBooksSpanish(books))
-      dispatch(allBooksEnglish(booksEnglish))
+      dispatch(allBooksSpanish(booksEnglish))
+      dispatch(allBooksEnglish(books))
       dispatch(allBooksFranch(booksFranch))
       dispatch(allBooksItalian(booksItalian))
       dispatch(allBooksPortugues(booksPortugues))
