@@ -707,7 +707,7 @@ export default function TablasOrganizadas() {
                         <th><Link to={`/viewWord/${data.name}`}><p id="titulo7">{data.name}</p></Link></th>
 					</tr>
 					))}
-				</tbody>
+				</tbody>			
 			</table>
         </div>
     </div>

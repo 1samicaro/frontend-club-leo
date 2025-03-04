@@ -63,7 +63,7 @@ export default function Home() {
   const [estadoModal2, cambiarEstadoModal2] = useState(false);
 
   const languageChange = useSelector(state=> state.changeLanguageReducer?.id)
-  const [language, setLanguage] = useState("1")
+  const [language, setLanguage] = useState("2")
   const [isloading, setIsLoading] = useState(false)
 
 
