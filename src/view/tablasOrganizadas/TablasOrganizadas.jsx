@@ -39,12 +39,11 @@ const languages =[
 ]
 
 // let didInit = true
+var results = []
 
 export default function TablasOrganizadas() {
 
 	let params =useParams()
-	console.log(params.language);
-	console.log(params.select);
     
     const [language, setLanguage] = useState("1")
     
@@ -53,7 +52,6 @@ export default function TablasOrganizadas() {
     const [catalogo, setCatalogo] = useState([])
     const [wait, setWait] =useState(true)
     const [search, setSearch] = useState("")
-    // const [random, setRandom] = useState([])
 	const allBooksSpanish = useSelector(state=> state.booksInfoReducer?.allBooksSpanish)
 	const allBooksEnglish = useSelector(state=> state.booksInfoReducer?.allBooksEnglish)
 	const allBooksFranch = useSelector(state=> state.booksInfoReducer?.allBooksFranch)
@@ -67,7 +65,7 @@ export default function TablasOrganizadas() {
     if(userInfo.isSuscribed){
 		demo = false
     }
-	useEffect(()=>{update()},[catalogo])
+	useEffect(()=>{},[search])
     
 	if(Number(params.language)===1){
 		//autores
@@ -83,6 +81,7 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
+				results=temp
 				setWait(false)
 			}, "10");
 		}
@@ -99,6 +98,7 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
+				results=temp
 				setWait(false)
 			}, "10");
 		}
@@ -115,12 +115,12 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
+				results=temp
 				setWait(false)
 			}, "10");
 		}
 		//géneros
 		else if(Number(params.select)===4){
-			console.log("generos");
 			setTimeout(() => {
 				temp= allBooksSpanish.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
@@ -132,6 +132,7 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
+				results=temp
 				setWait(false)
 			}, "10");
 		}
@@ -187,7 +188,6 @@ export default function TablasOrganizadas() {
 		}
 		//géneros
 		else if(Number(params.select)===4){
-			console.log("generos");
 			setTimeout(() => {
 				temp= allBooksEnglish.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
@@ -254,7 +254,6 @@ export default function TablasOrganizadas() {
 		}
 		//géneros
 		else if(Number(params.select)===4){
-			console.log("generos");
 			setTimeout(() => {
 				temp= allBooksFranch.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
@@ -321,7 +320,6 @@ export default function TablasOrganizadas() {
 		}
 		//géneros
 		else if(Number(params.select)===4){
-			console.log("generos");
 			setTimeout(() => {
 				temp= allBooksItalian.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
@@ -388,7 +386,6 @@ export default function TablasOrganizadas() {
 		}
 		//géneros
 		else if(Number(params.select)===4){
-			console.log("generos");
 			setTimeout(() => {
 				temp= allBooksPortugues.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
@@ -409,29 +406,27 @@ export default function TablasOrganizadas() {
         setSearch(e.target.value)
     }
 
-	let results = catalogo
+
 	if(!search){
-		results=catalogo
+		results=catalogo	
 	}
 	else{
 		if(Number(params.select)===1){
 			results = catalogo.filter((dato)=>
-			dato.name.toLowerCase().includes(search.toLocaleLowerCase())
-		)}
+			dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
+		}
 		if(Number(params.select)===2){
 			results = catalogo.filter((dato)=>
-			dato.Country.name.toLowerCase().includes(search.toLocaleLowerCase())
-		)}
+			dato.Country.name.toLowerCase().includes(search.toLocaleLowerCase()))
+		}
 		if(Number(params.select)===3){
 			results = catalogo.filter((dato)=>
-			dato.Author.name.toLowerCase().includes(search.toLocaleLowerCase())
-		)}
+			dato.Author.name.toLowerCase().includes(search.toLocaleLowerCase()))
+		}
 		if(Number(params.select)===4){
 			results = catalogo.filter((dato)=>
-			dato.Genre.name.toLowerCase().includes(search.toLocaleLowerCase())
-		)}
-	}
-	const update = () =>{
+			dato.Genre.name.toLowerCase().includes(search.toLocaleLowerCase()))
+		}
 	}
 
     return (
