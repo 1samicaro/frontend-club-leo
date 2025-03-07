@@ -1212,9 +1212,11 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                Comunidad Mundial de Estudiantes <br />
-                <h4>Promovemos la lectura para mejorar el desempeño académico<br />
-                y las posibilidades de éxito profesional de nuestros socios</h4> <br />
+                
+                Somos una comunidad mundial educativa y de negocios <br />
+                Promovemos la lectura para mejorar el nivel académico y cultural <br />
+                y generar oportunidades de ingreso para nuestros socios
+
                 </b> 
                 </h4>
             </div>
@@ -1223,9 +1225,12 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Worldwide Community of Students <br />
-                  <h4>We promote reading to improve academic performance <br />
-                  and the chances of professional success of our members</h4> <br />
+
+                Clubleo
+                We are a global educational and business community <br />
+                We promote reading to improve the academic and cultural level <br />
+                and generate income opportunities for our members
+
                 </b> 
                 </h4>
             </div>
@@ -1234,10 +1239,11 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                Communauté étudiante mondiale <br />
-                  <h4>Nous promouvons la lecture pour améliorer les résultats scolaires <br />
-                  et les possibilités de réussite professionnelle de nos partenaires</h4> <br />
-                </b> 
+                
+                Nous sommes une communauté éducative et commerciale mondiale <br />
+                Nous promouvons la lecture afin d'améliorer les normes académiques et culturelles <br />
+                et générer des opportunités de revenus pour nos membres 
+                </b>
                 </h4>
             </div>
           }
@@ -1245,9 +1251,10 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                   Comunidade Estudantil Mundial<br />
-                  <h4>Promovemos a leitura para melhorar o desempenho acadêmico<br />
-                  e as possibilidades de sucesso profissional dos nossos parceiros</h4> <br />
+
+              Somos uma comunidade educativa e empresarial global <br />
+              Promovemos a leitura para melhorar os padrões académicos e culturais <br /> 
+              e gerar oportunidades de rendimento para os nossos membros
                 </b> 
                 </h4>
             </div>
@@ -1256,9 +1263,10 @@ P                 hone: 6014327879 +57 300 4727644 <br />
             <div>
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
-                  Comunità studentesca mondiale <br />
-                  <h4>Promuoviamo la lettura per migliorare il rendimento scolastico <br />
-                  e le possibilità di successo professionale dei nostri partner</h4> <br />
+
+              Siamo una comunità educativa e commerciale globale <br />
+              Promuoviamo la lettura per migliorare gli standard accademici e culturali <br />
+              e generare opportunità di reddito per i nostri membri
                 </b> 
                 </h4>
             </div>
