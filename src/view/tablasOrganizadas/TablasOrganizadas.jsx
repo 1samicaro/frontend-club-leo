@@ -1,45 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link, NavLink, useParams } from 'react-router-dom'
 import "./TablasOrganizadas.css"
 import logo from '../../assets/logoleo.png'
-
-
-const breakPoints = [
-    { width: 480, itemsToShow: 3 },
-    { width: 550, itemsToShow: 3 },
-    { width: 768, itemsToShow: 6 },
-    { width: 1200, itemsToShow: 8 },
-];
-
-const languages =[
-    {
-        name:"Español", 
-        id: 1
-    }, 
-    {
-        name:"English",
-        id:2
-    }, 
-    {
-        name:"Française",
-        id:3
-    },
-    {
-        name:"Português",
-        id:5
-    },
-    {
-        name:"Italaiana",
-        id:4
-    }
-]
-
-// let didInit = true
-var results = []
 
 export default function TablasOrganizadas() {
 
@@ -50,7 +16,6 @@ export default function TablasOrganizadas() {
     const languageChange = useSelector(state=> state.changeLanguageReducer?.id)
 
     const [catalogo, setCatalogo] = useState([])
-    const [wait, setWait] =useState(true)
     const [search, setSearch] = useState("")
 	const allBooksSpanish = useSelector(state=> state.booksInfoReducer?.allBooksSpanish)
 	const allBooksEnglish = useSelector(state=> state.booksInfoReducer?.allBooksEnglish)
@@ -65,12 +30,18 @@ export default function TablasOrganizadas() {
     if(userInfo.isSuscribed){
 		demo = false
     }
-	useEffect(()=>{},[search])
-    
-	if(Number(params.language)===1){
-		//autores
-		if(Number(params.select)===3){
-			setTimeout(() => {
+
+	///Solución a renderización de estados aka David
+	const [fantasma, setFantasma] = useState(0)
+
+	useEffect(()=>{busqueda()}, [search, catalogo])
+	useEffect(()=>{renderPage()}, [params])
+
+	const renderPage = () =>{
+		setFantasma(fantasma+1)
+		if(Number(params.language)===1){
+			//autores
+			if(Number(params.select)===3){
 				temp= allBooksSpanish.sort(function (a, b) {
 						if (a.Author.name > b.Author.name) {
 							return 1;
@@ -81,13 +52,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				results=temp
-				setWait(false)
-			}, "10");
-		}
-		//países
-		else if(Number(params.select)===2){
-			setTimeout(() => {
+			}
+			//países
+			else if(Number(params.select)===2){
 				temp= allBooksSpanish.sort(function (a, b) {
 						if (a.Country.name > b.Country.name) {
 							return 1;
@@ -98,13 +65,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				results=temp
-				setWait(false)
-			}, "10");
-		}
-		//libros
-		else if(Number(params.select)===1){
-			setTimeout(() => {
+			}
+			//libros
+			else if(Number(params.select)===1){
 				temp= allBooksSpanish.sort(function (a, b) {
 						if (a.name > b.name) {
 							return 1;
@@ -115,13 +78,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				results=temp
-				setWait(false)
-			}, "10");
-		}
-		//géneros
-		else if(Number(params.select)===4){
-			setTimeout(() => {
+			}
+			//géneros
+			else if(Number(params.select)===4){
 				temp= allBooksSpanish.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
 							return 1;
@@ -132,15 +91,11 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				results=temp
-				setWait(false)
-			}, "10");
+			}
 		}
-	}
-	if(Number(params.language)===2){
-		//autores
-		if(Number(params.select)===3){
-			setTimeout(() => {
+		if(Number(params.language)===2){
+			//autores
+			if(Number(params.select)===3){
 				temp= allBooksEnglish.sort(function (a, b) {
 						if (a.Author.name > b.Author.name) {
 							return 1;
@@ -151,12 +106,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//países
-		else if(Number(params.select)===2){
-			setTimeout(() => {
+			}
+			//países
+			else if(Number(params.select)===2){
 				temp= allBooksEnglish.sort(function (a, b) {
 						if (a.Country.name > b.Country.name) {
 							return 1;
@@ -167,12 +119,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//libros
-		else if(Number(params.select)===1){
-			setTimeout(() => {
+			}
+			//libros
+			else if(Number(params.select)===1){
 				temp= allBooksEnglish.sort(function (a, b) {
 						if (a.name > b.name) {
 							return 1;
@@ -183,12 +132,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//géneros
-		else if(Number(params.select)===4){
-			setTimeout(() => {
+			}
+			//géneros
+			else if(Number(params.select)===4){
 				temp= allBooksEnglish.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
 							return 1;
@@ -199,14 +145,11 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
+			}
 		}
-	}
-	if(Number(params.language)===3){
-		//autores
-		if(Number(params.select)===3){
-			setTimeout(() => {
+		if(Number(params.language)===3){
+			//autores
+			if(Number(params.select)===3){
 				temp= allBooksFranch.sort(function (a, b) {
 						if (a.Author.name > b.Author.name) {
 							return 1;
@@ -217,12 +160,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//países
-		else if(Number(params.select)===2){
-			setTimeout(() => {
+			}
+			//países
+			else if(Number(params.select)===2){
 				temp= allBooksFranch.sort(function (a, b) {
 						if (a.Country.name > b.Country.name) {
 							return 1;
@@ -233,12 +173,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//libros
-		else if(Number(params.select)===1){
-			setTimeout(() => {
+			}
+			//libros
+			else if(Number(params.select)===1){
 				temp= allBooksFranch.sort(function (a, b) {
 						if (a.name > b.name) {
 							return 1;
@@ -249,12 +186,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//géneros
-		else if(Number(params.select)===4){
-			setTimeout(() => {
+			}
+			//géneros
+			else if(Number(params.select)===4){
 				temp= allBooksFranch.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
 							return 1;
@@ -265,14 +199,11 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
+			}
 		}
-	}
-	if(Number(params.language)===4){
-		//autores
-		if(Number(params.select)===3){
-			setTimeout(() => {
+		if(Number(params.language)===4){
+			//autores
+			if(Number(params.select)===3){
 				temp= allBooksItalian.sort(function (a, b) {
 						if (a.Author.name > b.Author.name) {
 							return 1;
@@ -283,12 +214,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//países
-		else if(Number(params.select)===2){
-			setTimeout(() => {
+			}
+			//países
+			else if(Number(params.select)===2){
 				temp= allBooksItalian.sort(function (a, b) {
 						if (a.Country.name > b.Country.name) {
 							return 1;
@@ -299,12 +227,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//libros
-		else if(Number(params.select)===1){
-			setTimeout(() => {
+			}
+			//libros
+			else if(Number(params.select)===1){
 				temp= allBooksItalian.sort(function (a, b) {
 						if (a.name > b.name) {
 							return 1;
@@ -315,12 +240,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//géneros
-		else if(Number(params.select)===4){
-			setTimeout(() => {
+			}
+			//géneros
+			else if(Number(params.select)===4){
 				temp= allBooksItalian.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
 							return 1;
@@ -331,14 +253,11 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
+			}
 		}
-	}
-	if(Number(params.language)===5){
-		//autores
-		if(Number(params.select)===3){
-			setTimeout(() => {
+		if(Number(params.language)===5){
+			//autores
+			if(Number(params.select)===3){
 				temp= allBooksPortugues.sort(function (a, b) {
 						if (a.Author.name > b.Author.name) {
 							return 1;
@@ -349,12 +268,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//países
-		else if(Number(params.select)===2){
-			setTimeout(() => {
+			}
+			//países
+			else if(Number(params.select)===2){
 				temp= allBooksPortugues.sort(function (a, b) {
 						if (a.Country.name > b.Country.name) {
 							return 1;
@@ -365,12 +281,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//libros
-		else if(Number(params.select)===1){
-			setTimeout(() => {
+			}
+			//libros
+			else if(Number(params.select)===1){
 				temp= allBooksPortugues.sort(function (a, b) {
 						if (a.name > b.name) {
 							return 1;
@@ -381,12 +294,9 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
-		}
-		//géneros
-		else if(Number(params.select)===4){
-			setTimeout(() => {
+			}
+			//géneros
+			else if(Number(params.select)===4){
 				temp= allBooksPortugues.sort(function (a, b) {
 						if (a.Genre.name > b.Genre.name) {
 							return 1;
@@ -397,8 +307,7 @@ export default function TablasOrganizadas() {
 							return 0;
 						});
 				setCatalogo(temp)
-				setWait(false)
-			}, "10");
+			}
 		}
 	}
 
@@ -406,28 +315,38 @@ export default function TablasOrganizadas() {
         setSearch(e.target.value)
     }
 
+	const [result, setResult] = useState([])
 
-	if(!search){
-		results=catalogo	
+	const busqueda = () =>{
+		console.log("1");
+		if(!search){
+			// results=catalogo	
+			setResult(catalogo)
+		}
+		else{
+			if(Number(params.select)===1){
+				const results = catalogo.filter((dato)=>
+				dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
+				setResult(results)
+			}
+			if(Number(params.select)===2){
+				const results = catalogo.filter((dato)=>
+				dato.Country.name.toLowerCase().includes(search.toLocaleLowerCase()))
+				setResult(results)
+			}
+			if(Number(params.select)===3){
+				const results = catalogo.filter((dato)=>
+				dato.Author.name.toLowerCase().includes(search.toLocaleLowerCase()))
+				setResult(results)
+			}
+			if(Number(params.select)===4){
+				const results = catalogo.filter((dato)=>
+				dato.Genre.name.toLowerCase().includes(search.toLocaleLowerCase()))
+				setResult(results)
+			}
+		}
 	}
-	else{
-		if(Number(params.select)===1){
-			results = catalogo.filter((dato)=>
-			dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
-		}
-		if(Number(params.select)===2){
-			results = catalogo.filter((dato)=>
-			dato.Country.name.toLowerCase().includes(search.toLocaleLowerCase()))
-		}
-		if(Number(params.select)===3){
-			results = catalogo.filter((dato)=>
-			dato.Author.name.toLowerCase().includes(search.toLocaleLowerCase()))
-		}
-		if(Number(params.select)===4){
-			results = catalogo.filter((dato)=>
-			dato.Genre.name.toLowerCase().includes(search.toLocaleLowerCase()))
-		}
-	}
+
 
     return (
         <div className="container_books">
@@ -694,7 +613,7 @@ export default function TablasOrganizadas() {
 					</tr>
 				</thead>
 				<tbody>
-					{results.map(data =>(
+					{result.map(data =>(
 					<tr>
 					    <th>{data.Author.name}</th>
                         <th>{data.Country.name}</th>
