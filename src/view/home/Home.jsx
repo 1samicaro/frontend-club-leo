@@ -1215,7 +1215,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 
                 Somos una comunidad mundial educativa y de negocios <br />
                 Promovemos la lectura para mejorar el nivel académico y cultural <br />
-                y generar oportunidades de ingreso para nuestros socios
+                y generar oportunidades de ingreso para nuestros socios  <br />
 
                 </b> 
                 </h4>
@@ -1229,7 +1229,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 Clubleo
                 We are a global educational and business community <br />
                 We promote reading to improve the academic and cultural level <br />
-                and generate income opportunities for our members
+                and generate income opportunities for our members <br />
 
                 </b> 
                 </h4>
@@ -1242,7 +1242,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 
                 Nous sommes une communauté éducative et commerciale mondiale <br />
                 Nous promouvons la lecture afin d'améliorer les normes académiques et culturelles <br />
-                et générer des opportunités de revenus pour nos membres 
+                et générer des opportunités de revenus pour nos membres <br />
                 </b>
                 </h4>
             </div>
@@ -1254,7 +1254,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
               Somos uma comunidade educativa e empresarial global <br />
               Promovemos a leitura para melhorar os padrões académicos e culturais <br /> 
-              e gerar oportunidades de rendimento para os nossos membros
+              e gerar oportunidades de rendimento para os nossos membros <br />
                 </b> 
                 </h4>
             </div>
@@ -1266,7 +1266,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
               Siamo una comunità educativa e commerciale globale <br />
               Promuoviamo la lettura per migliorare gli standard accademici e culturali <br />
-              e generare opportunità di reddito per i nostri membri
+              e generare opportunità di reddito per i nostri membri <br />
                 </b> 
                 </h4>
             </div>
