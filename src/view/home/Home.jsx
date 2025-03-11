@@ -1218,8 +1218,12 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 y generar oportunidades de ingreso para nuestros socios  <br />
 
                 </b> 
+                <br />
                 </h4>
+                <br />
             </div>
+            
+            
           }
           {(language===2 || languageChange===2)&&
             <div>
@@ -1233,6 +1237,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
                 </b> 
                 </h4>
+                <br />
             </div>
           }
           {(language===3 || languageChange===3)&&
@@ -1245,6 +1250,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 et générer des opportunités de revenus pour nos membres <br />
                 </b>
                 </h4>
+                <br />
             </div>
           }
           {(language===4 || languageChange===4)&&
@@ -1257,6 +1263,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               e gerar oportunidades de rendimento para os nossos membros <br />
                 </b> 
                 </h4>
+                <br />
             </div>
           }
           {(language===5 || languageChange===5)&&
@@ -1268,6 +1275,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               Promuoviamo la lettura per migliorare gli standard accademici e culturali <br />
               e generare opportunità di reddito per i nostri membri <br />
                 </b> 
+                <br />
                 </h4>
             </div>
           }
