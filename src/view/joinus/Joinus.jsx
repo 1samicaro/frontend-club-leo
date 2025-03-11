@@ -30,7 +30,7 @@ export default function Joinus() {
 
                 <h3 id="titulo" align="center"> <b>LEO FRIENDS PLAN:<br />
 
-            <h5>Help us grow and earn income for life</h5>
+            <h5>Help us grow, and receive income for life</h5>
 
             </b> 
             </h3>
@@ -49,10 +49,10 @@ export default function Joinus() {
                 <br />
 
            <p>
-           In order to fulfill the mission of promoting reading and writing in the world, LEO needs to grow, consolidating a large community focused on improving its levels of education and culture
+           In order to fulfill the mission of promoting reading and writing in the world, LEO needs to grow, consolidating a large community focused on improving their levels of education and culture, and strengthening their communication skills.
            </p>
            <p>
-           The Friends Plan is an invitation from LEO to its members to support this growth by doing a very simple, easy and quick job: Invite family members, friends and colleagues from school and work to join as LEO Members, with a maximum of 20 guests. Once this number is reached, no one else can be invited.
+           The Friends Plan is an invitation from LEO to its members to support this growth, by doing a very simple, easy and quick job: Invite family members, friends and study and work colleagues to join as LEO Members, with a maximum of 20 guests. Once this number is reached, no one else can be invited.
            </p>
            <p>
            For this simple job that we can all do, we will receive permanent income (for life), which will be immediately available in our account.
@@ -63,30 +63,29 @@ export default function Joinus() {
             </h3>
             <br />
             <p>
-            • Participation is free and voluntary. A member may not participate and still enjoy the programs to promote reading, writing and multilingualism offered by ClubLeo. <br />
-            • Anyone can be invited. There are no different requirements or preconditions. Minors must have the authorization and guardianship of their parents. <br />
-            • Members may reside in any country in the world. <br />
-            • Withdrawal is free, at any time, without any requirement.
+            • Participation is free and voluntary. A member may not participate and continue to enjoy the programs to promote reading, writing and multilingualism offered by ClubLeo. <br />
+            • Anyone can be invited. There are no requirements or preconditions. Minors must have the authorization and guardianship of their parents. <br />
+            • People from any country in the world can be invited. <br />
+            • Withdrawal is free, at any time, without any requirements.
+
 
 
             </p>
 
-            <h3 id="titulo" align="center"> <b>How the LEO Friends Plan works</b> </h3>
+            <h3 id="titulo" align="center"> <b></b> </h3>
             <br />
             <h4 id="titulo" align="center"> <b>The principle is simple: invite, and get increasing income, for life
             </b> </h4>
 
             <br />
             <p>
-            1. When joining, each member creates their username and password; the program automatically creates “My Account” for them to track their guests and benefits in real time. <br />
-            2. The member invites their friends and colleagues to enter LEO, providing them with their username or sending them a link to their social networks. <br />
-            3. When joining, the guests register their username; and the system links them with the member who invited them for the recognition of the benefits of the Friends Plan. <br />
-            4. The system accumulates in your account the members that you invite, until completing the 20 requested. Afterwards, the list closes and you will not be able to continue inviting more people. <br />
-            5. In the first step of invitation, when you complete the 20 invitees, you will receive an income of US$100 in your account <br />
-            6. In the second step, when your 20 invitees each complete their 20 invitees, you will receive in your personal account US$2,800 <br />
-            7. Finally, in the third step, when the new members invite their 20 friends, you will receive US$104,000 <br />
-
-            And most importantly, the CLUBLEO membership is renewed annually, so your income will be permanent, for life. But remember that during your lifetime, you can only invite 20 members.
+            1. When we join as partners, we create our username and password; the program automatically creates “My Account” for us so that we can track our guests and income in real time.
+            2. We invite our acquaintances to join as LEO partners, providing them with our username or sending them the personal link that the system generates for us on their social networks
+            3. When they join, the guests register our username; and the system accumulates them in our account, until completing the 20 requested. Afterwards, the list closes and we will not be able to continue inviting more people.
+            4. In the first step, when we complete the 20 invitees, we will receive an income of US$100 in our account
+            5. In the second step, when our 20 partners each complete their 20 invitees, we will receive an income of US$3,200
+            6. In the third step, when the new partners invite their 20 friends, we will receive US$96,000, that is, a monthly average of US$8,275 <br />
+            And most importantly, CLUBLEO membership is renewed annually, so this membership will be permanent, for life. But we only have to invite 20 members. Once we complete them, we don't have to do anything else.
 
             </p>
             
@@ -94,16 +93,16 @@ export default function Joinus() {
 
             <br />
             <h3 id="titulo" align="center"> <b>The Challenge for LEO members: <br />
-             Getting our 20 members in 1 month
+            Getting our 20 members in 1 month
              <br />
             </b> 
             </h3>
             <br />
             <p>
-            If all members manage to link our 20 guests within the month following their entry into LEO, we will be able to secure a significant average monthly income of US$8,667, which will be permanent thanks to the annual renewal of the CLUBLEO membership
-            </p>
+            If all members manage to recruit our 20 guests within the month following their entry into LEO, from the fourth month onwards we will be able to secure a significant average monthly income of US$8,275, which will be permanent thanks to the annual renewal of the CLUBLEO membership. It is simple, and we can all achieve it very easily: taking advantage of our acquaintances and contacts on social networks.            </p>
 
-            <h3 id="titulo" align="center"> <b>LEO Target Market. Potential Partners<br />
+            <h3 id="titulo" align="center"> <b>LEO Target Market. <br />
+            Potential members
             </b> 
             </h3>
 
@@ -118,65 +117,65 @@ export default function Joinus() {
                 </div>
             <br />
             <p>
-            CLUBLEO offers in its Digital Library more than 15,000 works in 5 languages, used in more than 100 countries around the world (Annex), with a population of 1.9 billion people, with 1.5 billion over 14 years of age with reading ability and 380 million primary and secondary school students.            </p>
-        
+            CLUBLEO offers in its Digital Library more than 15,000 works in 5 languages, used in more than 100 countries around the world (Appendix), with a population of 1.9 billion people, with 1.675 million over 8 years old with reading ability and 476 million students.        
+            </p>
             
             <table className="table_1" align="center"> 
                 <tr className="table_2" align="center" >
                     <th className="table_3" align="center">Language</th>
-                    <th className="table_3" align="center">Number of works</th>
+                    <th className="table_3" align="center">Number of works Club Leo</th>
                     <th className="table_3" align="center">Native speakers</th>
-                    <th className="table_3" align="center">Age 14+</th>
+                    <th className="table_3" align="center">Age 8+ with Reading Capability</th>
                     <th className="table_3" align="center">Students</th>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Spanish</td>
                     <td className="table_4" align="center">8.169</td>
                     <td className="table_4" align="center">580</td>
-                    <td className="table_4" align="center">464</td>
-                    <td className="table_4" align="center">116</td>
+                    <td className="table_4" align="center">510</td>
+                    <td className="table_4" align="center">145</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">English</td>
                     <td className="table_4" align="center">5.013</td>
                     <td className="table_4" align="center">678</td>
-                    <td className="table_4" align="center">542</td>
-                    <td className="table_4" align="center">136</td>
+                    <td className="table_4" align="center">597</td>
+                    <td className="table_4" align="center">170</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">French</td>
                     <td className="table_4" align="center">711</td>
                     <td className="table_4" align="center">300</td>
-                    <td className="table_4" align="center">240</td>
-                    <td className="table_4" align="center">60</td>
+                    <td className="table_4" align="center">264</td>
+                    <td className="table_4" align="center">75</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Italian</td>
                     <td className="table_4" align="center">607</td>
                     <td className="table_4" align="center">85</td>
-                    <td className="table_4" align="center">68</td>
-                    <td className="table_4" align="center">17</td>
+                    <td className="table_4" align="center">75</td>
+                    <td className="table_4" align="center">21</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Portuguese</td>
                     <td className="table_4" align="center">614</td>
                     <td className="table_4" align="center">260</td>
-                    <td className="table_4" align="center">208</td>
-                    <td className="table_4" align="center">52</td>
+                    <td className="table_4" align="center">229</td>
+                    <td className="table_4" align="center">65</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center"> <b>Totals </b></td>
                     <td className="table_4" align="center"><b>15.114</b></td>
                     <td className="table_4" align="center"> <b>1.903</b></td>
-                    <td className="table_4" align="center"> <b>1.522</b></td>
-                    <td className="table_4" align="center"> <b>381</b> </td>
+                    <td className="table_4" align="center"> <b>1.675</b></td>
+                    <td className="table_4" align="center"> <b>476</b> </td>
                 </tr>
 
 
                 </table>
                 <br />
                 <p>
-                Although anyone can join, LEO's priority is the 380 million students and their families in different countries, for whom reading and writing are routine activities associated with the academic training process, and strengthening their communication skills is key to the success of the educational process. With an annual membership fee of US$50, each member has access to the downloadable digital library with 15,000 works in 5 languages, valued at more than US$50,000
+                Although anyone can join, LEO's priority is the 476 million students and their families in different countries, for whom reading and writing are permanent activities associated with the academic training process, and strengthening their communication skills is key to the success of the educational process. With the annual membership of US$50, each member has access to the downloadable digital library with 15,000 works in 5 languages, valued at more than US$150 thousand.
                 </p>
 
 
@@ -200,7 +199,9 @@ export default function Joinus() {
                 />
                 </div>
                 <br />
-                <h4 id="titulo" align="center"> <b>We are a global community of winners</b><br />            </h4>
+                <h4 id="titulo" align="center"> <b>CLUBLEO <br />
+                We are a global community of winners
+                </b><br />            </h4>
                 <br />
 
         </div>
