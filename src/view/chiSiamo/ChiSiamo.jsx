@@ -33,6 +33,7 @@ export default function AcercaDe() {
 
 
 
+
             </b> 
             </h3>
 
@@ -50,19 +51,20 @@ export default function AcercaDe() {
 
                 <br />
 
-                <h3 id="titulo" align="center"> <b>LEO Una comunità globale di business e formazione1b<br />
+                <h3 id="titulo" align="center"> <b>LEO Una comunità globale di business e formazione<br />
             </b> 
             </h3>
             <br />
             <p>
-            Esiste una legge universale dello sviluppo: tutto il progresso e il benessere di una società dipendono dalla qualità dell'istruzione ricevuta dalla sua popolazione. Per questo motivo, i paesi più sviluppati hanno come priorità quella di avere sistemi educativi moderni ed efficienti, che rafforzino la conoscenza e la competitività dei loro abitanti. Lo dimostrano i test internazionali PISA dell'OCSE, che collocano ai primi posti i Paesi ad alto reddito con i migliori sistemi educativi del mondo: Singapore, Canada, Cina, Finlandia, Hong Kong, Estonia, Giappone e Corea del Sud.
+            Esiste una legge universale dello sviluppo: tutto il progresso e il benessere di una società dipendono dalla qualità dell'istruzione ricevuta dalla sua popolazione. Per questo motivo, i paesi più sviluppati hanno come priorità quella di avere sistemi educativi moderni ed efficienti, che rafforzino la conoscenza e la competitività dei loro abitanti. Lo dimostrano i test internazionali PISA dell'OCSE, che collocano ai primi posti i Paesi ad alto reddito con i migliori sistemi educativi del mondo: Singapore, Canada, Cina, Finlandia, Hong Kong, Estonia, Giappone e Corea del Sud.   
             </p>
-            <p>
             LEO - World Reading Club, è un progetto sociale la cui missione è promuovere la lettura, la scrittura e il multilinguismo, come abitudini che migliorano il livello educativo e culturale delle persone, e rafforzano le loro capacità comunicative, necessarie per avere successo nella loro attività accademica e nella società moderna integrata in tutto il mondo da internet. che richiede la lettura e l'utilizzo di quantità crescenti di informazioni e la scrittura di contenuti chiari e accattivanti per milioni di persone in tutto il mondo.
+            <p>
             </p>
             <p>
-            Per adempiere a questa missione, LEO opera come una rete digitale globale, integrando persone di tutti i paesi per rafforzare le loro capacità di comunicazione e generare opportunità di reddito permanenti che migliorano la loro qualità di vita
+            Per adempiere a questa missione, LEO opera come una rete digitale globale, integrando persone di tutti i paesi per rafforzare le loro capacità di comunicazione e generare opportunità di reddito permanenti che migliorano la loro qualità di vita.
             </p>
+            
 
             <h3 id="titulo" align="center"> <b>Obiettivi <br />
             </b> 
@@ -74,14 +76,12 @@ export default function AcercaDe() {
             • Promuovere il multilinguismo e le competenze comunicativo delle persone, migliorare le loro possibilità di partecipazione e di successo nella moderna società tecnologica, attraverso Internet. <br />
             • Rafforzare le famiglie e le istituzioni educative come ambienti di base per instillare l'abitudine alla lettura e alla scrittura negli studenti.
 
+            
+
 
             </p>
-            <br />
-            <h3 id="titulo" align="center"> <b>Associati<br />
-            </b> 
-            </h3>
-            
-            
+           
+
             <br /> 
             <div align="center">
                 <img
@@ -93,14 +93,16 @@ export default function AcercaDe() {
                 alt="..."
                 />
                 </div> 
-                    <br />
-                    <p>
-                    Chiunque e gli studenti di qualsiasi paese del mondo possono essere membri del World Book Club. I minori devono avere l'autorizzazione e la tutela dei genitori o dei tutori, allegando il modulo di autorizzazione di collegamento. <br />
-                    L'abbonamento annuale costa solo 50 dollari. I membri hanno accesso gratuito, permanente e gratuito alle 15.000 opere di letteratura e scienze sociali in cinque lingue della nostra biblioteca e agli altri programmi educativi e culturali del Club (opere editoriali, laboratorio letterario, ecc.).
+            <br />
+            <h3 id="titulo" align="center"> <b>Associato <br />
+            </b> 
+            </h3> 
 
-                    </p>
-
-            
+             <p>
+             Chiunque e gli studenti di qualsiasi paese del mondo possono essere membri del World Book Club. I minori devono avere l'autorizzazione e la tutela dei genitori o dei tutori, allegando il modulo di autorizzazione di collegamento.            </p>
+            <p>
+            L'abbonamento annuale costa solo 50 dollari. I membri hanno accesso gratuito, permanente e gratuito alle 15.000 opere di letteratura e scienze sociali in cinque lingue della nostra biblioteca e agli altri programmi educativi e culturali del Club (opere editoriali, laboratorio letterario, ecc.).
+            </p>
             
 
             <br />
@@ -121,8 +123,7 @@ export default function AcercaDe() {
             LEO offre ai suoi membri una biblioteca digitale con più di 15.000 opere di scienze sociali e letterarie in 5 lingue (spagnolo, inglese, francese, portoghese e italiano). Ogni mese vengono aggiunte 50 nuove opere, 600 nuovi libri all'anno. I membri possono scaricare clubleo.net sul proprio cellulare, tablet o pc, per facilitare l'accesso alle opere. Il costo della collezione bibliografica è stimato in 150.000 dollari, ma è gratuito per i membri LEO. (Vedi Catalogo)
             </p>
             <p>
-            I membri che vivono in aree rurali e marginali senza una connessione a Internet possono scaricare e registrare le opere sul proprio PC, telefono cellulare o tablet per leggere e lavorare senza bisogno di Internet.
-            </p>
+            I membri che vivono in aree rurali e marginali senza una connessione a Internet possono scaricare e registrare le opere sul proprio PC, telefono cellulare o tablet per leggere e lavorare senza bisogno di Internet.            </p>
             <p>
             Inoltre, LEO ha sviluppato il portale web letsallread.com, che offre articoli sui generi, gli autori e le opere più importanti, con lo scopo di informare, motivare e guidare le attività di lettura e scrittura svolte dai nostri membri.
             </p>
@@ -140,6 +141,8 @@ export default function AcercaDe() {
 
             <h4 id="titulo" align="left"> <b>2. Promozione della scrittura
 
+
+
             <br />
             </b> 
             </h4>
@@ -147,15 +150,14 @@ export default function AcercaDe() {
             <p>
             Scrivere è una delle sfide intellettuali più importanti per tutte le persone. È un atto creativo e propositivo, che permette di conoscere idee, creazioni e proposte, e contribuisce all'espansione della conoscenza e del patrimonio letterario universale.            </p>
             <p>
-            Scrivere con eleganza, chiarezza argomentativa e ricchezza linguistica è una delle competenze più importanti che dobbiamo sviluppare, perché da essa dipendono il successo accademico, lavorativo e sociale, oltre che la possibilità di pubblicare le nostre proposte su internet, di essere lette e di avere un impatto sui milioni di utenti nel mondo. L'esperienza lo dimostra: il successo nella moderna società tecnologica dipende dall'avere buone capacità di scrittura, dall'elaborazione e dalla trasmissione di messaggi significativi che siano attraenti e generino valore per i milioni di utenti di Internet che ricevono informazioni in tutti i paesi del mondo.
-            </p>
-            <p>
-            Per facilitare e rafforzare le capacità comunicative dei nostri membri, LEO ha creato il portale web writersleo, un social network specializzato che permette ai membri di creare il proprio profilo di scrittore e pubblicare le proprie opere in qualsiasi argomento o genere, per essere visibili agli altri membri e a persone provenienti da tutto il mondo. Possono essere opere libere o commerciali. Puoi anche organizzare o collegarti a gruppi, pubblicare e inviare messaggi e altre attività sui social network.
-            </p>
-
+            Scrivere con eleganza, chiarezza argomentativa e ricchezza linguistica è una delle competenze più importanti che dobbiamo sviluppare, perché da essa dipendono il successo accademico, lavorativo e sociale, oltre che la possibilità di pubblicare le nostre proposte su internet, di essere lette e di avere un impatto sui milioni di utenti nel mondo. L'esperienza lo dimostra: il successo nella moderna società tecnologica dipende dall'avere buone capacità di scrittura, dall'elaborazione e dalla trasmissione di messaggi significativi che siano attraenti e generino valore per i milioni di utenti di Internet che ricevono informazioni in tutti i paesi del mondo.             </p>
+             <p>
+             Per facilitare e rafforzare le capacità comunicative dei nostri membri, LEO ha creato il portale web writersleo, un social network specializzato che permette ai membri di creare il proprio profilo di scrittore e pubblicare le proprie opere in qualsiasi argomento o genere, per essere visibili agli altri membri e a persone provenienti da tutto il mondo. Possono essere opere libere o commerciali. Puoi anche organizzare o collegarti a gruppi, pubblicare e inviare messaggi e altre attività sui social network.
+             </p>
             <h3 id="titulo" align="center"> <b>CLUBLEO <br />
             Una comunità globale, impegnata a costruire <br />
             di una società più colta e colta
+
 
 
 
@@ -174,10 +176,10 @@ export default function AcercaDe() {
             </b> 
             </h3>
             <br />
-            <h3 id="titulo" align="center"> <b> 
-            Collegamento!!<br />
+            <h3 id="titulo" align="center"> <b>Collegamento!! <br />
             Vogliamo che tu sia partner del progetto educativo e culturale <br />
             più grande del mondo
+
 
 
             </b> 
