@@ -29,9 +29,9 @@ export default function UniscitiANoi() {
                 </nav>
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>PIANO AMICI:<br />
+                <h3 id="titulo" align="center"> <b>PIANO AMICI LEO:<br />
 
-            <h5>Aiutaci a crescere e ricevi vantaggi per raggiungere la tua eccellenza accademica</h5>
+            <h5>Aiutaci a crescere e a ricevere un reddito per tutta la vita </h5>
 
             </b> 
             </h3>
@@ -50,72 +50,62 @@ export default function UniscitiANoi() {
                 <br />
 
             <p>
-            Per compiere la missione di promuovere la lettura tra gli studenti del nostro Paese e del mondo, LEO ha bisogno di
-            crescere, consolidando una grande comunità di lavoro focalizzata sull’eccellenza accademica.           </p>
+            Per adempiere alla missione di promuovere la lettura e la scrittura nel mondo, LEO ha bisogno di crescere, consolidando una grande comunità focalizzata sul miglioramento dei loro livelli di istruzione e cultura e sul rafforzamento delle loro capacità comunicative.
+            </p>
             <p>
-            Il Piano Amici è un invito di LEO ai suoi membri a sostenere questa crescita, svolgendo un lavoro molto semplice e facile:
-            invitare amici e compagni di studio a unirsi come membri, con un massimo di 20 ospiti.      </p>
+            Il Piano Amici è un invito da parte di LEO ai suoi membri a sostenere questa crescita, svolgendo un lavoro molto semplice, facile e veloce: invitare familiari, amici e compagni di corso e lavorare per unirsi come Membri LEO, con un massimo di 20 ospiti. Una volta completato questo numero, nessun altro può essere invitato.
+            </p>
             <p>
-            Per questo semplice lavoro che tutti possiamo svolgere in breve tempo, LEO riconosce importanti benefici che ci
-            permetteranno di migliorare il nostro rendimento accademico e di avere le risorse per finanziare i nostri studi.</p>
-           
-            
+            Per questo semplice lavoro che tutti possiamo fare, riceveremo un reddito permanente (per tutta la vita), che sarà immediatamente disponibile sul nostro conto.
+            </p>
             <br />
-            <h3 id="titulo" align="center"> <b>Principi base del Piano Amici LEO
+            <h3 id="titulo" align="center"> <b>Principi di base del Piano Amigos
             </b> 
             </h3>
             <br />
             <p>
-        
 
-            • La partecipazione è gratuita e volontaria. Un membro non può partecipare e continuare a usufruire dei programmi di
-            promozione della lettura, della scrittura e del multilinguismo offerti da ClubLeo. <br />
-            • Può essere invitato qualsiasi studente di diverso livello. Non ci sono requisiti o precondizioni diverse.  <br />
-            • I partner possono risiedere in qualsiasi paese del mondo.  <br />
-            • Il recesso è gratuito, in qualsiasi momento, senza alcun obbligo.
-            
+            • La partecipazione è gratuita e volontaria. Un membro può scegliere di non partecipare e continuare a godere dei programmi di promozione della lettura, della scrittura e del multilinguismo offerti da ClubLeo. <br />
+            • Chiunque può essere invitato. Non ci sono requisiti o presupposti. I minori devono avere l'autorizzazione e la tutela dei genitori. <br />
+            • Le persone possono essere invitate in qualsiasi paese del mondo. <br />
+            • Il prelievo è gratuito, in qualsiasi momento, senza alcun obbligo.
+
             </p>
 
-            <h3 id="titulo" align="center"> <b>Come funziona il Piano Amici LEO</b> </h3>
+            <h3 id="titulo" align="center"> <b>Come funziona il piano Amici LEO</b> </h3>
             <br />
-            <h4 id="titulo" align="center"> <b>Il principio è semplice: invitare e ottenere benefici per la nostra attività accademica
+            <h4 id="titulo" align="center"> <b>Il principio è semplice: invitare e guadagnare un reddito crescente, per tutta la vita
             </b> </h4>
 
             <br />
             <p>
-            1. Durante il collegamento, ciascun partner crea il proprio nome utente e password; Il programma crea automaticamente
-            "Il mio account" in modo da poter monitorare i tuoi ospiti e i vantaggi in tempo reale. <br />
-            2. Il membro invita i suoi amici e colleghi ad entrare in LEO, inviando loro il link ai loro social network, o fornendo loro il
-            suo nome utente. <br />
-            3. Al momento del collegamento, gli ospiti registrano il proprio nome utente; e il sistema li collega al partner che li invita a
-            riconoscere i vantaggi dell"eccellenza accademica.
-            Il principio è semplice: invitare e ottenere benefici per la nostra attività accademica. <br />
-            4. Il sistema accumula nel tuo account i partner che inviti, fino al completamento dei 20 richiesti. Successivamente la lista
-            verrà chiusa e non potrai più invitare altre persone. <br />
-            5. Nel primo step di invito, al completamento dei 20 invitati, riceverai una notifica di consegna di un Tablet 10” con la
-            biblioteca digitale bibliomobil e le sue 15.000 opere censite. <br />
-            6. Nella seconda fase, quando i tuoi 20 ospiti completeranno ciascuno i tuoi 20 ospiti, riceverai un laptop, sul quale
-            saranno registrate anche la biblioteca digitale bibliomobil e le sue 15.000 opere. <br />
-            7. Infine, nella terza fase, quando i nuovi membri inviteranno i loro 20 amici, riceveranno il bonus educativo per
-            l"eccellenza accademica per 2 milioni di dollari al mese, che verrà registrato sul conto finanziario che fa capo a LEO.
-            Questo bonus sarà permanente finché manterrai il tuo status di studente.
+            1. Quando ci iscriviamo come partner, creiamo il nostro nome utente e password; il programma crea automaticamente "Il mio account" per tenere traccia dei nostri ospiti e delle entrate in tempo reale.
+            2. Invitiamo i nostri conoscenti ad entrare come membri LEO, fornendo loro il nostro nome utente o inviando loro ai loro social network il link personale che il sistema genera per noi
+            3. Al momento dell'ingresso, gli ospiti registrano il nostro nome utente; e il sistema li accumula nel nostro account, fino a completare i 20 richiesti. Dopodiché, l'elenco si chiude e non saremo in grado di continuare a invitare altre persone.
+            4. Nella prima fase, al completamento dei 20 ospiti, riceveremo un deposito di US $ 100 sul nostro conto
+            5. Nella seconda fase, quando i nostri 20 partner completeranno ciascuno i loro 20 ospiti, riceveremo un reddito di 3.200 USD
+            6. Nella terza fase, quando i nuovi membri invitano i loro 20 amici, riceveremo 96.000 USD, ovvero una media mensile di 8.275 USD
 
+            </p>
+            <p>
+            E, cosa più importante, l'iscrizione a CLUBLEO viene rinnovata annualmente, quindi questo reddito sarà permanente, per tutta la vita. Ma dovremo invitare solo 20 membri. Una volta completati, non dobbiamo fare più nulla.
             </p>
             
 
 
             <br />
-            <h3 id="titulo" align="center"> <b>La LEO Challenge: ulteriore vantaggio per i soci impegnati<br />
+            <h3 id="titulo" align="center"> <b>La sfida dei partner LEO: <br />
+            Ottieni i nostri 20 partner in 1 mese
+            <br />
             </b> 
             </h3>
             <br />
-            <p>
-            Se un membro riuscirà a collegare i suoi 20 ospiti entro il mese successivo al suo ingresso in LEO, riceverà un grande
-            stimolo aggiuntivo: il bonus formativo per l"eccellenza accademica sarà di 4 milioni di dollari al mese, sufficienti a
-            finanziare gli studi universitari,
-            </p>
+           <p>
+           Se tutti i membri riusciranno a collegare i nostri 20 ospiti entro il mese successivo all'ingresso in LEO, dal quarto mese saremo in grado di garantire un reddito medio mensile significativo di 8.275 dollari, che sarà permanente grazie al rinnovo annuale dell'iscrizione a CLUBLEO. È semplice, e tutti possiamo farlo molto facilmente: sfruttando le nostre conoscenze, e i contatti sui social network.
+           </p>
 
-            <h3 id="titulo" align="center"> <b>Mercato target LEO. Potenziali partner<br />
+            <h3 id="titulo" align="center"> <b>Mercato di riferimento LEO.<br />
+            Potenziali partner
             </b> 
             </h3>
 
@@ -129,61 +119,59 @@ export default function UniscitiANoi() {
                 />
                 </div>
             <br />
-            <p>
-            Bibliomobil, la Biblioteca Digitale LEO offre ai suoi membri più di 15.000 opere in 5 lingue, utilizzate in più di 100 paesi del
-            mondo (Allegato), con una popolazione di 1,9 miliardi di persone, di cui 1,5 miliardi di età superiore ai 14 anni con
-            capacità di lettura e 380 milioni di studenti delle scuole primarie e secondarie.            </p>
-        
+           <p>
+           CLUBLEO offre nella sua Biblioteca Digitale più di 15.000 opere in 5 lingue, utilizzate in più di 100 paesi in tutto il mondo (Allegato), con una popolazione di 1.900 milioni di persone, con 1.675 milioni di persone di età superiore agli 8 anni con capacità di lettura e 476 milioni di studenti.
+           </p>
             
             <table className="table_1" align="center"> 
                 <tr className="table_2" align="center" >
                     <th className="table_3" align="center">Lingua</th>
-                    <th className="table_3" align="center">Numero di opere</th>
+                    <th className="table_3" align="center">N. di opere ClubLeo</th>
                     <th className="table_3" align="center">Madrelingua</th>
-                    <th className="table_3" align="center">Oltre 14 anni</th>
-                    <th className="table_3" align="center">Studenti</th>
+                    <th className="table_3" align="center">Più di 8 anni con berretto. Lettore</th>
+                    <th className="table_3" align="center">Studenti di Prim./Sec. e Superior</th>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Spagnolo</td>
                     <td className="table_4" align="center">8.169</td>
                     <td className="table_4" align="center">580</td>
-                    <td className="table_4" align="center">464</td>
-                    <td className="table_4" align="center">116</td>
+                    <td className="table_4" align="center">510</td>
+                    <td className="table_4" align="center">145</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Inglese</td>
                     <td className="table_4" align="center">5.013</td>
                     <td className="table_4" align="center">678</td>
-                    <td className="table_4" align="center">542</td>
-                    <td className="table_4" align="center">136</td>
+                    <td className="table_4" align="center">597</td>
+                    <td className="table_4" align="center">170</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Francese</td>
                     <td className="table_4" align="center">711</td>
                     <td className="table_4" align="center">300</td>
-                    <td className="table_4" align="center">240</td>
-                    <td className="table_4" align="center">60</td>
+                    <td className="table_4" align="center">264</td>
+                    <td className="table_4" align="center">75</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Italiano</td>
                     <td className="table_4" align="center">607</td>
                     <td className="table_4" align="center">85</td>
-                    <td className="table_4" align="center">68</td>
-                    <td className="table_4" align="center">17</td>
+                    <td className="table_4" align="center">75</td>
+                    <td className="table_4" align="center">21</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Portoghese</td>
                     <td className="table_4" align="center">614</td>
                     <td className="table_4" align="center">260</td>
-                    <td className="table_4" align="center">208</td>
-                    <td className="table_4" align="center">52</td>
+                    <td className="table_4" align="center">229</td>
+                    <td className="table_4" align="center">65</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center"> <b>Totali </b></td>
                     <td className="table_4" align="center"><b>15.114</b></td>
                     <td className="table_4" align="center"> <b>1.903</b></td>
-                    <td className="table_4" align="center"> <b>1.522</b></td>
-                    <td className="table_4" align="center"> <b>381</b> </td>
+                    <td className="table_4" align="center"> <b>1.675</b></td>
+                    <td className="table_4" align="center"> <b>476</b> </td>
                 </tr>
 
 
@@ -192,17 +180,15 @@ export default function UniscitiANoi() {
 
 
                 <br />
-                <p>Anche se chiunque può aderire come membro, la priorità di LEO sono i 380 milioni di studenti e le loro famiglie in diversi
-                paesi, per i quali leggere e scrivere sono attività di routine associate al processo di formazione accademica, e il
-                rafforzamento delle loro capacità comunicative è fondamentale per il successo del percorso educativo. processo. Con
-                l"abbonamento annuale di 50.000 dollari, ogni membro accede alla biblioteca digitale scaricabile con 15.000 opere in 5
-                lingue, per un valore di oltre 150 milioni di CO$, 40.000 dollari.</p>
+                <p>
+                Sebbene tutti possano aderire, la priorità di LEO sono i 476 milioni di studenti e le loro famiglie in diversi paesi, per i quali la lettura e la scrittura sono attività permanenti associate al processo di formazione accademica, e il rafforzamento delle loro capacità comunicative è la chiave per il successo del processo educativo. Con l'iscrizione annuale di 50 dollari, ogni membro ha accesso alla libreria digitale scaricabile con 15.000 opere in 5 lingue, per un valore di oltre 150.000 dollari.
+                </p>
             <br />
-            <h2 id="titulo" align="center"> <b>Piano Amici<br />
+            <h2 id="titulo" align="center"> <b>Piano Amici:<br />
             </b> 
             </h2>
             <br />
-            <h4 id="titulo" align="center"> <b>Una preziosa opportunità per garantire l"eccellenza nei nostri studi<br />
+            <h4 id="titulo" align="center"> <b>Una preziosa opportunità per assicurarsi un reddito, per tutta la vita<br />
             </b> 
             </h4>
            <br />
@@ -216,6 +202,13 @@ export default function UniscitiANoi() {
                 />
                 </div>
                 <br />
+                <h2 id="titulo" align="center"> <b>CLUBLEO<br />
+            </b> 
+            </h2>
+            <br />
+            <h4 id="titulo" align="center"> <b>Siamo una comunità globale di vincitori<br />
+            </b> 
+            </h4>
           
             <br />
             

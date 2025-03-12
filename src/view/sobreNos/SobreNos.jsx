@@ -28,8 +28,9 @@ export default function SobreNos() {
 
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>Leggere e scrivere bene, le competenze fondamentali per avere successo  <br />
-                nella moderna società globale dell’informazione e della conoscenza
+                <h3 id="titulo" align="center"> <b>Leggere e scrivere bene, le competenze fondamentali per raggiungere il successo accademico <br />
+                e sfruttare le opportunità di networking e di business offerte da Internet in tutto il mondo
+
 
 
 
@@ -50,30 +51,32 @@ export default function SobreNos() {
 
                 <br />
 
-                <h3 id="titulo" align="center"> <b>Nós<br />
+                <h3 id="titulo" align="center"> <b>LEO Una comunità globale di business e formazione<br />
             </b> 
             </h3>
             <br />
             <p>
-            Existe uma lei universal de desenvolvimento: todo o progresso e bem-estar de uma sociedade depende da qualidade da educação que a sua população recebe. Por esta razão, os países mais desenvolvidos têm como prioridade contar com sistemas educativos modernos e eficientes que fortaleçam o conhecimento e a competitividade dos seus habitantes. Isto é demonstrado pelos testes PISA, que colocam em primeiro lugar os países de elevado rendimento e com os melhores sistemas educativos do mundo: Singapura, Canadá, China, Finlândia, Hong Kong, Estónia, Japão e Coreia do Sul.          </p>
+            Esiste una legge universale dello sviluppo: tutto il progresso e il benessere di una società dipendono dalla qualità dell'istruzione ricevuta dalla sua popolazione. Per questo motivo, i paesi più sviluppati hanno come priorità quella di avere sistemi educativi moderni ed efficienti, che rafforzino la conoscenza e la competitività dei loro abitanti. Lo dimostrano i test internazionali PISA dell'OCSE, che collocano ai primi posti i Paesi ad alto reddito con i migliori sistemi educativi del mondo: Singapore, Canada, Cina, Finlandia, Hong Kong, Estonia, Giappone e Corea del Sud.   
+            </p>
+            LEO - World Reading Club, è un progetto sociale la cui missione è promuovere la lettura, la scrittura e il multilinguismo, come abitudini che migliorano il livello educativo e culturale delle persone, e rafforzano le loro capacità comunicative, necessarie per avere successo nella loro attività accademica e nella società moderna integrata in tutto il mondo da internet. che richiede la lettura e l'utilizzo di quantità crescenti di informazioni e la scrittura di contenuti chiari e accattivanti per milioni di persone in tutto il mondo.
             <p>
-            LEO - Clube Mundial de Leitura, é um projeto académico que tem como missão promover a leitura, a escrita e o multilinguismo, como hábitos que melhoram o nível educativo e cultural dos alunos, e fortalecem as suas capacidades comunicativas, necessárias ao sucesso na sua atividade académica e na a sociedade moderna da informação e do conhecimento, que exige a leitura e análise de quantidades crescentes de informação e a redação de conteúdos claros e convincentes para milhões de pessoas em todo o mundo.
             </p>
             <p>
-            Para cumprir esta missão, a LEO funciona como uma rede digital, que integra os estudantes numa grande comunidade global que gera oportunidades de sucesso académico, profissional e social.
+            Per adempiere a questa missione, LEO opera come una rete digitale globale, integrando persone di tutti i paesi per rafforzare le loro capacità di comunicazione e generare opportunità di reddito permanenti che migliorano la loro qualità di vita.
             </p>
             
 
-            <h3 id="titulo" align="center"> <b>Metas <br />
+            <h3 id="titulo" align="center"> <b>Obiettivi <br />
             </b> 
             </h3> 
             <br />      
             <p>
-            •	Facilitar o acesso aos livros e aumentar as taxas de leitura, para garantir que os alunos leiam pelo menos um livro por mês, doze livros por ano. <br />
-            •	Oferecer cenários para que os alunos escrevam e publiquem suas obras em diversos gêneros, tornando-as conhecidas no país e no mundo. <br />
-            •	Promover o multilinguismo e as competências comunicativas dos alunos, para melhorar as suas possibilidades de participação e sucesso na moderna sociedade tecnológica, através da Internet. <br />
-            •	Fortalecer as famílias e as instituições de ensino como cenários básicos para incutir nos alunos o hábito da leitura e da escrita.
+            • Facilitare l'accesso ai libri e aumentare i tassi di lettura, per garantire che tutti leggano almeno un libro al mese, dodici libri all'anno. <br />
+            • Offrire scenari ai membri LEO per scrivere e pubblicare le loro opere in diversi generi, facendole conoscere nel paese e nel mondo. <br />
+            • Promuovere il multilinguismo e le competenze comunicativo delle persone, migliorare le loro possibilità di partecipazione e di successo nella moderna società tecnologica, attraverso Internet. <br />
+            • Rafforzare le famiglie e le istituzioni educative come ambienti di base per instillare l'abitudine alla lettura e alla scrittura negli studenti.
 
+            
 
 
             </p>
@@ -91,35 +94,39 @@ export default function SobreNos() {
                 />
                 </div> 
             <br />
+            <h3 id="titulo" align="center"> <b>Associato <br />
+            </b> 
+            </h3> 
+
              <p>
-            Todos os estudantes do nosso país e de qualquer lugar do mundo podem ser membros do Clube Mundial de Leitura. Os menores deverão ter autorização e tutela dos pais ou responsáveis, anexando o formulário de autorização de vinculação.           
-            </p>
+             Chiunque e gli studenti di qualsiasi paese del mondo possono essere membri del World Book Club. I minori devono avere l'autorizzazione e la tutela dei genitori o dei tutori, allegando il modulo di autorizzazione di collegamento.            </p>
             <p>
-            A associação anual custa apenas US$ 50.000. Ao aderir, os associados têm acesso gratuito ao bibliomobil.com, nossa biblioteca digital com mais de 15.000 obras em cinco idiomas, e aos demais programas educacionais e culturais do Clube (edição de obras, oficina literária, etc.)
+            L'abbonamento annuale costa solo 50 dollari. I membri hanno accesso gratuito, permanente e gratuito alle 15.000 opere di letteratura e scienze sociali in cinque lingue della nostra biblioteca e agli altri programmi educativi e culturali del Club (opere editoriali, laboratorio letterario, ecc.).
             </p>
             
 
             <br />
-            <h3 id="titulo" align="center"> <b>Programas e serviços para associados<br />
+            <h3 id="titulo" align="center"> <b>Programmi e servizi per i partner<br />
             </b> 
             </h3>
             <br />
             <p>
-A           LEO desenvolveu um pacote de ferramentas pedagógicas com tecnologias web, que permitem promover e massificar de forma eficiente e económica a leitura, a escrita e o multilinguismo como competências-chave para melhorar o desempenho académico e garantir que os alunos aproveitam as oportunidades de contactos, educação e negócios oferecidas pelo Internet em todo o mundo:            </p>
+            LEO ha sviluppato un pacchetto di strumenti pedagogici con tecnologie web, che permettono in modo efficiente ed economico di promuovere e massificare la lettura, la scrittura e il multilinguismo come competenze chiave per migliorare il rendimento scolastico e far sì che le persone approfittino delle opportunità di contatto, istruzione e business offerte da Internet in tutto il mondo:
+            </p>
            
 
-            <h4 id="titulo" align="left"> <b>1. Promoção da Leitura e do Multilinguismo<br />
+            <h4 id="titulo" align="left"> <b>1. Promozione della lettura e del multilinguismo<br />
             </b> 
             </h4> 
             <br />  
             <p>
-            Ao aderir ao LEO, os membros ganham imediatamente acesso gratuito à bibliomobil.com, a nossa biblioteca digital com mais de 15.000 obras de ciências sociais e literatura em 5 línguas (espanhol, inglês, francês, português e italiano), que podem ler online ou grave no seu dispositivo e tenha-os disponíveis a qualquer hora e lugar sem conexão com a internet. Mensalmente são acrescentadas 50 novas obras, 600 novos livros por ano. Os associados podem baixar o APP bibliomobil.com no celular, tablet ou PC, para facilitar o acesso às obras. O custo do bibliomobil.com é estimado em US$ 150 milhões, mas é gratuito para membros do LEO.            
+            LEO offre ai suoi membri una biblioteca digitale con più di 15.000 opere di scienze sociali e letterarie in 5 lingue (spagnolo, inglese, francese, portoghese e italiano). Ogni mese vengono aggiunte 50 nuove opere, 600 nuovi libri all'anno. I membri possono scaricare clubleo.net sul proprio cellulare, tablet o pc, per facilitare l'accesso alle opere. Il costo della collezione bibliografica è stimato in 150.000 dollari, ma è gratuito per i membri LEO. (Vedi Catalogo)
             </p>
             <p>
-            Integrantes que moram em áreas rurais e marginais sem conexão com a internet podem baixar o BiblioTablet e gravar as 15 mil obras no celular ou tablet para ler e trabalhar sem necessidade de internet (peso do disco 4 G).            
-            </p>
+            I membri che vivono in aree rurali e marginali senza una connessione a Internet possono scaricare e registrare le opere sul proprio PC, telefono cellulare o tablet per leggere e lavorare senza bisogno di Internet.            </p>
             <p>
-            Além disso, LEO desenvolveu o portal Vamosaleer.com, nosso jornal virtual que oferece artigos sobre os mais importantes gêneros, autores e obras, com o objetivo de informar, motivar e orientar as atividades de leitura e escrita realizadas por nossos associados.            </p>
+            Inoltre, LEO ha sviluppato il portale web letsallread.com, che offre articoli sui generi, gli autori e le opere più importanti, con lo scopo di informare, motivare e guidare le attività di lettura e scrittura svolte dai nostri membri.
+            </p>
 
             <div align="center">
                 <img
@@ -132,23 +139,24 @@ A           LEO desenvolveu um pacote de ferramentas pedagógicas com tecnologia
                 />
                 </div>
 
-            <h4 id="titulo" align="left"> <b>2. Promoção da escrita
+            <h4 id="titulo" align="left"> <b>2. Promozione della scrittura
+
+
+
             <br />
             </b> 
             </h4>
             <br />
             <p>
-            Escrever é um dos desafios intelectuais mais importantes para todas as pessoas no mundo. É um ato criativo e proposital, que permite dar a conhecer ideias, criações e propostas, e contribuir para a expansão do conhecimento e do património literário universal.            
-            </p>
+            Scrivere è una delle sfide intellettuali più importanti per tutte le persone. È un atto creativo e propositivo, che permette di conoscere idee, creazioni e proposte, e contribuisce all'espansione della conoscenza e del patrimonio letterario universale.            </p>
             <p>
-            Para os alunos, escrever bem, com elegância, argumentos claros e riqueza linguística, constitui uma das competências mais importantes que devem desenvolver, porque disso dependem o sucesso académico, profissional e social, bem como a possibilidade de publicar as suas propostas online. . ser lido e impactar milhões de usuários na aldeia global. A experiência mostra: o sucesso na sociedade tecnológica moderna depende de boas habilidades de escrita, desenvolvendo e transmitindo mensagens significativas, atraentes e geradoras de valor para os milhões de usuários da Internet que recebem constantemente informações em todos os países do mundo.           
-             </p>
+            Scrivere con eleganza, chiarezza argomentativa e ricchezza linguistica è una delle competenze più importanti che dobbiamo sviluppare, perché da essa dipendono il successo accademico, lavorativo e sociale, oltre che la possibilità di pubblicare le nostre proposte su internet, di essere lette e di avere un impatto sui milioni di utenti nel mondo. L'esperienza lo dimostra: il successo nella moderna società tecnologica dipende dall'avere buone capacità di scrittura, dall'elaborazione e dalla trasmissione di messaggi significativi che siano attraenti e generino valore per i milioni di utenti di Internet che ricevono informazioni in tutti i paesi del mondo.             </p>
              <p>
-            Para facilitar e fortalecer a capacidade de comunicação dos nossos membros, a LEO criou o portal escritoresleo.com, a nossa rede social especializada que lhes permite criar o seu perfil de escritor e publicar os seus trabalhos sobre qualquer tema ou género, para serem visíveis aos outros membros. e por pessoas de todo o mundo. Podem ser obras gratuitas ou comerciais.            </p>
-
+             Per facilitare e rafforzare le capacità comunicative dei nostri membri, LEO ha creato il portale web writersleo, un social network specializzato che permette ai membri di creare il proprio profilo di scrittore e pubblicare le proprie opere in qualsiasi argomento o genere, per essere visibili agli altri membri e a persone provenienti da tutto il mondo. Possono essere opere libere o commerciali. Puoi anche organizzare o collegarti a gruppi, pubblicare e inviare messaggi e altre attività sui social network.
+             </p>
             <h3 id="titulo" align="center"> <b>CLUBLEO <br />
-            A comunidade global de estudantes, comprometida com a construção <br />
-            de uma sociedade mais educada e culta
+            Una comunità globale, impegnata a costruire <br />
+            di una società più colta e colta
 
 
 
@@ -168,10 +176,9 @@ A           LEO desenvolveu um pacote de ferramentas pedagógicas com tecnologia
             </b> 
             </h3>
             <br />
-            <h3 id="titulo" align="center"> <b>LEO <br />
-            Se liga!!<br/>
-            Queremos que você seja parceiro do projeto educativo e cultural <br />
-            maior do mundo
+            <h3 id="titulo" align="center"> <b>Collegamento!! <br />
+            Vogliamo che tu sia partner del progetto educativo e culturale <br />
+            più grande del mondo
 
 
 
