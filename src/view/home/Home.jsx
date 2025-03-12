@@ -1221,6 +1221,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <br />
                 </h4>
                 <br />
+                <br />
             </div>
             
             
@@ -1238,6 +1239,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 </b> 
                 </h4>
                 <br />
+                <br />
             </div>
           }
           {(language===3 || languageChange===3)&&
@@ -1250,6 +1252,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 et générer des opportunités de revenus pour nos membres <br />
                 </b>
                 </h4>
+                <br />
                 <br />
             </div>
           }
@@ -1264,6 +1267,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 </b> 
                 </h4>
                 <br />
+                <br />
             </div>
           }
           {(language===5 || languageChange===5)&&
@@ -1277,6 +1281,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 </b> 
                 <br />
                 </h4>
+                <br />
+                <br />
             </div>
           }
 
