@@ -29,9 +29,11 @@ export default function JunteSeANos() {
                 </nav>
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>PLANO DE AMIGOS:<br />
+                <h3 id="titulo" align="center"> <b>PLANO LEO FRIENDS:<br />
 
-            <h5>Ajude-nos a crescer e receba benefícios para alcançar sua excelência acadêmica</h5>
+            <h5>Ajude-nos a crescer e receber renda para o resto da vida
+ 
+ </h5>
 
             </b> 
             </h3>
@@ -50,71 +52,63 @@ export default function JunteSeANos() {
                 <br />
 
             <p>
-            Para cumprir a missão de promover a leitura entre os estudantes do nosso país e do mundo, a LEO precisa crescer,
-            consolidando uma grande comunidade de trabalho focada na excelência acadêmica
+            Para cumprir a missão de promover a leitura e a escrita no mundo, o LEO precisa crescer, consolidando uma grande comunidade focada em melhorar seus níveis de educação e cultura e fortalecer suas habilidades de comunicação.
+
             </p>
             <p>
-            O Plano Amigos é um convite da LEO aos seus membros para apoiarem este crescimento, fazendo um trabalho muito
-            simples e fácil: Convidar amigos e colegas estudantes para aderirem como membros, com um máximo de 20 convidados.
+            O Plano de Amigos é um convite da LEO aos seus membros para apoiar esse crescimento, realizando um trabalho muito simples, fácil e rápido: Convide familiares, amigos e colegas e trabalhe para se juntar como Membros LEO, com um máximo de 20 convidados. Uma vez que este número é concluído, ninguém mais pode ser convidado.
             </p>
             <p>
-            Por este trabalho simples que todos podemos realizar em pouco tempo, a LEO reconhece importantes benefícios que nos
-            permitirão melhorar o nosso desempenho académico e ter recursos para financiar os nossos estudos.
+            Por este trabalho simples que todos podemos fazer, receberemos rendimentos permanentes (vitalícios), que estarão imediatamente disponíveis na nossa conta.
             </p>
            
             
             <br />
-            <h3 id="titulo" align="center"> <b>Princípios básicos do Plano Amigos Leo
+            <h3 id="titulo" align="center"> <b>Princípios básicos do Plano Amigos
             </b> 
             </h3>
             <br />
             <p>
-            • A participação é gratuita e voluntária. O associado não poderá participar e continuar aproveitando os programas de
-            promoção da leitura, escrita e multilinguismo oferecidos pelo ClubLeo. <br />
-            • Qualquer aluno de diferentes níveis poderá ser convidado. Não existem requisitos ou pré-condições diferentes. <br />
-            • Os parceiros podem residir em qualquer país do mundo. <br />
+            • A participação é gratuita e voluntária. Um membro pode optar por não participar e ainda aproveitar os programas de promoção de leitura, escrita e multilinguismo oferecidos pelo ClubLeo. <br />
+            • Qualquer pessoa pode ser convidada. Não há requisitos ou pré-condições. Os menores devem ter a autorização e tutela dos pais. <br />
+            • As pessoas podem ser convidadas em qualquer país do mundo. <br />
             • A retirada é gratuita, a qualquer momento, sem quaisquer requisitos.
+
             </p>
 
-            <h3 id="titulo" align="center"> <b>Como funciona o Plano Amigos LEO</b> </h3>
+            <h3 id="titulo" align="center"> <b>Como funciona o Plano de Amigos LEO</b> </h3>
             <br />
-            <h4 id="titulo" align="center"> <b>O princípio é simples: convide e obtenha benefícios para a nossa atividade acadêmica
+            <h4 id="titulo" align="center"> <b>O princípio é simples: convide e ganhe uma renda crescente para o resto da vida
             </b> </h4>
 
             <br />
             <p>
-            1. Ao vincular, cada parceiro cria seu nome de usuário e senha; O programa cria automaticamente “Minha Conta” para
-            que você possa acompanhar seus convidados e benefícios em tempo real. <br />
-            2. O membro convida seus amigos e colegas para entrar no LEO, enviando-lhes o link de suas redes sociais, ou
-            fornecendo-lhes seu nome de usuário <br />
-            3. Ao vincular, o convidado cadastra seu nome de usuário; e o sistema os conecta ao parceiro que os convida a
-            reconhecer os benefícios da excelência acadêmica. <br />
+            1. Quando nos juntamos como parceiros, criamos nosso nome de usuário e senha; o programa cria automaticamente "Minha conta" para rastrearmos nossos hóspedes e renda em tempo real. <br />
+            2. Convidamos nossos conhecidos a entrar como membros LEO, fornecendo-lhes nosso nome de usuário ou enviando-lhes para suas redes sociais o link pessoal que o sistema gera para nós. <br />
+            3. Ao entrar, os convidados registram nosso nome de usuário; e o sistema os acumula em nossa conta, até completarmos os 20 solicitados. Depois disso, a lista fecha e não poderemos continuar convidando mais pessoas. <br />
+            4. Na primeira etapa, após a conclusão dos 20 convidados, receberemos um depósito de US$ 100 em nossa conta. <br />
+            5. Na segunda etapa, quando nossos 20 parceiros completarem seus 20 convidados, receberemos uma renda de US$ 3.200. <br />
+            6. Na terceira etapa, quando os novos membros convidarem seus 20 amigos, receberemos US$ 96.000, ou seja, uma média mensal de US$ 8.275.
 
-            4. O sistema acumula na sua conta os parceiros que você convida, até completar os 20 solicitados. Depois, a lista é
-           fechada e você não poderá mais convidar mais pessoas. <br />
-           5. Na primeira etapa do convite, ao completar os 20 convidados, você receberá a notificação de entrega de um Tablet de
-           10” com a biblioteca digital bibliomobil e suas 15.000 obras gravadas. <br />
-           6. Na segunda etapa, quando seus 20 convidados completarem cada um seus 20 convidados, você receberá um laptop,
-           que também terá a biblioteca digital bibliomobil e suas 15 mil obras registradas. <br />
-           7. Finalmente, na terceira etapa, quando os novos membros convidarem seus 20 amigos, eles receberão o bônus
-           educacional por excelência acadêmica no valor de US$ 2 milhões por mês, que será registrado na conta financeira
-           reportada ao LEO. Este bônus será permanente enquanto você mantiver seu status de estudante.
-
+            </p>
+            <p>
+            E o mais importante, a adesão ao CLUBLEO é renovada anualmente, pelo que este rendimento será permanente, vitalício. Mas só teremos que convidar 20 membros. Depois de concluí-los, não devemos fazer mais nada
             </p>
             
 
 
             <br />
-            <h3 id="titulo" align="center"> <b>O Desafio LEO: benefício adicional para membros comprometidos<br />
+            <h3 id="titulo" align="center"> <b>O Desafio de Parceiros LEO:<br />
+            Obtenha nossos 20 parceiros em 1 mês
             </b> 
             </h3>
             <br />
             <p>
-            Se um membro conseguir vincular seus 20 convidados no mês seguinte à sua entrada no LEO, receberá um grande
-            estímulo adicional: o bônus educacional pela excelência acadêmica será de US$ 4 milhões por mês, suficiente para
-            financiar até estudos universitários.            </p>
+            Se todos os membros conseguirem vincular nossos 20 hóspedes no mês seguinte à entrada no LEO, a partir do quarto mês poderemos garantir uma renda mensal média significativa de US$ 8.275, que será permanente graças à renovação anual da associação ao CLUBLEO. É simples e todos nós podemos fazer isso com muita facilidade: aproveitando nossos conhecidos e contatos nas redes sociais.
+            </p>
 
-            <h3 id="titulo" align="center"> <b>Mercado-alvo LEO. Parceiros potenciais<br />
+            <h3 id="titulo" align="center"> <b>Mercado-alvo LEO. Parceiros em potencial
+            <br />
             </b> 
             </h3>
 
@@ -129,61 +123,59 @@ export default function JunteSeANos() {
                 </div>
             <br />
             <p>
-            Bibliomobil, a Biblioteca Digital LEO oferece aos seus membros mais de 15.000 obras em 5 idiomas, utilizadas em mais
-            de 100 países do mundo (Anexo), com uma população de 1,9 bilhão de pessoas, sendo 1,5 bilhão maiores de 14 anos
-            com capacidade de leitura e 380 milhões de estudantes primários e secundários.
+            O CLUBLEO oferece em sua Biblioteca Digital mais de 15.000 obras em 5 idiomas, utilizadas em mais de 100 países ao redor do mundo (Anexo), com uma população de 1.900 milhões de pessoas, com 1.675 milhões com mais de 8 anos de idade com capacidade de leitura e 476 milhões de alunos.
             </p>
         
             
             <table className="table_1" align="center"> 
                 <tr className="table_2" align="center" >
                     <th className="table_3" align="center">Linguagem</th>
-                    <th className="table_3" align="center">Número de obras</th>
+                    <th className="table_3" align="center">Nº de ClubLeo Works</th>
                     <th className="table_3" align="center">Falantes nativos</th>
-                    <th className="table_3" align="center">Mais de 14 anos</th>
-                    <th className="table_3" align="center">Alunos</th>
+                    <th className="table_3" align="center">Mais de 8 anos com boné. Leitor</th>
+                    <th className="table_3" align="center">Prim./Sec. e Alunos superiores</th>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Espanhol</td>
                     <td className="table_4" align="center">8.169</td>
                     <td className="table_4" align="center">580</td>
-                    <td className="table_4" align="center">464</td>
-                    <td className="table_4" align="center">116</td>
+                    <td className="table_4" align="center">510</td>
+                    <td className="table_4" align="center">145</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Inglês</td>
                     <td className="table_4" align="center">5.013</td>
                     <td className="table_4" align="center">678</td>
-                    <td className="table_4" align="center">542</td>
-                    <td className="table_4" align="center">136</td>
+                    <td className="table_4" align="center">597</td>
+                    <td className="table_4" align="center">170</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Francês</td>
                     <td className="table_4" align="center">711</td>
                     <td className="table_4" align="center">300</td>
-                    <td className="table_4" align="center">240</td>
-                    <td className="table_4" align="center">60</td>
+                    <td className="table_4" align="center">264</td>
+                    <td className="table_4" align="center">75</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Italiano</td>
                     <td className="table_4" align="center">607</td>
                     <td className="table_4" align="center">85</td>
-                    <td className="table_4" align="center">68</td>
-                    <td className="table_4" align="center">17</td>
+                    <td className="table_4" align="center">75</td>
+                    <td className="table_4" align="center">21</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center">Português</td>
                     <td className="table_4" align="center">614</td>
                     <td className="table_4" align="center">260</td>
-                    <td className="table_4" align="center">208</td>
-                    <td className="table_4" align="center">52</td>
+                    <td className="table_4" align="center">229</td>
+                    <td className="table_4" align="center">65</td>
                 </tr>
                 <tr className="table_2">
                     <td className="table_4" align="center"> <b>Totais </b></td>
                     <td className="table_4" align="center"><b>15.114</b></td>
                     <td className="table_4" align="center"> <b>1.903</b></td>
-                    <td className="table_4" align="center"> <b>1.522</b></td>
-                    <td className="table_4" align="center"> <b>381</b> </td>
+                    <td className="table_4" align="center"> <b>1.675</b></td>
+                    <td className="table_4" align="center"> <b>476</b> </td>
                 </tr>
 
 
@@ -193,18 +185,14 @@ export default function JunteSeANos() {
 
                 <br />
                 <p>
-                Embora qualquer pessoa possa aderir como membro, a prioridade da LEO são os 380 milhões de estudantes e suas
-                famílias em diferentes países, para quem a leitura e a escrita são atividades rotineiras associadas ao processo de
-                formação académica, e o fortalecimento das suas capacidades comunicativas é fundamental para o sucesso do processo
-                educativo. processo. Com a adesão anual de US$ 50.000, cada membro acessa a biblioteca digital para download com
-                15.000 obras em 5 idiomas, avaliadas em mais de CO$ 150 milhões, US$ 40.000.
+                Embora todos possam participar, a LEO tem como prioridade os 476 milhões de estudantes e suas famílias em diferentes países, para os quais a leitura e a escrita são atividades permanentes associadas ao processo de formação acadêmica, e o fortalecimento de suas habilidades de comunicação é fundamental para o sucesso do processo educacional. Com a associação anual de US$ 50, cada membro tem acesso à biblioteca digital para download com 15.000 obras em 5 idiomas, avaliadas em mais de US$ 150.000.
                 </p>
             <br />
-            <h2 id="titulo" align="center"> <b>Plano de amigos<br />
+            <h2 id="titulo" align="center"> <b>Plano de amigos:<br />
             </b> 
             </h2>
             <br />
-            <h4 id="titulo" align="center"> <b>Uma valiosa oportunidade para garantir a excelência em nossos estudos<br />
+            <h4 id="titulo" align="center"> <b>Uma oportunidade valiosa para garantir renda, para toda a vida<br />
             </b> 
             </h4>
            <br />
@@ -218,6 +206,10 @@ export default function JunteSeANos() {
                 />
                 </div>
                 <br />
+                <h4 id="titulo" align="center"> <b>CLUBLEO<br />
+                Somos uma comunidade global de vencedores
+            </b> 
+            </h4>
             
             
            <br />

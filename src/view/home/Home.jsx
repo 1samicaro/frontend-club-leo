@@ -1247,9 +1247,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
                 
-                Nous sommes une communauté éducative et commerciale mondiale <br />
-                Nous promouvons la lecture afin d'améliorer les normes académiques et culturelles <br />
-                et générer des opportunités de revenus pour nos membres <br />
+                Nous sommes une communauté mondiale d’éducation et d’affaires <br />
+                Nous promouvons la lecture pour améliorer le niveau académique et culturel <br />
+                et générer des opportunités de revenus pour nos partenaires <br />
                 </b>
                 </h4>
                 <br />
@@ -1262,8 +1262,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
 
               Somos uma comunidade educativa e empresarial global <br />
-              Promovemos a leitura para melhorar os padrões académicos e culturais <br /> 
-              e gerar oportunidades de rendimento para os nossos membros <br />
+              Promovemos a leitura para melhorar o nível acadêmico e cultural <br /> 
+              e gerar oportunidades de renda para nossos parceiros <br />
                 </b> 
                 </h4>
                 <br />
@@ -1275,9 +1275,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
 
-              Siamo una comunità educativa e commerciale globale <br />
-              Promuoviamo la lettura per migliorare gli standard accademici e culturali <br />
-              e generare opportunità di reddito per i nostri membri <br />
+                Siamo una comunità educativa e imprenditoriale globale<br />
+                Promuoviamo la lettura per migliorare il livello accademico e culturale<br />
+                e generare opportunità di reddito per i nostri partner<br />
                 </b> 
                 <br />
                 </h4>
