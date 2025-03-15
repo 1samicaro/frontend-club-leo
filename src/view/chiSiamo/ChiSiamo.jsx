@@ -139,8 +139,8 @@ export default function AcercaDe() {
                 />
                 <p><b>Migliorare la lettura; <br />
                 Il percorso verso il successo <br />
-                accademico, Sociale e<br />
-                Professionale</b>
+                accademico, sociale e<br />
+                professionale</b>
                 </p>
                 </div>
                 <br />
