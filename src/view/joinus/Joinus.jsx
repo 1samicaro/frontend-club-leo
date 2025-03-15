@@ -74,17 +74,19 @@ export default function Joinus() {
 
             <h3 id="titulo" align="center"> <b></b> </h3>
             <br />
-            <h4 id="titulo" align="center"> <b>The principle is simple: invite, and get increasing income, for life
+            <h4 id="titulo" align="center"> <b>How the LEO Friends Plan works
+                <br /> The principle is simple: invite, and get increasing income, for life
             </b> </h4>
 
             <br />
             <p>
-            1. When we join as partners, we create our username and password; the program automatically creates “My Account” for us so that we can track our guests and income in real time.
-            2. We invite our acquaintances to join as LEO partners, providing them with our username or sending them the personal link that the system generates for us on their social networks
-            3. When they join, the guests register our username; and the system accumulates them in our account, until completing the 20 requested. Afterwards, the list closes and we will not be able to continue inviting more people.
-            4. In the first step, when we complete the 20 invitees, we will receive an income of US$100 in our account
-            5. In the second step, when our 20 partners each complete their 20 invitees, we will receive an income of US$3,200
+            1. When we join as partners, we create our username and password; the program automatically creates “My Account” for us so that we can track our guests and income in real time. <br />
+            2. We invite our acquaintances to join as LEO partners, providing them with our username or sending them the personal link that the system generates for us on their social networks <br />
+            3. When they join, the guests register our username; and the system accumulates them in our account, until completing the 20 requested. Afterwards, the list closes and we will not be able to continue inviting more people. <br />
+            4. In the first step, when we complete the 20 invitees, we will receive an income of US$100 in our account. <br />
+            5. In the second step, when our 20 partners each complete their 20 invitees, we will receive an income of US$3,200. <br />
             6. In the third step, when the new partners invite their 20 friends, we will receive US$96,000, that is, a monthly average of US$8,275 <br />
+
             And most importantly, CLUBLEO membership is renewed annually, so this membership will be permanent, for life. But we only have to invite 20 members. Once we complete them, we don't have to do anything else.
 
             </p>
