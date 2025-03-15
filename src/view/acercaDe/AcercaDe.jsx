@@ -57,11 +57,11 @@ export default function AcercaDe() {
             </h3>
             <br />
             <p>
-            Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población. Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.            </p>
+           <b> Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.            </p>
             <p>
-            LEO - Club Mundial de Lectura, es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.            </p>
+            <b>LEO - Club Mundial de Lectura,</b> es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.            </p>
             <p>
-            Para cumplir esta misión, LEO opera como una red digital mundial, que integra a las personas de todos los países para fortalecer sus competencias comunicativas, y generar oportunidades de ingreso permanentes que mejoren su calidad de vida
+            Para cumplir esta misión, <b>LEO</b> opera como una red digital mundial, que integra a las personas de todos los países para fortalecer sus competencias comunicativas, y generar oportunidades de ingreso permanentes que mejoren su calidad de vida
             </p>
             <br />
 
@@ -73,7 +73,7 @@ export default function AcercaDe() {
             <br />      
             <p>
             • Facilitar el acceso a los libros e incrementar los índices de lectura, para lograr que todas las personas lean al menos un libro al mes, doce libros al año. <br />
-            • Ofrecer escenarios para que los Socios LEO escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br />
+            • Ofrecer escenarios para que los <b>Socios LEO</b> escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br />
             • Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br />
             • Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
 
@@ -99,7 +99,7 @@ export default function AcercaDe() {
                 </div> 
                 <br />
                 <p>
-                Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
+                <b>Pueden ser socios del Club Mundial de Lectura</b> todas las personas y los <b>estudiantes en cualquier país del  mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
                 La membrecía anual tiene un costo de solo US$50. Los socios tienen acceso libre, permanente y gratuito a las 15.000 obras de literatura y ciencias sociales en cinco idiomas de nuestra biblioteca y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
 
             </p>
@@ -112,7 +112,7 @@ export default function AcercaDe() {
             </b> 
             </h3>
             <br />
-            <p> LEO ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
+            <p> <b>LEO</b> ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
             </p>
            
 
@@ -121,7 +121,7 @@ export default function AcercaDe() {
             </h4> 
             <br />  
             <p>
-            LEO ofrece a sus socios una biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano). Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar clubleo.net a su celular, tablet o pc, para facilitar el acceso a las obras. El costo de la colección bibliográfica está calculado en US$150.000, pero es gratis para los socios LEO. (Ver Catálogo) <br />
+            <b>LEO</b> ofrece a sus socios una biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano). Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar clubleo.net a su celular, tablet o pc, para facilitar el acceso a las obras. El costo de la colección bibliográfica está calculado en US$150.000, pero es gratis para los socios LEO. (Ver Catálogo) <br />
             Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de internet. <br />
             Adicionalmente, LEO ha desarrollado el portal web letsallread.com, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 

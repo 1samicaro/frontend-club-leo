@@ -1231,7 +1231,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
 
-                Clubleo
+                
                 We are a global educational and business community <br />
                 We promote reading to improve the academic and cultural level <br />
                 and generate income opportunities for our members <br />
