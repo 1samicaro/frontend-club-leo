@@ -131,7 +131,7 @@ export default function SobreNos() {
             Além disso, a LEO desenvolveu o portal web letsallread.com, que oferece artigos sobre os gêneros, autores e obras mais importantes, com o objetivo de informar, motivar e orientar as atividades de leitura e escrita realizadas por nossos membros.
             </p>
 
-            <div align="center">
+            <div className="container_bannernos"  align="center">
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
@@ -140,7 +140,12 @@ export default function SobreNos() {
                 height="450"
                 alt="..."
                 />
+                <p><b>Melhorar a leitura; <br />
+                O caminho para o sucesso académico <br />
+                Social e Profissional</b>
+                </p>
                 </div>
+                <br />
 
             <h4 id="titulo" align="left"> <b>2. Promoção da escrita
 

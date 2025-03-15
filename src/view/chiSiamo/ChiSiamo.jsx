@@ -128,7 +128,7 @@ export default function AcercaDe() {
             Inoltre, LEO ha sviluppato il portale web letsallread.com, che offre articoli sui generi, gli autori e le opere più importanti, con lo scopo di informare, motivare e guidare le attività di lettura e scrittura svolte dai nostri membri.
             </p>
 
-            <div align="center">
+            <div className="container_bannernos"  align="center">
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
@@ -137,7 +137,13 @@ export default function AcercaDe() {
                 height="450"
                 alt="..."
                 />
+                <p><b>Migliorare la lettura; <br />
+                Il percorso verso il successo <br />
+                accademico, Sociale e<br />
+                Professionale</b>
+                </p>
                 </div>
+                <br />
 
             <h4 id="titulo" align="left"> <b>2. Promozione della scrittura
 

@@ -79,12 +79,12 @@ export default function UniscitiANoi() {
 
             <br />
             <p>
-            1. Quando ci iscriviamo come partner, creiamo il nostro nome utente e password; il programma crea automaticamente "Il mio account" per tenere traccia dei nostri ospiti e delle entrate in tempo reale.
-            2. Invitiamo i nostri conoscenti ad entrare come membri LEO, fornendo loro il nostro nome utente o inviando loro ai loro social network il link personale che il sistema genera per noi
-            3. Al momento dell'ingresso, gli ospiti registrano il nostro nome utente; e il sistema li accumula nel nostro account, fino a completare i 20 richiesti. Dopodiché, l'elenco si chiude e non saremo in grado di continuare a invitare altre persone.
-            4. Nella prima fase, al completamento dei 20 ospiti, riceveremo un deposito di US $ 100 sul nostro conto
-            5. Nella seconda fase, quando i nostri 20 partner completeranno ciascuno i loro 20 ospiti, riceveremo un reddito di 3.200 USD
-            6. Nella terza fase, quando i nuovi membri invitano i loro 20 amici, riceveremo 96.000 USD, ovvero una media mensile di 8.275 USD
+            1. Quando ci iscriviamo come partner, creiamo il nostro nome utente e password; il programma crea automaticamente "Il mio account" per tenere traccia dei nostri ospiti e delle entrate in tempo reale. <br />
+            2. Invitiamo i nostri conoscenti ad entrare come membri LEO, fornendo loro il nostro nome utente o inviando loro ai loro social network il link personale che il sistema genera per noi. <br />
+            3. Al momento dell'ingresso, gli ospiti registrano il nostro nome utente; e il sistema li accumula nel nostro account, fino a completare i 20 richiesti. Dopodiché, l'elenco si chiude e non saremo in grado di continuare a invitare altre persone. <br />
+            4. Nella prima fase, al completamento dei 20 ospiti, riceveremo un deposito di US $ 100 sul nostro conto. <br />
+            5. Nella seconda fase, quando i nostri 20 partner completeranno ciascuno i loro 20 ospiti, riceveremo un reddito di 3.200 USD. <br />
+            6. Nella terza fase, quando i nuovi membri invitano i loro 20 amici, riceveremo 96.000 USD, ovvero una media mensile di 8.275 USD. <br />
 
             </p>
             <p>

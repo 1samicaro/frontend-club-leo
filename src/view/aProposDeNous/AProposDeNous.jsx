@@ -128,7 +128,7 @@ export default function AProposDeNous() {
 
             </p>
 
-            <div align="center">
+            <div className="container_bannernos"  align="center">
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
@@ -137,6 +137,10 @@ export default function AProposDeNous() {
                 height="450"
                 alt="..."
                 />
+                <p><b>Améliorer la lecture; <br />
+                Le chemin vers la réussite scolaire <br />
+                Social et professionnel</b>
+                </p>
                 </div>
 
             <h4 id="titulo" align="left"> <b>2. Promotion de l’écriture

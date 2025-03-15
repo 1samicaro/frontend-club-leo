@@ -122,7 +122,7 @@ export default function AboutUs() {
 
             </p>
 
-            <div align="center">
+            <div className="container_bannernos"  align="center">
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
@@ -131,6 +131,10 @@ export default function AboutUs() {
                 height="450"
                 alt="..."
                 />
+                <p><b>Improve reading; <br />
+                The Path to Academic Success <br/>
+                Social and Professional</b>
+                </p>
                 </div>
                 <br />
 

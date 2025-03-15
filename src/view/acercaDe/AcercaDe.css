@@ -64,3 +64,26 @@
 
 
 }
+
+.container_bannernos{
+  height: 50vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.container_bannernos img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.container_bannernos p{
+  position: absolute;
+  color: white;
+  top: 35%;
+  right: 67%;
+  transform: translate(-0%, -0%);
+  font-size: 140%;
+}
+
