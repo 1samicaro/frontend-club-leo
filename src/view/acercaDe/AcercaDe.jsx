@@ -137,8 +137,9 @@ export default function AcercaDe() {
                 alt="..."
                 />
                 <p> <b>Mejorar la lectura; <br />
-                el camino para el éxito acádemico <br />
-                social y profesional</b>
+                el camino para el éxito 
+                acádemico, social y <br />
+                profesional</b>
                 </p>
                 </div>
             <br />

@@ -141,8 +141,9 @@ export default function SobreNos() {
                 alt="..."
                 />
                 <p><b>Melhorar a leitura; <br />
-                O caminho para o sucesso académico <br />
-                Social e Profissional</b>
+                O caminho para o sucesso <br />
+                académico, social e <br />
+                e profissional</b>
                 </p>
                 </div>
                 <br />
