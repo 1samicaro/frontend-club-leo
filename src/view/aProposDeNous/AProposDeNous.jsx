@@ -138,7 +138,7 @@ export default function AProposDeNous() {
                 alt="..."
                 />
                 <p><b>Améliorer la lecture; <br />
-                Le chemin vers la réussite 
+                Le chemin vers la réussite <br />
                 scolaire, social et<br />
                 professionnel</b>
                 </p>
