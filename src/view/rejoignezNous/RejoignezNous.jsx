@@ -46,10 +46,10 @@ export default function RejoignezNous() {
                 height="450"
                 alt="..."
                 />
-                <p> <b>Plan des amis <br />
-                Nous nous unissons <br />
-                pour progresser ensemble <br />
-                dans le monde entier </b>
+                <p> <b>Piano Amici <br />
+                Ci uniamo <br />
+                per progredire insieme <br />
+                nel mondo </b>
                 </p>
               
                 <br />

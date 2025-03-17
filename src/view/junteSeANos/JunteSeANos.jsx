@@ -39,14 +39,22 @@ export default function JunteSeANos() {
             </h3>
 
             <br />
-            <div   align="center">
-                <img 
+            <div className="container_bannerus"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Plano dos Amigos <br />
+                Juntamo-nos <br />
+                para progredirmos juntos <br />
+                em todo o mundo </b>
+                </p>
+              
+                <br />
                 </div>
 
                 <br />
