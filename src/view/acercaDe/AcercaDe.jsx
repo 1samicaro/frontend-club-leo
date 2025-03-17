@@ -141,6 +141,8 @@ export default function AcercaDe() {
                 acádemico, social y <br />
                 profesional</b>
                 </p>
+                <br />
+                
                 </div>
             <br />
             <h4 id="titulo" align="left"> <b>2. Promoción de la escritura<br />
