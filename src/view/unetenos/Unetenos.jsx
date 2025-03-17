@@ -35,15 +35,22 @@ export default function Unetenos() {
             </h3>
 
             <br />
-            <div   align="center">
-                <img 
+            <div className="container_bannerus"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Plan amigos <br />
+                Unidos <br />
+                para progresar juntos<br />
+                en todo el mundo</b>
+                </p>
                 </div>
+                  <br />
 
                 <br />
                 <p>

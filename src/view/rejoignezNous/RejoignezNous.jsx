@@ -36,16 +36,24 @@ export default function RejoignezNous() {
             </h3>
 
             <br />
-            <div   align="center">
-                <img 
+            
+            <div className="container_bannerus"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Plan des amis <br />
+                Nous nous unissons <br />
+                pour progresser ensemble <br />
+                dans le monde entier </b>
+                </p>
+              
+                <br />
                 </div>
-
                 <br />
 
            <p>

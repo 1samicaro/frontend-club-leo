@@ -35,16 +35,30 @@ export default function Joinus() {
             </b> 
             </h3>
 
+
+
             <br />
-            <div   align="center">
-                <img 
+            
+            <div className="container_bannerus"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Friends Plan <br />
+                We unite <br />
+                to progress together <br />
+                around the world <br /> </b>
+                </p>
+                <br />
+                <br />
+                
                 </div>
+            <br />
+
 
                 <br />
 
