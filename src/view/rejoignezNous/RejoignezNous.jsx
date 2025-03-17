@@ -46,10 +46,10 @@ export default function RejoignezNous() {
                 height="450"
                 alt="..."
                 />
-                <p> <b>Piano Amici <br />
-                Ci uniamo <br />
-                per progredire insieme <br />
-                nel mondo </b>
+                <p> <b>Plan des amis <br />
+                Nous nous unissons <br />
+                pour progresser ensemble <br />
+                dans le monde entier </b>
                 </p>
               
                 <br />
@@ -112,14 +112,22 @@ export default function RejoignezNous() {
             </b> 
             </h3>
 
-            <div   align="center">
-                <img 
+            <div className="container_bannerus1"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Nous sommes une <br />
+                grande communauté <br />
+                380 millions d'étudiants <br />
+                dans plus de 100 pays <br />
+                dans le monde entier</b>
+                
+                </p>
                 </div>
             <br />
             <p>

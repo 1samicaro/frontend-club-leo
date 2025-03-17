@@ -122,15 +122,24 @@ export default function Joinus() {
             </b> 
             </h3>
 
-            <div   align="center">
-                <img 
+            <div className="container_bannerus1"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>We are a <br />
+                large community <br />
+                380 mlls of students <br />
+                in more than 100 countries <br />
+                around the world</b>
+                
+                </p>
                 </div>
+                  <br />
             <br />
             <p>
             CLUBLEO offers in its Digital Library more than 15,000 works in 5 languages, used in more than 100 countries around the world (Appendix), with a population of 1.9 billion people, with 1.675 million over 8 years old with reading ability and 476 million students.        

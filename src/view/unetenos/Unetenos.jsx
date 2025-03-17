@@ -113,15 +113,27 @@ export default function Unetenos() {
             </b> 
             </h3>
 
-            <div   align="center">
-                <img 
+
+            <div className="container_bannerus1"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Somos una <br />
+                gran comunidad<br />
+                380 mlls de estudiantes<br />
+                en más de 100 países <br />
+                del mundo</b>
+                
+                </p>
                 </div>
+                  <br />
+
+                  
             <br />
             <p>
             CLUBLEO ofrece en su Biblioteca Digital más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>

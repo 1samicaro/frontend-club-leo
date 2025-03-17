@@ -37,16 +37,23 @@ export default function UniscitiANoi() {
             </h3>
 
             <br />
-            <div   align="center">
-                <img 
+            <div className="container_bannerus"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados1}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Piano Amici <br />
+                Ci uniamo <br />
+                per progredire insieme <br />
+                nel mondo </b>
+                </p>
+              
+                <br />
                 </div>
-
                 <br />
 
             <p>
@@ -109,15 +116,24 @@ export default function UniscitiANoi() {
             </b> 
             </h3>
 
-            <div   align="center">
-                <img 
+            <div className="container_bannerus1"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Siamo una <br />
+                grande comunità <br />
+                380 milioni di studenti <br />
+                in più di 100 paesi <br />
+                in tutto il mondo</b>
+                
+                </p>
                 </div>
+
             <br />
            <p>
            CLUBLEO offre nella sua Biblioteca Digitale più di 15.000 opere in 5 lingue, utilizzate in più di 100 paesi in tutto il mondo (Allegato), con una popolazione di 1.900 milioni di persone, con 1.675 milioni di persone di età superiore agli 8 anni con capacità di lettura e 476 milioni di studenti.

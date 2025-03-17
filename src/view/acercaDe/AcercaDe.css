@@ -87,3 +87,25 @@
   font-size: 140%;
 }
 
+.container_bannernos2{
+  height: 50vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.container_bannernos2 img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.container_bannernos2 p{
+  position: absolute;
+  color: white;
+  top: 35%;
+  right: 67%;
+  transform: translate(-0%, -0%);
+  font-size: 140%;
+}
+

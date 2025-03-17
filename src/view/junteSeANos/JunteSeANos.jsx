@@ -120,14 +120,22 @@ export default function JunteSeANos() {
             </b> 
             </h3>
 
-            <div   align="center">
-                <img 
+            <div className="container_bannerus1"  align="center">
+                <img
                 id="imagenajustada"
                 className="d-block w-100"
                 src={afiliados2}
-                height="250"
+                width="400"
+                height="450"
                 alt="..."
                 />
+                <p> <b>Somos uma <br />
+                grande comunidade <br />
+                380 milhões de estudantes <br />
+                em mais de 100 países <br />
+                em todo o mundo</b>
+                
+                </p>
                 </div>
             <br />
             <p>
