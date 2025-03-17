@@ -1,5 +1,5 @@
 import React from "react";
-import logoblanco from "../../assets/logoblack.png";
+import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./RejoignezNous.css"
 

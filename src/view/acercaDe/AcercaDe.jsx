@@ -1,6 +1,6 @@
  import React from "react";
 import "./AcercaDe.css"
-import logoblanco from "../../assets/logoblack.png";
+import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 
 import aboutus from "../../assets/contenido/aboutus.jpg";

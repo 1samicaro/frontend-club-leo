@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import './Profile.css'
-import logo from '../../assets/logoblack.png'
+import logo from '../../assets/logoleo.png'
 import { Link, useNavigate } from 'react-router-dom'
 import { getTransactions } from '../../services/ventaService'
 import { transactionsHistory } from '../../stateManagement/actions/getTrasactions'
