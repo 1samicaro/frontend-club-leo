@@ -11,7 +11,15 @@ import banner2 from "../../assets/banner2.jpg";
 import banner3 from "../../assets/banner3.jpg";
 import banner4 from "../../assets/banner4.jpg";
 
-import logo from '../../assets/logoleo.png'
+import logo from '../../assets/logoleo1.png'
+import logo1 from '../../assets/logoleo2.png'
+import logo2 from '../../assets/logoleo3.png'
+import logo3 from '../../assets/logoleo4.png'
+import logo4 from '../../assets/logoleo5.png'
+
+
+
+
 import { Link, NavLink } from "react-router-dom";
 import "./Home.css"
 
@@ -193,20 +201,84 @@ export default function Home() {
         
         <div className="row">
           <div className="col-lg-6 col-md-6">
-          <Link to="/" className="container-fluid">
-              <img
-              align="left"
-              src={logo}
-              width="340"
-              height="600"
-              className="img-fluid d-block mx-auto"
-              alt='logo'
-              />
-          </Link>
-          <br />
-          <br />
-          <br />
-            
+          <div>
+                  {(language===1 || languageChange===1)&&
+                  <div className="container-fluid" >
+                    <Link to="/" className="container-fluid">
+                  <img
+                  align="left"
+                  src={logo}
+                  width="340"
+                  height="600"
+                  className="img-fluid d-block mx-auto"
+                  alt='logo'
+                 />
+                 </Link>
+                 <br />
+        
+                  </div>}
+
+                  {(language===2 || languageChange===2)&&
+                  <div className="container-fluid" >
+                 <Link to="/" className="container-fluid">
+                  <img
+                  align="left"
+                  src={logo1}
+                  width="340"
+                  height="600"
+                  className="img-fluid d-block mx-auto"
+                  alt='logo'
+                 />
+                 </Link>
+                 <br />
+                  </div>}
+
+                  {(language===3 || languageChange===3)&&
+                  <div className="container-fluid" >
+                  <Link to="/" className="container-fluid">
+                  <img
+                  align="left"
+                  src={logo2}
+                  width="340"
+                  height="600"
+                  className="img-fluid d-block mx-auto"
+                  alt='logo'
+                 />
+                 </Link>
+                 <br />
+                  </div>}
+
+                  {(language===4 || languageChange===4)&&
+                  <div className="container-fluid" >
+                <Link to="/" className="container-fluid">
+                  <img
+                  align="left"
+                  src={logo3}
+                  width="340"
+                  height="600"
+                  className="img-fluid d-block mx-auto"
+                  alt='logo'
+                 />
+                 </Link>
+                 <br />
+                  </div>}
+
+                  {(language===5 || languageChange===5)&&
+                  <div className="container-fluid" >
+                  <Link to="/" className="container-fluid">
+                  <img
+                  align="left"
+                  src={logo4}
+                  width="340"
+                  height="600"
+                  className="img-fluid d-block mx-auto"
+                  alt='logo'
+                 />
+                 </Link>
+                 <br />
+                  </div>}
+
+                  </div>
           </div>
 
 
