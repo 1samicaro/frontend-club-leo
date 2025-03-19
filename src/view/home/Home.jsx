@@ -292,7 +292,7 @@ export default function Home() {
                     <div className="col">
                         <div className="form-floating">
                             <select name='select'
-                            className="form-control" id="inputidioma"
+                            className="form-control" id="inputlanguage"
                             onChange={(e)=>changeLanguage(e)}>
                                 <option value='0'> ---- 
                                 <img
@@ -308,7 +308,7 @@ export default function Home() {
                                 <option value={language.id} key={index}>{language.name}</option>)} 
                                 {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
                             </select>
-                            <label htmlFor="floatingInput">Idioma</label>
+                            <label htmlFor="floatingInput">language</label>
                         </div>
                     </div>
                 }
@@ -318,51 +318,51 @@ export default function Home() {
                 <div className="col">
                     <div className="form-floating">
                         <select name='select'  
-                        className="form-control" id="inputidioma"
+                        className="form-control" id="inputlanguage"
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
                             {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
                         </select>
-                        <label htmlFor="floatingInput">Idiom</label>
+                        <label htmlFor="floatingInput">language</label>
                     </div>
                 </div>}
 
                 {(language===3 || languageChange===3)&&
                 
                 <div className="col">
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select'  id="inputidioma"
+                    <div className="form-floating" id="selectlanguage">
+                        <select name='select'  id="inputlanguage"
                         className="form-control"
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
                             {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
                         </select>
-                        <label htmlFor="floatingInput">Idiome</label>
+                        <label htmlFor="floatingInput">languagee</label>
                     </div>
                 </div>}
 
                 {(language===4 || languageChange===4)&&
                 
                 <div className="col">
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select' id="inputidioma"
+                    <div className="form-floating" id="selectlanguage">
+                        <select name='select' id="inputlanguage"
                         className="form-control"
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
                             {languages?.map((language, index)=> <option value={language.id} key={index}>{language.name}</option>)} 
                             {/* {languages?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}  */}
                         </select>
-                        <label htmlFor="floatingInput">Idioma</label>
+                        <label htmlFor="floatingInput">language</label>
                     </div>
                 </div>}
 
                 {(language===5 || languageChange===5) &&
                 
                 <div className="col">
-                    <div className="form-floating" id="selectidioma">
-                        <select name='select'  id="inputidioma"
+                    <div className="form-floating" id="selectlanguage">
+                        <select name='select'  id="inputlanguage"
                         className="form-control"
                         onChange={(e)=>changeLanguage(e)}>
                             <option value='0'> ---- </option>
@@ -791,7 +791,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+            <NavDropdown title="Portugués" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
@@ -826,38 +826,38 @@ P                 hone: 6014327879 +57 300 4727644 <br />
            {(language===2 || languageChange===2)&&
         <div className="container-fluid" >
 
-<NavDropdown title="Inglés" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Género literario</NavDropdown.Item>
+<NavDropdown title="English" id="navbarScrollingDropdown">
+			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Title</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Country</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Author/Writer</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Literary genre</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Español" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
+            <NavDropdown title="Spanish" id="navbarScrollingDropdown">
+			    <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Title</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">Country</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Author/Writer</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Literary genre</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Potugués" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Género literario</NavDropdown.Item>
+            <NavDropdown title="Portuguese" id="navbarScrollingDropdown">
+			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Title</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">Country</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Author/Writer</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Literary genre</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Francés" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Género literario</NavDropdown.Item>
+            <NavDropdown title="French" id="navbarScrollingDropdown">
+			    <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Title</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">Country</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Author/Writer</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Literary genre</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Italiano" id="navbarScrollingDropdown">
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
+            <NavDropdown title="Italian" id="navbarScrollingDropdown">
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Title</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">Country</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Author/Writer</NavDropdown.Item>
+                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Literary genre</NavDropdown.Item>
             </NavDropdown>
-           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
-            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+           <Nav.Link href="https://escritoresleo.com/">LEO Writers</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/">Let's read</Nav.Link>
 
             {userInfo.isSuscribed? <Link to="/books" >
            Library 
@@ -884,7 +884,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+            <NavDropdown title="Portugués" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
@@ -928,7 +928,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+            <NavDropdown title="Portugués" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
@@ -972,7 +972,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Potugués" id="navbarScrollingDropdown">
+            <NavDropdown title="Portugués" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
