@@ -23,7 +23,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       <Provider store={store}>
         <BrowserRouter>
           <PayPalScriptProvider
-            options={{"clientId":"AVSSNnzh9mUnAJV5LIOykb_l3sRfDLhXwrpA60WEPjsU-X9v0idqLR1-QMZ5_IFBr2ShGMp5z-480krU"}}
+            options={{"clientId":"AWkHdXp2iypV7e-K7a1EUHkgUh9KreRIZRya6HoDYvSlJ7oQu_Pide7GW_XW6sQeU8wUkuPswz36o0Z4"}}
           >
             <App />
           </PayPalScriptProvider>
