@@ -159,7 +159,7 @@ function Paid() {
 
                 {payPalDiv? 
                     <div>
-                        <PayPalButton totalValue={'12.5'} invoice={'Pago anual clubleo'}/>
+                        <PayPalButton totalValue={'1'} invoice={'Pago anual clubleo'}/>
                     </div>
                 :<></>}
 
