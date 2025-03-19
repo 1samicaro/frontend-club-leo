@@ -318,7 +318,6 @@ export default function TablasOrganizadas() {
 	const [result, setResult] = useState([])
 
 	const busqueda = () =>{
-		console.log("1");
 		if(!search){
 			// results=catalogo	
 			setResult(catalogo)
