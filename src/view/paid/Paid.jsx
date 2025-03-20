@@ -153,15 +153,15 @@ function Paid() {
 
                 <div className="formasPago">
                     <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
-                    <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
+                    {/* <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button> */}
                     {preferenceId && <Wallet initialization={{preferenceId}}/>}
+                    {payPalDiv? 
+                        <div className="formasPago">
+                            <PayPalButton totalValue={'1.5'} invoice={'Pago anual clubleo'}/>
+                        </div>
+                    :<></>}
                 </div>
 
-                {payPalDiv? 
-                    <div>
-                        <PayPalButton totalValue={'1'} invoice={'Pago anual clubleo'}/>
-                    </div>
-                :<></>}
 
                 {/* <Payment
                     initialization={initialization}

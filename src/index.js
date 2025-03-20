@@ -16,6 +16,11 @@ import 'animate.css/animate.min.css'
 import { PayPalScriptProvider } from '@paypal/react-paypal-js';
 
 window.$ = jQuery;
+const initialOptions = {
+  clientId: "AYJZH5ClP0EHE2Ikctpbjzq8CO-SMq-ZxaiH3K6pZ1gf4I6cbtdniYCemoKOLmYuAoReoR1-RX_nTFls",
+  // currency: "USD",
+  // intent: "capture",
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
@@ -23,7 +28,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       <Provider store={store}>
         <BrowserRouter>
           <PayPalScriptProvider
-            options={{"clientId":"AWkHdXp2iypV7e-K7a1EUHkgUh9KreRIZRya6HoDYvSlJ7oQu_Pide7GW_XW6sQeU8wUkuPswz36o0Z4"}}
+            options={initialOptions}
           >
             <App />
           </PayPalScriptProvider>
