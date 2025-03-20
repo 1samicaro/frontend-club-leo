@@ -1024,7 +1024,7 @@ export default function SignUp() {
                     </div>:<></>} */}
 
                     <div>
-                        <label className="l-01"> <h6>Por cuál medio deseas tu bono académico</h6></label>
+                        <label className="l-01"> <h6>Por cuál medio deseas tu pago</h6></label>
                         <div>
                             <select 
                             className="form-select" aria-label="Default select example"
