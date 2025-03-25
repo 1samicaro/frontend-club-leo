@@ -12,10 +12,10 @@ import { infoToken, infoUser } from '../../stateManagement/actions/infoUserActio
 import { editProfile, payProfile } from '../../services/editProfileService'
 import { mercadoPagoBack } from '../../services/ventaService'
 
-initMercadoPago("APP_USR-7aee5ee2-142b-49d9-9f7e-729f49344057");
 
 
 function Paid() {
+    initMercadoPago("APP_USR-c1276ccf-a9d8-4f57-b26e-87a19c52e8fe");
 
     const [estadoModal1, cambiarEstadoModal1] = useState(false);
 
@@ -153,7 +153,7 @@ function Paid() {
 
                 <div className="formasPago">
                     <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
-                    {/* <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button> */}
+                    <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
                     {preferenceId && <Wallet initialization={{preferenceId}}/>}
                     {payPalDiv? 
                         <div className="formasPago">
