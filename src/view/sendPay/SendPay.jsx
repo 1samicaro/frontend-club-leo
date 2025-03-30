@@ -104,6 +104,17 @@ export default function SendPay() {
 
     return (
         <div>
+            <nav className="navbar navbar-light mb-5" id="encabezado">
+                <Link to="/" className="container-fluid">
+                    <img
+                    src={logo}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+                </Link>
+            </nav>
             <Link to="/" className="container-fluid">
                 <img
                 align="left"

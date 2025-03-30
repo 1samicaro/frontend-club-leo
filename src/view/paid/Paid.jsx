@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify'
 import logo from '../../assets/logoblack.png'
 import PayPalButton from '../paypal/PayPalButtom'
 import { initMercadoPago, Payment, Wallet } from '@mercadopago/sdk-react'
@@ -10,6 +9,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import Modal1 from '../../components/Modal1';
 import { infoToken, infoUser } from '../../stateManagement/actions/infoUserAction'
 import { editProfile, payProfile } from '../../services/editProfileService'
+import { ToastContainer, toast } from 'react-toastify';
 import { mercadoPagoBack } from '../../services/ventaService'
 
 
@@ -46,6 +46,18 @@ function Paid() {
         e.preventDefault()
         setPayPalDiv(!payPalDiv) 
     }
+    const notify = () => {
+        toast('Pago realizado, será dirigido a la página principal!', {
+            position: "top-center",
+            autoClose: 6000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+    };
 
     const payPalAccept = async () =>{
         let date = ""
@@ -70,6 +82,10 @@ function Paid() {
             suscriptionDate: date
         }
         const user = await payProfile(input, token)
+        notify()
+        setTimeout(() => {
+            navigate('/')
+        },"6000");
     }
     useEffect(()=> {// eslint-disable-next-line react-hooks/exhaustive-deps
         if(payPalAnswer){
@@ -157,7 +173,7 @@ function Paid() {
                     {preferenceId && <Wallet initialization={{preferenceId}}/>}
                     {payPalDiv? 
                         <div className="formasPago">
-                            <PayPalButton totalValue={'1.5'} invoice={'Pago anual clubleo'}/>
+                            <PayPalButton totalValue={'50'} invoice={'Pago anual clubleo'}/>
                         </div>
                     :<></>}
                 </div>
