@@ -778,37 +778,38 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         
       {(language===1 || languageChange===1)&&
         <div className="container-fluid" >
-
-        <NavDropdown title="Inglés" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Género literario</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Español" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Portugués" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Género literario</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Francés" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Género literario</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Italiano" id="navbarScrollingDropdown">
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Título</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">País</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
-            </NavDropdown>
+          {!demo? <div className="bg-body-tertiary">
+          <NavDropdown title="Inglés" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Autor/Escritor</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Género literario</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Español" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Título</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">País</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Autor/Escritor</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Género literario</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Portugués" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Título</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">País</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Autor/Escritor</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Género literario</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Francés" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Título</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">País</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Autor/Escritor</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Género literario</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Italiano" id="navbarScrollingDropdown">
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Título</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">País</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
+              </NavDropdown>
+            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
 
@@ -825,40 +826,40 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===2 || languageChange===2)&&
         <div className="container-fluid" >
-
-<NavDropdown title="English" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Title</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Country</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Author/Writer</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Literary genre</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Spanish" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Title</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">Country</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Author/Writer</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Literary genre</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Portuguese" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Title</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">Country</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Author/Writer</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Literary genre</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="French" id="navbarScrollingDropdown">
-			    <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Title</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">Country</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Author/Writer</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Literary genre</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Italian" id="navbarScrollingDropdown">
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Title</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">Country</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Author/Writer</NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Literary genre</NavDropdown.Item>
-            </NavDropdown>
+          {!demo? <div className="bg-body-tertiary">
+  <NavDropdown title="English" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Title</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Country</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/3">Author/Writer</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/2/4">Literary genre</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Spanish" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/1/1">Title</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/2">Country</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/3">Author/Writer</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/1/4">Literary genre</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Portuguese" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/5/1">Title</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/2">Country</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/3">Author/Writer</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/5/4">Literary genre</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="French" id="navbarScrollingDropdown">
+            <NavDropdown.Item as={NavLink} to="/organizedBooks/3/1">Title</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/2">Country</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/3">Author/Writer</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/3/4">Literary genre</NavDropdown.Item>
+              </NavDropdown>
+              <NavDropdown title="Italian" id="navbarScrollingDropdown">
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/1">Title</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/2">Country</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Author/Writer</NavDropdown.Item>
+                  <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Literary genre</NavDropdown.Item>
+              </NavDropdown>
+            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">LEO Writers</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Let's read</Nav.Link>
-
             {userInfo.isSuscribed? <Link to="/books" >
            Library 
           </Link> :<Link to="/books">
@@ -871,7 +872,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===3 || languageChange===3)&&
         <div className="container-fluid" >
-
+          {!demo? <div className="bg-body-tertiary">
           <NavDropdown title="Anglais" id="navbarScrollingDropdown">
 			          <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Titre</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Pays</NavDropdown.Item>
@@ -902,9 +903,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Auteur/rédacteur</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Genre littéraire</NavDropdown.Item>
             </NavDropdown>
+            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Rédacteurs LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Lisons</Nav.Link>
-
             {userInfo.isSuscribed? <Link to="/books" >
            Library 
           </Link> :<Link to="/books">
@@ -915,7 +916,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===4 || languageChange===4)&&
         <div className="container-fluid" >
-
+          {!demo? <div className="bg-body-tertiary">
 <NavDropdown title="Inglês" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
@@ -946,9 +947,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
             </NavDropdown>
+            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Vamos ler</Nav.Link>
-
             {userInfo.isSuscribed? <Link to="/books" >
            Library 
           </Link> :<Link to="/books">
@@ -959,7 +960,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===5 || languageChange===5)&&
         <div className="container-fluid" >
-
+          {!demo? <div className="bg-body-tertiary">
 <NavDropdown title="Inglese " id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Titolo</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Paese </NavDropdown.Item>
@@ -990,9 +991,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autore/Scrittrice</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
             </NavDropdown>
+            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Scrittori LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Leggiamo</Nav.Link>
-
             {userInfo.isSuscribed? <Link to="/books" >
            Library 
           </Link> :<Link to="/books">
