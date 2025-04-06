@@ -95,7 +95,7 @@ export default function Home() {
           getAuthors(languageChange),
           getCountriesBooks(languageChange),
           getGenresBooks(languageChange),
-          getBooks(languageChange),
+          getBooks(languageChange), ///como esta en english, por el valor 2, se deja entendido desde ahora que es spanish es english y solo books es english
           getBooks(1),
           getBooks(3),
           getBooks(4),
@@ -106,17 +106,22 @@ export default function Home() {
       dispatch(booksCountries(countryBooks))
       dispatch(booksAuthors(authors))
       dispatch(allBooks(books))
-      dispatch(allBooksSpanish(booksEnglish))
-      dispatch(allBooksEnglish(books))
-      dispatch(allBooksFranch(booksFranch))
-      dispatch(allBooksItalian(booksItalian))
-      dispatch(allBooksPortugues(booksPortugues))
       // dispatch(categoriesAction(categories))
       // dispatch(ofertsActionByCity(ofertas))
       country.unshift({id:46, name:'Colombia', code: 57})
       dispatch(getCountry(country))
       if(books?.length>0){
         if(demo){
+            const spanish = booksEnglish.slice(0,100)
+            dispatch(allBooksSpanish(spanish))
+            const english = booksEnglish.slice(0,100)
+            dispatch(allBooksEnglish(english))
+            const franch = booksEnglish.slice(0,100)
+            dispatch(allBooksFranch(franch))
+            const italian = booksEnglish.slice(0,100)
+            dispatch(allBooksItalian(italian))
+            const portuguese = booksEnglish.slice(0,100)
+            dispatch(allBooksPortugues(portuguese))
             const image = books.filter(r => r.image!=="")
             dispatch(recomendedAction(image))
             books.sort((x, y) => x.name.localeCompare(y.name))
@@ -136,6 +141,11 @@ export default function Home() {
             const filterAuthor = filterCountry.filter(g => g.GenreId===29)
             // const recommend = books.filter(r => r.isFree===true)
             // dispatch(recomendedAction(recommend))
+            dispatch(allBooksSpanish(booksEnglish))
+            dispatch(allBooksEnglish(books))
+            dispatch(allBooksFranch(booksFranch))
+            dispatch(allBooksItalian(booksItalian))
+            dispatch(allBooksPortugues(booksPortugues))
             dispatch(booksInfo(filterAuthor))
             dispatch(booksCatalogoAction(books))
             dispatch(booksCopyAction(books))
@@ -778,7 +788,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         
       {(language===1 || languageChange===1)&&
         <div className="container-fluid" >
-          {!demo? <div className="bg-body-tertiary">
           <NavDropdown title="Inglés" id="navbarScrollingDropdown">
             <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
@@ -809,7 +818,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
               </NavDropdown>
-            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
 
@@ -826,7 +834,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===2 || languageChange===2)&&
         <div className="container-fluid" >
-          {!demo? <div className="bg-body-tertiary">
   <NavDropdown title="English" id="navbarScrollingDropdown">
             <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Title</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Country</NavDropdown.Item>
@@ -857,7 +864,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Author/Writer</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Literary genre</NavDropdown.Item>
               </NavDropdown>
-            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">LEO Writers</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Let's read</Nav.Link>
             {userInfo.isSuscribed? <Link to="/books" >
@@ -872,7 +878,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===3 || languageChange===3)&&
         <div className="container-fluid" >
-          {!demo? <div className="bg-body-tertiary">
           <NavDropdown title="Anglais" id="navbarScrollingDropdown">
 			          <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Titre</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Pays</NavDropdown.Item>
@@ -903,7 +908,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Auteur/rédacteur</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Genre littéraire</NavDropdown.Item>
             </NavDropdown>
-            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Rédacteurs LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Lisons</Nav.Link>
             {userInfo.isSuscribed? <Link to="/books" >
@@ -916,7 +920,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===4 || languageChange===4)&&
         <div className="container-fluid" >
-          {!demo? <div className="bg-body-tertiary">
 <NavDropdown title="Inglês" id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Título</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">País</NavDropdown.Item>
@@ -947,7 +950,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Vamos ler</Nav.Link>
             {userInfo.isSuscribed? <Link to="/books" >
@@ -960,7 +962,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
            {(language===5 || languageChange===5)&&
         <div className="container-fluid" >
-          {!demo? <div className="bg-body-tertiary">
 <NavDropdown title="Inglese " id="navbarScrollingDropdown">
 			    <NavDropdown.Item as={NavLink} to="/organizedBooks/2/1">Titolo</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/2/2">Paese </NavDropdown.Item>
@@ -991,7 +992,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autore/Scrittrice</NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
             </NavDropdown>
-            </div>:<></>}
            <Nav.Link href="https://escritoresleo.com/">Scrittori LEO</Nav.Link>
             <Nav.Link href="https://www.vamosaleer.co/">Leggiamo</Nav.Link>
             {userInfo.isSuscribed? <Link to="/books" >

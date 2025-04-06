@@ -416,7 +416,6 @@ export default function Profile() {
                             </div>
                         </div>
 
-
                          {/* <br />
                         <label className="l-01"> <h4>Mis ingresos</h4></label>
                         <div className='perfil-usuario-footer'

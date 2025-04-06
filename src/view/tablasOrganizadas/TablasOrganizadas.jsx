@@ -347,6 +347,7 @@ export default function TablasOrganizadas() {
 	}
 
 
+
     return (
         <div className="container_books">
             <br />
@@ -367,6 +368,19 @@ export default function TablasOrganizadas() {
                 </div>
             </div>
             </div>
+
+		{userInfo.isSuscribed? <></> : <div className="container-fluid"  id="perfilForm">
+								<div className='perfil-usuario-footer'
+									id="containerPerfil">
+									<div className='lista-datos' >
+										<p>Si deseas disfrutar de los mas de diez mil libros que se encuentran en nuestro sistema no te olvides suscribirte por una modica suma anual</p>
+									</div>
+									{
+										userInfo? <Link id="boton_loggin" className="btn btn-primary btn-lg" to="/paid" type="submit">Centro de pagos</Link>
+										: <Link id="boton_loggin" className="btn btn-primary btn-lg" to="/SignUp" type="submit">Registrate</Link>
+									}
+								</div>
+					</div>}
 
             <div>
       <Navbar expand="lg" className="bg-body-tertiary">
