@@ -56,15 +56,10 @@ export default function AcercaDe() {
             </h3>
             <br />
             <p>
-            Esiste una legge universale dello sviluppo: tutto il progresso e il benessere di una società dipendono dalla qualità dell'istruzione ricevuta dalla sua popolazione. Per questo motivo, i paesi più sviluppati hanno come priorità quella di avere sistemi educativi moderni ed efficienti, che rafforzino la conoscenza e la competitività dei loro abitanti. Lo dimostrano i test internazionali PISA dell'OCSE, che collocano ai primi posti i Paesi ad alto reddito con i migliori sistemi educativi del mondo: Singapore, Canada, Cina, Finlandia, Hong Kong, Estonia, Giappone e Corea del Sud.   
+                Per compiere questa missione, LEO funziona come una rete digitale globale, basata sulla teoria dei sei gradi di separazione, secondo la quale tutte le persone nel mondo possono essere integrate in una rete con soli 6 collegamenti; Cioè, con soli 6 passaggi, possiamo contattare tutta l'umanità. Questa è la base dei social network Facebook, Twitter, Linkedin, ecc., che attraverso Internet ci permettono, partendo solo dai nostri conoscenti, di creare una rete con migliaia di contatti in tutto il mondo, conoscerli attraverso il loro profilo, le loro storie e i loro messaggi, e svolgere con loro molteplici attività culturali, ambientali, imprenditoriali, ecc. <br />
+
+            Con questa filosofia, LEO mira a integrare persone provenienti da tutti i paesi affinché lavorino per raggiungere obiettivi comuni: migliorare il nostro livello educativo e culturale, rafforzare le capacità comunicative e generare opportunità di reddito permanente che migliorino la nostra qualità di vita.
             </p>
-            LEO - World Reading Club, è un progetto sociale la cui missione è promuovere la lettura, la scrittura e il multilinguismo, come abitudini che migliorano il livello educativo e culturale delle persone, e rafforzano le loro capacità comunicative, necessarie per avere successo nella loro attività accademica e nella società moderna integrata in tutto il mondo da internet. che richiede la lettura e l'utilizzo di quantità crescenti di informazioni e la scrittura di contenuti chiari e accattivanti per milioni di persone in tutto il mondo.
-            <p>
-            </p>
-            <p>
-            Per adempiere a questa missione, LEO opera come una rete digitale globale, integrando persone di tutti i paesi per rafforzare le loro capacità di comunicazione e generare opportunità di reddito permanenti che migliorano la loro qualità di vita.
-            </p>
-            
 
             <h3 id="titulo" align="center"> <b>Obiettivi <br />
             </b> 

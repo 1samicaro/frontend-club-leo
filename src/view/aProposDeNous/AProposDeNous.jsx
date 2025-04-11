@@ -57,13 +57,10 @@ export default function AProposDeNous() {
             </h3>
             <br />
             <p>
-            Il existe une loi universelle du développement : tout progrès et le bien-être d’une société dépendent de la qualité de l’éducation reçue par sa population. Pour cette raison, les pays les plus développés ont pour priorité de disposer de systèmes éducatifs modernes et efficaces, qui renforcent les connaissances et la compétitivité de leurs habitants. C’est ce que démontrent les tests internationaux PISA de l’OCDE, qui placent les pays à revenu élevé dotés des meilleurs systèmes éducatifs au monde aux premières places : Singapour, le Canada, la Chine, la Finlande, Hong Kong, l’Estonie, le Japon et la Corée du Sud.
-            </p>
-            <p>
-            LEO - Club de lecture mondial, est un projet social dont la mission est de promouvoir la lecture, l’écriture et le multilinguisme, en tant qu’habitudes qui améliorent le niveau éducatif et culturel des personnes, et renforcent leurs compétences communicatives, nécessaires pour réussir dans leur activité académique et dans la société moderne intégrée dans le monde entier par Internet. ce qui nécessite de lire et d’exploiter des quantités croissantes d’informations, et d’écrire un contenu clair et convaincant pour des millions de personnes à travers le monde.
-            </p>
-            <p>
-            Pour remplir cette mission, LEO fonctionne comme un réseau numérique mondial, intégrant des personnes de tous les pays pour renforcer leurs compétences en communication et générer des opportunités de revenus permanents qui améliorent leur qualité de vie
+            Pour remplir cette mission, LEO fonctionne comme un réseau numérique mondial, basé sur la théorie des six degrés de séparation, selon laquelle toutes les personnes du monde peuvent être intégrées dans un réseau comportant seulement 6 liens ; Autrement dit, en seulement 6 étapes, nous pouvons contacter toute l’humanité. C'est la base des réseaux sociaux Facebook, Twitter, Linkedin, etc., qui grâce à Internet nous permettent, à partir seulement de nos connaissances, de créer un réseau avec des milliers de contacts dans le monde, de les connaître à travers leur profil, leurs histoires et leurs messages, et de réaliser avec eux de multiples activités culturelles, environnementales, commerciales, etc. <br />
+
+            Avec cette philosophie, LEO vise à intégrer des personnes de tous les pays pour travailler à la réalisation d'objectifs communs : améliorer notre niveau éducatif et culturel, renforcer nos compétences en communication et générer des opportunités de revenus permanents qui améliorent notre qualité de vie.
+
             </p>
             
 

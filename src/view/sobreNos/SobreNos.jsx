@@ -55,15 +55,12 @@ export default function SobreNos() {
                 <h3 id="titulo" align="center"> <b>LEO Uma comunidade global de negócios e educação<br />
             </b> 
             </h3>
-            <br />
-            <p>
-            Existe uma lei universal do desenvolvimento: todo progresso e bem-estar de uma sociedade depende da qualidade da educação recebida por sua população. Por isso, os países mais desenvolvidos têm como prioridade ter sistemas educacionais modernos e eficientes, que fortaleçam o conhecimento e a competitividade de seus habitantes. Isso é demonstrado pelos testes internacionais PISA da OCDE, que colocam os países de alta renda com os melhores sistemas educacionais do mundo nos primeiros lugares: Cingapura, Canadá, China, Finlândia, Hong Kong, Estônia, Japão e Coreia do Sul.
+            <br /><p>
+            Para cumprir esta missão, a LEO funciona como uma rede digital global, baseada na teoria dos seis graus de separação, que afirma que todas as pessoas do mundo podem ser integradas numa rede com apenas 6 links; Ou seja, com apenas 6 passos podemos entrar em contato com toda a humanidade. Esta é a base das redes sociais Facebook, Twitter, Linkedin, etc., que através da Internet nos permitem, a partir apenas dos nossos conhecidos, criar uma rede com milhares de contactos em todo o mundo, conhecê-los através do seu perfil, histórias e mensagens, e realizar com eles múltiplas atividades culturais, ambientais, empresariais, etc. <br />
+
+            Com esta filosofia, a LEO pretende integrar pessoas de todos os países para trabalharem para alcançar objetivos comuns: melhorar o nosso nível educacional e cultural, fortalecer as capacidades de comunicação e gerar oportunidades de rendimento permanentes que melhorem a nossa qualidade de vida.
+ 
             </p>
-            LEO - Clube Mundial de Leitura, é um projeto social que tem como missão promover a leitura, a escrita e o multilinguismo, como hábitos que melhoram o nível educacional e cultural das pessoas, e fortalecem as suas capacidades comunicativas, necessárias para ter sucesso na sua atividade académica e na sociedade moderna integrada a nível mundial pela internet. o que requer ler e alavancar quantidades crescentes de informações e escrever conteúdo claro e atraente para milhões de pessoas em todo o mundo.
-            <p>
-            </p>
-            <p>
-            Para cumprir essa missão, a LEO opera como uma rede digital global, integrando pessoas de todos os países para fortalecer suas habilidades de comunicação e gerar oportunidades de renda permanente que melhoram sua qualidade de vida            </p>
             
 
             <h3 id="titulo" align="center"> <b>Objectivos <br />

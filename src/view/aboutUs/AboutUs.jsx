@@ -52,11 +52,10 @@ export default function AboutUs() {
             </h3>
             <br />
             <p>
-            There is a universal law of development: all progress and well-being of a society depends on the quality of education received by its population. For this reason, the most developed countries have as a priority to have modern and efficient educational systems that strengthen the knowledge and competitiveness of their inhabitants. This is demonstrated by the OECD's PISA international tests, which place high-income countries with the best educational systems in the world at the top: Singapore, Canada, China, Finland, Hong Kong, Estonia, Japan and South Korea.  </p>
+            To fulfill this mission, LEO operates as a global digital network, based on the theory of six degrees of separation, which states that all people in the world can be integrated into a network with just six links; that is, with just six steps, we can connect with all of humanity. This is the basis of social networks like Facebook, Twitter, LinkedIn, etc., which, through the Internet, allow us to start with just our acquaintances and create a network with thousands of contacts around the world. We can get to know them through their profiles, stories, and messages, and engage in a variety of cultural, environmental, business, and other activities with them. <br />
 
-            <p>LEO - World Reading Club, is a social project whose mission is to promote reading, writing and multilingualism, as habits that improve the educational and cultural level of people, and strengthen their communication skills, necessary to be successful in their academic activity and in the modern society integrated worldwide by the Internet, which demands reading and taking advantage of increasing amounts of information, and writing clear and convincing content for millions of people around the world.  </p>
+            With this philosophy, LEO aims to integrate people from all countries to work toward common goals: improving our educational and cultural levels, strengthening communication skills, and generating permanent income opportunities that improve our quality of life.
 
-            <p> To fulfill this mission, LEO operates as a global digital network, which integrates people from all countries to strengthen their communication skills, and generate permanent income opportunities that improve their quality of life.
             </p>
 
             
