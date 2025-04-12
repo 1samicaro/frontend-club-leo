@@ -86,14 +86,15 @@ export default function RejoignezNous() {
 
             <br />
             <p>
-            1. Lorsque nous nous inscrivons en tant que partenaires, nous créons notre nom d’utilisateur et notre mot de passe ; le programme crée automatiquement « Mon compte » pour nous permettre de suivre nos invités et nos revenus en temps réel. <br />
-            2. Nous invitons nos connaissances à s’inscrire en tant que membres LEO, en leur fournissant notre nom d’utilisateur ou en leur envoyant sur leurs réseaux sociaux le lien personnel que le système génère pour nous. <br />
-            3. Lors de l’entrée, les invités enregistrent notre nom d’utilisateur ; Et le système les accumule dans notre compte, jusqu’à ce que nous remplissions les 20 demandés. Après cela, la liste se ferme et nous ne pourrons pas continuer à inviter plus de personnes. <br />
-            4. Dans un premier temps, à l’arrivée des 20 invités, nous recevrons un dépôt de 100 $ US sur notre compte. <br />
-            5. Dans un deuxième temps, lorsque nos 20 partenaires auront chacun complété leurs 20 invités, nous recevrons un revenu de 3200 $ US. <br />
-            6. Dans la troisième étape, lorsque les nouveaux membres inviteront leurs 20 amis, nous recevrons 96000 $ US, soit une moyenne mensuelle de 8275 $ US. <br />
- 
-            Et surtout, l’adhésion à CLUBLEO est renouvelée annuellement, donc ce revenu sera permanent, à vie. Mais nous n’aurons qu’à inviter 20 membres. Une fois que nous les avons terminés, nous ne devons plus rien faire.
+            1. En devenant partenaires, nous créons notre nom d'utilisateur et notre mot de passe ; Le programme génère automatiquement notre lien personnel et crée « Mon compte » afin que nous puissions suivre nos invités et nos revenus en temps réel. <br />
+
+            2. Nous invitons nos connaissances à devenir membres de LEO, en leur fournissant notre nom d'utilisateur ou en leur envoyant le lien personnel que le système génère pour nous vers leurs réseaux sociaux. <br />
+
+            3. Lorsque les personnes que nous invitons à devenir membres, elles enregistrent notre nom d'utilisateur ; et le système les accumule sur notre compte, jusqu'à compléter les 20 demandés. Après, la liste est close et nous ne pourrons plus continuer à inviter d’autres personnes. <br />
+
+            4. Selon le principe d'intégration à 6 degrés de LEO, nos invités continueront de grandir dans le pays et dans le monde, et pour chacun d'eux, LEO reconnaîtra un revenu qui pourrait atteindre 96 000 $ US par an, soit une moyenne mensuelle de 8 275 $ US. <br />
+
+            Et surtout, l’adhésion à CLUBLEO est renouvelée annuellement, donc cette adhésion sera permanente, à vie. Nous n'avons besoin d'inviter que 20 membres une fois, mais LEO reconnaît un revenu à vie pour nous, avec l'adhésion et les renouvellements ultérieurs.
 
             </p>
             

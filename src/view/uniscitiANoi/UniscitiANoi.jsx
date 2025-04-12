@@ -86,18 +86,18 @@ export default function UniscitiANoi() {
 
             <br />
             <p>
-            1. Quando ci iscriviamo come partner, creiamo il nostro nome utente e password; il programma crea automaticamente "Il mio account" per tenere traccia dei nostri ospiti e delle entrate in tempo reale. <br />
-            2. Invitiamo i nostri conoscenti ad entrare come membri LEO, fornendo loro il nostro nome utente o inviando loro ai loro social network il link personale che il sistema genera per noi. <br />
-            3. Al momento dell'ingresso, gli ospiti registrano il nostro nome utente; e il sistema li accumula nel nostro account, fino a completare i 20 richiesti. Dopodiché, l'elenco si chiude e non saremo in grado di continuare a invitare altre persone. <br />
-            4. Nella prima fase, al completamento dei 20 ospiti, riceveremo un deposito di US $ 100 sul nostro conto. <br />
-            5. Nella seconda fase, quando i nostri 20 partner completeranno ciascuno i loro 20 ospiti, riceveremo un reddito di 3.200 USD. <br />
-            6. Nella terza fase, quando i nuovi membri invitano i loro 20 amici, riceveremo 96.000 USD, ovvero una media mensile di 8.275 USD. <br />
+            1. Unendoci come partner, creiamo il nostro nome utente e password; Il programma genera automaticamente il nostro collegamento personale e crea "Il mio account" in modo che possiamo monitorare i nostri ospiti e le nostre entrate in tempo reale. <br />
+
+            2. Invitiamo i nostri conoscenti ad aderire come membri LEO, fornendo loro il nostro nome utente o inviando loro il collegamento personale che il sistema genera per noi ai loro social network. <br />
+
+            3. Quando le persone che invitiamo si iscrivono come membri, registrano il nostro nome utente; e il sistema li accumula nel nostro conto, fino a completare i 20 richiesti. Successivamente la lista verrà chiusa e non potremo continuare ad invitare altre persone. <br />
+
+            4. Secondo il principio dei 6 gradi di integrazione che LEO applica, gli ospiti continueranno a crescere nel Paese e nel mondo, e per ognuno di loro LEO ci riconoscerà un reddito, che potrà raggiungere i 96.000 dollari all'anno, cioè una media mensile di 8.275 dollari. <br />
+
+            E, cosa più importante, l'iscrizione a CLUBLEO si rinnova ogni anno, quindi questo reddito sarà permanente, per tutta la vita. Dobbiamo invitare 20 soci una sola volta, ma LEO ci riconosce un reddito a vita, con l'allacciamento e i successivi rinnovi.
+
 
             </p>
-            <p>
-            E, cosa più importante, l'iscrizione a CLUBLEO viene rinnovata annualmente, quindi questo reddito sarà permanente, per tutta la vita. Ma dovremo invitare solo 20 membri. Una volta completati, non dobbiamo fare più nulla.
-            </p>
-            
 
 
             <br />

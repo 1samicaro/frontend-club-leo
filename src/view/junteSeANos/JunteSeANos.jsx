@@ -90,18 +90,19 @@ export default function JunteSeANos() {
             </b> </h4>
 
             <br />
-            <p>
-            1. Quando nos juntamos como parceiros, criamos nosso nome de usuário e senha; o programa cria automaticamente "Minha conta" para rastrearmos nossos hóspedes e renda em tempo real. <br />
-            2. Convidamos nossos conhecidos a entrar como membros LEO, fornecendo-lhes nosso nome de usuário ou enviando-lhes para suas redes sociais o link pessoal que o sistema gera para nós. <br />
-            3. Ao entrar, os convidados registram nosso nome de usuário; e o sistema os acumula em nossa conta, até completarmos os 20 solicitados. Depois disso, a lista fecha e não poderemos continuar convidando mais pessoas. <br />
-            4. Na primeira etapa, após a conclusão dos 20 convidados, receberemos um depósito de US$ 100 em nossa conta. <br />
-            5. Na segunda etapa, quando nossos 20 parceiros completarem seus 20 convidados, receberemos uma renda de US$ 3.200. <br />
-            6. Na terceira etapa, quando os novos membros convidarem seus 20 amigos, receberemos US$ 96.000, ou seja, uma média mensal de US$ 8.275.
+           <p>
+           1. Quando nos associamos como parceiros, criamos nosso nome de usuário e senha; O programa gera automaticamente nosso link pessoal e cria “Minha Conta” para que possamos monitorar nossos hóspedes e receitas em tempo real. <br />
 
-            </p>
-            <p>
-            E o mais importante, a adesão ao CLUBLEO é renovada anualmente, pelo que este rendimento será permanente, vitalício. Mas só teremos que convidar 20 membros. Depois de concluí-los, não devemos fazer mais nada
-            </p>
+           2. Convidamos nossos conhecidos a se juntarem ao LEO, fornecendo-lhes nosso nome de usuário ou enviando-lhes o link pessoal gerado pelo sistema para suas redes sociais. <br />
+
+           3. Quando as pessoas que convidamos se tornam membros, elas registram nosso usuário; e o sistema os acumula em nossa conta, até que os 20 solicitados sejam completados. Depois disso, a lista será fechada e não poderemos convidar mais pessoas. <br />
+
+           4. De acordo com o princípio de integração de 6 graus da LEO, nossos hóspedes continuarão a crescer no país e ao redor do mundo, e para cada um deles, a LEO reconhecerá uma renda, que pode chegar a US$ 96.000 anualmente, ou seja, uma média mensal de US$ 8.275. <br />
+
+           E o mais importante, a filiação ao CLUBLEO é renovada anualmente, então essa filiação será permanente, para toda a vida. Precisamos convidar apenas 20 membros uma vez, mas a LEO reconhece uma renda vitalícia para nós, com a adesão e renovações subsequentes.
+
+
+           </p>
             
 
 

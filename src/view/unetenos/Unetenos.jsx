@@ -82,14 +82,15 @@ export default function Unetenos() {
             </b> 
             </h3>
             <p>
-            1. Al vincularnos como socios, creamos nuestro usuario y contraseña; el programa automáticamente nos crea “Mi Cuenta” para que hagamos seguimiento en tiempo real a nuestros invitados e ingresos. <br />
-            2. Invitamos a nuestros conocidos a que ingresen como socios de LEO, proporcionándoles nuestro usuario o enviándoles a sus redes sociales el link personal que el sistema nos genera. <br />
-            3. Al ingresar, los invitados registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
-            4. En el primer paso, al completar los 20 invitados, en nuestra cuenta recibiremos un ingreso de US$100. <br />
-            5. En el segundo paso, cuando nuestros 20 socios completen cada uno sus 20 invitados, recibiremos un ingreso de US$3.200. <br />
-            6. En el tercer paso, cuando los nuevos socios inviten a sus 20 amigos, recibiremos US$96.000, es decir, un promedio mensual de  US$8.275 <br />
+            1. Al vincularnos como socios, creamos nuestro usuario y contraseña; el programa automáticamente genera nuestro link personal, y nos crea “Mi Cuenta” para que hagamos seguimiento en tiempo real a nuestros invitados e ingresos. <br />
 
-            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Pero nosotros solo deberemos invitar a 20 socios. Una vez que los completemos, no debemos hacer nada más
+            2. Invitamos a nuestros conocidos a que ingresen como socios de LEO, proporcionándoles nuestro usuario o enviándoles a sus redes sociales el link personal que el sistema nos genera. <br />
+
+            3. Al ingresar como socios las personas que invitamos, registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
+
+            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los US$96.000 anuales, es decir, un promedio mensual de US$8.275. <br />
+
+            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Solo debemos invitar a 20 socios una vez, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
 
 
             </p>
