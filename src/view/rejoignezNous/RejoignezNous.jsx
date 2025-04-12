@@ -193,7 +193,7 @@ export default function RejoignezNous() {
 
                 <br />
                 <p>
-                Bien que tout le monde puisse y adhérer, la priorité de LEO est les 476 millions d’étudiants et leurs familles dans différents pays, pour qui la lecture et l’écriture sont des activités permanentes associées au processus de formation académique, et le renforcement de leurs compétences en communication est la clé du succès du processus éducatif. Avec une adhésion annuelle de 50 $ US, chaque membre a accès à la bibliothèque numérique téléchargeable avec 15 000 œuvres en 5 langues, d’une valeur de plus de 150 000 $ US.
+                Bien que tout le monde puisse y adhérer, la priorité de LEO est les 476 millions d’étudiants et leurs familles dans différents pays, pour qui la lecture et l’écriture sont des activités permanentes associées au processus de formation académique, et le renforcement de leurs compétences en communication est la clé du succès du processus éducatif. Avec une adhésion annuelle de 50 $ US, chaque membre a accès à la bibliothèque numérique téléchargeable avec 15 000 œuvres en 5 langues, d’une valeur de plus de 150 000 $ US. Autrement dit, l’adhésion permet d’accéder à des œuvres à un coût moyen de 0,33 centime chacune.
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan des amis :<br />

@@ -202,7 +202,7 @@ export default function Joinus() {
                 </table>
                 <br />
                 <p>
-                Although anyone can join, LEO's priority is the 476 million students and their families in different countries, for whom reading and writing are permanent activities associated with the academic training process, and strengthening their communication skills is key to the success of the educational process. With the annual membership of US$50, each member has access to the downloadable digital library with 15,000 works in 5 languages, valued at more than US$150 thousand.
+                Although anyone can join, LEO's priority is the 476 million students and their families in different countries, for whom reading and writing are permanent activities associated with the academic training process, and strengthening their communication skills is key to the success of the educational process. With the annual membership of US$50, each member has access to the downloadable digital library with 15,000 works in 5 languages, valued at more than US$150 thousand. That is, membership allows access to works at an average cost of 0.33 cents each.
                 </p>
 
 

@@ -198,7 +198,7 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de US$50, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de US$150 mil.
+                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía anual de US$50, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de US$150 mil. Es decir, la membrecía permite acceder a obras con un costo promedio de 0,33 centavos de dólar cada una.
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan Amigos: <br />

@@ -197,7 +197,7 @@ export default function UniscitiANoi() {
 
                 <br />
                 <p>
-                Sebbene tutti possano aderire, la priorità di LEO sono i 476 milioni di studenti e le loro famiglie in diversi paesi, per i quali la lettura e la scrittura sono attività permanenti associate al processo di formazione accademica, e il rafforzamento delle loro capacità comunicative è la chiave per il successo del processo educativo. Con l'iscrizione annuale di 50 dollari, ogni membro ha accesso alla libreria digitale scaricabile con 15.000 opere in 5 lingue, per un valore di oltre 150.000 dollari.
+                Sebbene tutti possano aderire, la priorità di LEO sono i 476 milioni di studenti e le loro famiglie in diversi paesi, per i quali la lettura e la scrittura sono attività permanenti associate al processo di formazione accademica, e il rafforzamento delle loro capacità comunicative è la chiave per il successo del processo educativo. Con l'iscrizione annuale di 50 dollari, ogni membro ha accesso alla libreria digitale scaricabile con 15.000 opere in 5 lingue, per un valore di oltre 150.000 dollari. Ciò significa che l'iscrizione consente l'accesso alle opere al costo medio di 0,33 centesimi ciascuna.
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Piano Amici:<br />

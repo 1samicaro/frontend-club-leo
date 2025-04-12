@@ -202,7 +202,7 @@ export default function JunteSeANos() {
 
                 <br />
                 <p>
-                Embora todos possam participar, a LEO tem como prioridade os 476 milhões de estudantes e suas famílias em diferentes países, para os quais a leitura e a escrita são atividades permanentes associadas ao processo de formação acadêmica, e o fortalecimento de suas habilidades de comunicação é fundamental para o sucesso do processo educacional. Com a associação anual de US$ 50, cada membro tem acesso à biblioteca digital para download com 15.000 obras em 5 idiomas, avaliadas em mais de US$ 150.000.
+                Embora todos possam participar, a LEO tem como prioridade os 476 milhões de estudantes e suas famílias em diferentes países, para os quais a leitura e a escrita são atividades permanentes associadas ao processo de formação acadêmica, e o fortalecimento de suas habilidades de comunicação é fundamental para o sucesso do processo educacional. Com a associação anual de US$ 50, cada membro tem acesso à biblioteca digital para download com 15.000 obras em 5 idiomas, avaliadas em mais de US$ 150.000. Ou seja, a filiação permite o acesso às obras a um custo médio de 0,33 centavos cada.
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plano de amigos:<br />
