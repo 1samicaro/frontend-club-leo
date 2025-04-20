@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import aboutus from "../../assets/contenido/aboutus.jpg";
 import aboutus1 from "../../assets/contenido/aboutus1.jpg";
 import aboutus2 from "../../assets/contenido/aboutus2.jpg";
-import aboutus3 from "../../assets/contenido/aboutus3.jpg";
+import aboutus35 from "../../assets/contenido/aboutus3.jpg";
 
 
 
@@ -166,7 +166,7 @@ export default function AcercaDe() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={aboutus3}
+                src={aboutus35}
                 width="400"
                 height="500"
                 alt="..."
