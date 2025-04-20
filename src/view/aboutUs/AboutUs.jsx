@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 import aboutus from "../../assets/contenido/aboutus.jpg";
 import aboutus1 from "../../assets/contenido/aboutus1.jpg";
-import aboutus2 from "../../assets/contenido/aboutus2.jpg";
-import aboutus32 from "../../assets/contenido/aboutus3.jpg";
+import aboutus32 from "../../assets/contenido/aboutus32.jpg";
+import aboutus3 from "../../assets/contenido/aboutus3.jpg";
 
 
 
@@ -125,15 +125,12 @@ export default function AboutUs() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={aboutus2}
+                src={aboutus32}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p><b>Improve reading; <br />
-                The Path to Academic Success <br/>
-                Social and Professional</b>
-                </p>
+                
                 </div>
                 <br />
 
@@ -157,7 +154,7 @@ export default function AboutUs() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={aboutus32}
+                src={aboutus3}
                 width="400"
                 height="500"
                 alt="..."

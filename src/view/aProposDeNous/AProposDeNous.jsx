@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 import aboutus from "../../assets/contenido/aboutus.jpg";
 import aboutus1 from "../../assets/contenido/aboutus1.jpg";
-import aboutus2 from "../../assets/contenido/aboutus2.jpg";
-import aboutus33 from "../../assets/contenido/aboutus3.jpg";
+import aboutus33 from "../../assets/contenido/aboutus33.jpg";
+import aboutus3 from "../../assets/contenido/aboutus3.jpg";
 
 
 
@@ -129,16 +129,12 @@ export default function AProposDeNous() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={aboutus2}
+                src={aboutus33}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p><b>Améliorer la lecture; <br />
-                Le chemin vers la réussite <br />
-                scolaire, social et<br />
-                professionnel</b>
-                </p>
+                
                 </div>
 
             <h4 id="titulo" align="left"> <b>2. Promotion de l’écriture
@@ -167,7 +163,7 @@ export default function AProposDeNous() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={aboutus33}
+                src={aboutus3}
                 width="400"
                 height="500"
                 alt="..."
