@@ -3,8 +3,8 @@ import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./RejoignezNous.css"
 
-import afiliados1 from "../../assets/contenido/afiliados1.jpg";
-import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados13 from "../../assets/contenido/afiliados13.jpg";
+import afiliados33 from "../../assets/contenido/afiliados33.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 
@@ -41,16 +41,12 @@ export default function RejoignezNous() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados1}
+                src={afiliados13}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Plan des amis <br />
-                Nous nous unissons <br />
-                pour progresser ensemble <br />
-                dans le monde entier </b>
-                </p>
+                
               
                 <br />
                 </div>
@@ -117,18 +113,12 @@ export default function RejoignezNous() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados2}
+                src={afiliados33}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Nous sommes une <br />
-                grande communauté <br />
-                380 millions d'étudiants <br />
-                dans plus de 100 pays <br />
-                dans le monde entier</b>
-                
-                </p>
+               
                 </div>
             <br />
             <p>

@@ -3,8 +3,8 @@ import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./Unetenos.css"
 
-import afiliados1 from "../../assets/contenido/afiliados1.jpg";
-import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados12 from "../../assets/contenido/afiliados12.jpg";
+import afiliados32 from "../../assets/contenido/afiliados32.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 
@@ -39,16 +39,12 @@ export default function Unetenos() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados1}
+                src={afiliados12}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Plan amigos <br />
-                Unidos <br />
-                para progresar juntos<br />
-                en todo el mundo</b>
-                </p>
+                
                 </div>
                   <br />
 
@@ -119,18 +115,12 @@ export default function Unetenos() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados2}
+                src={afiliados32}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Somos una <br />
-                gran comunidad<br />
-                380 mlls de estudiantes<br />
-                en más de 100 países <br />
-                del mundo</b>
                 
-                </p>
                 </div>
                   <br />
 

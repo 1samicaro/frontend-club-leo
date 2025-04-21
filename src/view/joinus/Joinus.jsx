@@ -3,8 +3,8 @@ import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./Joinus.css"
 
-import afiliados1 from "../../assets/contenido/afiliados1.jpg";
-import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados11 from "../../assets/contenido/afiliados11.jpg";
+import afiliados31 from "../../assets/contenido/afiliados31.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 
@@ -43,16 +43,12 @@ export default function Joinus() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados1}
+                src={afiliados11}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Friends Plan <br />
-                We unite <br />
-                to progress together <br />
-                around the world <br /> </b>
-                </p>
+                
                 <br />
                 <br />
                 
@@ -128,18 +124,12 @@ export default function Joinus() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados2}
+                src={afiliados31}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>We are a <br />
-                large community <br />
-                380 mlls of students <br />
-                in more than 100 countries <br />
-                around the world</b>
                 
-                </p>
                 </div>
                   <br />
             <br />

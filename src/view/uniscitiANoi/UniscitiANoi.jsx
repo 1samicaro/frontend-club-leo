@@ -3,8 +3,8 @@ import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./UniscitiANoi.css"
 
-import afiliados1 from "../../assets/contenido/afiliados1.jpg";
-import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados15 from "../../assets/contenido/afiliados15.jpg";
+import afiliados35 from "../../assets/contenido/afiliados35.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 import tabla from "../../assets/contenido/tabla.png";
@@ -41,16 +41,12 @@ export default function UniscitiANoi() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados1}
+                src={afiliados15}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Piano Amici <br />
-                Ci uniamo <br />
-                per progredire insieme <br />
-                nel mondo </b>
-                </p>
+                
               
                 <br />
                 </div>
@@ -120,18 +116,12 @@ export default function UniscitiANoi() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados2}
+                src={afiliados35}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Siamo una <br />
-                grande comunità <br />
-                380 milioni di studenti <br />
-                in più di 100 paesi <br />
-                in tutto il mondo</b>
                 
-                </p>
                 </div>
 
             <br />

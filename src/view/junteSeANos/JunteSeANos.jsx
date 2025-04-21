@@ -3,8 +3,8 @@ import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
 import "./JunteSeANos.css"
 
-import afiliados1 from "../../assets/contenido/afiliados1.jpg";
-import afiliados2 from "../../assets/contenido/afiliados2.jpg";
+import afiliados14 from "../../assets/contenido/afiliados14.jpg";
+import afiliados34 from "../../assets/contenido/afiliados34.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 import tabla from "../../assets/contenido/tabla.png";
@@ -43,16 +43,13 @@ export default function JunteSeANos() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados1}
+                src={afiliados14}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Plano dos Amigos <br />
-                Juntamo-nos <br />
-                para progredirmos juntos <br />
-                em todo o mundo </b>
-                </p>
+                
+                
               
                 <br />
                 </div>
@@ -125,18 +122,12 @@ export default function JunteSeANos() {
                 <img
                 id="imagenajustada"
                 className="d-block w-100"
-                src={afiliados2}
+                src={afiliados34}
                 width="400"
                 height="450"
                 alt="..."
                 />
-                <p> <b>Somos uma <br />
-                grande comunidade <br />
-                380 milhões de estudantes <br />
-                em mais de 100 países <br />
-                em todo o mundo</b>
-                
-                </p>
+               
                 </div>
             <br />
             <p>
