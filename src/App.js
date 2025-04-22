@@ -36,6 +36,10 @@ import UniscitiANoi from './view/uniscitiANoi/UniscitiANoi.jsx';
 import RejoignezNous from './view/rejoignezNous/RejoignezNous.jsx';
 import JunteSeANos from './view/junteSeANos/JunteSeANos.jsx';
 import TablasOrganizadas from './view/tablasOrganizadas/TablasOrganizadas.jsx';
+import SignupEnglish from './view/signup/SignupEnglish.jsx';
+import SignUpFranch from './view/signup/SignUpFranch.jsx';
+import SignUpPortuguese from './view/signup/SignUpPortuguese.jsx';
+import SignUpItalian from './view/signup/SignUpItalian.jsx';
 
 // import { initMercadoPago } from "@mercadopago/sdk-react";
 
@@ -87,6 +91,12 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/SignIn' element={<SignIn />}/>
         <Route path='/SignUp' element={<SignUp />}/>
+        <Route path='/SignUpEnglish' element={<SignupEnglish />}/>
+        <Route path='/SignUpFranch' element={<SignUpFranch />}/>
+        <Route path='/SignUpPortuguese' element={<SignUpPortuguese />}/>
+        <Route path='/SignUpItalian' element={<SignUpItalian />}/>
+
+
         <Route path='/Profile' element={<Profile />}/>
         <Route path='/Descendants' element={<Descendants />}/>
         <Route path='/History' element={<History />}/>

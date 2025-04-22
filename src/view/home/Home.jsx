@@ -1177,7 +1177,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         <p><b>My account</b></p>
         
         </Link>:
-         <Link to="/SignUp">
+         <Link to="/SignupEnglish">
         <img
           className="img-fluid"
           src={banner3}
@@ -1201,7 +1201,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         <p><b>Mon compte</b></p>
         
         </Link>:
-         <Link to="/SignUp">
+         <Link to="/SignUpFranch">
         <img
           className="img-fluid"
           src={banner3}
@@ -1214,7 +1214,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
        </div>}
 
 
-       {(language===4 || languageChange===4)&&
+       {(language===5 || languageChange===5)&&
         <div className="container_banner" >
         {userInfo? <Link to="/Profile">
         <img
@@ -1225,7 +1225,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         <p><b>Minha conta</b></p>
         
         </Link>:
-         <Link to="/SignUp">
+         <Link to="/SignUpPortuguese">
         <img
           className="img-fluid"
           src={banner3}
@@ -1239,7 +1239,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
 
 
 
-       {(language===5 || languageChange===5)&&
+       {(language===4 || languageChange===4)&&
         <div className="container_banner" >
         {userInfo? <Link to="/Profile">
         <img
@@ -1250,7 +1250,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         <p><b>Il mio profilo</b></p>
         
         </Link>:
-         <Link to="/SignUp">
+         <Link to="/SignUpItalian">
         <img
           className="img-fluid"
           src={banner3}

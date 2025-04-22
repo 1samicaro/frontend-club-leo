@@ -32,7 +32,7 @@ const initialState = {
     docs: []
 };
 
-export default function SignUp() {
+export default function SignUpPortuguese() {
 
     const [showPass, setShowPass] = useState(false)
 
@@ -56,7 +56,7 @@ export default function SignUp() {
     const navigate = useNavigate()
 
     const notify = () => {
-        toast('Usuario creado satisfactoriamente, sera redirigido para realizar su pago para validar la inscripción!', {
+        toast('Utilizador criado com sucesso, será redirecionado para efetuar o seu pagamento para validar o registo!', {
             position: "top-center",
             autoClose: 6000,
             hideProgressBar: false,
@@ -68,7 +68,7 @@ export default function SignUp() {
             });
     };
     const notifyDocument = () => {
-        toast('Usuario creado satisfactoriamente, estaremos enviando a tu correo un mensaje cuando tus documentos sean verificados!', {
+        toast('Utilizador criado com sucesso, enviaremos uma mensagem para o seu e-mail quando os seus documentos forem verificados!', {
             position: "top-center",
             autoClose: 6000,
             hideProgressBar: false,
@@ -80,7 +80,7 @@ export default function SignUp() {
             });
     };
     const notifyError = () => {
-        toast('Error creando el usuario,  revise los datos!', {
+        toast('Erro ao criar utilizador, verificar os dados!', {
             position: "top-center",
             autoClose: 3000,
             hideProgressBar: false,
@@ -158,7 +158,7 @@ export default function SignUp() {
             setInput(prev=>({...prev, [input]:e.target.value}))
         }
         else{
-            setErrors(prev=>({...prev, [input]:"Las contraseñas son diferentes"}))
+            setErrors(prev=>({...prev, [input]:"As palavras-passe são diferentes"}))
         }
     }
 
@@ -232,7 +232,7 @@ export default function SignUp() {
                 }
             }
             else {
-                setErrors(prev=>({...prev, [inside]:"Debe ser mayor de 14 años"}))
+                setErrors(prev=>({...prev, [inside]:"Deve ter mais de 14 anos"}))
             }
         }
     }
@@ -262,12 +262,12 @@ export default function SignUp() {
                 setInput(prev=>({...prev, Partner:e.target.value}))
             }
             else{
-                setErrors(prev=>({...prev, Partner:"El socio que te invito ya concreto sus veinte socios directos, ingresa un socio diferente o dejalo en blanco y continua "}))
+                setErrors(prev=>({...prev, Partner:"O parceiro que o convidou já especificou os seus vinte parceiros diretos, insira um parceiro diferente ou deixe-o em branco e continue "}))
                 setPartner(true)
             }
         }
         if(userSearch.message==="Error getting user"){
-            setErrors(prev=>({...prev, Partner:"Este Usuario no Existe"}))
+            setErrors(prev=>({...prev, Partner:"Este utilizador não existe"}))
             setPartner(true)
         }
     }
@@ -277,7 +277,7 @@ export default function SignUp() {
         setIsLoading(false)
         const userSearch = await getSearchPerson(e.target.value)
         if(!userSearch.message){
-            setErrors(prev=>({...prev, username:"Error creando el usuario,  revise los datos"}))
+            setErrors(prev=>({...prev, username:"Erro ao criar utilizador, verificar os dados"}))
         }
         if(userSearch.message==="Error getting user"){
             setInput(prev=>({...prev, username:e.target.value}))
@@ -362,16 +362,16 @@ export default function SignUp() {
         input.name=[]
         let errores = {}
         setIsLoading(true)
-        if(firstName === "") errores.name="Ingrese nombre"
-        if(input.documentNumber === "" ) errores.documentNumber="Ingrese Número de documento"
-        if(input.email === "") errores.email="Ingrese Correo"
-        if(input.phone === "") errores.phone="Ingrese Telefono"
-        if(input.password === "") errores.password="Ingrese Contraseña"
-        if(input.birthDate === "") errores.birthDate="Ingrese fecha"
-        if(input.DocumentTypeId === 0) errores.DocumentTypeId="Ingrese Tipo de documento"
-        if(input.CountryId === 0) errores.CountryId="Ingrese País"
-        if(partner) errores.Partner="Usuario Socio no existe"
-        if(input.username === "") errores.username="Ingrese Nombre de Usuario"
+        if(firstName === "") errores.name="Introduza o nome"
+        if(input.documentNumber === "" ) errores.documentNumber="Introduza o número do documento"
+        if(input.email === "") errores.email="Introduza o e-mail"
+        if(input.phone === "") errores.phone="Introduza o telefone"
+        if(input.password === "") errores.password="Introduza a senha"
+        if(input.birthDate === "") errores.birthDate="Insira a data"
+        if(input.DocumentTypeId === 0) errores.DocumentTypeId="Introduza o tipo de documento"
+        if(input.CountryId === 0) errores.CountryId="Introduza o país"
+        if(partner) errores.Partner="O utilizador membro não existe"
+        if(input.username === "") errores.username="Introduza o nome de utilizador"
         if(Object.keys(errores).length === 0){
             if(firstLastName){
                 input.name.push(firstLastName.lastName)
@@ -383,49 +383,49 @@ export default function SignUp() {
                 const user = await register(input);
                 if(user[0]?.path==="name") {
                     input.name=[]
-                    setErrors(prev=>({...prev, name:"Nombre necesario"}))
+                    setErrors(prev=>({...prev, name:"Nome obrigatório"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="email") {
                     input.name=[]
-                    setErrors(prev=>({...prev, email:"Correo invalido"}))
+                    setErrors(prev=>({...prev, email:"E-mail inválido"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="phone") {
                     input.name=[]
-                    setErrors(prev=>({...prev, phone:"Número telefonico invalido"}))
+                    setErrors(prev=>({...prev, phone:"Número de telefone inválido"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="password") {
                     input.name=[]
-                    setErrors(prev=>({...prev, password:"Contraseña invalida, debe ser alfanumerica con símbolo"}))
+                    setErrors(prev=>({...prev, password:"Palavra-passe inválida, deve ser alfanumérica com símbolo"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="birthDate") {
                     input.name=[]
-                    setErrors(prev=>({...prev, birthDate:"Fecha de nacimiento incorrecta"}))
+                    setErrors(prev=>({...prev, birthDate:"Data de nascimento incorreta"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="username") {
                     input.name=[]
-                    setErrors(prev=>({...prev, username:"Nombre de usuario invalido"}))
+                    setErrors(prev=>({...prev, username:"Nome de utilizador inválido"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="documentNumber") {
                     input.name=[]
-                    setErrors(prev=>({...prev, documentNumber:"Documento invalido"}))
+                    setErrors(prev=>({...prev, documentNumber:"Documento inválido"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="representName") {
                     input.name=[]
                     input.representName=[]
-                    setErrors(prev=>({...prev, representName:"Nombre del representante invalido"}))
+                    setErrors(prev=>({...prev, representName:"Nome do representante inválido"}))
                     setIsLoading(false)
                 }
                 if(user[0]?.path==="representEmail") {
                     input.name=[]
                     input.representName=[]
-                    setErrors(prev=>({...prev, representEmail:"Correo del representante invalido"}))
+                    setErrors(prev=>({...prev, representEmail:"E-mail do representante inválido"}))
                     setIsLoading(false)
                 }
                 if(user.message ==="Error creating user") {
@@ -495,9 +495,9 @@ export default function SignUp() {
             </nav>
             {loading? <Spinner animation="grow" variant="info" />:
             <div className="container-fluid"  id="registro">
-                <h3><b>Vincúlate como socio del Club Mundial de Lectura</b></h3>
+                <h3><b>Junte-se como membro do World Reading Club</b></h3>
                 <br />
-                {inviteName ? <h4><em>Eres invitado por {inviteName}</em></h4>: <></>}
+                {inviteName ? <h4><em>Está convidado por {inviteName}</em></h4>: <></>}
                 <br/>
                 <form id='login' className='formRegister'>
 
@@ -505,31 +505,31 @@ export default function SignUp() {
                         {errors.RoleId ? <span className='textError'>{errors.RoleId}</span> : <></>}
                     <div >
                         
-                    <label className="l-01"> <h6> <b></b>Diligencia por favor todos los datos</h6></label>
+                    <label className="l-01"> <h6> <b></b>Por favor preencha todas as informações</h6></label>
                     <br />
                     </div>
 
 
                     <div >
-                        <label className="l-01"> <h6>Lugar de residencia</h6></label>
+                        <label className="l-01"> <h6>Local de residência</h6></label>
 
                         <div>
                             <select 
                             className="form-select" aria-label="Default select example"
                             onChange={(e)=>countrySelect("CountryId",e)}>
-                                <option value='----'> Selecciona país </option>
+                                <option value='----'> Selecione o país </option>
                                 {countries?.map((country)=> <option value={country.id} key={country.id}>{country.name}</option>)}
                             </select>
                             {errors.CountryId ? <span className='textError'>{errors.CountryId}</span> : <></>}
                         </div>
                         <br />
                     </div>
-                  
+                
 
                 <div>
 
 
-                <label className="l-01"> <h6>Datos</h6></label>
+                <label className="l-01"> <h6>Dados</h6></label>
 
                     {input.PersonTypeId === "1" &&
                     <div>
@@ -546,16 +546,16 @@ export default function SignUp() {
                     {true &&
                         <div>
                             <div className="input-group mb-3">
-                            <span className="input-group-text" id="inputGroup-sizing-default">Nombres</span>
+                            <span className="input-group-text" id="inputGroup-sizing-default">Nomes</span>
 
                                 <input
                                 className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 type="text" onChange={(e)=>userName("name", e)}/>
                             </div>
                                 {errors.name ? <span className='textError'>{errors.name}</span> : <></>}
-                           
+                    
                             <div className="input-group mb-3">
-                            <span className="input-group-text" id="inputGroup-sizing-default">Apellidos</span>
+                            <span className="input-group-text" id="inputGroup-sizing-default">Sobrenomes</span>
 
                                 <input
                                 className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
@@ -580,7 +580,7 @@ export default function SignUp() {
 
 
                     <div className="input-group mb-3">
-                    <span className="input-group-text" id="inputGroup-sizing-default">Número de documento</span>
+                    <span className="input-group-text" id="inputGroup-sizing-default">Número do documento</span>
 
                         <input
                         input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
@@ -594,7 +594,7 @@ export default function SignUp() {
                         <br />
                         <button
                         className="btn btn-secondary btn-lg"
-                        onClick={onUpload}>Subir documento</button>
+                        onClick={onUpload}>Carregar documento</button>
                         <br />
                         <br />
                         <div className="container text-center">
@@ -610,12 +610,12 @@ export default function SignUp() {
                         <br />
                         <button
                         className="btn btn-secondary btn-lg"
-                        onClick={onUpload}>Subir documento</button>
+                        onClick={onUpload}>Carregar documento</button>
                         <br />
                         <br />
                         <div className="container text-center">
-                        Para efectuar exitosamente tu registro como vendedor,
-                        por favor anexa la <b>cédula o tarjeta profesional</b>
+                        Para concluir com sucesso o seu registo como parceiro legal,
+                        Por favor, anexe o <b>Representante Legal</b> da empresa.
                         </div>
                         {errors.docs ? <span className='textError'>{errors.docs}</span> : <></>}
                         {fileName.length? fileName.map(file=> <span className='textValid'>Archivo: {file}, </span> ): <></>}
@@ -626,20 +626,20 @@ export default function SignUp() {
                         <br />
                         <button
                         className="btn btn-secondary btn-lg"
-                        onClick={onUpload}>Subir documento</button>
+                        onClick={onUpload}>Carregar documento</button>
                         <br />
                         <br />
                         <div className="container text-center">
-                        Para efectuar exitosamente tu registro como socio juridico,
-                        por favor anexa el <b>Representante Legal</b> de la empresa.
+                        Para concluir com sucesso o seu registo como parceiro legal,
+                        Por favor, anexe o <b>Representante Legal</b> da empresa.
 
                         </div>
                         {errors.docs ? <span className='textError'>{errors.docs}</span> : <></>}
-                        {fileName.length? fileName.map(file=> <span className='textValid'>Archivo: {file}, </span> ): <></>}
+                        {fileName.length? fileName.map(file=> <span className='textValid'>Arquivo: {file}, </span> ): <></>}
                     </div>:<></>}
 
                         <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Fecha de nacimiento</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default">Data de nascimento</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="date" onChange={(e)=>date("birthDate", e)}/>
@@ -649,22 +649,22 @@ export default function SignUp() {
                         {permission?
                         <div className="form-floating mb-3">
                             <br />
-                            <a href={permiso} download>Descargar Permiso</a>
+                            <a href={permiso} download>Permissão de download</a>
                             <br />
                             <br />
                             <div className="container text-center">
-                            Al ser mayor de 14 años y menor de 18 es necesario un permiso para continuar, por favor descargue el archivo, llénelo y subir el documento
+                            Para maiores de 14 e menores de 18 anos é necessária uma autorização para prosseguir, descarregue o ficheiro, preencha e envie o documento.
                             </div>
                             <br />
                             <button
                             className="btn btn-secondary btn-lg"
-                            onClick={onUpload}>Subir documento</button>
+                            onClick={onUpload}>Carregar documento</button>
                         {errors.docs ? <span className='textError'>{errors.docs}</span> : <></>}
-                        {fileName.length? fileName.map(file=> <span className='textValid'>Archivo: {file}, </span> ): <></>}
+                        {fileName.length? fileName.map(file=> <span className='textValid'>Arquivo: {file}, </span> ): <></>}
                         </div>:<></>}
 
                         <div  className="input-group mb-3">
-                            <span className="input-group-text" id="inputGroup-sizing-default">Correo electrónico</span>
+                            <span className="input-group-text" id="inputGroup-sizing-default">E-mail</span>
                                 <input
                                 input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                                 onChange={(e)=>handleInputChange("email", e)}/>
@@ -672,7 +672,7 @@ export default function SignUp() {
                         {errors.email ? <span className='textError'>{errors.email}</span> : <></>}
 
                         <div className="input-group mb-3">
-                            <span className="input-group-text" id="inputGroup-sizing-default">Número de telefóno</span>
+                            <span className="input-group-text" id="inputGroup-sizing-default">Número de telefone</span>
                             <input
                             input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                             onChange={(e)=>handleInputChange("phone", e)}/>
@@ -701,13 +701,13 @@ export default function SignUp() {
                         </div>:<></>}
                 </div>
                     <div>
-                        <label className="l-01"> <h6>Por cuál medio deseas tu pago</h6></label>
+                        <label className="l-01"> <h6>Por que meio deseja receber o seu pagamento?</h6></label>
                         <div>
                             <select 
                             className="form-select" aria-label="Default select example"
                             onChange={(e)=>paySelect("transferType",e)}
                         >
-                                <option value='----'> Sitio para pagarte </option>
+                                <option value='----'> Site para lhe pagar </option>
                                 {selectPay?.map((pay)=> <option value={pay.value} key={pay.value}>{pay.label}</option>)}
                             </select>
                         </div>
@@ -715,7 +715,7 @@ export default function SignUp() {
                     <br />
                     <div>
                     {numberPay? <div  className="input-group mb-3">
-                    <span className="input-group-text" id="inputGroup-sizing-default">Número de cuenta o usuario</span>
+                    <span className="input-group-text" id="inputGroup-sizing-default">Número da conta ou do utilizador</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type="text" onChange={(e)=>payAccount("transferId", e)}/>
@@ -724,9 +724,9 @@ export default function SignUp() {
                     </div>
                 <div>
                 <br />
-                <label className="l-01"> <h6>Datos de vinculación a Club Leo</h6></label>
+                <label className="l-01"> <h6>Dados de adesão ao Leo Clube</h6></label>
                     {inviteName? <></> :<div   className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Usuario que te invita</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default">Utilizador que te convida</span>
                         <DebounceInput
                         type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         debounceTimeout={500} onChange={(e)=>handleInputSend(e)}/>
@@ -735,7 +735,7 @@ export default function SignUp() {
                     {errors.Partner ? <span className='textError'>{errors.Partner}</span> : <></>}
 
                     <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Crea tu usuario</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default">Crie o seu utilizador</span>
 
                         <DebounceInput className="form-control" 
                         type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
@@ -744,11 +744,11 @@ export default function SignUp() {
                         {errors.username ? <span className='textError'>{errors.username}</span> : <></>}
 
                     <div className="container text-center">
-                    Tu contraseña por seguridad debe tener mínimo 8 carácteres, que incluye una mayúscula, un número y un carácter especial
+                    A sua palavra-passe deve ter pelo menos 8 caracteres para segurança, incluindo uma letra maiúscula, um número e um caractere especial.
                     </div>    
 
                     <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Contraseña</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default">Senha</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordComparation(e)}
@@ -757,11 +757,11 @@ export default function SignUp() {
 
 
                         {errors.password ? <span className='textError'>{errors.password}</span> : <></>}
-                        {passValid===1?<span className='textValid'>Contraseña valida</span> : <></>}
-                        {passValid===2?<span className='textError'>La contraseña no cumple con lo solicitado</span>:<></>}
+                        {passValid===1?<span className='textValid'>Senha válida</span> : <></>}
+                        {passValid===2?<span className='textError'>A palavra-passe não corresponde à solicitação.</span>:<></>}
 
                     <div className="input-group mb-3">
-                        <span className="input-group-text" id="inputGroup-sizing-default">Confirmar contraseña</span>
+                        <span className="input-group-text" id="inputGroup-sizing-default">Confirme a sua senha</span>
                         <input
                         className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
                         type={showPass ? "text" : "password"} onChange={(e)=>passwordVerificated("password", e)}/>
@@ -777,7 +777,7 @@ export default function SignUp() {
                             <path d="M3.53 2.47a.75.75 0 00-1.06 1.06l18 18a.75.75 0 101.06-1.06l-18-18zM22.676 12.553a11.249 11.249 0 01-2.631 4.31l-3.099-3.099a5.25 5.25 0 00-6.71-6.71L7.759 4.577a11.217 11.217 0 014.242-.827c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113z" />
                             <path d="M15.75 12c0 .18-.013.357-.037.53l-4.244-4.243A3.75 3.75 0 0115.75 12zM12.53 15.713l-4.243-4.244a3.75 3.75 0 004.243 4.243z" />
                             <path d="M6.75 12c0-.619.107-1.213.304-1.764l-3.1-3.1a11.25 11.25 0 00-2.63 4.31c-.12.362-.12.752 0 1.114 1.489 4.467 5.704 7.69 10.675 7.69 1.5 0 2.933-.294 4.242-.827l-2.477-2.477A5.25 5.25 0 016.75 12z" />
-                            </svg>} Ver contaseñas
+                            </svg>} Ver senhas
                         </div>
                         {/* aqui termina */}
 
@@ -786,17 +786,17 @@ export default function SignUp() {
                         <br />
 
                     <div className="container text-center">
-                    Cualquier información falsa o incorrecta dará lugar a la anulación de la vinculación.
+                    Qualquer informação falsa ou incorreta resultará no cancelamento do link.
                     </div>
                     <br />
 
                     <div className="container text-center">
-                    Al hacer clic en <b>Registrarse</b>, aceptas los
-                    <a href="/Terms" className="m-0"> Términos y condiciones de uso</a> de Club Leo.
+                    Ao clicar em <b>Inscrever</b>, concorda com os
+                    <a href="/Terms" className="m-0"> Termos e Condições de Utilização do Clube Leo.</a>
                     </div>
                     <br />
 
-                    {!isLoading? <button className="btn btn-primary btn-lg" onClick={onSend}>Registrarse</button> : <Spinner animation="grow" variant="info" />}
+                    {!isLoading? <button className="btn btn-primary btn-lg" onClick={onSend}>Registrar</button> : <Spinner animation="grow" variant="info" />}
                     <br />
                     <br />
                 </div>
