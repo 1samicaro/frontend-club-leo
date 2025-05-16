@@ -51,6 +51,12 @@ export default function AboutUs() {
             </b> 
             </h3>
             <br />
+                  <p>
+            There is a universal law of development: all progress and well-being in a society depend on the quality of the education its population receives. Therefore, the most developed countries prioritize modern and efficient education systems that strengthen the knowledge and competitiveness of their inhabitants. This is demonstrated by the OECD's international PISA tests, which rank high-income countries with the best education systems in the world: Singapore, Canada, China, Finland, Hong Kong, Estonia, Japan, and South Korea.
+            </p>
+            <p>
+            LEO - World Reading Club, is a social project whose mission is to promote reading, writing and multilingualism as habits that improve people's educational and cultural level and strengthen their communication skills, necessary for success in their academic activities and in the modern society integrated globally by the Internet, which requires reading and using increasing amounts of information, and writing clear and compelling content for millions of people around the world.
+            </p>
             <p>
             To fulfill this mission, LEO operates as a global digital network, based on the theory of six degrees of separation, which states that all people in the world can be integrated into a network with just six links; that is, with just six steps, we can connect with all of humanity. This is the basis of social networks like Facebook, Twitter, LinkedIn, etc., which, through the Internet, allow us to start with just our acquaintances and create a network with thousands of contacts around the world. We can get to know them through their profiles, stories, and messages, and engage in a variety of cultural, environmental, business, and other activities with them. <br />
 
