@@ -52,10 +52,17 @@ export default function SobreNos() {
 
                 <br />
 
-                <h3 id="titulo" align="center"> <b>LEO Uma comunidade global de negócios e educação<br />
+                <h3 id="titulo" align="center"> <b>LEO Une communauté mondiale d’affaires et d’éducation<br />
             </b> 
             </h3>
-            <br /><p>
+            <br />
+                     <p>
+            Existe uma lei universal do desenvolvimento: todo progresso e bem-estar de uma sociedade depende da qualidade da educação que sua população recebe. Por isso, os países mais desenvolvidos priorizam ter sistemas educacionais modernos e eficientes que fortaleçam o conhecimento e a competitividade de seus habitantes. Isso é demonstrado pelos testes internacionais PISA da OCDE, que classificam os países de alta renda com os melhores sistemas educacionais do mundo no topo: Cingapura, Canadá, China, Finlândia, Hong Kong, Estônia, Japão e Coreia do Sul.
+            </p>
+            <p>
+            LEO - Clube Mundial de Leitura, é um projeto social que tem como missão promover a leitura, a escrita e o multilinguismo como hábitos que elevam o nível educacional e cultural das pessoas e fortalecem suas habilidades de comunicação, necessárias para o sucesso em suas atividades acadêmicas e na sociedade moderna integrada globalmente pela Internet, que exige a leitura e o uso de quantidades cada vez maiores de informações, além da escrita de conteúdos claros e atraentes para milhões de pessoas ao redor do mundo.
+            </p>
+                    <p>
             Para cumprir esta missão, a LEO funciona como uma rede digital global, baseada na teoria dos seis graus de separação, que afirma que todas as pessoas do mundo podem ser integradas numa rede com apenas 6 links; Ou seja, com apenas 6 passos podemos entrar em contato com toda a humanidade. Esta é a base das redes sociais Facebook, Twitter, Linkedin, etc., que através da Internet nos permitem, a partir apenas dos nossos conhecidos, criar uma rede com milhares de contactos em todo o mundo, conhecê-los através do seu perfil, histórias e mensagens, e realizar com eles múltiplas atividades culturais, ambientais, empresariais, etc. <br />
 
             Com esta filosofia, a LEO pretende integrar pessoas de todos os países para trabalharem para alcançar objetivos comuns: melhorar o nosso nível educacional e cultural, fortalecer as capacidades de comunicação e gerar oportunidades de rendimento permanentes que melhorem a nossa qualidade de vida.
