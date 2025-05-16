@@ -56,6 +56,12 @@ export default function AProposDeNous() {
             </b> 
             </h3>
             <br />
+                    <p>
+            Il existe une loi universelle du développement : tout progrès et tout bien-être d’une société dépendent de la qualité de l’éducation que reçoit sa population. C’est pourquoi les pays les plus développés privilégient des systèmes éducatifs modernes et efficaces qui renforcent les connaissances et la compétitivité de leurs habitants. C'est ce que démontrent les tests internationaux PISA de l'OCDE, qui classent en tête les pays à revenu élevé dotés des meilleurs systèmes éducatifs au monde : Singapour, le Canada, la Chine, la Finlande, Hong Kong, l'Estonie, le Japon et la Corée du Sud.
+            </p>
+            <p>
+            LEO - Club de lecture mondial, est un projet social dont la mission est de promouvoir la lecture, l'écriture et le multilinguisme comme habitudes qui améliorent le niveau éducatif et culturel des personnes et renforcent leurs compétences en communication, nécessaires à la réussite de leurs activités académiques et dans la société moderne intégrée globalement par Internet, qui nécessite de lire et d'utiliser des quantités croissantes d'informations, et d'écrire des contenus clairs et convaincants pour des millions de personnes dans le monde.
+            </p>
             <p>
             Pour remplir cette mission, LEO fonctionne comme un réseau numérique mondial, basé sur la théorie des six degrés de séparation, selon laquelle toutes les personnes du monde peuvent être intégrées dans un réseau comportant seulement 6 liens ; Autrement dit, en seulement 6 étapes, nous pouvons contacter toute l’humanité. C'est la base des réseaux sociaux Facebook, Twitter, Linkedin, etc., qui grâce à Internet nous permettent, à partir seulement de nos connaissances, de créer un réseau avec des milliers de contacts dans le monde, de les connaître à travers leur profil, leurs histoires et leurs messages, et de réaliser avec eux de multiples activités culturelles, environnementales, commerciales, etc. <br />
 
