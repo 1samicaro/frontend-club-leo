@@ -55,6 +55,12 @@ export default function AcercaDe() {
             </b> 
             </h3>
             <br />
+                    <p>
+            Esiste una legge universale dello sviluppo: ogni progresso e benessere di una società dipendono dalla qualità dell'istruzione che riceve la sua popolazione. Per questo motivo, i paesi più sviluppati danno priorità a sistemi educativi moderni ed efficienti, che rafforzino la conoscenza e la competitività dei loro abitanti. Lo dimostrano i test internazionali PISA dell'OCSE, che pongono ai vertici della classifica i paesi ad alto reddito con i migliori sistemi educativi al mondo: Singapore, Canada, Cina, Finlandia, Hong Kong, Estonia, Giappone e Corea del Sud.
+            </p>
+            <p>
+            LEO - Club di lettura mondiale, è un progetto sociale la cui missione è promuovere la lettura, la scrittura e il multilinguismo come abitudini che migliorano il livello educativo e culturale delle persone e rafforzano le loro capacità comunicative, necessarie per il successo nelle loro attività accademiche e nella società moderna integrata globalmente da Internet, che richiede la lettura e l'utilizzo di quantità crescenti di informazioni e la scrittura di contenuti chiari e avvincenti per milioni di persone in tutto il mondo.
+            </p>
             <p>
                 Per compiere questa missione, LEO funziona come una rete digitale globale, basata sulla teoria dei sei gradi di separazione, secondo la quale tutte le persone nel mondo possono essere integrate in una rete con soli 6 collegamenti; Cioè, con soli 6 passaggi, possiamo contattare tutta l'umanità. Questa è la base dei social network Facebook, Twitter, Linkedin, ecc., che attraverso Internet ci permettono, partendo solo dai nostri conoscenti, di creare una rete con migliaia di contatti in tutto il mondo, conoscerli attraverso il loro profilo, le loro storie e i loro messaggi, e svolgere con loro molteplici attività culturali, ambientali, imprenditoriali, ecc. <br />
 
