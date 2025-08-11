@@ -96,7 +96,7 @@ export default function Home() {
           getCountriesBooks(languageChange),
           getGenresBooks(languageChange),
           getBooks(languageChange), ///como esta en english, por el valor 2, se deja entendido desde ahora que es spanish es english y solo books es english
-          getBooks(1),
+          getBooks(2),
           getBooks(3),
           getBooks(4),
           getBooks(5),
@@ -108,8 +108,8 @@ export default function Home() {
       dispatch(allBooks(books))
       // dispatch(categoriesAction(categories))
       // dispatch(ofertsActionByCity(ofertas))
-      country.unshift({id:46, name:'Colombia', code: 57})
-      dispatch(getCountry(country))
+      // country.unshift({id:46, name:'Colombia', code: 57})
+      // dispatch(getCountry(country))
       if(books?.length>0){
         if(demo){
             const spanish = booksEnglish.slice(0,100)
