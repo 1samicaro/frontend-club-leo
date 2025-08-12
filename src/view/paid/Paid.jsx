@@ -173,7 +173,7 @@ function Paid() {
                     {preferenceId && <Wallet initialization={{preferenceId}}/>}
                     {payPalDiv? 
                         <div className="formasPago">
-                            <PayPalButton totalValue={'50'} invoice={'Pago anual clubleo'}/>
+                            <PayPalButton totalValue={'25'} invoice={'Pago semestral clubleo'}/>
                         </div>
                     :<></>}
                 </div>
