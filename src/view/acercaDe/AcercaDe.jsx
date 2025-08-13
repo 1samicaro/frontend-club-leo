@@ -109,7 +109,7 @@ export default function AcercaDe() {
                 <br />
                 <p>
                 Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
-                La membrecía anual tiene un costo de solo US$50. Los socios tienen acceso libre, permanente y gratuito a las 15.000 obras de literatura y ciencias sociales en cinco idiomas de nuestra biblioteca y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
+                La membrecía semestral tiene un costo de solo $100000. Los socios tienen acceso libre, permanente y gratuito a las 15.000 obras de literatura y ciencias sociales en cinco idiomas de nuestra biblioteca y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
 
             </p>
            
