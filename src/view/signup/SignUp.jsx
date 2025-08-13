@@ -24,7 +24,7 @@ const initialState = {
     birthDate: "",
     DocumentTypeId: 0,
     RoleId: 3,
-    PersonTypeId: 2,
+    PersonTypeId: 1,
     CountryId: 0,
     AdditionalTypeId: 3,
     username: "",
@@ -240,6 +240,7 @@ export default function SignUp() {
     async function countrySelect (input,id){
         setIsLoading(false)
         setInput(prev=>({...prev, [input]:id.target.value}))
+        console.log(id.target.value);
         const documentType = await getDocumentType(id.target.value, 2)
         setDocument(documentType)
     }

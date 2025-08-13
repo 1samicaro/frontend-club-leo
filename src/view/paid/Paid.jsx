@@ -163,7 +163,7 @@ function Paid() {
 
                 <ul>
                     <li> <h5> <b>Detalle: </b>Pago anual Club Leo</h5></li>
-                    <li><h5><b>Precio: </b>$50 USD ($210.000)</h5></li>
+                    <li><h5><b>Precio: </b>$100000 (50 USD)</h5></li>
                 </ul>
                 <br />
 

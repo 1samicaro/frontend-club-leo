@@ -66,8 +66,10 @@ export const getCategories = async()=>{
 }
 
 export const getDocumentType = async(country, type) =>{
+    console.log(country, type);
     try {
         const documentType = await api.get(`/resources/documentTypes?CountryId=${country}&PersonTypeId=${type}`)
+        console.log(documentType);
         return documentType.data
     } catch (error) {
         console.log("Algo malo ocurrio");
