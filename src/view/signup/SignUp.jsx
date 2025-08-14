@@ -24,7 +24,7 @@ const initialState = {
     birthDate: "",
     DocumentTypeId: 0,
     RoleId: 3,
-    PersonTypeId: 1,
+    PersonTypeId: 2,
     CountryId: 0,
     AdditionalTypeId: 3,
     username: "",
