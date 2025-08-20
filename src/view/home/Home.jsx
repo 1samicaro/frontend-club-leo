@@ -82,16 +82,22 @@ export default function Home() {
   // const [demo, setDemo] = useState(true)
   let demo = true
 
+  const booksSpanish = useSelector(state=> state.booksInfoReducer?.allBooksSpanish)
+  const booksEnglish = useSelector(state=> state.booksInfoReducer?.allBooksEnglish)
+  const booksFranch = useSelector(state=> state.booksInfoReducer?.allBooksFranch)
+  const booksItalian = useSelector(state=> state.booksInfoReducer?.allBooksItalian)
+  const booksPortugues = useSelector(state=> state.booksInfoReducer?.allBooksPortugues)
+
   if(userInfo.isSuscribed){
     demo = false
   }
 
+
   async function countries (){
       // const [categories, ofertas,country, authors, countryBooks, genresBooks, books] = await Promise.all([
-      const [country, authors, countryBooks, genresBooks, books, booksEnglish, booksFranch, booksItalian, booksPortugues] = await Promise.all([
+      const [authors, countryBooks, genresBooks, books, booksEnglish, booksFranch, booksItalian, booksPortugues] = await Promise.all([
           // getCategories(),
           // getOfertsByCity(id),
-          getCountries(),
           getAuthors(languageChange),
           getCountriesBooks(languageChange),
           getGenresBooks(languageChange),
@@ -114,13 +120,13 @@ export default function Home() {
         if(demo){
             const spanish = books.slice(0,100)
             dispatch(allBooksSpanish(spanish))
-            const english = books.slice(0,100)
+            const english = booksEnglish.slice(0,100)
             dispatch(allBooksEnglish(english))
-            const franch = books.slice(0,100)
+            const franch = booksFranch.slice(0,100)
             dispatch(allBooksFranch(franch))
-            const italian = books.slice(0,100)
+            const italian = booksItalian.slice(0,100)
             dispatch(allBooksItalian(italian))
-            const portuguese = books.slice(0,100)
+            const portuguese = booksPortugues.slice(0,100)
             dispatch(allBooksPortugues(portuguese))
             const image = books.filter(r => r.image!=="")
             dispatch(recomendedAction(image))
@@ -153,40 +159,155 @@ export default function Home() {
     }
   }
 
+  const [fantasma, setFantasma] = useState(0)
+  useEffect(()=>{}, [languageChange])
+
   const changeLanguage = async (e)=>{
+    setFantasma(fantasma+1)
+    // console.log(e.target.value);
     setIsLoading(true)
     setLanguage(e.target.value)
     dispatch(changeLanguageAction(Number(e.target.value)))
-    const books = await getBooks(Number(e.target.value))
-    if(books?.length>0){
-        if(demo){
-            const image = books.filter(r => r.image!=="")
+    if(Number(e.target.value)===1){
+      if(demo){
+            const image = booksSpanish.filter(r => r.image!=="")
             dispatch(recomendedAction(image))
-            books.sort((x, y) => x.name.localeCompare(y.name))
-            const demoBooks = books.slice(0,100)
-            // const recommend = demoBooks.filter(r => r.isFree===true)
-            // dispatch(recomendedAction(recommend))
+            booksSpanish.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = booksSpanish.slice(0,100)
             setIsLoading(false)
-            // dispatch(booksInfo(demoBooks))
             const demoBooks1 = demoBooks.slice(0,40)
             dispatch(booksInfo(demoBooks1))
             dispatch(booksCatalogoAction(demoBooks))
             dispatch(booksCopyAction(demoBooks))
-            // dispatch(recomendedAction(recommend))
         }
         else {
-            const image = books.filter(r => r.image!=="")
+            const image = booksSpanish.filter(r => r.image!=="")
             dispatch(recomendedAction(image))
             setIsLoading(false)
-            // dispatch(booksInfo(books))
-            // const recommend = books.filter(r => r.isFree===true)
-            const demoBooks = books.slice(0,40)
+            const demoBooks = booksSpanish.slice(0,40)
             dispatch(booksInfo(demoBooks))
-            dispatch(booksCatalogoAction(books))
-            dispatch(booksCopyAction(books))
-            // dispatch(recomendedAction(recommend))
+            dispatch(booksCatalogoAction(booksSpanish))
+            dispatch(booksCopyAction(booksSpanish))
         }
     }
+    if(Number(e.target.value)===2){
+      if(demo){
+            const image = booksEnglish.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            booksEnglish.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = booksEnglish.slice(0,100)
+            setIsLoading(false)
+            const demoBooks1 = demoBooks.slice(0,40)
+            dispatch(booksInfo(demoBooks1))
+            dispatch(booksCatalogoAction(demoBooks))
+            dispatch(booksCopyAction(demoBooks))
+        }
+        else {
+            const image = booksEnglish.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            setIsLoading(false)
+            const demoBooks = booksEnglish.slice(0,40)
+            dispatch(booksInfo(demoBooks))
+            dispatch(booksCatalogoAction(booksEnglish))
+            dispatch(booksCopyAction(booksEnglish))
+        }
+    }
+    if(Number(e.target.value)===3){
+      if(demo){
+            const image = booksFranch.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            booksFranch.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = booksFranch.slice(0,100)
+            setIsLoading(false)
+            const demoBooks1 = demoBooks.slice(0,40)
+            dispatch(booksInfo(demoBooks1))
+            dispatch(booksCatalogoAction(demoBooks))
+            dispatch(booksCopyAction(demoBooks))
+        }
+        else {
+            const image = booksFranch.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            setIsLoading(false)
+            const demoBooks = booksFranch.slice(0,40)
+            dispatch(booksInfo(demoBooks))
+            dispatch(booksCatalogoAction(booksFranch))
+            dispatch(booksCopyAction(booksFranch))
+        }
+    }
+    if(Number(e.target.value)===4){
+      if(demo){
+            const image = booksItalian.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            booksItalian.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = booksItalian.slice(0,100)
+            setIsLoading(false)
+            const demoBooks1 = demoBooks.slice(0,40)
+            dispatch(booksInfo(demoBooks1))
+            dispatch(booksCatalogoAction(demoBooks))
+            dispatch(booksCopyAction(demoBooks))
+        }
+        else {
+            const image = booksItalian.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            setIsLoading(false)
+            const demoBooks = booksItalian.slice(0,40)
+            dispatch(booksInfo(demoBooks))
+            dispatch(booksCatalogoAction(booksItalian))
+            dispatch(booksCopyAction(booksItalian))
+        }
+    }
+    if(Number(e.target.value)===5){
+      if(demo){
+            const image = booksPortugues.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            booksPortugues.sort((x, y) => x.name.localeCompare(y.name))
+            const demoBooks = booksPortugues.slice(0,100)
+            setIsLoading(false)
+            const demoBooks1 = demoBooks.slice(0,40)
+            dispatch(booksInfo(demoBooks1))
+            dispatch(booksCatalogoAction(demoBooks))
+            dispatch(booksCopyAction(demoBooks))
+        }
+        else {
+            const image = booksPortugues.filter(r => r.image!=="")
+            dispatch(recomendedAction(image))
+            setIsLoading(false)
+            const demoBooks = booksPortugues.slice(0,40)
+            dispatch(booksInfo(demoBooks))
+            dispatch(booksCatalogoAction(booksPortugues))
+            dispatch(booksCopyAction(booksPortugues))
+        }
+    }
+    // const books = await getBooks(Number(e.target.value))
+    // if(books?.length>0){
+    //     if(demo){
+    //         const image = books.filter(r => r.image!=="")
+    //         dispatch(recomendedAction(image))
+    //         books.sort((x, y) => x.name.localeCompare(y.name))
+    //         const demoBooks = books.slice(0,100)
+    //         // const recommend = demoBooks.filter(r => r.isFree===true)
+    //         // dispatch(recomendedAction(recommend))
+    //         setIsLoading(false)
+    //         // dispatch(booksInfo(demoBooks))
+    //         const demoBooks1 = demoBooks.slice(0,40)
+    //         dispatch(booksInfo(demoBooks1))
+    //         dispatch(booksCatalogoAction(demoBooks))
+    //         dispatch(booksCopyAction(demoBooks))
+    //         // dispatch(recomendedAction(recommend))
+    //     }
+    //     else {
+    //         const image = books.filter(r => r.image!=="")
+    //         dispatch(recomendedAction(image))
+    //         setIsLoading(false)
+    //         // dispatch(booksInfo(books))
+    //         // const recommend = books.filter(r => r.isFree===true)
+    //         const demoBooks = books.slice(0,40)
+    //         dispatch(booksInfo(demoBooks))
+    //         dispatch(booksCatalogoAction(books))
+    //         dispatch(booksCopyAction(books))
+    //         // dispatch(recomendedAction(recommend))
+    //     }
+    // }
     const [genres, countries, authors] = await Promise.all([
         getGenresBooks(e.target.value),
         getCountriesBooks(e.target.value),
