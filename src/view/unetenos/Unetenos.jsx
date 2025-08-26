@@ -127,7 +127,7 @@ export default function Unetenos() {
                   
             <br />
             <p>
-            CLUBLEO ofrece en su Biblioteca Digital más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>
+            <b>CLUBLEO</b> ofrece en su Biblioteca Digital más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>
         
             
             <table className="table_1" align="center"> 
