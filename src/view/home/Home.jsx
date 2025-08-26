@@ -1154,9 +1154,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         />
         <p> <b>About us</b></p>
       </Link>}
-      
 
-      
       {(language===3 || languageChange===3)&&<Link to="/AProposDeNous">
         <img
           className="img-fluid"
@@ -1166,8 +1164,6 @@ P                 hone: 6014327879 +57 300 4727644 <br />
         />
         <p> <b>Nous</b></p>
       </Link>}
-      
-
       
       {(language===4 || languageChange===4)&&<Link to="/SobreNos">
         <img
