@@ -130,7 +130,7 @@ export default function AcercaDe() {
             </h4> 
             <br />  
             <p>
-            LEO ofrece a sus socios una biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano). Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar clubleo.net a su celular, tablet o pc, para facilitar el acceso a las obras. El costo de la colección bibliográfica está calculado en US$150.000, pero es gratis para los socios LEO. (Ver Catálogo) <br />
+            LEO ofrece a sus socios una biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano). Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. Los socios pueden descargar clubleo.net a su celular, tablet o pc, para facilitar el acceso a las obras. El costo de la colección bibliográfica está calculado en %150 Millones, pero es gratis para los socios LEO. (Ver Catálogo) <br />
             Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de internet. <br />
             Adicionalmente, LEO ha desarrollado el portal web letsallread.com, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
