@@ -939,8 +939,8 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/3">Autor/Escritor</NavDropdown.Item>
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
               </NavDropdown>
-           <Nav.Link href="https://escritoresleo.com/">Escritores LEO</Nav.Link>
-            <Nav.Link href="https://www.vamosaleer.co/">Vamos a leer</Nav.Link>
+           <Nav.Link href="https://escritoresleo.com/" target="_blank">Escritores LEO</Nav.Link>
+            <Nav.Link href="https://www.vamosaleer.co/" target="_blank">Vamos a leer</Nav.Link>
 
             {userInfo.isSuscribed? <Link to="/books" >
            Biblioteca 
