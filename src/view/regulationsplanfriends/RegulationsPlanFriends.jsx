@@ -37,7 +37,8 @@ export default function RegulationsPlanFriends() {
                 <b>Artículo 2. – Objetivos.</b> Con el <b>Plan Amigos LEO</b>, se busca lograr los siguientes objetivos: <br />
                 1. El crecimiento sostenido del número de socios de LEO Club Mundial de Lectura, para contar con los ingresos operacionales necesarios para el funcionamiento y la prestación de servicios a la comunidad en el país y todo el mundo. <br />
                 2. Organizar una comunidad mundial de instituciones y personas promotoras de la lectura, la escritura y el multilingüismo, como hábitos que mejoren el nivel educativo y cultural de las personas y sus competencias comunicativas. <br />
-                3. Aprovechar la internet y su cobertura mundial para facilitar el crecimiento de LEO y el trabajo de invitación que realizan los socios. <br />
+                3. Aprovechar la internet y su cobertura mundial para facilitar el crecimiento de LEO y el trabajo de invitación que realizan los socios.
+                4. Ofrecer a los socios de LEO la oportunidad para que puedan construir un ingreso creciente y permanente que garantice su independencia financiera, con su participación por la invitación a vincularse a LEO.  <br />
 
 
                 </p>
