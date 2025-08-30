@@ -197,7 +197,7 @@ export default function Unetenos() {
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan Amigos: <br />
-            Una valiosa oportunidad para asegurar ingresos, de por vida
+            Una valiosa oportunidad para asegurar muestra autosostenibilidad financiera, de por vida
 
             <br />
             </b> 
