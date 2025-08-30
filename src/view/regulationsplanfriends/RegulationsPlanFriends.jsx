@@ -24,20 +24,17 @@ export default function RegulationsPlanFriends() {
 
             <div className="container-fluid">
             <div className="privacy" align="left" id="padding">
-              <h3 align="center">ACUERDO 02 DE 2024<br /></h3>
+              <h3 align="center">ACUERDO 02 DE 2025<br /></h3>
                 <h5 align="center"> <b>REGLAMENTO DEL PLAN AMIGOS LEO</b></h5>
                 <br />
-                <p>
-                  
-               <b>Artículo 1. El Plan Amigos LEO</b> como alternativa de colaboración de los socios con el crecimiento del Club Mundial de Lectura se regirá por el siguiente Reglamento.
-                </p>
+                
                 <h6 align="center"> <b>CAPITULO I</b></h6>
                 <h6 align="center"> <b>DEFINICION, OBJETIVOS Y ALCANCES</b></h6>
                 <p> 
-                <b>Artículo 2. – Definición.</b> El <b>Plan Amigos LEO</b> es la estrategia para el crecimiento del <b>Club Mundial de Lectura</b> en el país y todo el mundo, a través del apoyo de los socios que invitan a otras personas a ingresar como socios, por lo cual reciben un paquete de bienes y beneficios económicos diseñado para facilitar la actividad académica y el financiamiento de sus estudios.
+                <b>Artículo 1. – Definición.</b> El <b>Plan Amigos LEO</b> es la estrategia para el crecimiento del Club Mundial de Lectura en el país y todo el mundo, a través del apoyo de los socios que invitan a otras personas a ingresar como socios, por lo cual reciben los ingresos y beneficios establecidos en este Reglamento.
                 </p>
                 <p> 
-                <b>Artículo 3. – Objetivos.</b> Con el <b>Plan Amigos LEO</b>, se busca lograr los siguientes objetivos: <br />
+                <b>Artículo 2. – Objetivos.</b> Con el <b>Plan Amigos LEO</b>, se busca lograr los siguientes objetivos: <br />
                 1. El crecimiento sostenido del número de socios de LEO Club Mundial de Lectura, para contar con los ingresos operacionales necesarios para el funcionamiento y la prestación de servicios a la comunidad en el país y todo el mundo. <br />
                 2. Organizar una comunidad mundial de instituciones y personas promotoras de la lectura, la escritura y el multilingüismo, como hábitos que mejoren el nivel educativo y cultural de las personas y sus competencias comunicativas. <br />
                 3. Aprovechar la internet y su cobertura mundial para facilitar el crecimiento de LEO y el trabajo de invitación que realizan los socios. <br />
