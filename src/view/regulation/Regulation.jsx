@@ -27,15 +27,12 @@ export default function Regulation() {
               <h4 align="center">ACUERDO 01 DE 2025<br /></h4>
                 <h5 align="left"> <b>REGLAMENTO DE LEO CLUB MUNDIAL DE LECTURA</b></h5>
                 <br />
-                <p>
-                <b>Artículo 1. LEO Club Mundial de Lectura</b> se regirá por el siguiente Reglamento               </p>
-
                 <h4 align="center">CAPITULO I<br /></h4>
                 <h5 align="left"> <b>NATURALEZA, OBJETIVOS Y ALCANCES</b></h5>
                 <br />
                 
                 <p>
-                <b>Artículo 2. </b>- LEO Club Mundial de Lectura es un programa educativo que tiene como
+                <b>Artículo 1. </b>- LEO Club Mundial de Lectura es un programa educativo que tiene como
                  objetivos promover la lectura, la escritura y el multilingüismo entre las personas y
                  comunidades educativas de todo el mundo, para lo cual utiliza herramientas
                  tecnológicas web que permiten el acceso universal, económico y eficiente al programa y
