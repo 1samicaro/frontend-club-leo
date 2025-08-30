@@ -24,7 +24,7 @@ export default function Regulation() {
 
             <div className="container-fluid">
             <div className="privacy" align="left" id="padding">
-              <h4 align="center">ACUERDO 01 DE 2024<br /></h4>
+              <h4 align="center">ACUERDO 01 DE 2025<br /></h4>
                 <h5 align="left"> <b>REGLAMENTO DE LEO CLUB MUNDIAL DE LECTURA</b></h5>
                 <br />
                 <p>
