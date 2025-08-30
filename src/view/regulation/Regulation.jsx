@@ -70,8 +70,8 @@ export default function Regulation() {
                 <b>Artículo 4. - Socios.</b> Pueden ser socios de LEO las personas naturales en cualquier
                 país del mundo, interesadas en participar en los programas de promoción de la lectura,
                 la escritura y el multilingüismo. La prioridad de LEO es la comunidad estudiantil, en
-                cualquier área y nivel de formación. Los estudiantes menores de edad deberán contar
-                con la autorización y tutoría de sus padres o tutores.
+                cualquier área y nivel de formación. Los menores de edad deberán contar con la autorización 
+                  y tutoría de sus padres o representantes, adjuntando los respectivos documentos al momento de vinculación.
  
                 </p>
                 <br />
