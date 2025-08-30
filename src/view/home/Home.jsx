@@ -1387,7 +1387,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
                 
                 Somos una comunidad educativa y cultural <br />
-                Promovemos la lectural, la escritura y el multilingüismo <br />
+                Promovemos la lectura, la escritura y el multilingüismo <br />
                 y ofrecemos a nuestros socios la mejor oportunidad de negocios del mundo <br />
 
                 </b> 
