@@ -73,13 +73,15 @@ export default function RegulationsPlanFriends() {
                 <b>Artículo 5. – Beneficio adicional.</b> Si un socio logra vincular a sus 20 invitados dentro del mes siguiente a su ingreso a LEO, recibirá una tablet para facilitr sus actividades educativas y culturales.
                 </p>
                  <p>
-                 <b>Artículo 6. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios. El bono educativo de excelencia académica se reconocerá en forma permanente, para lo cual se deberá mantener la condición de socio LEO y la actividad de estudiante, en cualquier modalidad y nivel. Si no se renueva la vinculación como socio LEO, se perderá el beneficio de bono educativo.                </p>
+                 <b>Artículo 6. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios.  para lo cual se deberá mantener la condición de socio LEO. Si no se renueva la vinculación como socio LEO, se perderán los beneficios del Plan Amigos.                </p>
                 <p>
-                <b>Artículo 8. - Aprobación.</b> Acuerdo aprobado por la Asamblea General de Accionistas de la Editorial Educativa Bibliocol SAS, el 10 de octubre de 2024.                </p>
+                <b>Artículo 7. Propiedad </b>– Los socios de LEO que participen del Plan Amigos, tendrán de por vida la propiedad sobre los beneficios económicos por la invitación a otras personas a ingresar como socios de LEO, conforme a lo establecido en el Artículo 4 de este Reglamento. Para conservar este derecho, deberán mantener vigente la vinculación como socios de LEO.                </p>
+                <p>
+                <b>Artículo 8. - Aprobación.</b> Reglamento aprobado en la sesión conjunta de la Editorial Educativa Biblicol SAS y la Asociación LEO Club Mundial de Lectura, realizada el 4 de agosto de 2025.                </p>
                 <br />
                 <br />
                 <h6 align="center"><b>DIANA MARCELA ROMERO ROJAS</b><br /></h6>
-                <p align="center"> Gerente General</p> 
+                <p align="center"> Directora del Programa</p> 
             
 
           
