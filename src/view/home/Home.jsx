@@ -1386,9 +1386,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
               <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
                 
-                Somos una comunidad mundial educativa y de negocios <br />
-                Promovemos la lectura para mejorar el nivel académico y cultural <br />
-                y generar oportunidades de ingreso para nuestros socios  <br />
+                Somos una comunidad educativa y cultural <br />
+                Promovemos la lectural, la escritura y el multilingüismo <br />
+                y ofrecemos a nuestros socios la mejor oportunidad de negocios del mundo <br />
 
                 </b> 
                 <br />
@@ -1405,9 +1405,9 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                 <h4 id="titulo"> <b> <h2><b>ClubLeo</b></h2>
 
                 
-                We are a global educational and business community <br />
-                We promote reading to improve the academic and cultural level <br />
-                and generate income opportunities for our members <br />
+                We are an educational and cultural community <br />
+                We promote reading, writing, and multilingualism <br />
+                And we offer our members the best business opportunities in the world <br />
 
                 </b> 
                 </h4>
