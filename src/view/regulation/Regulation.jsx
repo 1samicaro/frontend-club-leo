@@ -1,4 +1,4 @@
-import React from "react";
+tablezcaimport React from "react";
 import logonegro from '../../assets/png/logoempresarialnegro.png'
 import Contacto from '../contacto/Contacto';
 import { Link } from "react-router-dom";
@@ -77,18 +77,17 @@ export default function Regulation() {
                 <br />
                 <p>
                 <b>Artículo 5. - Costo de Membrecía.</b> Para pertenecer al Club Mundial de Lectura LEO
-                las personas deberán pagar la cuota de asociación que anualmente establezca
-                BIBLIOCOL SAS. <br />
-                PARAGRAFO. Para el año 2024, la cuota anual de asociación a LEO se establece en
-                COP$50.000 o su equivalente en monedas extranjeras.
+                las personas deberán pagar la cuota de asociación que establezcan las respectivas directivas. <br />
+                PARAGRAFO. Para el año 2025, la cuota semestral de asociación a LEO se establece en
+                COP$100.000 o su equivalente de US$25 ó €$25.
                 </p>
 
                 <p>
-                <b>Artículo 6. – Renovación.</b> Una vez culminado el respectivo año, el socio deberá
-                renovar la membrecía, para lo cual deberá pagar la respectiva cuota anual de
+                <b>Artículo 6. – Renovación.</b> Una vez culminado el respectivo semestre, el socio deberá
+                renovar la membrecía, para lo cual deberá pagar la respectiva cuota de
                 asociación. El no pago de esta cuota conllevará la pérdida de calidad de socio LEO y
                 sus beneficios. Al vincularse por primera vez, el socio autoriza que LEO pueda
-                descontar la cuota de renovación anual de los ingresos que tenga en su Cuenta y
+                descontar la cuota de renovación de los ingresos que tenga en su Cuenta y
                 realizar la renovación automática.
                 </p>
                 <br />
@@ -109,7 +108,7 @@ export default function Regulation() {
                 <br />
                 <p>
                 <b>Artículo 8.</b> – El Club Mundial de Lectura LEO ofrece a sus socios programas y servicios
-                orientados a promover y masificar la lectura y la escritura en diferentes idiomas, para lo
+                orientados a promover y masificar la lectura, la escritura y el multilinguismo, para lo
                 cual ha desarrollado y cuenta con los respectivos registros de derechos de autor de los
                 instrumentos tecnológicos web. El acceso a los programas y servicios es gratuito para
                 los socios, que no deberán pagar suma alguna por su uso.
