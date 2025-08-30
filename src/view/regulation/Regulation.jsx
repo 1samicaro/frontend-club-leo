@@ -57,6 +57,8 @@ export default function Regulation() {
                 universal. <br />
                 5. Fomentar el multilingüismo para aumentar las capacidades de las personas para
                 entender y comunicarse en varios idiomas con ciudadanos del mundo.
+                6. Ofrecer a los socios la oportunidad de generar ingresos permanentes apoyando 
+                el crecimiento de LEO en el país y el mundo.
                 </p>
                 <br />
 
