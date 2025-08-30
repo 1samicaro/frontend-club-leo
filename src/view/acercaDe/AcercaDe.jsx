@@ -186,9 +186,8 @@ export default function AcercaDe() {
             </b> 
             </h3>
             <br />
-            <h3 id="titulo" align="center"> <b>LEO <br />
             Vincúlate!! <br />
-            Queremos que seas socio del proyecto educativo y cultural <br />
+            Queremos que seas nuestro socio en el proyecto educativo y cultural <br />
             más grande del mundo
 
             </b> 
