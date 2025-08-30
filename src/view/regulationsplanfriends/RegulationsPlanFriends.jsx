@@ -43,10 +43,10 @@ export default function RegulationsPlanFriends() {
 
                 </p>
                 <p>
-                <b>Artículo 4. - Principios Básicos del Plan Amigos.</b>
+                <b>Artículo 3. - Principios Básicos del Plan Amigos.</b>
                 1. Participación Libre y Voluntaria. El ingreso de los socios LEO al Plan Amigos es libre y voluntario, al igual que la permanencia y retiro, que puede darse en cualquier momento, sin requisitos ni condiciones.<br />
                 2. Un socio puede decidir no participar del Plan Amigos, y continuar disfrutando los programas y servicios de LEO.<br />
-                3. Cada socio puede invitar a máximo 20 nuevos socios, personas naturales que desarrollen actividades de estudio en cualquier modalidad y nivel. Para el efecto, debe proporcionarles su usuario para que lo ingresen en el formulario de registro.<br />
+                3. Cada socio puede invitar a máximo 20 nuevos socios. Para el efecto, debe proporcionarles su usuario o link personal de identificación para que lo ingresen en el formulario de registro.<br />
                 4. Los socios de LEO pueden residir en cualquier país del mundo.<br />
                 5. La vinculación se realiza por internet a través del portal web institucional www.clubleo.net.
 
@@ -59,20 +59,21 @@ export default function RegulationsPlanFriends() {
                 <h3 align="center">CAPITULO II<br /></h3>
                 <h5 align="center"> <b>Beneficios</b></h5> 
                 <p>
-                <b>Artículo 5. </b> – El socio que participe en el Plan Amigos con la meta de invitar a máximo 20 personas a ingresar como socios de LEO, recibirá los siguientes beneficios: <br />
+                <b>Artículo 4. </b> – El socio que voluntariamente participe en el Plan Amigos, tendrá como meta invitar a máximo 20 personas a ingresar como socios de LEO, y recibirá los siguientes beneficios: <br />
 
-                1.	En el primer paso de invitación, al completar los 20 socios directos, recibirá una <b>Tableta de 10”</b>, con la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras grabada. <br />
-
-                2.	En el segundo paso, cuando sus 20 socios directos completen cada uno sus 20 invitados, el socio recibirá un <b>computador portátil</b>, que también tendrá grabada la biblioteca digital <b>bibliomobil</b> y sus 15.000 obras. <br />
-
-                3.	<b>Finalmente, en el tercer paso</b>, cuando los nuevos socios inviten a sus 20 amigos, recibirá el <b>bono educativo de excelencia académica por $2 millones mensuales</b>, que serán consignados en la cuenta financiera que reporte a LEO. Este bono será permanente mientras mantenga la condición de estudiante y socio de LEO.
-                </p>
+                1.	En el primer paso de invitación a los 20 socios directos, un ingreso del 10% del valor de la suscripción a ClubLeo
+                2. En el segundo paso, cuando sus 20 socios directos completen cada uno sus 20 invitados, el socio recibirá un ingreso del 20% del valor de la suscripción a ClubLeo
+                3. Finalmente, en el tercer paso, cuando los nuevos socios inviten a sus 20 amigos, recibirá un ingreso del 30% del valor de la suscripción a ClubLeo.
+                
+                Estos ingresos se acumularán mensualmente y se girarán dentro de la semana siguiente a la cuenta financiera que reporte a LEO. Para recibir y mantener el ingreso durante suscripciones sucesivas de los socios invitados, se deberá mantener la condición de socio de LEO.
+               
+                Si no se renueva la suscripción como socio LEO, se perderá el beneficio en forma definitiva
                 <br />
                 <p>
-                <b>Artículo 6. – Beneficio adicional.</b> Si un socio logra vincular a sus 20 invitados dentro del mes siguiente a su ingreso a LEO, recibirá un estímulo adicional: el bono educativo de excelencia académica será de $4 millones mensuales.
+                <b>Artículo 5. – Beneficio adicional.</b> Si un socio logra vincular a sus 20 invitados dentro del mes siguiente a su ingreso a LEO, recibirá una tablet para facilitr sus actividades educativas y culturales.
                 </p>
                  <p>
-                 <b>Artículo 7. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios. El bono educativo de excelencia académica se reconocerá en forma permanente, para lo cual se deberá mantener la condición de socio LEO y la actividad de estudiante, en cualquier modalidad y nivel. Si no se renueva la vinculación como socio LEO, se perderá el beneficio de bono educativo.                </p>
+                 <b>Artículo 6. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios. El bono educativo de excelencia académica se reconocerá en forma permanente, para lo cual se deberá mantener la condición de socio LEO y la actividad de estudiante, en cualquier modalidad y nivel. Si no se renueva la vinculación como socio LEO, se perderá el beneficio de bono educativo.                </p>
                 <p>
                 <b>Artículo 8. - Aprobación.</b> Acuerdo aprobado por la Asamblea General de Accionistas de la Editorial Educativa Bibliocol SAS, el 10 de octubre de 2024.                </p>
                 <br />
