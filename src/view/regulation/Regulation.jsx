@@ -32,12 +32,17 @@ export default function Regulation() {
                 <br />
                 
                 <p>
-                <b>Artículo 1. </b>- LEO Club Mundial de Lectura es un programa educativo que tiene como
-                 objetivos promover la lectura, la escritura y el multilingüismo entre las personas y
+                <b>Artículo 1. </b>- LEO Club Mundial de Lectura es un programa educativo y cultural diseñado para
+                  promover la lectura, la escritura y el multilingüismo entre las personas y
                  comunidades educativas de todo el mundo, para lo cual utiliza herramientas
                  tecnológicas web que permiten el acceso universal, económico y eficiente al programa y
                  sus servicios, como las páginas web, bibliotecas digitales, videos, blogs y redes
-                 sociales. El programa utilizará la sigla LEO.                </p>
+                 sociales. El programa utilizará la sigla LEO. 
+                  
+                 El programa es desarrollado conjuntamente por la Editorial Educativa Bibliocol SAS, responsable 
+                 de la selección, edición y publicación de la Biblioteca Digital, y de la Asociación LEO Club Mundial 
+                 de Lectura, responsable de la promoción, vinculación y atención de los socios.
+                </p>
                 <p>
                 <b>Artículo 3. - 0bjetivos.</b> LEO busca alcanzar los siguientes objetivos: 
                 1. Mejorar el nivel educativo y cultural de las personas, proporcionando medios que
