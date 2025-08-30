@@ -68,7 +68,7 @@ export default function AcercaDe() {
            <p>
            Para cumplir esta misión, LEO funciona como una red digital mundial,  fundamentada en la teoría de los seis grados de separación, que plantea que todas las personas del mundo se pueden integrar en una red con solo 6 eslabones; es decir, con solo 6 pasos, podemos contactarnos con toda la humanidad. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, ambientales, de negocios, etc. <br />
 
-           Con esta filosofía, LEO se propone integrar a las personas de todos los países para trabajar para lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y generar oportunidades de ingreso permanentes que mejoren nuestra calidad de vida. 
+           Con esta filosofía, LEO se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
 
 
            </p>
