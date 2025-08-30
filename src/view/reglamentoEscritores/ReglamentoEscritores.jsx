@@ -24,7 +24,7 @@ export default function ReglamentoEscritores() {
 
             <div className="container-fluid">
             <div className="privacy" align="left" id="padding">
-              <h3 align="center">ACUERDO 03 DE 2024<br /></h3>
+              <h3 align="center">ACUERDO 03 DE 2025<br /></h3>
                 <h5 align="center"> <b>REGLAMENTO DEL PROGRAMA ESCRITORES LEO</b></h5>
                 <br />
                 <p>
@@ -84,15 +84,13 @@ export default function ReglamentoEscritores() {
                 <b>Artículo 5. Vigencia.</b> El presente Acuerdo rige a partir de la fecha.
                 </p>
                 <p>
-                <b>Artículo 6. Aprobación.</b> - Acuerdo 03 expedido por BILIOCOL Editorial Educativa,
-                el 10 de octubre de 2024.
+                <b>Artículo 6. Aprobación.</b> - Reglameno aprobado en la sesión conjunta de la Editorial Educativa Bibliocol SAS y la Asociación Leo Club Mundial de Lectura realizada el 4 de agosto de 2025.
                 </p>
                 
 
                 <h6 align="center"><b>DIANA MARCELA ROMERO ROJAS</b><br /></h6>
-                <p align="center"> Gerente General <br />
-                Editorial Educativa BIBLIOCOL SAS
-                    </p> 
+                <p align="center"> Directora del Programa <br />
+                   </p> 
             
 
           
