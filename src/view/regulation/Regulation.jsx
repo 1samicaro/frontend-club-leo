@@ -134,6 +134,7 @@ export default function Regulation() {
                 sobre derechos de autor vigentes, y autoriza su publicación en el portal para ser
                 consultadas por los demás usuarios.
                 </p>
+                
                 <h4 align="center">CAPITULO IV<br /></h4>
                 <h5 align="left"> <b>MANEJO DE LA INFORMACION</b></h5>
                 <br />
