@@ -940,8 +940,7 @@ P                 hone: 6014327879 +57 300 4727644 <br />
                   <NavDropdown.Item as={NavLink} to="/organizedBooks/4/4">Género literario</NavDropdown.Item>
               </NavDropdown>
            <Nav.Link href="https://escritoresleo.com/" target="_blank">Escritores LEO</Nav.Link>
-            <Nav.Link href="https://www.vamosaleer.co/" target="_blank">Vamos a leer</Nav.Link> ////// aquí puede ver el ejemplo de como se abre otra pestaña con href y target="_blank"
-
+            <Nav.Link href="https://www.vamosaleer.co/" target="_blank">Vamos a leer</Nav.Link> 
             {userInfo.isSuscribed? <Link to="/books" >
            Biblioteca 
           </Link> :<Link to="/books">
