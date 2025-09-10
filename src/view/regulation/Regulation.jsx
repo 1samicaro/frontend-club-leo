@@ -161,7 +161,6 @@ export default function Regulation() {
                 Directora
                 </p>
                 <br />
-                
             </div>
           </div>      
         <br />
