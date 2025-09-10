@@ -68,12 +68,13 @@ export default function RegulationsPlanFriends() {
                 Estos ingresos se acumularán mensualmente y se girarán dentro de la semana siguiente a la cuenta financiera que reporte a LEO. Para recibir y mantener el ingreso durante suscripciones sucesivas de los socios invitados, se deberá mantener la condición de socio de LEO.
                
                 Si no se renueva la suscripción como socio LEO, se perderá el beneficio en forma definitiva
+                </p>
                 <br />
                 <p>
                 <b>Artículo 5. – Beneficio adicional.</b> Si un socio logra vincular a sus 20 invitados dentro del mes siguiente a su ingreso a LEO, recibirá una tablet para facilitr sus actividades educativas y culturales.
                 </p>
-                 <p>
-                 <b>Artículo 6. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios.  para lo cual se deberá mantener la condición de socio LEO. Si no se renueva la vinculación como socio LEO, se perderán los beneficios del Plan Amigos.                </p>
+                <p>
+                <b>Artículo 6. </b>– Los diferentes beneficios que ofrece LEO sus socios que participen del Plan Amigos serán inmediatos una vez se cumplan las metas de vinculación de nuevos socios.  para lo cual se deberá mantener la condición de socio LEO. Si no se renueva la vinculación como socio LEO, se perderán los beneficios del Plan Amigos.                </p>
                 <p>
                 <b>Artículo 7. Propiedad </b>– Los socios de LEO que participen del Plan Amigos, tendrán de por vida la propiedad sobre los beneficios económicos por la invitación a otras personas a ingresar como socios de LEO, conforme a lo establecido en el Artículo 4 de este Reglamento. Para conservar este derecho, deberán mantener vigente la vinculación como socios de LEO.                </p>
                 <p>
@@ -84,29 +85,10 @@ export default function RegulationsPlanFriends() {
                 <p align="center"> Directora del Programa</p> 
             
 
-          
-          
-
-                
-
-
-
-
-        
-
-
-
-
-
-
             </div>
             </div>
               
-     <br />
-
-
-              
-             
+      <br />         
     </div>
   );
 }

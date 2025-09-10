@@ -1,4 +1,4 @@
-tablezcaimport React from "react";
+import React from "react";
 import logonegro from '../../assets/png/logoempresarialnegro.png'
 import Contacto from '../contacto/Contacto';
 import { Link } from "react-router-dom";
@@ -133,6 +133,7 @@ export default function Regulation() {
                 subir sus obras, el respectivo socio expresamente garantiza que cumple con las normas
                 sobre derechos de autor vigentes, y autoriza su publicación en el portal para ser
                 consultadas por los demás usuarios.
+                </p>
                 <h4 align="center">CAPITULO IV<br /></h4>
                 <h5 align="left"> <b>MANEJO DE LA INFORMACION</b></h5>
                 <br />
@@ -160,15 +161,10 @@ export default function Regulation() {
                 </p>
                 <br />
                 
-
             </div>
             </div>
               
-     <br />
-
-
-              
-             
+    <br />
     </div>
   );
 }

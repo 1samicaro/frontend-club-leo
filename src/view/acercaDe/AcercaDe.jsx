@@ -16,29 +16,28 @@ import aboutus3 from "../../assets/contenido/aboutus3.jpg";
 export default function AcercaDe() {
     return (
         <div className="container_aboutus">
-        <nav className="navbar navbar-light mb-5" id="encabezado">
-                    <Link to="/" className="container-fluid">
-                        <img
-                        src={logoblanco}
-                        width="290"
-                        height="550"
-                        className="img-fluid d-block mx-auto"
-                        alt='logoMingga'
-                        />
-                    </Link>
-                </nav>
+            <nav className="navbar navbar-light mb-5" id="encabezado">
+                <Link to="/" className="container-fluid">
+                    <img
+                    src={logoblanco}
+                    width="290"
+                    height="550"
+                    className="img-fluid d-block mx-auto"
+                    alt='logoMingga'
+                    />
+                </Link>
+            </nav>
 
-                <div className="container-fluid" align="left" id="padding">
+            <div className="container-fluid" align="left" id="padding">
 
                 <h3 id="titulo" align="center"> <b>
                 Leer y escribir bien, las competencias fundamentales para alcanzar el éxito académico <br />
                 y aprovechar las oportunidades de contactos y negocios que ofrece internet en todo el mundo
+                </b> 
+                </h3>
 
-
-            </b> 
-            </h3>
-
-            <br />
+                <br />
+            </div>
             <div align="center">
                 <img
                 id="imagenajustada"
@@ -48,11 +47,12 @@ export default function AcercaDe() {
                 height="450"
                 alt="..."
                 />
-                </div>
+            </div>
 
-                <br />
+            
+            <br />
 
-                <h3 id="titulo" align="center"> <b>LEO Una comunidad mundial educativa y de negocios<br />
+            <h3 id="titulo" align="center"> <b>LEO Una comunidad mundial educativa y de negocios<br />
             </b> 
             </h3>
                   <br />
@@ -93,9 +93,7 @@ export default function AcercaDe() {
             </b> 
             </h3> 
 
-
-
-            
+      
             <br /> 
             <div align="center">
                 <img
@@ -106,16 +104,14 @@ export default function AcercaDe() {
                 height="500"
                 alt="..."
                 />
-                </div> 
-                <br />
-                <p>
-                Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
-                La membrecía semestral tiene un costo de solo $100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
-
+            </div> 
+            
+            <br />
+            <p>
+            Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
+            La membrecía semestral tiene un costo de solo $100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
-           
-            
-            
+        
 
             <br />
             <h3 id="titulo" align="center"> <b>Programas y Servicios a los Asociados<br />
@@ -124,7 +120,7 @@ export default function AcercaDe() {
             <br />
             <p> LEO ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
             </p>
-           
+        
 
             <h4 id="titulo" align="left"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
             </b> 
@@ -136,6 +132,7 @@ export default function AcercaDe() {
             Adicionalmente, LEO ha desarrollado el portal web vamosaleer.co, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
             </p>
+            
 
             <div className="container_bannernos"  align="center">
                 <img
@@ -149,7 +146,8 @@ export default function AcercaDe() {
                 
                 <br />
                 
-                </div>
+            </div>
+            
             <br />
             <h4 id="titulo" align="left"> <b>2. Promoción de la escritura<br />
             </b> 
@@ -168,8 +166,8 @@ export default function AcercaDe() {
             
             Una comunidad mundial, comprometida con la construcción <br />
             de una sociedad más educada y culta
-
-            
+            </b>
+            </h3>
 
             <div align="center">
                 <img
@@ -180,23 +178,25 @@ export default function AcercaDe() {
                 height="500"
                 alt="..."
                 />
-                </div> 
+            </div> 
 
+
+          
+            <h3 id="titulo" align="center">
+            <b> LEO
+                <br />
+                Vincúlate!! 
+                <br />
+                Queremos que seas nuestro socio en el proyecto educativo y cultural <br />
+                más grande del mundo
 
             </b> 
             </h3>
             <br />
-            Vincúlate!! <br />
-            Queremos que seas nuestro socio en el proyecto educativo y cultural <br />
-            más grande del mundo
 
-            </b> 
-            </h3>
-            <br />
-
-                </div>
-                
-                
         </div>
+                
+                
+
     );
 }
