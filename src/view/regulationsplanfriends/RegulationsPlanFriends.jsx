@@ -1,11 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from '../../assets/logoblack.png'
 import amigos from "../../assets/contenido/amigos.png";
-
-
-
-
 
 export default function RegulationsPlanFriends() {
   return (
@@ -66,7 +61,7 @@ export default function RegulationsPlanFriends() {
                 3. Finalmente, en el tercer paso, cuando los nuevos socios inviten a sus 20 amigos, recibirá un ingreso del 30% del valor de la suscripción a ClubLeo.
                 
                 Estos ingresos se acumularán mensualmente y se girarán dentro de la semana siguiente a la cuenta financiera que reporte a LEO. Para recibir y mantener el ingreso durante suscripciones sucesivas de los socios invitados, se deberá mantener la condición de socio de LEO.
-               
+            
                 Si no se renueva la suscripción como socio LEO, se perderá el beneficio en forma definitiva
                 </p>
                 <br />
