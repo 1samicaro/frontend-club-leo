@@ -42,8 +42,11 @@ export default function RegulationsPlanFriends() {
                 1. Participación Libre y Voluntaria. El ingreso de los socios LEO al Plan Amigos es libre y voluntario, al igual que la permanencia y retiro, que puede darse en cualquier momento, sin requisitos ni condiciones.<br />
                 2. Un socio puede decidir no participar del Plan Amigos, y continuar disfrutando los programas y servicios de LEO.<br />
                 3. Cada socio puede invitar a máximo 20 nuevos socios. Para el efecto, debe proporcionarles su usuario o link personal de identificación para que lo ingresen en el formulario de registro.<br />
-                4. Los socios de LEO pueden residir en cualquier país del mundo.<br />
+                4. Los socios de LEO pueden residir en cualquier país del mundo.
                 5. La vinculación se realiza por internet a través del portal web institucional www.clubleo.net.
+                6. Vinculación única. Cada socio podrá participar una sola vez en el Plan Amigos. Las cuentas múltiples de una persona serán anuladas.          
+                  <br />
+                
 
 
 
