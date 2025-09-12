@@ -59,7 +59,7 @@ export default function RegulationsPlanFriends() {
                 <p>
                 <b>Artículo 4. </b> – El socio que voluntariamente participe en el Plan Amigos, tendrá como meta invitar a máximo 20 personas a ingresar como socios de LEO, y recibirá los siguientes beneficios: <br />
 
-                1.	En el primer paso de invitación a los 20 socios directos, un ingreso del 10% del valor de la suscripción a ClubLeo
+                1.	En el primer paso de invitación a los 20 socios directos, un ingreso del 10% del valor de la suscripción a ClubLeo de cada uno de ellos
                 2. En el segundo paso, cuando sus 20 socios directos completen cada uno sus 20 invitados, el socio recibirá un ingreso del 20% del valor de la suscripción a ClubLeo
                 3. Finalmente, en el tercer paso, cuando los nuevos socios inviten a sus 20 amigos, recibirá un ingreso del 30% del valor de la suscripción a ClubLeo.
                 
