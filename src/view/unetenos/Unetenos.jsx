@@ -54,7 +54,8 @@ export default function Unetenos() {
 
                 El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido: 
                     
-                    Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. Una vez se complete este número, no se podrá invitar a nadie más. <br />
+                    Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
+                    Una vez se complete este número, no se podrá invitar a nadie más. <br />
 
                 Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra cuenta
 
