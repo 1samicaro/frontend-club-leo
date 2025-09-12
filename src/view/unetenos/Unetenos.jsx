@@ -91,9 +91,9 @@ export default function Unetenos() {
 
             3. Al ingresar como socios las personas que invitamos, registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
 
-            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los US$96.000 anuales, es decir, un promedio mensual de US$8.275. <br />
+            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
 
-            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Solo debemos invitar a 20 socios una vez, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
+            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Solo debemos invitar una vez a 20 socios, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
 
 
             </p>
