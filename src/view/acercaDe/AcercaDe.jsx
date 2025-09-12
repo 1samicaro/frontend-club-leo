@@ -183,7 +183,7 @@ export default function AcercaDe() {
 
           
             <h3 id="titulo" align="center">
-            <b> LEO
+            <b> 
                 <br />
                 Vincúlate!! 
                 <br />
