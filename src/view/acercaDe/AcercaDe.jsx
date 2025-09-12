@@ -85,7 +85,7 @@ export default function AcercaDe() {
             • Ofrecer escenarios para que los Socios LEO escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br />
             • Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br />
             • Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
-            • Ofrecer a nuestros socios la oportunidad de construir un ingreso permanente y lograr la sostenibilidad financiera, de por vida.
+            • Ofrecer a nuestros socios la oportunidad de trabajar para construir un ingreso permanente y lograr la sostenibilidad financiera, de por vida.
 
             </p>
             <br />
