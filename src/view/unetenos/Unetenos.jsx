@@ -50,7 +50,7 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Para cumplir con la misión de promover la lectura y escritura en el mundo, LEO necesita crecer, consolidando una gran comunidad enfocada en mejorar sus niveles de educación y cultura, y en fortalecer sus competencias comunicativas. <br />
+                Para cumplir con la misión de promover la lectura y escritura en el mundo, LEO necesita crecer, consolidando una gran comunidad educativa y de negocios en el país y el mundo. <br />
 
                 El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido: 
                     
