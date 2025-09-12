@@ -196,7 +196,9 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía semestral de sólo $100.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de $150 millones. Es decir, la membrecía permite acceder a obras con un costo promedio de $6 cada una. Por una monedita de $100, recibirás 15 de los mejores libros de literatura y ciencias sociales del mundo!!
+                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. 
+                    Con la membrecía semestral de sólo COP$100.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, la membrecía permite acceder a obras con un costo promedio de $6 cada una. 
+                    Por una monedita de COP$100, recibirás 15 de los mejores libros de literatura y ciencias sociales del mundo!!
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan Amigos: <br />
