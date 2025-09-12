@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+da unoimport { Link } from "react-router-dom";
 import logo from '../../assets/logoblack.png'
 import amigos from "../../assets/contenido/amigos.png";
 
