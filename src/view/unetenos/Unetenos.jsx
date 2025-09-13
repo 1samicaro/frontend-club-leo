@@ -81,7 +81,7 @@ export default function Unetenos() {
 
             <br />
             <h3 id="titulo" align="center"> <b> Cómo funciona el Plan Amigos LEO <br />
-            El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
+            El principio es sencillo: invitar por una sola vez, y obtener ingresos crecientes, de por vida
             </b> 
             </h3>
             <p>
