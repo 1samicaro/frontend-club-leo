@@ -110,7 +110,7 @@ export default function Unetenos() {
             </h3>
             <br />
             <p>
-            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a LEO, en solo 3 meses obtendremos un ingreso de COP$248 millones,  asegurando un ingreso promedio mensual de COP$41 millones, que será permanente gracias a la renovación semestral de la membrecía a CLUBLEO. 
+            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a LEO, en solo 3 meses ganaremos COP$248 millones, equivalentes a un ingreso promedio mensual de COP$41 millones, que será permanente gracias a la renovación semestral de la membrecía a CLUBLEO. 
             Es un trabajo sencillo que todos podemos realizar, aprovechando nuestros conocidos (familiares, amigos, vecinos, compañeros de estudio y trabajo), y los contactos en las redes sociales.
             </p>
 
