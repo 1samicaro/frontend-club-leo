@@ -93,7 +93,9 @@ export default function Unetenos() {
 
             4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
 
-            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Solo debemos invitar una vez a 20 socios, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
+            Y lo más importante, la membrecía a CLUBLEO se renueva semestralmente, por lo que este ingreso será permanente, de por vida. 
+                
+                Solo debemos invitar una vez a 20 socios, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
 
 
             </p>
