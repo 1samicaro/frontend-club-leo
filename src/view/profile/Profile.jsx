@@ -26,7 +26,7 @@ import { getMaxLoan, postLoan } from '../../services/loanServices'
 export default function Profile() {
 
     const initialStatePB = {
-        username: "",
+        username: "admin",
         points: 0,
     };
     const initialState = {
@@ -40,6 +40,7 @@ export default function Profile() {
     const navigate = useNavigate()
 
     const userInfo = useSelector(state=>state.infoUserReducer.user)
+    console.log(userInfo);
     const token = useSelector(state=>state.infoUserReducer.token.token)
     // const user = useSelector(state=>state.infoUserReducer.user.token)
     // const categories = useSelector(state=>state.categoriesReducer.categories)
@@ -197,18 +198,20 @@ export default function Profile() {
     const [money, setMoney] = useState(initialState)
 
     async function handleInputSend(input, e){
-        setError({})
-        setSearch({})
-        const userSearch = await getSearchPerson(e.target.value)
-        if(!userSearch.message){
-            setError({})
-            setSearch(userSearch)
-            setSend(prev=>({...prev, [input]:e.target.value}))
-        }
-        if(userSearch.message==="Error getting user"){
-            setError(prev=>({...prev, [input]:"No existe el usuario"}))
-        }
+        setSend(prev=>({...prev, [input]:e.target.value}))
+        // setError({})
+        // setSearch({})
+        // const userSearch = await getSearchPerson(e.target.value)
+        // if(!userSearch.message){
+        //     setError({})
+        //     setSearch(userSearch)
+        //     setSend(prev=>({...prev, [input]:e.target.value}))
+        // }
+        // if(userSearch.message==="Error getting user"){
+        //     setError(prev=>({...prev, [input]:"No existe el usuario"}))
+        // }
     }
+    console.log(send);
 
     function handleInputPB(input, e){
         setError({})
@@ -302,6 +305,7 @@ export default function Profile() {
         await maxLoanGet()
         setButtonStop(false)
     }
+    const totalPoints = new Intl.NumberFormat('es-CO').format(userInfo.totalPoints)
 
     return (
 
@@ -361,7 +365,34 @@ export default function Profile() {
                                 {userInfo.RoleId===4 &&
                                     <li id="left"><i className='icon-imagen'></i><b></b>Socio</li>
                                 }
+                            </div>
+                        </div>
+                        :<Spinner animation="grow" variant="info" />}
+                        <br />
+                        
+                        <label className="l-01"> <h4>Mis transacciones</h4></label>
+                        {userInfo ?
+                        <div className='perfil-usuario-footer'
+                        id="containerPerfil">
+                                <div className='lista-datos' >
+                                    <li><i className='icon-imagen'></i> <b>Acumulado: </b> {userInfo?.totalPoints}</li>
+                                    <li><i className='icon-imagen'></i><b>Total Retirado: </b> {userInfo?.totalSpent}</li>
+                                    <li><i className='icon-imagen'></i><b>Saldo total disponible: </b>{userInfo?.totalPoints-userInfo?.totalSpent}</li>
                                 </div>
+                                <div className='lista-datos'>
+                                {userInfo.RoleId===3 &&
+                                <div>
+                                    <div className="form-floating mb-3">
+                                        <DebounceInput className="form-control" debounceTimeout={500} placeholder="Usuario a enviar PBs" onChange={(e)=>handleInputSend("points",e)}/>
+                                        <label >Cuánto deseas retirar</label>
+                                    </div>
+                                    {!buttonStop?<button className="btn btn-warning btn-lg" id="buttonPerfil" onClick={onSend}>Retirar Dinero</button>: <Spinner animation="grow" variant="info" />}
+                                </div>
+                                }
+                                {userInfo.RoleId===4 &&
+                                    <li id="left"><i className='icon-imagen'></i><b></b>Socio</li>
+                                }
+                            </div>
                         </div>
                         :<Spinner animation="grow" variant="info" />}
                         <br />
@@ -377,7 +408,7 @@ export default function Profile() {
                                         <tbody>
                                             <tr className="colorFilas">
                                                 <th scope="row"></th>
-                                                <th className="colorFilaSelect" >Paso 1 I</th>
+                                                <th className="colorFilaSelect" >Paso  I</th>
                                                 <th className="colorFilaSelect" >Paso II</th>
                                                 <th className="colorFilaSelect">Paso III</th>
                                             </tr>

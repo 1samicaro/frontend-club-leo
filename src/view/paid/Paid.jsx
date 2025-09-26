@@ -4,6 +4,8 @@ import logo from '../../assets/logoblack.png'
 import PayPalButton from '../paypal/PayPalButtom'
 import { initMercadoPago, Payment, Wallet } from '@mercadopago/sdk-react'
 import mercadoPago from "../../assets/mercado_pago.png"
+import nequi from "../../assets/nequi-seeklogo.png"
+import qr from "../../assets/qr.jpg"
 import { postLogin } from '../../services/userServices'
 import { useDispatch, useSelector } from 'react-redux'
 import Modal1 from '../../components/Modal1';
@@ -23,6 +25,20 @@ function Paid() {
 
     const navigate = useNavigate()
     const dispatch = useDispatch()
+
+
+    const notify = () => {
+        toast('Actualización de datos realizada!', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+    };
 
     const payPalAnswer = useSelector(state=>state.transactionsReducer.payPalAnswer)
     const token = useSelector(state=>state.infoUserReducer.token.token)
@@ -46,7 +62,7 @@ function Paid() {
         e.preventDefault()
         setPayPalDiv(!payPalDiv) 
     }
-    const notify = () => {
+    const notifyNequi = () => {
         toast('Pago realizado, será dirigido a la página principal!', {
             position: "top-center",
             autoClose: 6000,
@@ -104,6 +120,19 @@ function Paid() {
             console.log(error);
         }
     }
+    const nequis =  async (e)=>{
+        e.preventDefault()
+        const input = {
+            description : reference
+        }
+        const user = await editProfile(input, token)
+        if(user.data.message==='User updated'){
+            notifyNequi()
+            setTimeout(() => {
+                navigate('/Profile')
+            }, "3000");
+        }
+    }
 
     const handleBuy = async () =>{
         const id = await createPreference()
@@ -117,6 +146,12 @@ function Paid() {
     const getMercadoPagoDiv = (e) =>{
         e.preventDefault()
         setMercadoPagoDiv(!mercadoPagoDiv) 
+    }
+
+    const [reference, setReference] = useState()
+
+    const handleInputChange = ( e)=>{
+        setReference(e.target.value)
     }
 
     const customization = {
@@ -145,7 +180,7 @@ function Paid() {
     }
 
     return (
-        <div className="contenedor-formularios">
+        <div className="contenedor-formularios bg-secondary w-100 h-100">
             <nav className="navbar navbar-light mb-5" id="encabezado">
                 <Link to="/" className="container-fluid">
                     <img
@@ -157,17 +192,29 @@ function Paid() {
                     />
                 </Link>
             </nav>
-            <div className="container-fluid">
+            <div className="container-fluid  row d-flex justify-content-center">
             <h4>Realiza tu pago a través de alguno de los siguientes métodos</h4>
             <br />
 
                 <ul>
-                    <li> <h5> <b>Detalle: </b>Pago anual Club Leo</h5></li>
-                    <li><h5><b>Precio: </b>$100000 (50 USD)</h5></li>
+                    <li> <h5> <b>Detalle: </b>Membresia semestral Club Leo</h5></li>
+                    <li><h5><b>Precio: </b>$100000 (25 USD)</h5></li>
                 </ul>
                 <br />
 
-                <div className="formasPago">
+                <div className='row d-flex justify-content-sm-center w-25 h-45'>
+                    <img width="250px" height="250px" className='border-radius: 10%' src={qr} alt="Payments by nequi"/>
+                    <span className="input-group-text text-info w-50" id="inputGroup-sizing-default">nequi: 3002673887</span>
+                    <div className="input-group mb-3 d-flex justify-content-sm-center">
+                        <span className="input-group-text text-danger" id="inputGroup-sizing-default">Escriba la referencia de pago</span>
+                        <input
+                        input type="text" className="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"
+                        onChange={(e)=>handleInputChange(e)}/>
+                        <button className="btn btn-primary btn-lg" onClick={nequis}>Enviar</button>
+                    </div>
+                </div>
+
+                {/* <div className="formasPago">
                     <button onClick={getPayPalDiv}><img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/logotipo_paypal_pagos.png" alt="Payments by PayPal"/></button>
                     <button className='mercadoPago' onClick={handleBuy}><img src={mercadoPago} alt="Payments by mercado pago"/></button>
                     {preferenceId && <Wallet initialization={{preferenceId}}/>}
@@ -176,101 +223,9 @@ function Paid() {
                             <PayPalButton totalValue={'25'} invoice={'Pago semestral clubleo'}/>
                         </div>
                     :<></>}
-                </div>
-
-
-                {/* <Payment
-                    initialization={initialization}
-                    customization={customization}
-                    onSubmit={onSubmit}
-                    onReady={onReady}
-                    onError={onError}
-                /> */}
+                </div> */}
             </div>
             <br />
-
-             {/*
-            <div>
-                <br />
-                  
-                <Link class="btn btn-primary"
-                    onClick={()=> cambiarEstadoModal1(!estadoModal1)}
-                > <h3>Pago Directo</h3>
-                </Link>
-                <Modal1 
-                    estado={estadoModal1}
-                    cambiarEstado={cambiarEstadoModal1}>
-                    <h4 align="right">Depósito electrónico</h4>
-                    <ul align="right"> 
-                    <li align="right">
-                    <p>
-                    - NEQUI <br />
-                    N° 3002673887
-                    </p>
-                    </li>
-                    </ul>
-                    <h4 align="right">Transferencia bancaria</h4>
-                    <ul align="right"> 
-                    <li align="right">
-                    <p>
-                    - DAVIVIENDA <br />
-                    Cuenta de Ahorros N° 0550488425412597
-                    </p>
-                    </li>
-                    <li align="right">
-                    <p>
-                    - BANCOLOMBIA  <br />
-                    Cuenta de Ahorros N° 602-666846-68
-                    </p>
-                    </li>
-                    </ul>
-                    <h4 align="right">Pagos fisicos</h4>
-                    <ul align="right"> 
-                    <li align="right">
-                    <p>
-                    - Oficina Club Leo<br />
-                    </p>
-                    </li>
-                    <li align="right">
-                    <p>
-                    - Efecty <br />
-                    N° 3002673887 <br />    
-                    Cédula N° 1032437031
-                    </p>
-                    </li>
-                    <li align="right">
-                    <p>
-                    - Baloto  <br />
-                    N° 3002673887 <br />
-                    Cédula N° 1032437031
-                    </p>
-                    </li>
-                    </ul>
-                    <br /> 
-                </Modal1>
-            </div>
-            */}
-  
-
-            {/*
-            <br />
-            <br />
-            <div className="aviso">
-                <h5>
-                    Al elegir el método de pago directo, tu pago será verificado <br />
-                    en un plazo máximo de 24 horas y recibirás un correo de <br />
-                    bienvenida como nuevo socio de CLUB LEO.
-                    <br />
-            
-                </h5>
-
-
-
-            </div>
-        */}
-
-
-            
         </div>
     )
 }
