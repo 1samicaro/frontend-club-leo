@@ -50,11 +50,12 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Para cumplir con la misión de promover la lectura y escritura en el mundo, LEO necesita crecer, consolidando una gran comunidad enfocada en mejorar sus niveles de educación y cultura, y en fortalecer sus competencias comunicativas. <br />
+                Para cumplir con la misión de promover la lectura y escritura, LEO necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
 
                 El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido: 
                     
-                    Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. Una vez se complete este número, no se podrá invitar a nadie más. <br />
+                    Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
+                    Una vez se complete este número, no se podrá invitar a nadie más. <br />
 
                 Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra cuenta
 
@@ -74,12 +75,13 @@ export default function Unetenos() {
             • La participación es libre y voluntaria. Un socio puede no participar, y seguir disfrutando los programas de promoción de la lectura, escritura y multilingüismo que ofrece  ClubLeo. <br />
             • Se puede invitar a cualquier persona. No existen requisitos ni condiciones previas. Los menores de edad deberán contar con la autorización y tutoría de sus padres, <br />
             • Se puede invitar a personas en cualquier país del mundo. <br />
-            • El retiro es libre, en cualquier momento, sin ningún requisito.
+            • El retiro es libre, en cualquier momento, sin ningún requisito
+            • Cada persona puede vincularse una sola vez. Las cuentas múltiples serán anuladas.
             </p>
 
             <br />
             <h3 id="titulo" align="center"> <b> Cómo funciona el Plan Amigos LEO <br />
-            El principio es sencillo: invitar, y obtener ingresos crecientes, de por vida
+            El principio es sencillo: invitar por una sola vez, y obtener ingresos crecientes, de por vida
             </b> 
             </h3>
             <p>
@@ -89,9 +91,11 @@ export default function Unetenos() {
 
             3. Al ingresar como socios las personas que invitamos, registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
 
-            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los US$96.000 anuales, es decir, un promedio mensual de US$8.275. <br />
+            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
 
-            Y lo más importante, la membrecía a CLUBLEO se renueva anualmente, por lo que este ingreso será permanente, de por vida. Solo debemos invitar a 20 socios una vez, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
+            Y lo más importante, la membrecía a CLUBLEO se renueva semestralmente, por lo que este ingreso será permanente, de por vida. 
+                
+                Solo debemos invitar una vez a 20 socios, pero LEO nos reconoce ingresos de por vida, con la vinculación y las posteriores renovaciones.
 
 
             </p>
@@ -106,7 +110,8 @@ export default function Unetenos() {
             </h3>
             <br />
             <p>
-            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a LEO, a partir del cuarto mes podremos asegurar un importante ingreso promedio mensual de US$8.275, que será permanente gracias a la renovación anual de la membrecía a CLUBLEO. Es sencillo, y todos podemos lograrlo muy fácil: aprovechando nuestros conocidos, y los contactos en las redes sociales.
+            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a LEO, en solo 3 meses ganaremos COP$248 millones, equivalentes a un ingreso promedio mensual de COP$41 millones, que será permanente gracias a la renovación semestral de la membrecía a CLUBLEO. 
+            Es un trabajo sencillo que todos podemos realizar, aprovechando nuestros conocidos (familiares, amigos, vecinos, compañeros de estudio y trabajo), y los contactos en las redes sociales.
             </p>
 
             <h3 id="titulo" align="center"> <b>Mercado Objetivo LEO. <br />
@@ -193,7 +198,9 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. Con la membrecía semestral de sólo $100.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de $150 millones. Es decir, la membrecía permite acceder a obras con un costo promedio de $6 cada una. Por una monedita de $100, recibirás 15 de los mejores libros de literatura y ciencias sociales del mundo!!
+                Aunque todas las personas pueden asociarse, la prioridad de LEO son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. 
+                    Con la membrecía semestral de sólo COP$100.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, la membrecía permite acceder a obras con un costo promedio de $6 cada una. 
+                    Por una monedita de COP$100, recibirás 15 de los mejores libros de literatura y ciencias sociales del mundo!!
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan Amigos: <br />

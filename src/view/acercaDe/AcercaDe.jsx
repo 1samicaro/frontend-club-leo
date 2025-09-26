@@ -66,7 +66,7 @@ export default function AcercaDe() {
             </p>
            
            <p>
-           Para cumplir esta misión, LEO funciona como una red digital mundial, fundamentada en la teoría de los seis grados de separación, que plantea que con solo seis pasos, todas las personas del mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, ambientales, de negocios, etc. <br />
+           Para cumplir esta misión, LEO funciona como una red digital mundial, fundamentada en la teoría de los seis grados de separación, que plantea que con solo seis pasos, todas las personas del mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, sociales, de negocios, etc. <br />
 
            Con esta filosofía, LEO se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
 
@@ -85,7 +85,7 @@ export default function AcercaDe() {
             • Ofrecer escenarios para que los Socios LEO escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br />
             • Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br />
             • Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
-            • Ofrecer a nuestros socios la oportunidad de construir un ingreso permanente y lograr la sostenibilidad financiera, de por vida.
+            • Ofrecer a nuestros socios la oportunidad de trabajar para construir un ingreso permanente y lograr la sostenibilidad financiera, de por vida.
 
             </p>
             <br />
@@ -109,7 +109,7 @@ export default function AcercaDe() {
             <br />
             <p>
             Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
-            La membrecía semestral tiene un costo de solo $100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
+            La membrecía semestral tiene un costo de solo COP$100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
         
 
@@ -128,7 +128,7 @@ export default function AcercaDe() {
             <br />  
             <p>
             LEO ofrece a los socios su biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano). Las mejores obras y los autores más importantes de todos los países y de todos los tiempos. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br />
-            Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de internet. <br />
+            Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de conexión web. <br />
             Adicionalmente, LEO ha desarrollado el portal web vamosaleer.co, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
             </p>
@@ -157,7 +157,7 @@ export default function AcercaDe() {
 
             Escribir con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más importantes que debemos desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar nuestras propuestas por internet, ser leídos e impactar a los millones de usuarios en el mundo. La experiencia lo demuestra: el éxito en la moderna sociedad tecnológica depende de tener una buena capacidad escritora, de elaborar y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que reciben la información en todos los países del mundo. <br />
 
-            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web writersleo,  red social especializada que permite a los socios crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos, publicar y enviar mensajes, y las demás actividades de una red social.
+            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web escritoresleo.com, red social especializada que permite a los socios crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos, publicar y enviar mensajes, y las demás actividades de una red social.
 
             </p>
             
@@ -183,7 +183,7 @@ export default function AcercaDe() {
 
           
             <h3 id="titulo" align="center">
-            <b> LEO
+            <b> 
                 <br />
                 Vincúlate!! 
                 <br />
