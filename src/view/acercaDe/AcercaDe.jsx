@@ -55,7 +55,8 @@ export default function AcercaDe() {
             <h3 id="titulo" align="center"> <b>LEO Una comunidad mundial educativa y de negocios<br />
             </b> 
             </h3>
-                  <br />
+                  </div>
+     <br />
                   <p>
             Hay una ley universal del desarrollo: <b>todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
 
