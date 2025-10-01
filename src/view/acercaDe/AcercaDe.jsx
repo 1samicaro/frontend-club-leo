@@ -61,7 +61,7 @@ export default function AcercaDe() {
 
             </p>
             <p>
-            LEO - Club Mundial de Lectura, es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
+            <b>LEO - Club Mundial de Lectura,</b> es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
 
             </p>
            
