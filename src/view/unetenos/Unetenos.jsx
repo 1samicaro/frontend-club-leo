@@ -57,7 +57,7 @@ export default function Unetenos() {
                     <b>Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
                     Una vez se complete este número, no se podrá invitar a nadie más.</b> <br />
 
-                Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra cuenta
+                Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra cuenta<br />
 
                     <b>El Plan Amigos es una alianza estratégica para crecer y progresar juntos:
                     
