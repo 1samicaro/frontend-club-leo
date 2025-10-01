@@ -50,9 +50,9 @@ export default function Unetenos() {
 
                 <br />
                 <p>
-                Para cumplir con la misión de promover la lectura y escritura, LEO necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
+                Para cumplir con la misión de promover la lectura y escritura, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
 
-                El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido:<br /> 
+                El Plan Amigos, es una invitación de <b>LEO</b> a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido:<br /> 
                     
                     <b>Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
                     Una vez se complete este número, no se podrá invitar a nadie más.</b> <br />
@@ -61,7 +61,7 @@ export default function Unetenos() {
 
                     <b>El Plan Amigos es una alianza estratégica para crecer y progresar juntos:
                     
-                 LEO crece en el país y el mundo, y los socios construyen un ingreso creciente y permanente que les brindará la independencia económica y una mejor calidad de vida con toda la familia</b>
+                 <b>LEO</b> crece en el país y el mundo, y los socios construyen un ingreso creciente y permanente que les brindará la independencia económica y una mejor calidad de vida con toda la familia</b>
                     </p>
 
            
@@ -87,11 +87,11 @@ export default function Unetenos() {
             <p>
             1. Al vincularnos como socios, creamos nuestro usuario y contraseña; el programa automáticamente genera nuestro link personal, y nos crea “Mi Cuenta” para que hagamos seguimiento en tiempo real a nuestros invitados e ingresos. <br />
 
-            2. Invitamos a nuestros conocidos a que ingresen como socios de LEO, proporcionándoles nuestro usuario o enviándoles a sus redes sociales el link personal que el sistema nos genera. <br />
+            2. Invitamos a nuestros conocidos a que ingresen como socios de <b>LEO</b>, proporcionándoles nuestro usuario o enviándoles a sus redes sociales el link personal que el sistema nos genera. <br />
 
             3. Al ingresar como socios las personas que invitamos, registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
 
-            4. Según el principio de los 6 grados de integración que aplica LEO, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
+            4. Según el principio de los 6 grados de integración que aplica <b>LEO</b>, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
 
             Y lo más importante, la membrecía a CLUBLEO se renueva semestralmente, por lo que este ingreso será permanente, de por vida. 
                 
@@ -110,7 +110,7 @@ export default function Unetenos() {
             </h3>
             <br />
             <p>
-            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a LEO, en solo 3 meses ganaremos COP$248 millones, equivalentes a un ingreso promedio mensual de COP$41 millones, que será permanente gracias a la renovación semestral de la membrecía a CLUBLEO. 
+            Si todos los socios logramos vincular a nuestros 20 invitados dentro del mes siguiente al ingreso a <b>LEO</b>, en solo 3 meses ganaremos COP$248 millones, equivalentes a un ingreso promedio mensual de COP$41 millones, que será permanente gracias a la renovación semestral de la membrecía a CLUBLEO. 
             Es un trabajo sencillo que todos podemos realizar, aprovechando nuestros conocidos (familiares, amigos, vecinos, compañeros de estudio y trabajo), y los contactos en las redes sociales.
             </p>
 
