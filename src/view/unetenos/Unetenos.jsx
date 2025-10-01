@@ -52,7 +52,7 @@ export default function Unetenos() {
                 <p>
                 Para cumplir con la misión de promover la lectura y escritura, LEO necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
 
-                El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido: 
+                El Plan Amigos, es una invitación de LEO a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido:<br /> 
                     
                     <b>Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
                     Una vez se complete este número, no se podrá invitar a nadie más.</b> <br />
