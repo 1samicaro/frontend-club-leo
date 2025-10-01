@@ -47,8 +47,7 @@ export default function Unetenos() {
                 
                 </div>
                   <br />
-
-                <br />
+               
                 <p>
                 Para cumplir con la misión de promover la lectura y escritura, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
 
