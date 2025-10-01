@@ -176,7 +176,7 @@ export default function AcercaDe() {
                 className="d-block w-100"
                 src={aboutus3}
                 width="400"
-                height="400"
+                height="350"
                 alt="..."
                 />
             </div> 
