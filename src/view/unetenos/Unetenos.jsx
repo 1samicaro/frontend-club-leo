@@ -59,7 +59,7 @@ export default function Unetenos() {
 
                 Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra cuenta
 
-                    <b>El Plan Amigos es una alianza estratégica para crecer y progresar juntos
+                    <b>El Plan Amigos es una alianza estratégica para crecer y progresar juntos:
                     
                  LEO crece en el país y el mundo, y los socios construyen un ingreso creciente y permanente que les brindará la independencia económica y una mejor calidad de vida con toda la familia</b>
                     </p>
