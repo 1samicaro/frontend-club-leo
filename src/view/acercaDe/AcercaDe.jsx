@@ -55,20 +55,21 @@ export default function AcercaDe() {
             <h3 id="titulo" align="center"> <b>LEO Una comunidad mundial educativa y de negocios<br />
             </b> 
             </h3>
-                  <br />
+                  </div>
+     <br />
                   <p>
-            Hay una ley universal del desarrollo: todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población. Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
+            Hay una ley universal del desarrollo: <b>todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
 
             </p>
             <p>
-            LEO - Club Mundial de Lectura, es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
+            <b>LEO - Club Mundial de Lectura,</b> es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
 
             </p>
            
            <p>
-           Para cumplir esta misión, LEO funciona como una red digital mundial, fundamentada en la teoría de los seis grados de separación, que plantea que con solo seis pasos, todas las personas del mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, sociales, de negocios, etc. <br />
+           Para cumplir esta misión, <b>LEO</b> funciona como una red digital mundial, fundamentada en la <b>teoría de los seis grados de separación,</b> que plantea que con solo seis pasos, todas las personas del mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, sociales, de negocios, etc. <br />
 
-           Con esta filosofía, LEO se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
+           Con esta filosofía, <b>LEO</b> se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
 
 
            </p>
@@ -108,7 +109,7 @@ export default function AcercaDe() {
             
             <br />
             <p>
-            Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo. Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
+            <b>Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
             La membrecía semestral tiene un costo de solo COP$100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
         
@@ -175,7 +176,7 @@ export default function AcercaDe() {
                 className="d-block w-100"
                 src={aboutus3}
                 width="400"
-                height="500"
+                height="350"
                 alt="..."
                 />
             </div> 
