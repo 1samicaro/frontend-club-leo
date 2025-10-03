@@ -206,7 +206,7 @@ export default function SignUp() {
             }
         }
         if(true){
-            if((fechaActual.getFullYear()-birth.getFullYear())>=14){
+            if((fechaActual.getFullYear()-birth.getFullYear())>=0){
                 if((fechaActual.getFullYear()-birth.getFullYear())<18){
                     setPermission(true)
                 }
@@ -231,9 +231,9 @@ export default function SignUp() {
                     setInput(prev=>({...prev, [inside]:date}))
                 }
             }
-            else {
-                setErrors(prev=>({...prev, [inside]:"Debe ser mayor de 14 años"}))
-            }
+            // else {
+            //     // setErrors(prev=>({...prev, [inside]:"Debe ser mayor de 14 años"}))
+            // }
         }
     }
 
