@@ -315,10 +315,10 @@ export default function SignUp() {
     }
 
     const selectPay = [
-        {label: 'MercadoPago', value: 'MercadoPago'},
-        {label: 'payPal', value: 'PayPal'},
+        // {label: 'MercadoPago', value: 'MercadoPago'},
+        // {label: 'payPal', value: 'PayPal'},
         {label: 'Nequi', value: 'Nequi'},
-        {label: 'Daviplata', value: 'Daviplata'},
+        // {label: 'Daviplata', value: 'Daviplata'},
     ]
     const [numberPay, setNumberPay] = useState(false)
 
