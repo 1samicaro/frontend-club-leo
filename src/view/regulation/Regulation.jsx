@@ -79,7 +79,7 @@ export default function Regulation() {
                 <b>Artículo 4. - Costo de Membrecía.</b> Para pertenecer al Club Mundial de Lectura LEO
                 las personas deberán pagar la cuota de asociación que establezcan las respectivas directivas. <br />
                 PARAGRAFO. Para el año 2025, la cuota semestral de asociación a LEO se establece en
-                COP$100.000 o su equivalente de US$25 ó €$25.
+                COP$50.000 o su equivalente de US12.5 ó €10
                 </p>
 
                 <p>

@@ -109,7 +109,7 @@ export default function AcercaDe() {
             <br />
             <p>
             <b>Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
-            La membrecía semestral tiene un costo de solo COP$100.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
+            La membrecía semestral tiene un costo de solo COP$50.000. A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la Biblioteca Digital LEO, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
         
 
