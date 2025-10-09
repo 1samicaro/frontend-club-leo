@@ -376,10 +376,10 @@ export default function Profile() {
                         id="containerPerfil">
                                 <div className='lista-datos' >
                                     <li><i className='icon-imagen'></i> <b>Acumulado: </b> {userInfo?.totalPoints}</li>
-                                    <li><i className='icon-imagen'></i><b>Total Retirado: </b> {userInfo?.totalSpent}</li>
-                                    <li><i className='icon-imagen'></i><b>Saldo total disponible: </b>{userInfo?.totalPoints-userInfo?.totalSpent}</li>
+                                    <li><i className='icon-imagen'></i><b>Total pagado: </b> {userInfo?.totalSpent}</li>
+                                    <li><i className='icon-imagen'></i><b>Saldo disponible: </b>{userInfo?.totalPoints-userInfo?.totalSpent}</li>
                                 </div>
-                                <div className='lista-datos'>
+                                {/* <div className='lista-datos'>
                                 {userInfo.RoleId===3 &&
                                 <div>
                                     <div className="form-floating mb-3">
@@ -391,7 +391,7 @@ export default function Profile() {
                                 }
                                 {userInfo.RoleId===4 &&
                                     <li id="left"><i className='icon-imagen'></i><b></b>Socio</li>
-                                }
+                                } */}
                             </div>
                         </div>
                         :<Spinner animation="grow" variant="info" />}
