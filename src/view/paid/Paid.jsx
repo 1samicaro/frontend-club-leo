@@ -13,6 +13,7 @@ import { infoToken, infoUser } from '../../stateManagement/actions/infoUserActio
 import { editProfile, payProfile } from '../../services/editProfileService'
 import { ToastContainer, toast } from 'react-toastify';
 import { mercadoPagoBack } from '../../services/ventaService'
+import "./Paid.css"
 
 
 
@@ -198,14 +199,14 @@ function Paid() {
 
                 <ul>
                     <li> <h5> <b>Detalle: </b>Membresia semestral Club Leo</h5></li>
-                    <li><h5><b>Precio: </b>$100000 (25 USD)</h5></li>
+                    <li><h5><b>Precio: </b>$50000 (12.5 USD)</h5></li>
                 </ul>
                 <br />
 
-                <div className='row d-flex justify-content-sm-center w-25 h-45'>
-                    <img width="250px" height="250px" className='border-radius: 10%' src={qr} alt="Payments by nequi"/>
-                    <span className="input-group-text text-info w-50" id="inputGroup-sizing-default">nequi: 3002673887</span>
-                    <div className="input-group mb-3 d-flex justify-content-sm-center">
+                <div className='divNequi'>
+                    <img className='imgNequi' src={qr} alt="Payments by nequi"/>
+                    <span className="span1" id="inputGroup-sizing-default">Paga al siguiente número, <b>nequi: 3002673887</b></span>
+                    <div className="input-group mb-3 d-flex justify-content-sm-center align-item-sm-center">
                         <span className="input-group-text text-danger" id="inputGroup-sizing-default">Escriba la referencia de pago</span>
                         <input
                         input type="text" className="form-control-sm" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"

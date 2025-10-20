@@ -391,8 +391,8 @@ export default function Profile() {
                                 }
                                 {userInfo.RoleId===4 &&
                                     <li id="left"><i className='icon-imagen'></i><b></b>Socio</li>
-                                } */}
-                            </div>
+                                }
+                                </div> */}
                         </div>
                         :<Spinner animation="grow" variant="info" />}
                         <br />
