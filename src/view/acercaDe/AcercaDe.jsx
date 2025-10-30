@@ -128,7 +128,9 @@ export default function AcercaDe() {
             </h4> 
             <br />  
             <p>
-            <b>LEO ofrece a los socios su biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano).</b> Las mejores obras y los autores más importantes de todos los países y de todos los tiempos. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br />
+            <b>LEO ofrece a los socios su biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano).</b> Las mejores obras y los autores más importantes de todos los países y de todos los tiempos. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. 
+             El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br /> <b>Cada obra tiene un valor de solo $3 pesos!! Con una monedita de $100, accedemos a 30 obras, el costo más económico del mundo. No existe una biblioteca con una colección tan amplia con un costo de suscripción tan bajo, lo que beneficia directamente a todas las personas en el mundo</b>
+
             Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de conexión web. <br />
             Adicionalmente, LEO ha desarrollado el portal web vamosaleer.co, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
