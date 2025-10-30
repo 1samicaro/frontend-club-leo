@@ -132,7 +132,7 @@ export default function AcercaDe() {
              El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br /> <b>Cada obra tiene un valor de solo $3 pesos!! Con una monedita de $100, accedemos a 30 obras, el costo más económico del mundo. No existe una biblioteca con una colección tan amplia con un costo de suscripción tan bajo, lo que beneficia directamente a todas las personas en el mundo</b>
 
             Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de conexión web. <br />
-            Adicionalmente, LEO ha desarrollado el portal web vamosaleer.co, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
+            Adicionalmente, LEO ha desarrollado el portal web <b>vamosaleer.co</b>, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
             </p>
             
