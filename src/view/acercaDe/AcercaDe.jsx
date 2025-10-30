@@ -156,7 +156,7 @@ export default function AcercaDe() {
             </b> 
             </h4>
             <p>
-            Escribir es uno de los retos intelectuales más importante para todas las personas. Es un acto creativo y propositivo, que permite dar a conocer las ideas, creaciones y propuestas, y contribuir a la expansión del conocimiento y el patrimonio literario universal. <br />
+            <b>Escribir es uno de los retos intelectuales más importante para todas las personas.</b> Es un acto creativo y propositivo, que permite dar a conocer las ideas, creaciones y propuestas, y contribuir a la expansión del conocimiento y el patrimonio literario universal. <br />
 
             Escribir con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más importantes que debemos desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar nuestras propuestas por internet, ser leídos e impactar a los millones de usuarios en el mundo. La experiencia lo demuestra: el éxito en la moderna sociedad tecnológica depende de tener una buena capacidad escritora, de elaborar y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que reciben la información en todos los países del mundo. <br />
 
