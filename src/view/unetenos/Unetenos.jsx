@@ -90,7 +90,7 @@ export default function Unetenos() {
 
             3. Al ingresar como socios las personas que invitamos, registran nuestro usuario; y el sistema los va acumulando en nuestra cuenta, hasta completar los 20 solicitados. Después, la lista se cierra y no podremos seguir invitando a más personas. <br />
 
-            4. Según <b>el principio de los 6 grados de integración</b> que aplica <b>LEO</b>, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos LEO nos reconocerá un ingreso, que podrá llegar a los COP$496 millones anuales, es decir, un promedio mensual de COP$41 millones. <br />
+            4. Según <b>el principio de los 6 grados de integración</b> que aplica <b>LEO</b>, los invitados seguirán creciendo en el país y el mundo, y por cada uno de ellos <b>LEO nos reconocerá un ingreso, que podrá llegar a los COP$10 millones mensuales. <br /> </b> 
 
             Y lo más importante, la membrecía a <b>CLUBLEO</b> se renueva semestralmente, por lo que este ingreso será permanente, de por vida.<br /> 
                 
