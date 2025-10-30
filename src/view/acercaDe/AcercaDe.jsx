@@ -160,7 +160,7 @@ export default function AcercaDe() {
 
             Escribir con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más importantes que debemos desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar nuestras propuestas por internet, ser leídos e impactar a los millones de usuarios en el mundo. La experiencia lo demuestra: el éxito en la moderna sociedad tecnológica depende de tener una buena capacidad escritora, de elaborar y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que reciben la información en todos los países del mundo. <br />
 
-            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web escritoresleo.com, red social especializada que permite a los socios crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos, publicar y enviar mensajes, y las demás actividades de una red social.
+            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web <b>escritoresleo.com,</b> red social especializada que permite a los socios crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos, publicar y enviar mensajes, y las demás actividades de una red social.
 
             </p>
             
