@@ -132,8 +132,6 @@ export default function Unetenos() {
                 
                 </div>
                   <br />
-
-                  
             <br />
             <p>
             <b>CLUBLEO</b> ofrece en su Biblioteca Digital más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>
@@ -198,8 +196,8 @@ export default function Unetenos() {
                 <br />
                 <p>
                 Aunque todas las personas pueden asociarse, la prioridad de <b>LEO</b> son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. 
-                    Con la membrecía semestral de sólo COP$50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, la membrecía permite acceder a obras con un costo promedio de $6 cada una. 
-                    Por una monedita de COP$100, recibirás 15 de los mejores libros de literatura y ciencias sociales del mundo!!
+                    Con la membrecía semestral de sólo COP$50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, </>la membrecía permite acceder a obras con un costo promedio de COP$3 cada una. El costo por libro más económico del mundo!!</b> 
+                    Por una monedita de COP$100, recibirás 30/ de los mejores libros de literatura y ciencias sociales del mundo!!
                 </p>
             <br />
             <h2 id="titulo" align="center"> <b>Plan Amigos: <br />
