@@ -8,9 +8,6 @@ import afiliados32 from "../../assets/contenido/afiliados32.jpg";
 import afiliados3 from "../../assets/contenido/afiliados3.jpg";
 
 
-
-
-
 export default function Unetenos() {
     return (
         <div className="contenedor_joinus">
@@ -46,8 +43,7 @@ export default function Unetenos() {
                 />
                 
                 </div>
-                  <br />
-               
+                <br />
                 <p>
                 Para cumplir con la misión de promover la lectura y escritura, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
 
@@ -60,8 +56,8 @@ export default function Unetenos() {
 
                     <b>El Plan Amigos es una alianza estratégica para crecer y progresar juntos:<br />
                     
-                 <b>LEO</b> crece en el país y el mundo, y los socios construyen un ingreso creciente y permanente que les brindará la independencia económica y una mejor calidad de vida con toda la familia</b>
-                    </p>
+                    <b>LEO</b> crece en el país y el mundo, y los socios construyen un ingreso creciente y permanente que les brindará la independencia económica y una mejor calidad de vida con toda la familia</b>
+                </p>
 
            
             
@@ -196,7 +192,7 @@ export default function Unetenos() {
                 <br />
                 <p>
                 Aunque todas las personas pueden asociarse, la prioridad de <b>LEO</b> son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. 
-                    Con la membrecía semestral de sólo COP$50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, </>la membrecía permite acceder a obras con un costo promedio de COP$3 cada una. El costo por libro más económico del mundo!!</b> 
+                    Con la membrecía semestral de sólo COP$50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, <b>la membrecía permite acceder a obras con un costo promedio de COP$3 cada una. El costo por libro más económico del mundo!!</b> 
                     Por una monedita de COP$100, recibirás 30/ de los mejores libros de literatura y ciencias sociales del mundo!!
                 </p>
             <br />

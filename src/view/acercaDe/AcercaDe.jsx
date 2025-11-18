@@ -1,4 +1,4 @@
- import React from "react";
+import React from "react";
 import "./AcercaDe.css"
 import logoblanco from "../../assets/logoleo.png";
 import { Link } from "react-router-dom";
@@ -7,10 +7,6 @@ import aboutus from "../../assets/contenido/aboutus.jpg";
 import aboutus1 from "../../assets/contenido/aboutus1.jpg";
 import aboutus31 from "../../assets/contenido/aboutus31.jpg";
 import aboutus3 from "../../assets/contenido/aboutus3.jpg";
-
-
-
-
 
 
 export default function AcercaDe() {
@@ -57,18 +53,27 @@ export default function AcercaDe() {
             </div>
             <br />
             <p>
-            Hay una ley universal del desarrollo: <b>todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo: Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
+            Hay una ley universal del desarrollo: <b>todo progreso y bienestar de una sociedad, depende de la calidad de la educación que recibe su población.</b> Por ello, los países más desarrollados, <br />
+            tienen como prioridad contar con sistemas educativos modernos y eficientes, que fortalezcan los conocimientos y la competitividad de sus habitantes. <br />
+            Así lo demuestran las pruebas internacionales PISA de la OCDE, que ubican en los primeros lugares a países de altos ingresos con los mejores sistemas educativos del mundo:<br />
+            Singapur, Canadá, China, Finlandia, Hong Kong, Estonia, Japón y Corea del Sur.
 
             </p>
             <p>
-            <b>LEO - Club Mundial de Lectura,</b> es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
+            <b>LEO - Club Mundial de Lectura,</b> es un proyecto social que tiene como misión promover la lectura, la escritura y el multilingüismo, como hábitos que mejoran el nivel educativo y cultural de las personas, 
+            <br />y fortalecen sus competencias comunicativas, necesarias para tener éxito en su actividad académica y en la moderna sociedad integrada a nivel mundial por la internet, que exige leer y <br />
+            aprovechar cantidades crecientes de información, y escribir contenidos claros y convincentes para millones de personas en todo el mundo.
 
             </p>
            
            <p>
-           Para cumplir esta misión, <b>LEO</b> funciona como una red digital mundial, fundamentada en la <b>teoría de los seis grados de separación,</b> que plantea que con solo seis pasos, todas las personas del mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Tweter, Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, historias y mensajes, y realizar con ellos múltiples actividades culturales, sociales, de negocios, etc. <br />
+           Para cumplir esta misión, <b>LEO</b> funciona como una red digital mundial, fundamentada en la <b>teoría de los seis grados de separación,</b> que plantea que con solo seis pasos, todas las personas del<br />
+           mundo se pueden integrar en una gran red mundial interconectada; es decir, solo 6 eslabones nos permiten tener miles de contactos en todo el mundo. Esta es la base de las redes sociales Facebook, Twitter,<br />
+           Linkedin, etc., que a través de internet, permiten que iniciando solo con nuestros conocidos, podamos crear una red con miles de contactos en todo el mundo, conocerlos a través de su perfil, 
+           <br />historias y mensajes, y realizar con ellos múltiples actividades culturales, sociales, de negocios, etc. <br />
 
-           Con esta filosofía, <b>LEO</b> se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural, fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
+           Con esta filosofía, <b>LEO</b> se propone integrar a las personas de todos los países para trabajar unidos y lograr objetivos comunes: mejorar nuestro nivel educativo y cultural,<br />
+            fortalecer las competencias comunicativas, y obtener ingresos permanentes que garanticen nuestra autosuficiencia financiera y mejoren nuestra calidad de vida. 
 
 
            </p>
@@ -85,7 +90,7 @@ export default function AcercaDe() {
             • Ofrecer escenarios para que los Socios LEO escriban y publiquen sus obras en los diferentes géneros, dándolas a conocer en el país y el mundo. <br />
             • Promover el multilingüismo y las competencias comunicativas de las personas, para mejorar sus posibilidades de participación y éxito en la moderna sociedad tecnológica, a través de internet. <br />
             • Fortalecer a las familias y las instituciones educativas como escenarios básicos para inculcar el hábito de lecto-escritura en los estudiantes.
-             
+            <br />
             • Ofrecer a nuestros socios la oportunidad de trabajar para construir un ingreso permanente y lograr la sostenibilidad financiera, de por vida.
 
             </p>
@@ -109,8 +114,9 @@ export default function AcercaDe() {
             
             <br />
             <p>
-            <b>Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes, anexando el formato de autorización de vinculación. <br />
-            <b>La membrecía semestral tiene un costo de solo COP$50.000.</b> A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la<b> Biblioteca Digital LEO</b>, con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
+            <b>Pueden ser socios del Club Mundial de Lectura todas las personas y los estudiantes en cualquier país del  mundo.</b> Los menores de edad deberán contar con autorización y tutoría de sus padres o acudientes,<br />
+            anexando el formato de autorización de vinculación. <b>La membrecía semestral tiene un costo de solo COP$50.000.</b> A partir de su ingreso, los socios tienen acceso libre, permanente y gratuito a la<b> Biblioteca Digital LEO</b>, <br /> 
+            con más de 15.000 obras de literatura y ciencias sociales en cinco idiomas y a los demás programas educativos y culturales del Club (publicar obras, taller literario, etc.)
             </p>
         
 
@@ -119,19 +125,21 @@ export default function AcercaDe() {
             </b> 
             </h3>
             <br />
-            <p> LEO ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave para mejorar el desempeño académico y lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
+            <p> LEO ha desarrollado un paquete de herramientas pedagógicas con tecnologías web, que permiten en forma eficiente y económica promover y masificar la lectura, la escritura y el multilingüismo como competencias clave <br />
+            para mejorar el desempeño académico y lograr que las personas aprovechen las oportunidades de contactos, educación y negocios que ofrece internet a nivel mundial:
             </p>
         
 
-            <h4 id="titulo" align="left"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
+            <h4 id="titulo" align="center"> <b>1. Promoción de la Lectura y el Multilingüismo<br />
             </b> 
             </h4> 
             <br />  
             <p>
-            <b>LEO ofrece a los socios su biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano).</b> Las mejores obras y los autores más importantes de todos los países y de todos los tiempos. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. 
-             El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br /> <b>Cada obra tiene un valor de solo $3 pesos!! Con una monedita de $100, accedemos a 30 obras, el costo más económico del mundo. No existe una biblioteca con una colección tan amplia con un costo de suscripción tan bajo, lo que beneficia directamente a todas las personas en el mundo.</b> 
+            <b>LEO ofrece a los socios su biblioteca digital con más de 15.000 obras de ciencias sociales y literatura en 5 idiomas (español, inglés, francés, portugués e italiano).</b> Las mejores obras y los autores más importantes de 
+            <br />todos los países y de todos los tiempos. Mensualmente, se adicionan 50 nuevas obras, 600 nuevos libros al año. El costo de la colección bibliográfica está calculado en $150 millones, pero es gratis para los socios LEO. (Ver Catálogo) <br /> <b>Cada obra tiene un valor de solo $3 pesos!! Con una monedita de $100, accedemos a 30 obras, el costo más económico del mundo. No existe una biblioteca con una colección tan amplia con un costo de suscripción<br />
+            tan bajo, lo que beneficia directamente a todas las personas en el mundo.</b> 
 
-            Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de conexión web. <br />
+            Los socios que viven en zonas rurales y marginales sin conexión a internet, pueden <br />descargar y grabar las obras en su PC, celular o tablet para su lectura y trabajo sin necesidad de conexión web. <br />
             Adicionalmente, LEO ha desarrollado el portal web <b>vamosaleer.co</b>, que ofrece artículos sobre los géneros, autores y obras más importantes, con el propósito de informar, motivar y orientar las actividades de lectura y escritura que realizan nuestros socios.
 
             </p>
@@ -152,15 +160,20 @@ export default function AcercaDe() {
             </div>
             
             <br />
-            <h4 id="titulo" align="left"> <b>2. Promoción de la escritura<br />
+            <h4 id="titulo" align="center"> <b>2. Promoción de la escritura<br />
             </b> 
             </h4>
             <p>
-            <b>Escribir es uno de los retos intelectuales más importante para todas las personas.</b> Es un acto creativo y propositivo, que permite dar a conocer las ideas, creaciones y propuestas, y contribuir a la expansión del conocimiento y el patrimonio literario universal. <br />
+            <b>Escribir es uno de los retos intelectuales más importante para todas las personas.</b> Es un acto creativo y propositivo, que permite dar a conocer las ideas, creaciones y propuestas, y contribuir a la expansión del conocimiento y el patrimonio <br />
+            literario universal. <br />
 
-            Escribir con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más importantes que debemos desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar nuestras propuestas por internet, ser leídos e impactar a los millones de usuarios en el mundo. La experiencia lo demuestra: el éxito en la moderna sociedad tecnológica depende de tener una buena capacidad escritora, de elaborar y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que reciben la información en todos los países del mundo. <br />
+            Escribir con elegancia, argumentos claros y riqueza lingüística, constituye una de las competencias más importantes que debemos desarrollar, porque de ella depende tanto el éxito académico, laboral y social, como la posibilidad de publicar <br />
+            nuestras propuestas por internet, ser leídos e impactar a los millones de usuarios en el mundo. La experiencia lo demuestra: el éxito en la moderna sociedad tecnológica depende de tener una buena capacidad escritora, de elaborar <br />
+            y trasmitir mensajes significativos que sean atractivos y generen valor para los millones de internautas que reciben la información en todos los países del mundo. <br />
 
-            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web <b>escritoresleo.com,</b> red social especializada que permite a los socios crear su perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos, publicar y enviar mensajes, y las demás actividades de una red social.
+            Para facilitar y fortalecer la capacidad comunicativa de nuestros socios, LEO ha creado el portal web <b>escritoresleo.com,</b> red social especializada que permite a los socios crear su 
+            <br />perfil de escritor y publicar sus obras en cualquier tema o género, para ser visibles por los demás socios y por personas de todo el mundo. Pueden ser obras gratuitas o comerciales. También podrá organizar o vincularse a grupos,<br />
+            publicar y enviar mensajes, y las demás actividades de una red social.
 
             </p>
             
