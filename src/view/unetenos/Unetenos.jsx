@@ -46,16 +46,20 @@ export default function Unetenos() {
                 <br />
                 <p>
                 Para cumplir con la misión de promover la lectura y escritura en nuestro país y el mundo, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa basada en la unión y la colaboración entre todos. 
+                
                 <br />
 
                 <b>El Programa Recomiéndanos,</b> es una invitación de <b>LEO</b> a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido:
+                
                 <br /> 
                     
                     <b>Invitar a los familiares, amigos y compañeros de estudio y trabajo a vincularse como Socios LEO, con un máximo de 20 invitados. 
                     Una vez se complete este número, no se podrá invitar a nadie más.</b> 
+                
                 <br />
 
                 Por este sencillo trabajo que todos podemos realizar, recibiremos ingresos permanentes (de por vida), que estarán disponibles en forma inmediata en nuestra <b>Cuenta Personal</b> 
+                
                 <br />
 
                     <b>Recomiéndanos es una alianza estratégica para crecer y progresar juntos:
