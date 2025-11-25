@@ -24,7 +24,7 @@ export default function Unetenos() {
                 </nav>
                 <div className="container-fluid" align="left" id="padding">
 
-                <h3 id="titulo" align="center"> <b>PLAN AMIGOS LEO:<br />
+                <h3 id="titulo" align="center"> <b>RECOMIENDANOS:<br />
 
             <h5>Ayúdanos a crecer, y recibe ingresos de por vida</h5>
 
