@@ -75,7 +75,7 @@ export default function Unetenos() {
             </p>
 
             <br />
-            <h3 id="titulo" align="center"> <b> Cómo funciona el Plan Amigos LEO <br />
+            <h3 id="titulo" align="center"> <b> Cómo funciona Recomiéndanos <br />
             El principio es sencillo: invitar por una sola vez, y obtener ingresos crecientes, de por vida
             </b> 
             </h3>
@@ -99,7 +99,7 @@ export default function Unetenos() {
 
             <br />
             <h3 id="titulo" align="center"> <b>El Reto para los socios LEO: <br />
-            Conseguir nuestros 20 socios en 1 mes
+            Invitar a nuestros 20 socios en 1 mes
             <br />
             </b> 
             </h3>
@@ -130,7 +130,7 @@ export default function Unetenos() {
                   <br />
             <br />
             <p>
-            <b>CLUBLEO</b> ofrece en su Biblioteca Digital más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>
+            <b>CLUBLEO</b> ofrece en su <b>Biblioteca Digital</b> más de 15.000 obras en 5 idiomas, utilizados en más de 100 países del mundo (Anexo), con una población de 1.900 millones de personas, con 1.675 millones mayores de 8 años con capacidad lectora y 476 millones de estudiantes.            </p>
         
             
             <table className="table_1" align="center"> 
@@ -193,10 +193,10 @@ export default function Unetenos() {
                 <p>
                 Aunque todas las personas pueden asociarse, la prioridad de <b>LEO</b> son los 476 millones de estudiantes y sus familias en los diferentes países, para quienes la lectura y escritura son actividades permanentes asociadas al proceso de formación académica, y el fortalecimiento de sus competencias comunicativas es clave para el éxito del proceso educativo. 
                     Con la membrecía semestral de sólo COP$50.000, cada socio accede a la biblioteca digital descargable con 15.000 obras en 5 idiomas, valorada en más de COP$150 millones. Es decir, <b>la membrecía permite acceder a obras con un costo promedio de COP$3 cada una. El costo por libro más económico del mundo!!</b> 
-                    Por una monedita de COP$100, recibirás 30/ de los mejores libros de literatura y ciencias sociales del mundo!!
+                    Por una monedita de COP$100, recibirás 30 de los mejores libros de literatura y ciencias sociales del mundo!!
                 </p>
             <br />
-            <h2 id="titulo" align="center"> <b>Plan Amigos: <br />
+            <h2 id="titulo" align="center"> <b>Recomiéndanos <br />
             Una valiosa oportunidad para asegurar muestra autosostenibilidad financiera, de por vida
 
             <br />
