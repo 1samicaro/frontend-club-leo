@@ -45,7 +45,7 @@ export default function Unetenos() {
                 </div>
                 <br />
                 <p>
-                Para cumplir con la misión de promover la lectura y escritura, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa y de negocios en nuestro país y el mundo. <br />
+                Para cumplir con la misión de promover la lectura y escritura en nuestro país y el mundo, <b>LEO</b> necesita crecer, consolidando una gran comunidad educativa basada en la unión y la colaboración entre todos. <br />
 
                 El Plan Amigos, es una invitación de <b>LEO</b> a sus socios para que apoyen este crecimiento, realizando un trabajo muy sencillo, fácil y rápido:<br /> 
                     
