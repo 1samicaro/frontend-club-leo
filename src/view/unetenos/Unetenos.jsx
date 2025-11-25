@@ -62,14 +62,14 @@ export default function Unetenos() {
            
             
             <br />
-            <h3 id="titulo" align="center"> <b>Principios básicos del Plan Amigos 
+            <h3 id="titulo" align="center"> <b>Recomiéndanos: Principios básicos 
             </b> 
             </h3>
             <br />
             <p>
-            • La participación es libre y voluntaria. Un socio puede no participar, y seguir disfrutando los programas de promoción de la lectura, escritura y multilingüismo que ofrece  ClubLeo. <br />
+            • La participación es libre y voluntaria. Un socio puede no participar, y seguir disfrutando de la Biblioteca Digital y los demás programas de promoción de la lectura, escritura y multilingüismo que ofrece  ClubLeo. <br />
             • Se puede invitar a cualquier persona. No existen requisitos ni condiciones previas. Los menores de edad deberán contar con la autorización y tutoría de sus padres, <br />
-            • Se puede invitar a personas en cualquier país del mundo. <br />
+            • Se puede invitar a personas en nuestro país y cualquier otra nación del mundo. <br />
             • El retiro es libre, en cualquier momento, sin ningún requisito<br />
             • Cada persona puede vincularse una sola vez. Las cuentas múltiples serán anuladas.
             </p>
